@@ -1,0 +1,13 @@
+node_modules/
+.env
+token.json
+client_secret.json
+*.remotion-in-progress
+public/assets/
+public/*.mp3
+projects/**/output_*.mp4
+projects/**/audio*.mp3
+*instagram_session*.json
+*instagram_credentials*.json
+*.log
+pipeline/task*.xml

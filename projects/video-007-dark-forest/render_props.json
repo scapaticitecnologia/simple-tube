@@ -1,0 +1,5013 @@
+{
+  "script": {
+    "id": "video-007-dark-forest",
+    "title": "A Hipótese da Floresta Negra: O Motivo Aterrorizante de Nunca Responder ao Espaço",
+    "topic": "Hipótese da Floresta Negra, Teoria dos Jogos Cósmica, Paradoxo de Fermi e Silêncio Espacial",
+    "channel": "Scapatici Tecnologia",
+    "target_duration_seconds": 325,
+    "fps": 30,
+    "vinheta_duration_frames": 90,
+    "bg_music_volume": 0.12,
+    "seo": {
+      "title_options": [
+        "A Hipótese da Floresta Negra: O Motivo Aterrorizante de Nunca Responder ao Espaço",
+        "Por Que o Silêncio do Universo é um Aviso? A Teoria que Arrepiou Stephen Hawking",
+        "Se Você Receber um Sinal Alienígena, NUNCA Responda: A Física da Floresta Negra"
+      ],
+      "description": "Pouco antes de morrer, o físico Stephen Hawking deixou um dos avisos mais graves da história da ciência: 'Se civilizações alienígenas avançadas nos encontrarem, o resultado será semelhante à chegada de Cristóvão Colombo na América... E isso não terminou bem para os nativos.' Mas por que o cosmos inteiro parece estar em silêncio absoluto? E se a ausência de transmissões não for porque estamos sozinhos, mas sim porque todos aprenderam que gritar no escuro é uma sentença de morte?\n\nNeste sétimo episódio da Scapatici Tecnologia, investigamos a Teoria da Floresta Negra, a Teoria dos Jogos Cósmica, a Cadeia de Suspeita interestelar e o perigo iminente das transmissões que a humanidade envia para a galáxia.\n\n⏱️ Capítulos:\n00:00 O Último Aviso de Stephen Hawking\n00:58 Scapatici Tecnologia\n01:01 Os Dois Axiomas Fundamentais da Sociologia Cósmica\n01:43 A Cadeia de Suspeita Interestelar\n02:25 A Explosão Tecnológica Exponencial\n03:07 A Metáfora do Caçador na Floresta Negra\n03:49 O Erro Perigoso da Humanidade: Nossas Transmissões no Escuro\n04:31 Armas Relativísticas e Ataques Preventivos\n05:13 O Silêncio Cósmico Não é Solidão: É Sobrevivência\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para desvendar os maiores enigmas da astrofísica, inteligência cósmica e ciência de ponta.\n\n#ScapaticiTecnologia #FlorestaNegra #ParadoxoDeFermi #StephenHawking #Astrofisica #VidaExtraterrestre #Cosmos #Ciencia #MisteriosDoUniverso",
+      "tags": [
+        "scapatici tecnologia",
+        "hipotese da floresta negra",
+        "floresta negra",
+        "paradoxo de fermi",
+        "stephen hawking",
+        "vida alienigena",
+        "teoria dos jogos cosmica",
+        "astrofisica",
+        "cosmos",
+        "sinal wow",
+        "curiosidades cientificas",
+        "misterios do universo"
+      ]
+    },
+    "scenes": [
+      {
+        "id": "scene_1_hawking_warning",
+        "type": "hook",
+        "visual_theme": "dark_cosmic_forest_threat",
+        "headline": "O ÚLTIMO AVISO DE STEPHEN HAWKING",
+        "narration": "Durante décadas, a humanidade apontou seus radiotelescópios para o céu noturno esperando ouvir uma saudação amigável. Enviamos mapas da nossa localização nas sondas Voyager, transmitimos sinais de rádio para estrelas próximas e comemoramos qualquer faísca de esperança interestelar. Mas pouco antes de falecer, Stephen Hawking deixou um alerta solene e perturbador: se uma civilização alienígena detectar a nossa presença na Terra, as consequências podem ser idênticas à chegada de Cristóvão Colombo nas Américas... Onde quem foi descoberto acabou aniquilado. Na astrofísica e na teoria dos jogos, existe uma explicação matemática tão assustadora para a falta de contato alienígena que ela tira o sono dos maiores cientistas do mundo: a Hipótese da Floresta Negra. E se o silêncio ensurdecedor da nossa galáxia não for um sinal de que estamos sozinhos... Mas a prova viva de que todas as outras civilizações inteligentes do cosmos aprenderam que quem faz barulho no escuro é sumariamente destruído?",
+        "highlight_words": [
+          "STEPHEN HAWKING",
+          "ALERTA SOLENE",
+          "FLORESTA NEGRA",
+          "SENTENÇA DE MORTE"
+        ],
+        "stats": {
+          "label": "Teoria Cósmica",
+          "value": "A Floresta Negra"
+        },
+        "backgroundImage": "assets/video-007-dark-forest/scene_1.jpg",
+        "panDirection": "zoom-in",
+        "durationInFrames": 1834
+      },
+      {
+        "id": "scene_2_two_axioms",
+        "type": "investigation",
+        "visual_theme": "cosmic_sociology_axioms_graph",
+        "headline": "OS DOIS AXIOMAS DA SOBREVIVÊNCIA CÓSMICA",
+        "narration": "A lógica implacável da Floresta Negra parte de dois princípios fundamentais inegáveis da física e da biologia cósmica. O primeiro axioma é que a sobrevivência é a necessidade primária e absoluta de qualquer civilização. O segundo axioma é que as civilizações se expandem e consomem recursos de forma contínua, mas a quantidade total de matéria e energia utilizável no universo permanece finita. Em uma galáxia de recursos limitados e crescimento infinito, o encontro entre duas espécies não é um evento diplomático... É uma competição matemática inescapável pela própria existência a longo prazo.",
+        "highlight_words": [
+          "SOBREVIVÊNCIA PRIMÁRIA",
+          "RECURSOS FINITOS",
+          "EXPANSÃO CONTÍNUA",
+          "COMPETIÇÃO MATEMÁTICA"
+        ],
+        "stats": {
+          "label": "Princípio da Realidade",
+          "value": "2 Axiomas Cósmicos"
+        },
+        "backgroundImage": "assets/video-007-dark-forest/scene_2.jpg",
+        "panDirection": "pan-right",
+        "durationInFrames": 42
+      },
+      {
+        "id": "scene_3_chain_of_suspicion",
+        "type": "investigation",
+        "visual_theme": "interstellar_chain_of_suspicion",
+        "headline": "A CADEIA DE SUSPEITA INTERESTELAR",
+        "narration": "Imagine que você detecta uma civilização a quinhentos anos-luz de distância. Mesmo que você seja pacífico, você nunca poderá ter certeza se eles são amigáveis ou hostis. Pior ainda: mesmo que eles pareçam pacíficos hoje, qualquer comunicação entre vocês levará um milênio para ir e voltar. Você não sabe se eles pensam que você é uma ameaça, e eles não sabem se você desconfia deles. Essa barreira intransponível da velocidade da luz cria o que a teoria dos jogos chama de Cadeia de Suspeita. No vácuo interestelar, a desconfiança mútua não pode ser dissolvida por diplomacia.",
+        "highlight_words": [
+          "500 ANOS-LUZ",
+          "CADEIA DE SUSPEITA",
+          "VELOCIDADE DA LUZ",
+          "DESCONFIANÇA MÚTUA"
+        ],
+        "stats": {
+          "label": "Atraso de Sinal",
+          "value": "Centenas de Anos"
+        },
+        "backgroundImage": "assets/video-007-dark-forest/scene_3.jpg",
+        "panDirection": "pan-left",
+        "durationInFrames": 42
+      },
+      {
+        "id": "scene_4_technological_explosion",
+        "type": "investigation",
+        "visual_theme": "exponential_technological_singularity",
+        "headline": "A EXPLOSÃO TECNOLÓGICA EXPONENCIAL",
+        "narration": "O fator mais perigoso da equação cósmica é a velocidade do progresso científico. A humanidade levou centenas de milhares de anos para passar da pedra lascada à agricultura... Mas levou apenas sessenta e seis anos entre o primeiro voo do avião dos irmãos Wright e a chegada do ser humano na Lua. Na escala cosmológica de bilhões de anos, alguns séculos são apenas um piscar de olhos. Uma espécie atrasada que você perdoar hoje pode sofrer uma explosão tecnológica exponencial e desenvolver armas de aniquilação estelar amanhã. O tempo não perdoa hesitações.",
+        "highlight_words": [
+          "PROGRESSO EXPONENCIAL",
+          "66 ANOS",
+          "PISCAR DE OLHOS",
+          "ANIQUILAÇÃO ESTELAR"
+        ],
+        "stats": {
+          "label": "Aceleração",
+          "value": "Salto Exponencial"
+        },
+        "backgroundImage": "assets/video-007-dark-forest/scene_4.jpg",
+        "panDirection": "zoom-out",
+        "durationInFrames": 42
+      },
+      {
+        "id": "scene_5_dark_forest_hunter",
+        "type": "climax",
+        "visual_theme": "armed_hunter_dark_woods_metaphor",
+        "headline": "O CAÇADOR NA FLORESTA ESCURA",
+        "narration": "É aqui que a teoria atinge seu ápice aterrorizante. O universo é uma floresta densa e escura. Cada civilização avançada é um caçador armado com armas devastadoras, caminhando silenciosamente entre as árvores como um fantasma. Ele precisa ser extremamente cuidadoso, porque por toda parte existem outros caçadores ocultos nas sombras. Se esse caçador avistar outra forma de vida — seja um predador gigante ou um filhote indefeso — ele tem apenas uma escolha lógica para garantir a sua própria sobrevivência: disparar sem aviso prévio e eliminá-la instantaneamente. Na floresta negra, qualquer presença revelada é um alvo prioritário.",
+        "highlight_words": [
+          "FLORESTA DENSA",
+          "CAÇADOR SILENCIOSO",
+          "DISPARAR SEM AVISO",
+          "ALVO PRIORITÁRIO"
+        ],
+        "stats": {
+          "label": "Veredito Cósmico",
+          "value": "Ataque Imediato"
+        },
+        "backgroundImage": "assets/video-007-dark-forest/scene_5.jpg",
+        "panDirection": "zoom-in",
+        "durationInFrames": 42
+      },
+      {
+        "id": "scene_6_radio_silence_danger",
+        "type": "technology",
+        "visual_theme": "earth_broadcasting_radio_signals_void",
+        "headline": "O ERRO PERIGOSO DA HUMANIDADE",
+        "narration": "Enquanto civilizações veteranas praticam o silêncio rádio absoluto para sobreviver, a humanidade vem se comportando como uma criança ingênua gritando alegremente no meio de uma floresta infestada de predadores. Há mais de um século, nossas ondas de rádio, transmissões de radar militar e mensagens de televisão vazam para o espaço interestelar em uma bolha que já cobre dezenas de sistemas estelares. Nós acendemos uma fogueira no meio da escuridão cósmica... E apenas rezamos para que nada hostil tenha visto a fumaça.",
+        "highlight_words": [
+          "SILÊNCIO RÁDIO",
+          "FOGUEIRA NO ESCURO",
+          "ONDAS DE RADAR",
+          "PREGADORES OCULTOS"
+        ],
+        "stats": {
+          "label": "Alcance Humano",
+          "value": "+100 Anos-Luz"
+        },
+        "backgroundImage": "assets/video-007-dark-forest/scene_6.jpg",
+        "panDirection": "pan-right",
+        "durationInFrames": 42
+      },
+      {
+        "id": "scene_7_relativistic_weapons",
+        "type": "technology",
+        "visual_theme": "relativistic_kill_vehicle_star_destruction",
+        "headline": "ARMAS RELATIVÍSTICAS E O ATAQUE PREVENTIVO",
+        "narration": "Em um confronto interestelar, não existem batalhas épicas com frotas de espaçonaves como no cinema. A física nos ensina que quem ataca primeiro sempre vence de forma definitiva. Um projétil de massa estelar acelerado a noventa e nove por cento da velocidade da luz — conhecido como Projétil Cinético Relativístico — carrega energia cinética suficiente para despedaçar um planeta inteiro ou desestabilizar a própria estrela do sistema antes mesmo que as vítimas percebam a luz da arma se aproximando. Na teoria dos jogos, o primeiro ataque é o único ataque.",
+        "highlight_words": [
+          "99% DA LUZ",
+          "PROJÉTIL RELATIVÍSTICO",
+          "DESPEDAÇAR PLANETAS",
+          "PRIMEIRO ATAQUE"
+        ],
+        "stats": {
+          "label": "Velocidade de Ataque",
+          "value": "0.99 c (Relativístico)"
+        },
+        "backgroundImage": "assets/video-007-dark-forest/scene_7.jpg",
+        "panDirection": "pan-left",
+        "durationInFrames": 42
+      },
+      {
+        "id": "scene_8_conclusion_silence",
+        "type": "climax",
+        "visual_theme": "cosmic_silence_galactic_veil",
+        "headline": "O SILÊNCIO NÃO É SOLIDÃO: É SOBREVIVÊNCIA",
+        "narration": "Talvez o Paradoxo de Fermi nunca tenha sido sobre a raridade da vida inteligente. Talvez a galáxia esteja fervilhando de impérios cósmicos, inteligências artificiais ancestrais e civilizações que aprenderam a dominar as estrelas. Mas todas elas compartilham a mesma sabedoria terrível forjada ao longo de éons: o silêncio absoluto é a única armadura capaz de proteger uma espécie no cosmos. Da próxima vez que você olhar para a vastidão estrelada e sentir que estamos sós... Lembre-se de que o silêncio do universo pode não ser a ausência de vida, mas a prova mais aterrorizante de que todos estão se escondendo.",
+        "highlight_words": [
+          "SILÊNCIO ABSOLUTO",
+          "ÚNICA ARMADURA",
+          "TODOS SE ESCONDENDO",
+          "VASTIDÃO ESTRELADA"
+        ],
+        "stats": {
+          "label": "A Resposta Cósmica",
+          "value": "Todos Estão Escondidos"
+        },
+        "backgroundImage": "assets/video-007-dark-forest/scene_8.jpg",
+        "panDirection": "zoom-out",
+        "durationInFrames": 42
+      }
+    ]
+  },
+  "subtitles": {
+    "voice": "pt-BR-AntonioNeural",
+    "rate": "+0%",
+    "pitch": "+0Hz",
+    "intro_duration_sec": 61.123,
+    "vinheta_duration_sec": 3,
+    "rest_duration_sec": 256.76,
+    "total_duration_sec": 320.883,
+    "total_words": 800,
+    "timeline": [
+      {
+        "word": "Durante",
+        "start": 0.1,
+        "end": 0.604,
+        "duration": 0.504
+      },
+      {
+        "word": "décadas,",
+        "start": 0.604,
+        "end": 1.18,
+        "duration": 0.576
+      },
+      {
+        "word": "a",
+        "start": 1.18,
+        "end": 1.252,
+        "duration": 0.072
+      },
+      {
+        "word": "humanidade",
+        "start": 1.252,
+        "end": 1.971,
+        "duration": 0.719
+      },
+      {
+        "word": "apontou",
+        "start": 1.971,
+        "end": 2.475,
+        "duration": 0.504
+      },
+      {
+        "word": "seus",
+        "start": 2.475,
+        "end": 2.763,
+        "duration": 0.288
+      },
+      {
+        "word": "radiotelescópios",
+        "start": 2.763,
+        "end": 3.914,
+        "duration": 1.151
+      },
+      {
+        "word": "para",
+        "start": 3.914,
+        "end": 4.202,
+        "duration": 0.288
+      },
+      {
+        "word": "o",
+        "start": 4.202,
+        "end": 4.274,
+        "duration": 0.072
+      },
+      {
+        "word": "céu",
+        "start": 4.274,
+        "end": 4.49,
+        "duration": 0.216
+      },
+      {
+        "word": "noturno",
+        "start": 4.49,
+        "end": 4.994,
+        "duration": 0.504
+      },
+      {
+        "word": "esperando",
+        "start": 4.994,
+        "end": 5.641,
+        "duration": 0.647
+      },
+      {
+        "word": "ouvir",
+        "start": 5.641,
+        "end": 6.001,
+        "duration": 0.36
+      },
+      {
+        "word": "uma",
+        "start": 6.001,
+        "end": 6.217,
+        "duration": 0.216
+      },
+      {
+        "word": "saudação",
+        "start": 6.217,
+        "end": 6.793,
+        "duration": 0.576
+      },
+      {
+        "word": "amigável.",
+        "start": 6.793,
+        "end": 7.44,
+        "duration": 0.647
+      },
+      {
+        "word": "Enviamos",
+        "start": 7.388,
+        "end": 7.953,
+        "duration": 0.565
+      },
+      {
+        "word": "mapas",
+        "start": 7.953,
+        "end": 8.306,
+        "duration": 0.353
+      },
+      {
+        "word": "da",
+        "start": 8.306,
+        "end": 8.447,
+        "duration": 0.141
+      },
+      {
+        "word": "nossa",
+        "start": 8.447,
+        "end": 8.8,
+        "duration": 0.353
+      },
+      {
+        "word": "localização",
+        "start": 8.8,
+        "end": 9.577,
+        "duration": 0.777
+      },
+      {
+        "word": "nas",
+        "start": 9.577,
+        "end": 9.789,
+        "duration": 0.212
+      },
+      {
+        "word": "sondas",
+        "start": 9.789,
+        "end": 10.213,
+        "duration": 0.424
+      },
+      {
+        "word": "Voyager,",
+        "start": 10.213,
+        "end": 10.778,
+        "duration": 0.565
+      },
+      {
+        "word": "transmitimos",
+        "start": 10.778,
+        "end": 11.626,
+        "duration": 0.848
+      },
+      {
+        "word": "sinais",
+        "start": 11.626,
+        "end": 12.05,
+        "duration": 0.424
+      },
+      {
+        "word": "de",
+        "start": 12.05,
+        "end": 12.191,
+        "duration": 0.141
+      },
+      {
+        "word": "rádio",
+        "start": 12.191,
+        "end": 12.544,
+        "duration": 0.353
+      },
+      {
+        "word": "para",
+        "start": 12.544,
+        "end": 12.827,
+        "duration": 0.283
+      },
+      {
+        "word": "estrelas",
+        "start": 12.827,
+        "end": 13.392,
+        "duration": 0.565
+      },
+      {
+        "word": "próximas",
+        "start": 13.392,
+        "end": 13.957,
+        "duration": 0.565
+      },
+      {
+        "word": "e",
+        "start": 13.957,
+        "end": 14.028,
+        "duration": 0.071
+      },
+      {
+        "word": "comemoramos",
+        "start": 14.028,
+        "end": 14.805,
+        "duration": 0.777
+      },
+      {
+        "word": "qualquer",
+        "start": 14.805,
+        "end": 15.37,
+        "duration": 0.565
+      },
+      {
+        "word": "faísca",
+        "start": 15.37,
+        "end": 15.794,
+        "duration": 0.424
+      },
+      {
+        "word": "de",
+        "start": 15.794,
+        "end": 15.935,
+        "duration": 0.141
+      },
+      {
+        "word": "esperança",
+        "start": 15.935,
+        "end": 16.571,
+        "duration": 0.636
+      },
+      {
+        "word": "interestelar.",
+        "start": 16.571,
+        "end": 17.489,
+        "duration": 0.918
+      },
+      {
+        "word": "Mas",
+        "start": 17.488,
+        "end": 17.705,
+        "duration": 0.217
+      },
+      {
+        "word": "pouco",
+        "start": 17.705,
+        "end": 18.066,
+        "duration": 0.361
+      },
+      {
+        "word": "antes",
+        "start": 18.066,
+        "end": 18.427,
+        "duration": 0.361
+      },
+      {
+        "word": "de",
+        "start": 18.427,
+        "end": 18.572,
+        "duration": 0.145
+      },
+      {
+        "word": "falecer,",
+        "start": 18.572,
+        "end": 19.15,
+        "duration": 0.578
+      },
+      {
+        "word": "Stephen",
+        "start": 19.15,
+        "end": 19.656,
+        "duration": 0.506
+      },
+      {
+        "word": "Hawking",
+        "start": 19.656,
+        "end": 20.162,
+        "duration": 0.506
+      },
+      {
+        "word": "deixou",
+        "start": 20.162,
+        "end": 20.596,
+        "duration": 0.434
+      },
+      {
+        "word": "um",
+        "start": 20.596,
+        "end": 20.741,
+        "duration": 0.145
+      },
+      {
+        "word": "alerta",
+        "start": 20.741,
+        "end": 21.175,
+        "duration": 0.434
+      },
+      {
+        "word": "solene",
+        "start": 21.175,
+        "end": 21.609,
+        "duration": 0.434
+      },
+      {
+        "word": "e",
+        "start": 21.609,
+        "end": 21.681,
+        "duration": 0.072
+      },
+      {
+        "word": "perturbador:",
+        "start": 21.681,
+        "end": 22.548,
+        "duration": 0.867
+      },
+      {
+        "word": "se",
+        "start": 22.548,
+        "end": 22.693,
+        "duration": 0.145
+      },
+      {
+        "word": "uma",
+        "start": 22.693,
+        "end": 22.91,
+        "duration": 0.217
+      },
+      {
+        "word": "civilização",
+        "start": 22.91,
+        "end": 23.705,
+        "duration": 0.795
+      },
+      {
+        "word": "alienígena",
+        "start": 23.705,
+        "end": 24.428,
+        "duration": 0.723
+      },
+      {
+        "word": "detectar",
+        "start": 24.428,
+        "end": 25.006,
+        "duration": 0.578
+      },
+      {
+        "word": "a",
+        "start": 25.006,
+        "end": 25.078,
+        "duration": 0.072
+      },
+      {
+        "word": "nossa",
+        "start": 25.078,
+        "end": 25.439,
+        "duration": 0.361
+      },
+      {
+        "word": "presença",
+        "start": 25.439,
+        "end": 26.017,
+        "duration": 0.578
+      },
+      {
+        "word": "na",
+        "start": 26.017,
+        "end": 26.162,
+        "duration": 0.145
+      },
+      {
+        "word": "Terra,",
+        "start": 26.162,
+        "end": 26.596,
+        "duration": 0.434
+      },
+      {
+        "word": "as",
+        "start": 26.596,
+        "end": 26.741,
+        "duration": 0.145
+      },
+      {
+        "word": "consequências",
+        "start": 26.741,
+        "end": 27.681,
+        "duration": 0.94
+      },
+      {
+        "word": "podem",
+        "start": 27.681,
+        "end": 28.042,
+        "duration": 0.361
+      },
+      {
+        "word": "ser",
+        "start": 28.042,
+        "end": 28.259,
+        "duration": 0.217
+      },
+      {
+        "word": "idênticas",
+        "start": 28.259,
+        "end": 28.91,
+        "duration": 0.651
+      },
+      {
+        "word": "à",
+        "start": 28.91,
+        "end": 28.982,
+        "duration": 0.072
+      },
+      {
+        "word": "chegada",
+        "start": 28.982,
+        "end": 29.488,
+        "duration": 0.506
+      },
+      {
+        "word": "de",
+        "start": 29.488,
+        "end": 29.633,
+        "duration": 0.145
+      },
+      {
+        "word": "Cristóvão",
+        "start": 29.633,
+        "end": 30.284,
+        "duration": 0.651
+      },
+      {
+        "word": "Colombo",
+        "start": 30.284,
+        "end": 30.79,
+        "duration": 0.506
+      },
+      {
+        "word": "nas",
+        "start": 30.79,
+        "end": 31.007,
+        "duration": 0.217
+      },
+      {
+        "word": "Américas...",
+        "start": 31.007,
+        "end": 31.802,
+        "duration": 0.795
+      },
+      {
+        "word": "Onde",
+        "start": 31.8,
+        "end": 32.145,
+        "duration": 0.345
+      },
+      {
+        "word": "quem",
+        "start": 32.145,
+        "end": 32.49,
+        "duration": 0.345
+      },
+      {
+        "word": "foi",
+        "start": 32.49,
+        "end": 32.749,
+        "duration": 0.259
+      },
+      {
+        "word": "descoberto",
+        "start": 32.749,
+        "end": 33.611,
+        "duration": 0.862
+      },
+      {
+        "word": "acabou",
+        "start": 33.611,
+        "end": 34.128,
+        "duration": 0.517
+      },
+      {
+        "word": "aniquilado.",
+        "start": 34.128,
+        "end": 35.076,
+        "duration": 0.948
+      },
+      {
+        "word": "Na",
+        "start": 35.075,
+        "end": 35.218,
+        "duration": 0.143
+      },
+      {
+        "word": "astrofísica",
+        "start": 35.218,
+        "end": 36.003,
+        "duration": 0.785
+      },
+      {
+        "word": "e",
+        "start": 36.003,
+        "end": 36.074,
+        "duration": 0.071
+      },
+      {
+        "word": "na",
+        "start": 36.074,
+        "end": 36.217,
+        "duration": 0.143
+      },
+      {
+        "word": "teoria",
+        "start": 36.217,
+        "end": 36.645,
+        "duration": 0.428
+      },
+      {
+        "word": "dos",
+        "start": 36.645,
+        "end": 36.859,
+        "duration": 0.214
+      },
+      {
+        "word": "jogos,",
+        "start": 36.859,
+        "end": 37.287,
+        "duration": 0.428
+      },
+      {
+        "word": "existe",
+        "start": 37.287,
+        "end": 37.715,
+        "duration": 0.428
+      },
+      {
+        "word": "uma",
+        "start": 37.715,
+        "end": 37.929,
+        "duration": 0.214
+      },
+      {
+        "word": "explicação",
+        "start": 37.929,
+        "end": 38.642,
+        "duration": 0.713
+      },
+      {
+        "word": "matemática",
+        "start": 38.642,
+        "end": 39.355,
+        "duration": 0.713
+      },
+      {
+        "word": "tão",
+        "start": 39.355,
+        "end": 39.569,
+        "duration": 0.214
+      },
+      {
+        "word": "assustadora",
+        "start": 39.569,
+        "end": 40.354,
+        "duration": 0.785
+      },
+      {
+        "word": "para",
+        "start": 40.354,
+        "end": 40.639,
+        "duration": 0.285
+      },
+      {
+        "word": "a",
+        "start": 40.639,
+        "end": 40.71,
+        "duration": 0.071
+      },
+      {
+        "word": "falta",
+        "start": 40.71,
+        "end": 41.067,
+        "duration": 0.357
+      },
+      {
+        "word": "de",
+        "start": 41.067,
+        "end": 41.21,
+        "duration": 0.143
+      },
+      {
+        "word": "contato",
+        "start": 41.21,
+        "end": 41.709,
+        "duration": 0.499
+      },
+      {
+        "word": "alienígena",
+        "start": 41.709,
+        "end": 42.422,
+        "duration": 0.713
+      },
+      {
+        "word": "que",
+        "start": 42.422,
+        "end": 42.636,
+        "duration": 0.214
+      },
+      {
+        "word": "ela",
+        "start": 42.636,
+        "end": 42.85,
+        "duration": 0.214
+      },
+      {
+        "word": "tira",
+        "start": 42.85,
+        "end": 43.135,
+        "duration": 0.285
+      },
+      {
+        "word": "o",
+        "start": 43.135,
+        "end": 43.206,
+        "duration": 0.071
+      },
+      {
+        "word": "sono",
+        "start": 43.206,
+        "end": 43.491,
+        "duration": 0.285
+      },
+      {
+        "word": "dos",
+        "start": 43.491,
+        "end": 43.705,
+        "duration": 0.214
+      },
+      {
+        "word": "maiores",
+        "start": 43.705,
+        "end": 44.204,
+        "duration": 0.499
+      },
+      {
+        "word": "cientistas",
+        "start": 44.204,
+        "end": 44.917,
+        "duration": 0.713
+      },
+      {
+        "word": "do",
+        "start": 44.917,
+        "end": 45.06,
+        "duration": 0.143
+      },
+      {
+        "word": "mundo:",
+        "start": 45.06,
+        "end": 45.488,
+        "duration": 0.428
+      },
+      {
+        "word": "a",
+        "start": 45.488,
+        "end": 45.559,
+        "duration": 0.071
+      },
+      {
+        "word": "Hipótese",
+        "start": 45.559,
+        "end": 46.13,
+        "duration": 0.571
+      },
+      {
+        "word": "da",
+        "start": 46.13,
+        "end": 46.273,
+        "duration": 0.143
+      },
+      {
+        "word": "Floresta",
+        "start": 46.273,
+        "end": 46.844,
+        "duration": 0.571
+      },
+      {
+        "word": "Negra.",
+        "start": 46.844,
+        "end": 47.272,
+        "duration": 0.428
+      },
+      {
+        "word": "E",
+        "start": 47.275,
+        "end": 47.348,
+        "duration": 0.073
+      },
+      {
+        "word": "se",
+        "start": 47.348,
+        "end": 47.494,
+        "duration": 0.146
+      },
+      {
+        "word": "o",
+        "start": 47.494,
+        "end": 47.567,
+        "duration": 0.073
+      },
+      {
+        "word": "silêncio",
+        "start": 47.567,
+        "end": 48.152,
+        "duration": 0.585
+      },
+      {
+        "word": "ensurdecedor",
+        "start": 48.152,
+        "end": 49.03,
+        "duration": 0.878
+      },
+      {
+        "word": "da",
+        "start": 49.03,
+        "end": 49.176,
+        "duration": 0.146
+      },
+      {
+        "word": "nossa",
+        "start": 49.176,
+        "end": 49.542,
+        "duration": 0.366
+      },
+      {
+        "word": "galáxia",
+        "start": 49.542,
+        "end": 50.054,
+        "duration": 0.512
+      },
+      {
+        "word": "não",
+        "start": 50.054,
+        "end": 50.273,
+        "duration": 0.219
+      },
+      {
+        "word": "for",
+        "start": 50.273,
+        "end": 50.492,
+        "duration": 0.219
+      },
+      {
+        "word": "um",
+        "start": 50.492,
+        "end": 50.638,
+        "duration": 0.146
+      },
+      {
+        "word": "sinal",
+        "start": 50.638,
+        "end": 51.004,
+        "duration": 0.366
+      },
+      {
+        "word": "de",
+        "start": 51.004,
+        "end": 51.15,
+        "duration": 0.146
+      },
+      {
+        "word": "que",
+        "start": 51.15,
+        "end": 51.369,
+        "duration": 0.219
+      },
+      {
+        "word": "estamos",
+        "start": 51.369,
+        "end": 51.881,
+        "duration": 0.512
+      },
+      {
+        "word": "sozinhos...",
+        "start": 51.881,
+        "end": 52.685,
+        "duration": 0.804
+      },
+      {
+        "word": "Mas",
+        "start": 52.688,
+        "end": 52.897,
+        "duration": 0.209
+      },
+      {
+        "word": "a",
+        "start": 52.897,
+        "end": 52.967,
+        "duration": 0.07
+      },
+      {
+        "word": "prova",
+        "start": 52.967,
+        "end": 53.316,
+        "duration": 0.349
+      },
+      {
+        "word": "viva",
+        "start": 53.316,
+        "end": 53.595,
+        "duration": 0.279
+      },
+      {
+        "word": "de",
+        "start": 53.595,
+        "end": 53.734,
+        "duration": 0.139
+      },
+      {
+        "word": "que",
+        "start": 53.734,
+        "end": 53.943,
+        "duration": 0.209
+      },
+      {
+        "word": "todas",
+        "start": 53.943,
+        "end": 54.292,
+        "duration": 0.349
+      },
+      {
+        "word": "as",
+        "start": 54.292,
+        "end": 54.431,
+        "duration": 0.139
+      },
+      {
+        "word": "outras",
+        "start": 54.431,
+        "end": 54.849,
+        "duration": 0.418
+      },
+      {
+        "word": "civilizações",
+        "start": 54.849,
+        "end": 55.686,
+        "duration": 0.837
+      },
+      {
+        "word": "inteligentes",
+        "start": 55.686,
+        "end": 56.523,
+        "duration": 0.837
+      },
+      {
+        "word": "do",
+        "start": 56.523,
+        "end": 56.662,
+        "duration": 0.139
+      },
+      {
+        "word": "cosmos",
+        "start": 56.662,
+        "end": 57.08,
+        "duration": 0.418
+      },
+      {
+        "word": "aprenderam",
+        "start": 57.08,
+        "end": 57.777,
+        "duration": 0.697
+      },
+      {
+        "word": "que",
+        "start": 57.777,
+        "end": 57.986,
+        "duration": 0.209
+      },
+      {
+        "word": "quem",
+        "start": 57.986,
+        "end": 58.265,
+        "duration": 0.279
+      },
+      {
+        "word": "faz",
+        "start": 58.265,
+        "end": 58.474,
+        "duration": 0.209
+      },
+      {
+        "word": "barulho",
+        "start": 58.474,
+        "end": 58.962,
+        "duration": 0.488
+      },
+      {
+        "word": "no",
+        "start": 58.962,
+        "end": 59.101,
+        "duration": 0.139
+      },
+      {
+        "word": "escuro",
+        "start": 59.101,
+        "end": 59.519,
+        "duration": 0.418
+      },
+      {
+        "word": "é",
+        "start": 59.519,
+        "end": 59.589,
+        "duration": 0.07
+      },
+      {
+        "word": "sumariamente",
+        "start": 59.589,
+        "end": 60.426,
+        "duration": 0.837
+      },
+      {
+        "word": "destruído?",
+        "start": 60.426,
+        "end": 61.123,
+        "duration": 0.697
+      },
+      {
+        "word": "A",
+        "start": 64.223,
+        "end": 64.297,
+        "duration": 0.074
+      },
+      {
+        "word": "lógica",
+        "start": 64.297,
+        "end": 64.743,
+        "duration": 0.446
+      },
+      {
+        "word": "implacável",
+        "start": 64.743,
+        "end": 65.487,
+        "duration": 0.744
+      },
+      {
+        "word": "da",
+        "start": 65.487,
+        "end": 65.636,
+        "duration": 0.149
+      },
+      {
+        "word": "Floresta",
+        "start": 65.636,
+        "end": 66.231,
+        "duration": 0.595
+      },
+      {
+        "word": "Negra",
+        "start": 66.231,
+        "end": 66.603,
+        "duration": 0.372
+      },
+      {
+        "word": "parte",
+        "start": 66.603,
+        "end": 66.975,
+        "duration": 0.372
+      },
+      {
+        "word": "de",
+        "start": 66.975,
+        "end": 67.124,
+        "duration": 0.149
+      },
+      {
+        "word": "dois",
+        "start": 67.124,
+        "end": 67.422,
+        "duration": 0.298
+      },
+      {
+        "word": "princípios",
+        "start": 67.422,
+        "end": 68.166,
+        "duration": 0.744
+      },
+      {
+        "word": "fundamentais",
+        "start": 68.166,
+        "end": 69.059,
+        "duration": 0.893
+      },
+      {
+        "word": "inegáveis",
+        "start": 69.059,
+        "end": 69.728,
+        "duration": 0.669
+      },
+      {
+        "word": "da",
+        "start": 69.728,
+        "end": 69.877,
+        "duration": 0.149
+      },
+      {
+        "word": "física",
+        "start": 69.877,
+        "end": 70.323,
+        "duration": 0.446
+      },
+      {
+        "word": "e",
+        "start": 70.323,
+        "end": 70.397,
+        "duration": 0.074
+      },
+      {
+        "word": "da",
+        "start": 70.397,
+        "end": 70.546,
+        "duration": 0.149
+      },
+      {
+        "word": "biologia",
+        "start": 70.546,
+        "end": 71.141,
+        "duration": 0.595
+      },
+      {
+        "word": "cósmica.",
+        "start": 71.141,
+        "end": 71.736,
+        "duration": 0.595
+      },
+      {
+        "word": "O",
+        "start": 71.685,
+        "end": 71.759,
+        "duration": 0.074
+      },
+      {
+        "word": "primeiro",
+        "start": 71.759,
+        "end": 72.348,
+        "duration": 0.589
+      },
+      {
+        "word": "axioma",
+        "start": 72.348,
+        "end": 72.79,
+        "duration": 0.442
+      },
+      {
+        "word": "é",
+        "start": 72.79,
+        "end": 72.864,
+        "duration": 0.074
+      },
+      {
+        "word": "que",
+        "start": 72.864,
+        "end": 73.085,
+        "duration": 0.221
+      },
+      {
+        "word": "a",
+        "start": 73.085,
+        "end": 73.159,
+        "duration": 0.074
+      },
+      {
+        "word": "sobrevivência",
+        "start": 73.159,
+        "end": 74.117,
+        "duration": 0.958
+      },
+      {
+        "word": "é",
+        "start": 74.117,
+        "end": 74.191,
+        "duration": 0.074
+      },
+      {
+        "word": "a",
+        "start": 74.191,
+        "end": 74.265,
+        "duration": 0.074
+      },
+      {
+        "word": "necessidade",
+        "start": 74.265,
+        "end": 75.076,
+        "duration": 0.811
+      },
+      {
+        "word": "primária",
+        "start": 75.076,
+        "end": 75.665,
+        "duration": 0.589
+      },
+      {
+        "word": "e",
+        "start": 75.665,
+        "end": 75.739,
+        "duration": 0.074
+      },
+      {
+        "word": "absoluta",
+        "start": 75.739,
+        "end": 76.328,
+        "duration": 0.589
+      },
+      {
+        "word": "de",
+        "start": 76.328,
+        "end": 76.475,
+        "duration": 0.147
+      },
+      {
+        "word": "qualquer",
+        "start": 76.475,
+        "end": 77.064,
+        "duration": 0.589
+      },
+      {
+        "word": "civilização.",
+        "start": 77.064,
+        "end": 77.948,
+        "duration": 0.884
+      },
+      {
+        "word": "O",
+        "start": 77.948,
+        "end": 78.023,
+        "duration": 0.075
+      },
+      {
+        "word": "segundo",
+        "start": 78.023,
+        "end": 78.55,
+        "duration": 0.527
+      },
+      {
+        "word": "axioma",
+        "start": 78.55,
+        "end": 79.002,
+        "duration": 0.452
+      },
+      {
+        "word": "é",
+        "start": 79.002,
+        "end": 79.077,
+        "duration": 0.075
+      },
+      {
+        "word": "que",
+        "start": 79.077,
+        "end": 79.303,
+        "duration": 0.226
+      },
+      {
+        "word": "as",
+        "start": 79.303,
+        "end": 79.454,
+        "duration": 0.151
+      },
+      {
+        "word": "civilizações",
+        "start": 79.454,
+        "end": 80.357,
+        "duration": 0.903
+      },
+      {
+        "word": "se",
+        "start": 80.357,
+        "end": 80.508,
+        "duration": 0.151
+      },
+      {
+        "word": "expandem",
+        "start": 80.508,
+        "end": 81.11,
+        "duration": 0.602
+      },
+      {
+        "word": "e",
+        "start": 81.11,
+        "end": 81.185,
+        "duration": 0.075
+      },
+      {
+        "word": "consomem",
+        "start": 81.185,
+        "end": 81.787,
+        "duration": 0.602
+      },
+      {
+        "word": "recursos",
+        "start": 81.787,
+        "end": 82.389,
+        "duration": 0.602
+      },
+      {
+        "word": "de",
+        "start": 82.389,
+        "end": 82.54,
+        "duration": 0.151
+      },
+      {
+        "word": "forma",
+        "start": 82.54,
+        "end": 82.916,
+        "duration": 0.376
+      },
+      {
+        "word": "contínua,",
+        "start": 82.916,
+        "end": 83.593,
+        "duration": 0.677
+      },
+      {
+        "word": "mas",
+        "start": 83.593,
+        "end": 83.819,
+        "duration": 0.226
+      },
+      {
+        "word": "a",
+        "start": 83.819,
+        "end": 83.894,
+        "duration": 0.075
+      },
+      {
+        "word": "quantidade",
+        "start": 83.894,
+        "end": 84.647,
+        "duration": 0.753
+      },
+      {
+        "word": "total",
+        "start": 84.647,
+        "end": 85.023,
+        "duration": 0.376
+      },
+      {
+        "word": "de",
+        "start": 85.023,
+        "end": 85.174,
+        "duration": 0.151
+      },
+      {
+        "word": "matéria",
+        "start": 85.174,
+        "end": 85.701,
+        "duration": 0.527
+      },
+      {
+        "word": "e",
+        "start": 85.701,
+        "end": 85.776,
+        "duration": 0.075
+      },
+      {
+        "word": "energia",
+        "start": 85.776,
+        "end": 86.303,
+        "duration": 0.527
+      },
+      {
+        "word": "utilizável",
+        "start": 86.303,
+        "end": 87.056,
+        "duration": 0.753
+      },
+      {
+        "word": "no",
+        "start": 87.056,
+        "end": 87.207,
+        "duration": 0.151
+      },
+      {
+        "word": "universo",
+        "start": 87.207,
+        "end": 87.809,
+        "duration": 0.602
+      },
+      {
+        "word": "permanece",
+        "start": 87.809,
+        "end": 88.486,
+        "duration": 0.677
+      },
+      {
+        "word": "finita.",
+        "start": 88.486,
+        "end": 89.013,
+        "duration": 0.527
+      },
+      {
+        "word": "Em",
+        "start": 89.01,
+        "end": 89.16,
+        "duration": 0.15
+      },
+      {
+        "word": "uma",
+        "start": 89.16,
+        "end": 89.385,
+        "duration": 0.225
+      },
+      {
+        "word": "galáxia",
+        "start": 89.385,
+        "end": 89.91,
+        "duration": 0.525
+      },
+      {
+        "word": "de",
+        "start": 89.91,
+        "end": 90.06,
+        "duration": 0.15
+      },
+      {
+        "word": "recursos",
+        "start": 90.06,
+        "end": 90.66,
+        "duration": 0.6
+      },
+      {
+        "word": "limitados",
+        "start": 90.66,
+        "end": 91.335,
+        "duration": 0.675
+      },
+      {
+        "word": "e",
+        "start": 91.335,
+        "end": 91.41,
+        "duration": 0.075
+      },
+      {
+        "word": "crescimento",
+        "start": 91.41,
+        "end": 92.235,
+        "duration": 0.825
+      },
+      {
+        "word": "infinito,",
+        "start": 92.235,
+        "end": 92.91,
+        "duration": 0.675
+      },
+      {
+        "word": "o",
+        "start": 92.91,
+        "end": 92.985,
+        "duration": 0.075
+      },
+      {
+        "word": "encontro",
+        "start": 92.985,
+        "end": 93.585,
+        "duration": 0.6
+      },
+      {
+        "word": "entre",
+        "start": 93.585,
+        "end": 93.96,
+        "duration": 0.375
+      },
+      {
+        "word": "duas",
+        "start": 93.96,
+        "end": 94.26,
+        "duration": 0.3
+      },
+      {
+        "word": "espécies",
+        "start": 94.26,
+        "end": 94.86,
+        "duration": 0.6
+      },
+      {
+        "word": "não",
+        "start": 94.86,
+        "end": 95.085,
+        "duration": 0.225
+      },
+      {
+        "word": "é",
+        "start": 95.085,
+        "end": 95.16,
+        "duration": 0.075
+      },
+      {
+        "word": "um",
+        "start": 95.16,
+        "end": 95.31,
+        "duration": 0.15
+      },
+      {
+        "word": "evento",
+        "start": 95.31,
+        "end": 95.76,
+        "duration": 0.45
+      },
+      {
+        "word": "diplomático...",
+        "start": 95.76,
+        "end": 96.81,
+        "duration": 1.05
+      },
+      {
+        "word": "É",
+        "start": 96.811,
+        "end": 96.884,
+        "duration": 0.073
+      },
+      {
+        "word": "uma",
+        "start": 96.884,
+        "end": 97.102,
+        "duration": 0.218
+      },
+      {
+        "word": "competição",
+        "start": 97.102,
+        "end": 97.828,
+        "duration": 0.726
+      },
+      {
+        "word": "matemática",
+        "start": 97.828,
+        "end": 98.554,
+        "duration": 0.726
+      },
+      {
+        "word": "inescapável",
+        "start": 98.554,
+        "end": 99.353,
+        "duration": 0.799
+      },
+      {
+        "word": "pela",
+        "start": 99.353,
+        "end": 99.643,
+        "duration": 0.29
+      },
+      {
+        "word": "própria",
+        "start": 99.643,
+        "end": 100.151,
+        "duration": 0.508
+      },
+      {
+        "word": "existência",
+        "start": 100.151,
+        "end": 100.877,
+        "duration": 0.726
+      },
+      {
+        "word": "a",
+        "start": 100.877,
+        "end": 100.95,
+        "duration": 0.073
+      },
+      {
+        "word": "longo",
+        "start": 100.95,
+        "end": 101.313,
+        "duration": 0.363
+      },
+      {
+        "word": "prazo.",
+        "start": 101.313,
+        "end": 101.749,
+        "duration": 0.436
+      },
+      {
+        "word": "Imagine",
+        "start": 101.748,
+        "end": 102.306,
+        "duration": 0.558
+      },
+      {
+        "word": "que",
+        "start": 102.306,
+        "end": 102.545,
+        "duration": 0.239
+      },
+      {
+        "word": "você",
+        "start": 102.545,
+        "end": 102.864,
+        "duration": 0.319
+      },
+      {
+        "word": "detecta",
+        "start": 102.864,
+        "end": 103.422,
+        "duration": 0.558
+      },
+      {
+        "word": "uma",
+        "start": 103.422,
+        "end": 103.661,
+        "duration": 0.239
+      },
+      {
+        "word": "civilização",
+        "start": 103.661,
+        "end": 104.538,
+        "duration": 0.877
+      },
+      {
+        "word": "a",
+        "start": 104.538,
+        "end": 104.618,
+        "duration": 0.08
+      },
+      {
+        "word": "quinhentos",
+        "start": 104.618,
+        "end": 105.415,
+        "duration": 0.797
+      },
+      {
+        "word": "anos-luz",
+        "start": 105.415,
+        "end": 106.053,
+        "duration": 0.638
+      },
+      {
+        "word": "de",
+        "start": 106.053,
+        "end": 106.212,
+        "duration": 0.159
+      },
+      {
+        "word": "distância.",
+        "start": 106.212,
+        "end": 107.009,
+        "duration": 0.797
+      },
+      {
+        "word": "Mesmo",
+        "start": 107.011,
+        "end": 107.416,
+        "duration": 0.405
+      },
+      {
+        "word": "que",
+        "start": 107.416,
+        "end": 107.659,
+        "duration": 0.243
+      },
+      {
+        "word": "você",
+        "start": 107.659,
+        "end": 107.983,
+        "duration": 0.324
+      },
+      {
+        "word": "seja",
+        "start": 107.983,
+        "end": 108.307,
+        "duration": 0.324
+      },
+      {
+        "word": "pacífico,",
+        "start": 108.307,
+        "end": 109.036,
+        "duration": 0.729
+      },
+      {
+        "word": "você",
+        "start": 109.036,
+        "end": 109.36,
+        "duration": 0.324
+      },
+      {
+        "word": "nunca",
+        "start": 109.36,
+        "end": 109.765,
+        "duration": 0.405
+      },
+      {
+        "word": "poderá",
+        "start": 109.765,
+        "end": 110.251,
+        "duration": 0.486
+      },
+      {
+        "word": "ter",
+        "start": 110.251,
+        "end": 110.494,
+        "duration": 0.243
+      },
+      {
+        "word": "certeza",
+        "start": 110.494,
+        "end": 111.061,
+        "duration": 0.567
+      },
+      {
+        "word": "se",
+        "start": 111.061,
+        "end": 111.223,
+        "duration": 0.162
+      },
+      {
+        "word": "eles",
+        "start": 111.223,
+        "end": 111.547,
+        "duration": 0.324
+      },
+      {
+        "word": "são",
+        "start": 111.547,
+        "end": 111.79,
+        "duration": 0.243
+      },
+      {
+        "word": "amigáveis",
+        "start": 111.79,
+        "end": 112.519,
+        "duration": 0.729
+      },
+      {
+        "word": "ou",
+        "start": 112.519,
+        "end": 112.681,
+        "duration": 0.162
+      },
+      {
+        "word": "hostis.",
+        "start": 112.681,
+        "end": 113.248,
+        "duration": 0.567
+      },
+      {
+        "word": "Pior",
+        "start": 113.248,
+        "end": 113.55,
+        "duration": 0.302
+      },
+      {
+        "word": "ainda:",
+        "start": 113.55,
+        "end": 114.004,
+        "duration": 0.454
+      },
+      {
+        "word": "mesmo",
+        "start": 114.004,
+        "end": 114.382,
+        "duration": 0.378
+      },
+      {
+        "word": "que",
+        "start": 114.382,
+        "end": 114.609,
+        "duration": 0.227
+      },
+      {
+        "word": "eles",
+        "start": 114.609,
+        "end": 114.911,
+        "duration": 0.302
+      },
+      {
+        "word": "pareçam",
+        "start": 114.911,
+        "end": 115.44,
+        "duration": 0.529
+      },
+      {
+        "word": "pacíficos",
+        "start": 115.44,
+        "end": 116.121,
+        "duration": 0.681
+      },
+      {
+        "word": "hoje,",
+        "start": 116.121,
+        "end": 116.499,
+        "duration": 0.378
+      },
+      {
+        "word": "qualquer",
+        "start": 116.499,
+        "end": 117.104,
+        "duration": 0.605
+      },
+      {
+        "word": "comunicação",
+        "start": 117.104,
+        "end": 117.936,
+        "duration": 0.832
+      },
+      {
+        "word": "entre",
+        "start": 117.936,
+        "end": 118.314,
+        "duration": 0.378
+      },
+      {
+        "word": "vocês",
+        "start": 118.314,
+        "end": 118.692,
+        "duration": 0.378
+      },
+      {
+        "word": "levará",
+        "start": 118.692,
+        "end": 119.146,
+        "duration": 0.454
+      },
+      {
+        "word": "um",
+        "start": 119.146,
+        "end": 119.297,
+        "duration": 0.151
+      },
+      {
+        "word": "milênio",
+        "start": 119.297,
+        "end": 119.826,
+        "duration": 0.529
+      },
+      {
+        "word": "para",
+        "start": 119.826,
+        "end": 120.128,
+        "duration": 0.302
+      },
+      {
+        "word": "ir",
+        "start": 120.128,
+        "end": 120.279,
+        "duration": 0.151
+      },
+      {
+        "word": "e",
+        "start": 120.279,
+        "end": 120.355,
+        "duration": 0.076
+      },
+      {
+        "word": "voltar.",
+        "start": 120.355,
+        "end": 120.884,
+        "duration": 0.529
+      },
+      {
+        "word": "Você",
+        "start": 120.886,
+        "end": 121.205,
+        "duration": 0.319
+      },
+      {
+        "word": "não",
+        "start": 121.205,
+        "end": 121.444,
+        "duration": 0.239
+      },
+      {
+        "word": "sabe",
+        "start": 121.444,
+        "end": 121.763,
+        "duration": 0.319
+      },
+      {
+        "word": "se",
+        "start": 121.763,
+        "end": 121.922,
+        "duration": 0.159
+      },
+      {
+        "word": "eles",
+        "start": 121.922,
+        "end": 122.241,
+        "duration": 0.319
+      },
+      {
+        "word": "pensam",
+        "start": 122.241,
+        "end": 122.719,
+        "duration": 0.478
+      },
+      {
+        "word": "que",
+        "start": 122.719,
+        "end": 122.958,
+        "duration": 0.239
+      },
+      {
+        "word": "você",
+        "start": 122.958,
+        "end": 123.277,
+        "duration": 0.319
+      },
+      {
+        "word": "é",
+        "start": 123.277,
+        "end": 123.357,
+        "duration": 0.08
+      },
+      {
+        "word": "uma",
+        "start": 123.357,
+        "end": 123.596,
+        "duration": 0.239
+      },
+      {
+        "word": "ameaça,",
+        "start": 123.596,
+        "end": 124.154,
+        "duration": 0.558
+      },
+      {
+        "word": "e",
+        "start": 124.154,
+        "end": 124.234,
+        "duration": 0.08
+      },
+      {
+        "word": "eles",
+        "start": 124.234,
+        "end": 124.553,
+        "duration": 0.319
+      },
+      {
+        "word": "não",
+        "start": 124.553,
+        "end": 124.792,
+        "duration": 0.239
+      },
+      {
+        "word": "sabem",
+        "start": 124.792,
+        "end": 125.19,
+        "duration": 0.398
+      },
+      {
+        "word": "se",
+        "start": 125.19,
+        "end": 125.349,
+        "duration": 0.159
+      },
+      {
+        "word": "você",
+        "start": 125.349,
+        "end": 125.668,
+        "duration": 0.319
+      },
+      {
+        "word": "desconfia",
+        "start": 125.668,
+        "end": 126.385,
+        "duration": 0.717
+      },
+      {
+        "word": "deles.",
+        "start": 126.385,
+        "end": 126.863,
+        "duration": 0.478
+      },
+      {
+        "word": "Essa",
+        "start": 126.86,
+        "end": 127.151,
+        "duration": 0.291
+      },
+      {
+        "word": "barreira",
+        "start": 127.151,
+        "end": 127.732,
+        "duration": 0.581
+      },
+      {
+        "word": "intransponível",
+        "start": 127.732,
+        "end": 128.749,
+        "duration": 1.017
+      },
+      {
+        "word": "da",
+        "start": 128.749,
+        "end": 128.894,
+        "duration": 0.145
+      },
+      {
+        "word": "velocidade",
+        "start": 128.894,
+        "end": 129.62,
+        "duration": 0.726
+      },
+      {
+        "word": "da",
+        "start": 129.62,
+        "end": 129.765,
+        "duration": 0.145
+      },
+      {
+        "word": "luz",
+        "start": 129.765,
+        "end": 129.983,
+        "duration": 0.218
+      },
+      {
+        "word": "cria",
+        "start": 129.983,
+        "end": 130.274,
+        "duration": 0.291
+      },
+      {
+        "word": "o",
+        "start": 130.274,
+        "end": 130.347,
+        "duration": 0.073
+      },
+      {
+        "word": "que",
+        "start": 130.347,
+        "end": 130.565,
+        "duration": 0.218
+      },
+      {
+        "word": "a",
+        "start": 130.565,
+        "end": 130.638,
+        "duration": 0.073
+      },
+      {
+        "word": "teoria",
+        "start": 130.638,
+        "end": 131.074,
+        "duration": 0.436
+      },
+      {
+        "word": "dos",
+        "start": 131.074,
+        "end": 131.292,
+        "duration": 0.218
+      },
+      {
+        "word": "jogos",
+        "start": 131.292,
+        "end": 131.655,
+        "duration": 0.363
+      },
+      {
+        "word": "chama",
+        "start": 131.655,
+        "end": 132.018,
+        "duration": 0.363
+      },
+      {
+        "word": "de",
+        "start": 132.018,
+        "end": 132.163,
+        "duration": 0.145
+      },
+      {
+        "word": "Cadeia",
+        "start": 132.163,
+        "end": 132.599,
+        "duration": 0.436
+      },
+      {
+        "word": "de",
+        "start": 132.599,
+        "end": 132.744,
+        "duration": 0.145
+      },
+      {
+        "word": "Suspeita.",
+        "start": 132.744,
+        "end": 133.398,
+        "duration": 0.654
+      },
+      {
+        "word": "No",
+        "start": 133.398,
+        "end": 133.557,
+        "duration": 0.159
+      },
+      {
+        "word": "vácuo",
+        "start": 133.557,
+        "end": 133.954,
+        "duration": 0.397
+      },
+      {
+        "word": "interestelar,",
+        "start": 133.954,
+        "end": 134.986,
+        "duration": 1.032
+      },
+      {
+        "word": "a",
+        "start": 134.986,
+        "end": 135.065,
+        "duration": 0.079
+      },
+      {
+        "word": "desconfiança",
+        "start": 135.065,
+        "end": 136.017,
+        "duration": 0.952
+      },
+      {
+        "word": "mútua",
+        "start": 136.017,
+        "end": 136.414,
+        "duration": 0.397
+      },
+      {
+        "word": "não",
+        "start": 136.414,
+        "end": 136.652,
+        "duration": 0.238
+      },
+      {
+        "word": "pode",
+        "start": 136.652,
+        "end": 136.969,
+        "duration": 0.317
+      },
+      {
+        "word": "ser",
+        "start": 136.969,
+        "end": 137.207,
+        "duration": 0.238
+      },
+      {
+        "word": "dissolvida",
+        "start": 137.207,
+        "end": 138,
+        "duration": 0.793
+      },
+      {
+        "word": "por",
+        "start": 138,
+        "end": 138.238,
+        "duration": 0.238
+      },
+      {
+        "word": "diplomacia.",
+        "start": 138.238,
+        "end": 139.111,
+        "duration": 0.873
+      },
+      {
+        "word": "O",
+        "start": 139.11,
+        "end": 139.191,
+        "duration": 0.081
+      },
+      {
+        "word": "fator",
+        "start": 139.191,
+        "end": 139.597,
+        "duration": 0.406
+      },
+      {
+        "word": "mais",
+        "start": 139.597,
+        "end": 139.922,
+        "duration": 0.325
+      },
+      {
+        "word": "perigoso",
+        "start": 139.922,
+        "end": 140.572,
+        "duration": 0.65
+      },
+      {
+        "word": "da",
+        "start": 140.572,
+        "end": 140.735,
+        "duration": 0.163
+      },
+      {
+        "word": "equação",
+        "start": 140.735,
+        "end": 141.304,
+        "duration": 0.569
+      },
+      {
+        "word": "cósmica",
+        "start": 141.304,
+        "end": 141.873,
+        "duration": 0.569
+      },
+      {
+        "word": "é",
+        "start": 141.873,
+        "end": 141.954,
+        "duration": 0.081
+      },
+      {
+        "word": "a",
+        "start": 141.954,
+        "end": 142.035,
+        "duration": 0.081
+      },
+      {
+        "word": "velocidade",
+        "start": 142.035,
+        "end": 142.848,
+        "duration": 0.813
+      },
+      {
+        "word": "do",
+        "start": 142.848,
+        "end": 143.011,
+        "duration": 0.163
+      },
+      {
+        "word": "progresso",
+        "start": 143.011,
+        "end": 143.742,
+        "duration": 0.731
+      },
+      {
+        "word": "científico.",
+        "start": 143.742,
+        "end": 144.636,
+        "duration": 0.894
+      },
+      {
+        "word": "A",
+        "start": 144.636,
+        "end": 144.71,
+        "duration": 0.074
+      },
+      {
+        "word": "humanidade",
+        "start": 144.71,
+        "end": 145.454,
+        "duration": 0.744
+      },
+      {
+        "word": "levou",
+        "start": 145.454,
+        "end": 145.826,
+        "duration": 0.372
+      },
+      {
+        "word": "centenas",
+        "start": 145.826,
+        "end": 146.421,
+        "duration": 0.595
+      },
+      {
+        "word": "de",
+        "start": 146.421,
+        "end": 146.57,
+        "duration": 0.149
+      },
+      {
+        "word": "milhares",
+        "start": 146.57,
+        "end": 147.165,
+        "duration": 0.595
+      },
+      {
+        "word": "de",
+        "start": 147.165,
+        "end": 147.314,
+        "duration": 0.149
+      },
+      {
+        "word": "anos",
+        "start": 147.314,
+        "end": 147.611,
+        "duration": 0.297
+      },
+      {
+        "word": "para",
+        "start": 147.611,
+        "end": 147.908,
+        "duration": 0.297
+      },
+      {
+        "word": "passar",
+        "start": 147.908,
+        "end": 148.354,
+        "duration": 0.446
+      },
+      {
+        "word": "da",
+        "start": 148.354,
+        "end": 148.503,
+        "duration": 0.149
+      },
+      {
+        "word": "pedra",
+        "start": 148.503,
+        "end": 148.875,
+        "duration": 0.372
+      },
+      {
+        "word": "lascada",
+        "start": 148.875,
+        "end": 149.396,
+        "duration": 0.521
+      },
+      {
+        "word": "à",
+        "start": 149.396,
+        "end": 149.47,
+        "duration": 0.074
+      },
+      {
+        "word": "agricultura...",
+        "start": 149.47,
+        "end": 150.511,
+        "duration": 1.041
+      },
+      {
+        "word": "Mas",
+        "start": 150.511,
+        "end": 150.732,
+        "duration": 0.221
+      },
+      {
+        "word": "levou",
+        "start": 150.732,
+        "end": 151.1,
+        "duration": 0.368
+      },
+      {
+        "word": "apenas",
+        "start": 151.1,
+        "end": 151.542,
+        "duration": 0.442
+      },
+      {
+        "word": "sessenta",
+        "start": 151.542,
+        "end": 152.132,
+        "duration": 0.59
+      },
+      {
+        "word": "e",
+        "start": 152.132,
+        "end": 152.206,
+        "duration": 0.074
+      },
+      {
+        "word": "seis",
+        "start": 152.206,
+        "end": 152.501,
+        "duration": 0.295
+      },
+      {
+        "word": "anos",
+        "start": 152.501,
+        "end": 152.796,
+        "duration": 0.295
+      },
+      {
+        "word": "entre",
+        "start": 152.796,
+        "end": 153.164,
+        "duration": 0.368
+      },
+      {
+        "word": "o",
+        "start": 153.164,
+        "end": 153.238,
+        "duration": 0.074
+      },
+      {
+        "word": "primeiro",
+        "start": 153.238,
+        "end": 153.828,
+        "duration": 0.59
+      },
+      {
+        "word": "voo",
+        "start": 153.828,
+        "end": 154.049,
+        "duration": 0.221
+      },
+      {
+        "word": "do",
+        "start": 154.049,
+        "end": 154.196,
+        "duration": 0.147
+      },
+      {
+        "word": "avião",
+        "start": 154.196,
+        "end": 154.564,
+        "duration": 0.368
+      },
+      {
+        "word": "dos",
+        "start": 154.564,
+        "end": 154.785,
+        "duration": 0.221
+      },
+      {
+        "word": "irmãos",
+        "start": 154.785,
+        "end": 155.227,
+        "duration": 0.442
+      },
+      {
+        "word": "Wright",
+        "start": 155.227,
+        "end": 155.669,
+        "duration": 0.442
+      },
+      {
+        "word": "e",
+        "start": 155.669,
+        "end": 155.743,
+        "duration": 0.074
+      },
+      {
+        "word": "a",
+        "start": 155.743,
+        "end": 155.817,
+        "duration": 0.074
+      },
+      {
+        "word": "chegada",
+        "start": 155.817,
+        "end": 156.333,
+        "duration": 0.516
+      },
+      {
+        "word": "do",
+        "start": 156.333,
+        "end": 156.48,
+        "duration": 0.147
+      },
+      {
+        "word": "ser",
+        "start": 156.48,
+        "end": 156.701,
+        "duration": 0.221
+      },
+      {
+        "word": "humano",
+        "start": 156.701,
+        "end": 157.143,
+        "duration": 0.442
+      },
+      {
+        "word": "na",
+        "start": 157.143,
+        "end": 157.29,
+        "duration": 0.147
+      },
+      {
+        "word": "Lua.",
+        "start": 157.29,
+        "end": 157.585,
+        "duration": 0.295
+      },
+      {
+        "word": "Na",
+        "start": 157.586,
+        "end": 157.745,
+        "duration": 0.159
+      },
+      {
+        "word": "escala",
+        "start": 157.745,
+        "end": 158.223,
+        "duration": 0.478
+      },
+      {
+        "word": "cosmológica",
+        "start": 158.223,
+        "end": 159.099,
+        "duration": 0.876
+      },
+      {
+        "word": "de",
+        "start": 159.099,
+        "end": 159.258,
+        "duration": 0.159
+      },
+      {
+        "word": "bilhões",
+        "start": 159.258,
+        "end": 159.815,
+        "duration": 0.557
+      },
+      {
+        "word": "de",
+        "start": 159.815,
+        "end": 159.974,
+        "duration": 0.159
+      },
+      {
+        "word": "anos,",
+        "start": 159.974,
+        "end": 160.372,
+        "duration": 0.398
+      },
+      {
+        "word": "alguns",
+        "start": 160.372,
+        "end": 160.85,
+        "duration": 0.478
+      },
+      {
+        "word": "séculos",
+        "start": 160.85,
+        "end": 161.407,
+        "duration": 0.557
+      },
+      {
+        "word": "são",
+        "start": 161.407,
+        "end": 161.646,
+        "duration": 0.239
+      },
+      {
+        "word": "apenas",
+        "start": 161.646,
+        "end": 162.124,
+        "duration": 0.478
+      },
+      {
+        "word": "um",
+        "start": 162.124,
+        "end": 162.283,
+        "duration": 0.159
+      },
+      {
+        "word": "piscar",
+        "start": 162.283,
+        "end": 162.761,
+        "duration": 0.478
+      },
+      {
+        "word": "de",
+        "start": 162.761,
+        "end": 162.92,
+        "duration": 0.159
+      },
+      {
+        "word": "olhos.",
+        "start": 162.92,
+        "end": 163.398,
+        "duration": 0.478
+      },
+      {
+        "word": "Uma",
+        "start": 163.398,
+        "end": 163.597,
+        "duration": 0.199
+      },
+      {
+        "word": "espécie",
+        "start": 163.597,
+        "end": 164.062,
+        "duration": 0.465
+      },
+      {
+        "word": "atrasada",
+        "start": 164.062,
+        "end": 164.593,
+        "duration": 0.531
+      },
+      {
+        "word": "que",
+        "start": 164.593,
+        "end": 164.792,
+        "duration": 0.199
+      },
+      {
+        "word": "você",
+        "start": 164.792,
+        "end": 165.057,
+        "duration": 0.265
+      },
+      {
+        "word": "perdoar",
+        "start": 165.057,
+        "end": 165.522,
+        "duration": 0.465
+      },
+      {
+        "word": "hoje",
+        "start": 165.522,
+        "end": 165.787,
+        "duration": 0.265
+      },
+      {
+        "word": "pode",
+        "start": 165.787,
+        "end": 166.052,
+        "duration": 0.265
+      },
+      {
+        "word": "sofrer",
+        "start": 166.052,
+        "end": 166.45,
+        "duration": 0.398
+      },
+      {
+        "word": "uma",
+        "start": 166.45,
+        "end": 166.649,
+        "duration": 0.199
+      },
+      {
+        "word": "explosão",
+        "start": 166.649,
+        "end": 167.18,
+        "duration": 0.531
+      },
+      {
+        "word": "tecnológica",
+        "start": 167.18,
+        "end": 167.91,
+        "duration": 0.73
+      },
+      {
+        "word": "exponencial",
+        "start": 167.91,
+        "end": 168.64,
+        "duration": 0.73
+      },
+      {
+        "word": "e",
+        "start": 168.64,
+        "end": 168.706,
+        "duration": 0.066
+      },
+      {
+        "word": "desenvolver",
+        "start": 168.706,
+        "end": 169.436,
+        "duration": 0.73
+      },
+      {
+        "word": "armas",
+        "start": 169.436,
+        "end": 169.768,
+        "duration": 0.332
+      },
+      {
+        "word": "de",
+        "start": 169.768,
+        "end": 169.901,
+        "duration": 0.133
+      },
+      {
+        "word": "aniquilação",
+        "start": 169.901,
+        "end": 170.631,
+        "duration": 0.73
+      },
+      {
+        "word": "estelar",
+        "start": 170.631,
+        "end": 171.096,
+        "duration": 0.465
+      },
+      {
+        "word": "amanhã.",
+        "start": 171.096,
+        "end": 171.561,
+        "duration": 0.465
+      },
+      {
+        "word": "O",
+        "start": 171.561,
+        "end": 171.671,
+        "duration": 0.11
+      },
+      {
+        "word": "tempo",
+        "start": 171.671,
+        "end": 172.219,
+        "duration": 0.548
+      },
+      {
+        "word": "não",
+        "start": 172.219,
+        "end": 172.548,
+        "duration": 0.329
+      },
+      {
+        "word": "perdoa",
+        "start": 172.548,
+        "end": 173.206,
+        "duration": 0.658
+      },
+      {
+        "word": "hesitações.",
+        "start": 173.206,
+        "end": 174.412,
+        "duration": 1.206
+      },
+      {
+        "word": "É",
+        "start": 174.41,
+        "end": 174.496,
+        "duration": 0.086
+      },
+      {
+        "word": "aqui",
+        "start": 174.496,
+        "end": 174.841,
+        "duration": 0.345
+      },
+      {
+        "word": "que",
+        "start": 174.841,
+        "end": 175.1,
+        "duration": 0.259
+      },
+      {
+        "word": "a",
+        "start": 175.1,
+        "end": 175.186,
+        "duration": 0.086
+      },
+      {
+        "word": "teoria",
+        "start": 175.186,
+        "end": 175.704,
+        "duration": 0.518
+      },
+      {
+        "word": "atinge",
+        "start": 175.704,
+        "end": 176.222,
+        "duration": 0.518
+      },
+      {
+        "word": "seu",
+        "start": 176.222,
+        "end": 176.481,
+        "duration": 0.259
+      },
+      {
+        "word": "ápice",
+        "start": 176.481,
+        "end": 176.913,
+        "duration": 0.432
+      },
+      {
+        "word": "aterrorizante.",
+        "start": 176.913,
+        "end": 178.122,
+        "duration": 1.209
+      },
+      {
+        "word": "O",
+        "start": 178.123,
+        "end": 178.218,
+        "duration": 0.095
+      },
+      {
+        "word": "universo",
+        "start": 178.218,
+        "end": 178.98,
+        "duration": 0.762
+      },
+      {
+        "word": "é",
+        "start": 178.98,
+        "end": 179.075,
+        "duration": 0.095
+      },
+      {
+        "word": "uma",
+        "start": 179.075,
+        "end": 179.361,
+        "duration": 0.286
+      },
+      {
+        "word": "floresta",
+        "start": 179.361,
+        "end": 180.123,
+        "duration": 0.762
+      },
+      {
+        "word": "densa",
+        "start": 180.123,
+        "end": 180.599,
+        "duration": 0.476
+      },
+      {
+        "word": "e",
+        "start": 180.599,
+        "end": 180.694,
+        "duration": 0.095
+      },
+      {
+        "word": "escura.",
+        "start": 180.694,
+        "end": 181.36,
+        "duration": 0.666
+      },
+      {
+        "word": "Cada",
+        "start": 181.36,
+        "end": 181.647,
+        "duration": 0.287
+      },
+      {
+        "word": "civilização",
+        "start": 181.647,
+        "end": 182.437,
+        "duration": 0.79
+      },
+      {
+        "word": "avançada",
+        "start": 182.437,
+        "end": 183.012,
+        "duration": 0.575
+      },
+      {
+        "word": "é",
+        "start": 183.012,
+        "end": 183.084,
+        "duration": 0.072
+      },
+      {
+        "word": "um",
+        "start": 183.084,
+        "end": 183.228,
+        "duration": 0.144
+      },
+      {
+        "word": "caçador",
+        "start": 183.228,
+        "end": 183.731,
+        "duration": 0.503
+      },
+      {
+        "word": "armado",
+        "start": 183.731,
+        "end": 184.162,
+        "duration": 0.431
+      },
+      {
+        "word": "com",
+        "start": 184.162,
+        "end": 184.377,
+        "duration": 0.215
+      },
+      {
+        "word": "armas",
+        "start": 184.377,
+        "end": 184.736,
+        "duration": 0.359
+      },
+      {
+        "word": "devastadoras,",
+        "start": 184.736,
+        "end": 185.67,
+        "duration": 0.934
+      },
+      {
+        "word": "caminhando",
+        "start": 185.67,
+        "end": 186.388,
+        "duration": 0.718
+      },
+      {
+        "word": "silenciosamente",
+        "start": 186.388,
+        "end": 187.465,
+        "duration": 1.077
+      },
+      {
+        "word": "entre",
+        "start": 187.465,
+        "end": 187.824,
+        "duration": 0.359
+      },
+      {
+        "word": "as",
+        "start": 187.824,
+        "end": 187.968,
+        "duration": 0.144
+      },
+      {
+        "word": "árvores",
+        "start": 187.968,
+        "end": 188.471,
+        "duration": 0.503
+      },
+      {
+        "word": "como",
+        "start": 188.471,
+        "end": 188.758,
+        "duration": 0.287
+      },
+      {
+        "word": "um",
+        "start": 188.758,
+        "end": 188.902,
+        "duration": 0.144
+      },
+      {
+        "word": "fantasma.",
+        "start": 188.902,
+        "end": 189.548,
+        "duration": 0.646
+      },
+      {
+        "word": "Ele",
+        "start": 189.548,
+        "end": 189.779,
+        "duration": 0.231
+      },
+      {
+        "word": "precisa",
+        "start": 189.779,
+        "end": 190.318,
+        "duration": 0.539
+      },
+      {
+        "word": "ser",
+        "start": 190.318,
+        "end": 190.549,
+        "duration": 0.231
+      },
+      {
+        "word": "extremamente",
+        "start": 190.549,
+        "end": 191.473,
+        "duration": 0.924
+      },
+      {
+        "word": "cuidadoso,",
+        "start": 191.473,
+        "end": 192.243,
+        "duration": 0.77
+      },
+      {
+        "word": "porque",
+        "start": 192.243,
+        "end": 192.705,
+        "duration": 0.462
+      },
+      {
+        "word": "por",
+        "start": 192.705,
+        "end": 192.936,
+        "duration": 0.231
+      },
+      {
+        "word": "toda",
+        "start": 192.936,
+        "end": 193.244,
+        "duration": 0.308
+      },
+      {
+        "word": "parte",
+        "start": 193.244,
+        "end": 193.629,
+        "duration": 0.385
+      },
+      {
+        "word": "existem",
+        "start": 193.629,
+        "end": 194.168,
+        "duration": 0.539
+      },
+      {
+        "word": "outros",
+        "start": 194.168,
+        "end": 194.63,
+        "duration": 0.462
+      },
+      {
+        "word": "caçadores",
+        "start": 194.63,
+        "end": 195.323,
+        "duration": 0.693
+      },
+      {
+        "word": "ocultos",
+        "start": 195.323,
+        "end": 195.862,
+        "duration": 0.539
+      },
+      {
+        "word": "nas",
+        "start": 195.862,
+        "end": 196.093,
+        "duration": 0.231
+      },
+      {
+        "word": "sombras.",
+        "start": 196.093,
+        "end": 196.709,
+        "duration": 0.616
+      },
+      {
+        "word": "Se",
+        "start": 196.711,
+        "end": 196.851,
+        "duration": 0.14
+      },
+      {
+        "word": "esse",
+        "start": 196.851,
+        "end": 197.131,
+        "duration": 0.28
+      },
+      {
+        "word": "caçador",
+        "start": 197.131,
+        "end": 197.621,
+        "duration": 0.49
+      },
+      {
+        "word": "avistar",
+        "start": 197.621,
+        "end": 198.111,
+        "duration": 0.49
+      },
+      {
+        "word": "outra",
+        "start": 198.111,
+        "end": 198.461,
+        "duration": 0.35
+      },
+      {
+        "word": "forma",
+        "start": 198.461,
+        "end": 198.811,
+        "duration": 0.35
+      },
+      {
+        "word": "de",
+        "start": 198.811,
+        "end": 198.951,
+        "duration": 0.14
+      },
+      {
+        "word": "vida",
+        "start": 198.951,
+        "end": 199.231,
+        "duration": 0.28
+      },
+      {
+        "word": "—",
+        "start": 199.231,
+        "end": 199.301,
+        "duration": 0.07
+      },
+      {
+        "word": "seja",
+        "start": 199.301,
+        "end": 199.581,
+        "duration": 0.28
+      },
+      {
+        "word": "um",
+        "start": 199.581,
+        "end": 199.721,
+        "duration": 0.14
+      },
+      {
+        "word": "predador",
+        "start": 199.721,
+        "end": 200.281,
+        "duration": 0.56
+      },
+      {
+        "word": "gigante",
+        "start": 200.281,
+        "end": 200.771,
+        "duration": 0.49
+      },
+      {
+        "word": "ou",
+        "start": 200.771,
+        "end": 200.911,
+        "duration": 0.14
+      },
+      {
+        "word": "um",
+        "start": 200.911,
+        "end": 201.051,
+        "duration": 0.14
+      },
+      {
+        "word": "filhote",
+        "start": 201.051,
+        "end": 201.541,
+        "duration": 0.49
+      },
+      {
+        "word": "indefeso",
+        "start": 201.541,
+        "end": 202.101,
+        "duration": 0.56
+      },
+      {
+        "word": "—",
+        "start": 202.101,
+        "end": 202.171,
+        "duration": 0.07
+      },
+      {
+        "word": "ele",
+        "start": 202.171,
+        "end": 202.381,
+        "duration": 0.21
+      },
+      {
+        "word": "tem",
+        "start": 202.381,
+        "end": 202.591,
+        "duration": 0.21
+      },
+      {
+        "word": "apenas",
+        "start": 202.591,
+        "end": 203.011,
+        "duration": 0.42
+      },
+      {
+        "word": "uma",
+        "start": 203.011,
+        "end": 203.221,
+        "duration": 0.21
+      },
+      {
+        "word": "escolha",
+        "start": 203.221,
+        "end": 203.711,
+        "duration": 0.49
+      },
+      {
+        "word": "lógica",
+        "start": 203.711,
+        "end": 204.131,
+        "duration": 0.42
+      },
+      {
+        "word": "para",
+        "start": 204.131,
+        "end": 204.411,
+        "duration": 0.28
+      },
+      {
+        "word": "garantir",
+        "start": 204.411,
+        "end": 204.971,
+        "duration": 0.56
+      },
+      {
+        "word": "a",
+        "start": 204.971,
+        "end": 205.041,
+        "duration": 0.07
+      },
+      {
+        "word": "sua",
+        "start": 205.041,
+        "end": 205.251,
+        "duration": 0.21
+      },
+      {
+        "word": "própria",
+        "start": 205.251,
+        "end": 205.741,
+        "duration": 0.49
+      },
+      {
+        "word": "sobrevivência:",
+        "start": 205.741,
+        "end": 206.72,
+        "duration": 0.979
+      },
+      {
+        "word": "disparar",
+        "start": 206.72,
+        "end": 207.28,
+        "duration": 0.56
+      },
+      {
+        "word": "sem",
+        "start": 207.28,
+        "end": 207.49,
+        "duration": 0.21
+      },
+      {
+        "word": "aviso",
+        "start": 207.49,
+        "end": 207.84,
+        "duration": 0.35
+      },
+      {
+        "word": "prévio",
+        "start": 207.84,
+        "end": 208.26,
+        "duration": 0.42
+      },
+      {
+        "word": "e",
+        "start": 208.26,
+        "end": 208.33,
+        "duration": 0.07
+      },
+      {
+        "word": "eliminá-la",
+        "start": 208.33,
+        "end": 209.029,
+        "duration": 0.699
+      },
+      {
+        "word": "instantaneamente.",
+        "start": 209.029,
+        "end": 210.218,
+        "duration": 1.189
+      },
+      {
+        "word": "Na",
+        "start": 210.211,
+        "end": 210.379,
+        "duration": 0.168
+      },
+      {
+        "word": "floresta",
+        "start": 210.379,
+        "end": 211.05,
+        "duration": 0.671
+      },
+      {
+        "word": "negra,",
+        "start": 211.05,
+        "end": 211.553,
+        "duration": 0.503
+      },
+      {
+        "word": "qualquer",
+        "start": 211.553,
+        "end": 212.224,
+        "duration": 0.671
+      },
+      {
+        "word": "presença",
+        "start": 212.224,
+        "end": 212.895,
+        "duration": 0.671
+      },
+      {
+        "word": "revelada",
+        "start": 212.895,
+        "end": 213.566,
+        "duration": 0.671
+      },
+      {
+        "word": "é",
+        "start": 213.566,
+        "end": 213.65,
+        "duration": 0.084
+      },
+      {
+        "word": "um",
+        "start": 213.65,
+        "end": 213.818,
+        "duration": 0.168
+      },
+      {
+        "word": "alvo",
+        "start": 213.818,
+        "end": 214.154,
+        "duration": 0.336
+      },
+      {
+        "word": "prioritário.",
+        "start": 214.154,
+        "end": 215.161,
+        "duration": 1.007
+      },
+      {
+        "word": "Enquanto",
+        "start": 215.16,
+        "end": 215.701,
+        "duration": 0.541
+      },
+      {
+        "word": "civilizações",
+        "start": 215.701,
+        "end": 216.512,
+        "duration": 0.811
+      },
+      {
+        "word": "veteranas",
+        "start": 216.512,
+        "end": 217.12,
+        "duration": 0.608
+      },
+      {
+        "word": "praticam",
+        "start": 217.12,
+        "end": 217.661,
+        "duration": 0.541
+      },
+      {
+        "word": "o",
+        "start": 217.661,
+        "end": 217.729,
+        "duration": 0.068
+      },
+      {
+        "word": "silêncio",
+        "start": 217.729,
+        "end": 218.27,
+        "duration": 0.541
+      },
+      {
+        "word": "rádio",
+        "start": 218.27,
+        "end": 218.608,
+        "duration": 0.338
+      },
+      {
+        "word": "absoluto",
+        "start": 218.608,
+        "end": 219.149,
+        "duration": 0.541
+      },
+      {
+        "word": "para",
+        "start": 219.149,
+        "end": 219.419,
+        "duration": 0.27
+      },
+      {
+        "word": "sobreviver,",
+        "start": 219.419,
+        "end": 220.162,
+        "duration": 0.743
+      },
+      {
+        "word": "a",
+        "start": 220.162,
+        "end": 220.23,
+        "duration": 0.068
+      },
+      {
+        "word": "humanidade",
+        "start": 220.23,
+        "end": 220.906,
+        "duration": 0.676
+      },
+      {
+        "word": "vem",
+        "start": 220.906,
+        "end": 221.109,
+        "duration": 0.203
+      },
+      {
+        "word": "se",
+        "start": 221.109,
+        "end": 221.244,
+        "duration": 0.135
+      },
+      {
+        "word": "comportando",
+        "start": 221.244,
+        "end": 221.987,
+        "duration": 0.743
+      },
+      {
+        "word": "como",
+        "start": 221.987,
+        "end": 222.257,
+        "duration": 0.27
+      },
+      {
+        "word": "uma",
+        "start": 222.257,
+        "end": 222.46,
+        "duration": 0.203
+      },
+      {
+        "word": "criança",
+        "start": 222.46,
+        "end": 222.933,
+        "duration": 0.473
+      },
+      {
+        "word": "ingênua",
+        "start": 222.933,
+        "end": 223.406,
+        "duration": 0.473
+      },
+      {
+        "word": "gritando",
+        "start": 223.406,
+        "end": 223.947,
+        "duration": 0.541
+      },
+      {
+        "word": "alegremente",
+        "start": 223.947,
+        "end": 224.69,
+        "duration": 0.743
+      },
+      {
+        "word": "no",
+        "start": 224.69,
+        "end": 224.825,
+        "duration": 0.135
+      },
+      {
+        "word": "meio",
+        "start": 224.825,
+        "end": 225.095,
+        "duration": 0.27
+      },
+      {
+        "word": "de",
+        "start": 225.095,
+        "end": 225.23,
+        "duration": 0.135
+      },
+      {
+        "word": "uma",
+        "start": 225.23,
+        "end": 225.433,
+        "duration": 0.203
+      },
+      {
+        "word": "floresta",
+        "start": 225.433,
+        "end": 225.974,
+        "duration": 0.541
+      },
+      {
+        "word": "infestada",
+        "start": 225.974,
+        "end": 226.582,
+        "duration": 0.608
+      },
+      {
+        "word": "de",
+        "start": 226.582,
+        "end": 226.717,
+        "duration": 0.135
+      },
+      {
+        "word": "predadores.",
+        "start": 226.717,
+        "end": 227.46,
+        "duration": 0.743
+      },
+      {
+        "word": "Há",
+        "start": 227.461,
+        "end": 227.605,
+        "duration": 0.144
+      },
+      {
+        "word": "mais",
+        "start": 227.605,
+        "end": 227.893,
+        "duration": 0.288
+      },
+      {
+        "word": "de",
+        "start": 227.893,
+        "end": 228.037,
+        "duration": 0.144
+      },
+      {
+        "word": "um",
+        "start": 228.037,
+        "end": 228.181,
+        "duration": 0.144
+      },
+      {
+        "word": "século,",
+        "start": 228.181,
+        "end": 228.685,
+        "duration": 0.504
+      },
+      {
+        "word": "nossas",
+        "start": 228.685,
+        "end": 229.117,
+        "duration": 0.432
+      },
+      {
+        "word": "ondas",
+        "start": 229.117,
+        "end": 229.477,
+        "duration": 0.36
+      },
+      {
+        "word": "de",
+        "start": 229.477,
+        "end": 229.621,
+        "duration": 0.144
+      },
+      {
+        "word": "rádio,",
+        "start": 229.621,
+        "end": 230.053,
+        "duration": 0.432
+      },
+      {
+        "word": "transmissões",
+        "start": 230.053,
+        "end": 230.917,
+        "duration": 0.864
+      },
+      {
+        "word": "de",
+        "start": 230.917,
+        "end": 231.061,
+        "duration": 0.144
+      },
+      {
+        "word": "radar",
+        "start": 231.061,
+        "end": 231.421,
+        "duration": 0.36
+      },
+      {
+        "word": "militar",
+        "start": 231.421,
+        "end": 231.925,
+        "duration": 0.504
+      },
+      {
+        "word": "e",
+        "start": 231.925,
+        "end": 231.997,
+        "duration": 0.072
+      },
+      {
+        "word": "mensagens",
+        "start": 231.997,
+        "end": 232.645,
+        "duration": 0.648
+      },
+      {
+        "word": "de",
+        "start": 232.645,
+        "end": 232.789,
+        "duration": 0.144
+      },
+      {
+        "word": "televisão",
+        "start": 232.789,
+        "end": 233.437,
+        "duration": 0.648
+      },
+      {
+        "word": "vazam",
+        "start": 233.437,
+        "end": 233.797,
+        "duration": 0.36
+      },
+      {
+        "word": "para",
+        "start": 233.797,
+        "end": 234.085,
+        "duration": 0.288
+      },
+      {
+        "word": "o",
+        "start": 234.085,
+        "end": 234.157,
+        "duration": 0.072
+      },
+      {
+        "word": "espaço",
+        "start": 234.157,
+        "end": 234.589,
+        "duration": 0.432
+      },
+      {
+        "word": "interestelar",
+        "start": 234.589,
+        "end": 235.453,
+        "duration": 0.864
+      },
+      {
+        "word": "em",
+        "start": 235.453,
+        "end": 235.597,
+        "duration": 0.144
+      },
+      {
+        "word": "uma",
+        "start": 235.597,
+        "end": 235.813,
+        "duration": 0.216
+      },
+      {
+        "word": "bolha",
+        "start": 235.813,
+        "end": 236.173,
+        "duration": 0.36
+      },
+      {
+        "word": "que",
+        "start": 236.173,
+        "end": 236.389,
+        "duration": 0.216
+      },
+      {
+        "word": "já",
+        "start": 236.389,
+        "end": 236.533,
+        "duration": 0.144
+      },
+      {
+        "word": "cobre",
+        "start": 236.533,
+        "end": 236.893,
+        "duration": 0.36
+      },
+      {
+        "word": "dezenas",
+        "start": 236.893,
+        "end": 237.397,
+        "duration": 0.504
+      },
+      {
+        "word": "de",
+        "start": 237.397,
+        "end": 237.541,
+        "duration": 0.144
+      },
+      {
+        "word": "sistemas",
+        "start": 237.541,
+        "end": 238.117,
+        "duration": 0.576
+      },
+      {
+        "word": "estelares.",
+        "start": 238.117,
+        "end": 238.837,
+        "duration": 0.72
+      },
+      {
+        "word": "Nós",
+        "start": 238.836,
+        "end": 239.074,
+        "duration": 0.238
+      },
+      {
+        "word": "acendemos",
+        "start": 239.074,
+        "end": 239.79,
+        "duration": 0.716
+      },
+      {
+        "word": "uma",
+        "start": 239.79,
+        "end": 240.028,
+        "duration": 0.238
+      },
+      {
+        "word": "fogueira",
+        "start": 240.028,
+        "end": 240.664,
+        "duration": 0.636
+      },
+      {
+        "word": "no",
+        "start": 240.664,
+        "end": 240.823,
+        "duration": 0.159
+      },
+      {
+        "word": "meio",
+        "start": 240.823,
+        "end": 241.141,
+        "duration": 0.318
+      },
+      {
+        "word": "da",
+        "start": 241.141,
+        "end": 241.3,
+        "duration": 0.159
+      },
+      {
+        "word": "escuridão",
+        "start": 241.3,
+        "end": 242.016,
+        "duration": 0.716
+      },
+      {
+        "word": "cósmica...",
+        "start": 242.016,
+        "end": 242.811,
+        "duration": 0.795
+      },
+      {
+        "word": "E",
+        "start": 242.811,
+        "end": 242.894,
+        "duration": 0.083
+      },
+      {
+        "word": "apenas",
+        "start": 242.894,
+        "end": 243.39,
+        "duration": 0.496
+      },
+      {
+        "word": "rezamos",
+        "start": 243.39,
+        "end": 243.969,
+        "duration": 0.579
+      },
+      {
+        "word": "para",
+        "start": 243.969,
+        "end": 244.3,
+        "duration": 0.331
+      },
+      {
+        "word": "que",
+        "start": 244.3,
+        "end": 244.548,
+        "duration": 0.248
+      },
+      {
+        "word": "nada",
+        "start": 244.548,
+        "end": 244.879,
+        "duration": 0.331
+      },
+      {
+        "word": "hostil",
+        "start": 244.879,
+        "end": 245.375,
+        "duration": 0.496
+      },
+      {
+        "word": "tenha",
+        "start": 245.375,
+        "end": 245.788,
+        "duration": 0.413
+      },
+      {
+        "word": "visto",
+        "start": 245.788,
+        "end": 246.201,
+        "duration": 0.413
+      },
+      {
+        "word": "a",
+        "start": 246.201,
+        "end": 246.284,
+        "duration": 0.083
+      },
+      {
+        "word": "fumaça.",
+        "start": 246.284,
+        "end": 246.863,
+        "duration": 0.579
+      },
+      {
+        "word": "Em",
+        "start": 246.861,
+        "end": 247.011,
+        "duration": 0.15
+      },
+      {
+        "word": "um",
+        "start": 247.011,
+        "end": 247.161,
+        "duration": 0.15
+      },
+      {
+        "word": "confronto",
+        "start": 247.161,
+        "end": 247.837,
+        "duration": 0.676
+      },
+      {
+        "word": "interestelar,",
+        "start": 247.837,
+        "end": 248.814,
+        "duration": 0.977
+      },
+      {
+        "word": "não",
+        "start": 248.814,
+        "end": 249.039,
+        "duration": 0.225
+      },
+      {
+        "word": "existem",
+        "start": 249.039,
+        "end": 249.565,
+        "duration": 0.526
+      },
+      {
+        "word": "batalhas",
+        "start": 249.565,
+        "end": 250.166,
+        "duration": 0.601
+      },
+      {
+        "word": "épicas",
+        "start": 250.166,
+        "end": 250.617,
+        "duration": 0.451
+      },
+      {
+        "word": "com",
+        "start": 250.617,
+        "end": 250.842,
+        "duration": 0.225
+      },
+      {
+        "word": "frotas",
+        "start": 250.842,
+        "end": 251.293,
+        "duration": 0.451
+      },
+      {
+        "word": "de",
+        "start": 251.293,
+        "end": 251.443,
+        "duration": 0.15
+      },
+      {
+        "word": "espaçonaves",
+        "start": 251.443,
+        "end": 252.27,
+        "duration": 0.827
+      },
+      {
+        "word": "como",
+        "start": 252.27,
+        "end": 252.571,
+        "duration": 0.301
+      },
+      {
+        "word": "no",
+        "start": 252.571,
+        "end": 252.721,
+        "duration": 0.15
+      },
+      {
+        "word": "cinema.",
+        "start": 252.721,
+        "end": 253.247,
+        "duration": 0.526
+      },
+      {
+        "word": "A",
+        "start": 253.248,
+        "end": 253.326,
+        "duration": 0.078
+      },
+      {
+        "word": "física",
+        "start": 253.326,
+        "end": 253.797,
+        "duration": 0.471
+      },
+      {
+        "word": "nos",
+        "start": 253.797,
+        "end": 254.032,
+        "duration": 0.235
+      },
+      {
+        "word": "ensina",
+        "start": 254.032,
+        "end": 254.503,
+        "duration": 0.471
+      },
+      {
+        "word": "que",
+        "start": 254.503,
+        "end": 254.738,
+        "duration": 0.235
+      },
+      {
+        "word": "quem",
+        "start": 254.738,
+        "end": 255.052,
+        "duration": 0.314
+      },
+      {
+        "word": "ataca",
+        "start": 255.052,
+        "end": 255.444,
+        "duration": 0.392
+      },
+      {
+        "word": "primeiro",
+        "start": 255.444,
+        "end": 256.072,
+        "duration": 0.628
+      },
+      {
+        "word": "sempre",
+        "start": 256.072,
+        "end": 256.543,
+        "duration": 0.471
+      },
+      {
+        "word": "vence",
+        "start": 256.543,
+        "end": 256.935,
+        "duration": 0.392
+      },
+      {
+        "word": "de",
+        "start": 256.935,
+        "end": 257.092,
+        "duration": 0.157
+      },
+      {
+        "word": "forma",
+        "start": 257.092,
+        "end": 257.484,
+        "duration": 0.392
+      },
+      {
+        "word": "definitiva.",
+        "start": 257.484,
+        "end": 258.347,
+        "duration": 0.863
+      },
+      {
+        "word": "Um",
+        "start": 258.348,
+        "end": 258.487,
+        "duration": 0.139
+      },
+      {
+        "word": "projétil",
+        "start": 258.487,
+        "end": 259.043,
+        "duration": 0.556
+      },
+      {
+        "word": "de",
+        "start": 259.043,
+        "end": 259.182,
+        "duration": 0.139
+      },
+      {
+        "word": "massa",
+        "start": 259.182,
+        "end": 259.53,
+        "duration": 0.348
+      },
+      {
+        "word": "estelar",
+        "start": 259.53,
+        "end": 260.017,
+        "duration": 0.487
+      },
+      {
+        "word": "acelerado",
+        "start": 260.017,
+        "end": 260.643,
+        "duration": 0.626
+      },
+      {
+        "word": "a",
+        "start": 260.643,
+        "end": 260.713,
+        "duration": 0.07
+      },
+      {
+        "word": "noventa",
+        "start": 260.713,
+        "end": 261.2,
+        "duration": 0.487
+      },
+      {
+        "word": "e",
+        "start": 261.2,
+        "end": 261.27,
+        "duration": 0.07
+      },
+      {
+        "word": "nove",
+        "start": 261.27,
+        "end": 261.548,
+        "duration": 0.278
+      },
+      {
+        "word": "por",
+        "start": 261.548,
+        "end": 261.757,
+        "duration": 0.209
+      },
+      {
+        "word": "cento",
+        "start": 261.757,
+        "end": 262.105,
+        "duration": 0.348
+      },
+      {
+        "word": "da",
+        "start": 262.105,
+        "end": 262.244,
+        "duration": 0.139
+      },
+      {
+        "word": "velocidade",
+        "start": 262.244,
+        "end": 262.939,
+        "duration": 0.695
+      },
+      {
+        "word": "da",
+        "start": 262.939,
+        "end": 263.078,
+        "duration": 0.139
+      },
+      {
+        "word": "luz",
+        "start": 263.078,
+        "end": 263.287,
+        "duration": 0.209
+      },
+      {
+        "word": "—",
+        "start": 263.287,
+        "end": 263.357,
+        "duration": 0.07
+      },
+      {
+        "word": "conhecido",
+        "start": 263.357,
+        "end": 263.983,
+        "duration": 0.626
+      },
+      {
+        "word": "como",
+        "start": 263.983,
+        "end": 264.261,
+        "duration": 0.278
+      },
+      {
+        "word": "Projétil",
+        "start": 264.261,
+        "end": 264.817,
+        "duration": 0.556
+      },
+      {
+        "word": "Cinético",
+        "start": 264.817,
+        "end": 265.373,
+        "duration": 0.556
+      },
+      {
+        "word": "Relativístico",
+        "start": 265.373,
+        "end": 266.277,
+        "duration": 0.904
+      },
+      {
+        "word": "—",
+        "start": 266.277,
+        "end": 266.347,
+        "duration": 0.07
+      },
+      {
+        "word": "carrega",
+        "start": 266.347,
+        "end": 266.834,
+        "duration": 0.487
+      },
+      {
+        "word": "energia",
+        "start": 266.834,
+        "end": 267.321,
+        "duration": 0.487
+      },
+      {
+        "word": "cinética",
+        "start": 267.321,
+        "end": 267.877,
+        "duration": 0.556
+      },
+      {
+        "word": "suficiente",
+        "start": 267.877,
+        "end": 268.572,
+        "duration": 0.695
+      },
+      {
+        "word": "para",
+        "start": 268.572,
+        "end": 268.85,
+        "duration": 0.278
+      },
+      {
+        "word": "despedaçar",
+        "start": 268.85,
+        "end": 269.545,
+        "duration": 0.695
+      },
+      {
+        "word": "um",
+        "start": 269.545,
+        "end": 269.684,
+        "duration": 0.139
+      },
+      {
+        "word": "planeta",
+        "start": 269.684,
+        "end": 270.171,
+        "duration": 0.487
+      },
+      {
+        "word": "inteiro",
+        "start": 270.171,
+        "end": 270.658,
+        "duration": 0.487
+      },
+      {
+        "word": "ou",
+        "start": 270.658,
+        "end": 270.797,
+        "duration": 0.139
+      },
+      {
+        "word": "desestabilizar",
+        "start": 270.797,
+        "end": 271.77,
+        "duration": 0.973
+      },
+      {
+        "word": "a",
+        "start": 271.77,
+        "end": 271.84,
+        "duration": 0.07
+      },
+      {
+        "word": "própria",
+        "start": 271.84,
+        "end": 272.327,
+        "duration": 0.487
+      },
+      {
+        "word": "estrela",
+        "start": 272.327,
+        "end": 272.814,
+        "duration": 0.487
+      },
+      {
+        "word": "do",
+        "start": 272.814,
+        "end": 272.953,
+        "duration": 0.139
+      },
+      {
+        "word": "sistema",
+        "start": 272.953,
+        "end": 273.44,
+        "duration": 0.487
+      },
+      {
+        "word": "antes",
+        "start": 273.44,
+        "end": 273.788,
+        "duration": 0.348
+      },
+      {
+        "word": "mesmo",
+        "start": 273.788,
+        "end": 274.136,
+        "duration": 0.348
+      },
+      {
+        "word": "que",
+        "start": 274.136,
+        "end": 274.345,
+        "duration": 0.209
+      },
+      {
+        "word": "as",
+        "start": 274.345,
+        "end": 274.484,
+        "duration": 0.139
+      },
+      {
+        "word": "vítimas",
+        "start": 274.484,
+        "end": 274.971,
+        "duration": 0.487
+      },
+      {
+        "word": "percebam",
+        "start": 274.971,
+        "end": 275.527,
+        "duration": 0.556
+      },
+      {
+        "word": "a",
+        "start": 275.527,
+        "end": 275.597,
+        "duration": 0.07
+      },
+      {
+        "word": "luz",
+        "start": 275.597,
+        "end": 275.806,
+        "duration": 0.209
+      },
+      {
+        "word": "da",
+        "start": 275.806,
+        "end": 275.945,
+        "duration": 0.139
+      },
+      {
+        "word": "arma",
+        "start": 275.945,
+        "end": 276.223,
+        "duration": 0.278
+      },
+      {
+        "word": "se",
+        "start": 276.223,
+        "end": 276.362,
+        "duration": 0.139
+      },
+      {
+        "word": "aproximando.",
+        "start": 276.362,
+        "end": 277.196,
+        "duration": 0.834
+      },
+      {
+        "word": "Na",
+        "start": 277.185,
+        "end": 277.374,
+        "duration": 0.189
+      },
+      {
+        "word": "teoria",
+        "start": 277.374,
+        "end": 277.94,
+        "duration": 0.566
+      },
+      {
+        "word": "dos",
+        "start": 277.94,
+        "end": 278.223,
+        "duration": 0.283
+      },
+      {
+        "word": "jogos,",
+        "start": 278.223,
+        "end": 278.789,
+        "duration": 0.566
+      },
+      {
+        "word": "o",
+        "start": 278.789,
+        "end": 278.883,
+        "duration": 0.094
+      },
+      {
+        "word": "primeiro",
+        "start": 278.883,
+        "end": 279.637,
+        "duration": 0.754
+      },
+      {
+        "word": "ataque",
+        "start": 279.637,
+        "end": 280.203,
+        "duration": 0.566
+      },
+      {
+        "word": "é",
+        "start": 280.203,
+        "end": 280.297,
+        "duration": 0.094
+      },
+      {
+        "word": "o",
+        "start": 280.297,
+        "end": 280.391,
+        "duration": 0.094
+      },
+      {
+        "word": "único",
+        "start": 280.391,
+        "end": 280.863,
+        "duration": 0.472
+      },
+      {
+        "word": "ataque.",
+        "start": 280.863,
+        "end": 281.523,
+        "duration": 0.66
+      },
+      {
+        "word": "Talvez",
+        "start": 281.523,
+        "end": 281.993,
+        "duration": 0.47
+      },
+      {
+        "word": "o",
+        "start": 281.993,
+        "end": 282.071,
+        "duration": 0.078
+      },
+      {
+        "word": "Paradoxo",
+        "start": 282.071,
+        "end": 282.697,
+        "duration": 0.626
+      },
+      {
+        "word": "de",
+        "start": 282.697,
+        "end": 282.854,
+        "duration": 0.157
+      },
+      {
+        "word": "Fermi",
+        "start": 282.854,
+        "end": 283.246,
+        "duration": 0.392
+      },
+      {
+        "word": "nunca",
+        "start": 283.246,
+        "end": 283.638,
+        "duration": 0.392
+      },
+      {
+        "word": "tenha",
+        "start": 283.638,
+        "end": 284.03,
+        "duration": 0.392
+      },
+      {
+        "word": "sido",
+        "start": 284.03,
+        "end": 284.343,
+        "duration": 0.313
+      },
+      {
+        "word": "sobre",
+        "start": 284.343,
+        "end": 284.735,
+        "duration": 0.392
+      },
+      {
+        "word": "a",
+        "start": 284.735,
+        "end": 284.813,
+        "duration": 0.078
+      },
+      {
+        "word": "raridade",
+        "start": 284.813,
+        "end": 285.439,
+        "duration": 0.626
+      },
+      {
+        "word": "da",
+        "start": 285.439,
+        "end": 285.596,
+        "duration": 0.157
+      },
+      {
+        "word": "vida",
+        "start": 285.596,
+        "end": 285.909,
+        "duration": 0.313
+      },
+      {
+        "word": "inteligente.",
+        "start": 285.909,
+        "end": 286.849,
+        "duration": 0.94
+      },
+      {
+        "word": "Talvez",
+        "start": 286.848,
+        "end": 287.263,
+        "duration": 0.415
+      },
+      {
+        "word": "a",
+        "start": 287.263,
+        "end": 287.332,
+        "duration": 0.069
+      },
+      {
+        "word": "galáxia",
+        "start": 287.332,
+        "end": 287.816,
+        "duration": 0.484
+      },
+      {
+        "word": "esteja",
+        "start": 287.816,
+        "end": 288.231,
+        "duration": 0.415
+      },
+      {
+        "word": "fervilhando",
+        "start": 288.231,
+        "end": 288.992,
+        "duration": 0.761
+      },
+      {
+        "word": "de",
+        "start": 288.992,
+        "end": 289.13,
+        "duration": 0.138
+      },
+      {
+        "word": "impérios",
+        "start": 289.13,
+        "end": 289.683,
+        "duration": 0.553
+      },
+      {
+        "word": "cósmicos,",
+        "start": 289.683,
+        "end": 290.306,
+        "duration": 0.623
+      },
+      {
+        "word": "inteligências",
+        "start": 290.306,
+        "end": 291.205,
+        "duration": 0.899
+      },
+      {
+        "word": "artificiais",
+        "start": 291.205,
+        "end": 291.966,
+        "duration": 0.761
+      },
+      {
+        "word": "ancestrais",
+        "start": 291.966,
+        "end": 292.658,
+        "duration": 0.692
+      },
+      {
+        "word": "e",
+        "start": 292.658,
+        "end": 292.727,
+        "duration": 0.069
+      },
+      {
+        "word": "civilizações",
+        "start": 292.727,
+        "end": 293.557,
+        "duration": 0.83
+      },
+      {
+        "word": "que",
+        "start": 293.557,
+        "end": 293.765,
+        "duration": 0.208
+      },
+      {
+        "word": "aprenderam",
+        "start": 293.765,
+        "end": 294.457,
+        "duration": 0.692
+      },
+      {
+        "word": "a",
+        "start": 294.457,
+        "end": 294.526,
+        "duration": 0.069
+      },
+      {
+        "word": "dominar",
+        "start": 294.526,
+        "end": 295.01,
+        "duration": 0.484
+      },
+      {
+        "word": "as",
+        "start": 295.01,
+        "end": 295.148,
+        "duration": 0.138
+      },
+      {
+        "word": "estrelas.",
+        "start": 295.148,
+        "end": 295.771,
+        "duration": 0.623
+      },
+      {
+        "word": "Mas",
+        "start": 295.773,
+        "end": 296.001,
+        "duration": 0.228
+      },
+      {
+        "word": "todas",
+        "start": 296.001,
+        "end": 296.38,
+        "duration": 0.379
+      },
+      {
+        "word": "elas",
+        "start": 296.38,
+        "end": 296.683,
+        "duration": 0.303
+      },
+      {
+        "word": "compartilham",
+        "start": 296.683,
+        "end": 297.593,
+        "duration": 0.91
+      },
+      {
+        "word": "a",
+        "start": 297.593,
+        "end": 297.669,
+        "duration": 0.076
+      },
+      {
+        "word": "mesma",
+        "start": 297.669,
+        "end": 298.048,
+        "duration": 0.379
+      },
+      {
+        "word": "sabedoria",
+        "start": 298.048,
+        "end": 298.731,
+        "duration": 0.683
+      },
+      {
+        "word": "terrível",
+        "start": 298.731,
+        "end": 299.338,
+        "duration": 0.607
+      },
+      {
+        "word": "forjada",
+        "start": 299.338,
+        "end": 299.869,
+        "duration": 0.531
+      },
+      {
+        "word": "ao",
+        "start": 299.869,
+        "end": 300.021,
+        "duration": 0.152
+      },
+      {
+        "word": "longo",
+        "start": 300.021,
+        "end": 300.4,
+        "duration": 0.379
+      },
+      {
+        "word": "de",
+        "start": 300.4,
+        "end": 300.552,
+        "duration": 0.152
+      },
+      {
+        "word": "éons:",
+        "start": 300.552,
+        "end": 300.931,
+        "duration": 0.379
+      },
+      {
+        "word": "o",
+        "start": 300.931,
+        "end": 301.007,
+        "duration": 0.076
+      },
+      {
+        "word": "silêncio",
+        "start": 301.007,
+        "end": 301.614,
+        "duration": 0.607
+      },
+      {
+        "word": "absoluto",
+        "start": 301.614,
+        "end": 302.221,
+        "duration": 0.607
+      },
+      {
+        "word": "é",
+        "start": 302.221,
+        "end": 302.297,
+        "duration": 0.076
+      },
+      {
+        "word": "a",
+        "start": 302.297,
+        "end": 302.373,
+        "duration": 0.076
+      },
+      {
+        "word": "única",
+        "start": 302.373,
+        "end": 302.752,
+        "duration": 0.379
+      },
+      {
+        "word": "armadura",
+        "start": 302.752,
+        "end": 303.359,
+        "duration": 0.607
+      },
+      {
+        "word": "capaz",
+        "start": 303.359,
+        "end": 303.738,
+        "duration": 0.379
+      },
+      {
+        "word": "de",
+        "start": 303.738,
+        "end": 303.89,
+        "duration": 0.152
+      },
+      {
+        "word": "proteger",
+        "start": 303.89,
+        "end": 304.497,
+        "duration": 0.607
+      },
+      {
+        "word": "uma",
+        "start": 304.497,
+        "end": 304.725,
+        "duration": 0.228
+      },
+      {
+        "word": "espécie",
+        "start": 304.725,
+        "end": 305.256,
+        "duration": 0.531
+      },
+      {
+        "word": "no",
+        "start": 305.256,
+        "end": 305.408,
+        "duration": 0.152
+      },
+      {
+        "word": "cosmos.",
+        "start": 305.408,
+        "end": 305.939,
+        "duration": 0.531
+      },
+      {
+        "word": "Da",
+        "start": 305.935,
+        "end": 306.094,
+        "duration": 0.159
+      },
+      {
+        "word": "próxima",
+        "start": 306.094,
+        "end": 306.651,
+        "duration": 0.557
+      },
+      {
+        "word": "vez",
+        "start": 306.651,
+        "end": 306.89,
+        "duration": 0.239
+      },
+      {
+        "word": "que",
+        "start": 306.89,
+        "end": 307.129,
+        "duration": 0.239
+      },
+      {
+        "word": "você",
+        "start": 307.129,
+        "end": 307.447,
+        "duration": 0.318
+      },
+      {
+        "word": "olhar",
+        "start": 307.447,
+        "end": 307.845,
+        "duration": 0.398
+      },
+      {
+        "word": "para",
+        "start": 307.845,
+        "end": 308.163,
+        "duration": 0.318
+      },
+      {
+        "word": "a",
+        "start": 308.163,
+        "end": 308.243,
+        "duration": 0.08
+      },
+      {
+        "word": "vastidão",
+        "start": 308.243,
+        "end": 308.879,
+        "duration": 0.636
+      },
+      {
+        "word": "estrelada",
+        "start": 308.879,
+        "end": 309.595,
+        "duration": 0.716
+      },
+      {
+        "word": "e",
+        "start": 309.595,
+        "end": 309.675,
+        "duration": 0.08
+      },
+      {
+        "word": "sentir",
+        "start": 309.675,
+        "end": 310.152,
+        "duration": 0.477
+      },
+      {
+        "word": "que",
+        "start": 310.152,
+        "end": 310.391,
+        "duration": 0.239
+      },
+      {
+        "word": "estamos",
+        "start": 310.391,
+        "end": 310.948,
+        "duration": 0.557
+      },
+      {
+        "word": "sós...",
+        "start": 310.948,
+        "end": 311.425,
+        "duration": 0.477
+      },
+      {
+        "word": "Lembre-se",
+        "start": 311.423,
+        "end": 312.616,
+        "duration": 1.193
+      },
+      {
+        "word": "de",
+        "start": 312.616,
+        "end": 312.881,
+        "duration": 0.265
+      },
+      {
+        "word": "que",
+        "start": 312.881,
+        "end": 313.279,
+        "duration": 0.398
+      },
+      {
+        "word": "o",
+        "start": 313.279,
+        "end": 313.412,
+        "duration": 0.133
+      },
+      {
+        "word": "silêncio",
+        "start": 313.559,
+        "end": 314.157,
+        "duration": 0.598
+      },
+      {
+        "word": "do",
+        "start": 314.157,
+        "end": 314.306,
+        "duration": 0.149
+      },
+      {
+        "word": "universo",
+        "start": 314.306,
+        "end": 314.904,
+        "duration": 0.598
+      },
+      {
+        "word": "pode",
+        "start": 314.904,
+        "end": 315.203,
+        "duration": 0.299
+      },
+      {
+        "word": "não",
+        "start": 315.203,
+        "end": 315.427,
+        "duration": 0.224
+      },
+      {
+        "word": "ser",
+        "start": 315.427,
+        "end": 315.651,
+        "duration": 0.224
+      },
+      {
+        "word": "a",
+        "start": 315.651,
+        "end": 315.726,
+        "duration": 0.075
+      },
+      {
+        "word": "ausência",
+        "start": 315.726,
+        "end": 316.324,
+        "duration": 0.598
+      },
+      {
+        "word": "de",
+        "start": 316.324,
+        "end": 316.473,
+        "duration": 0.149
+      },
+      {
+        "word": "vida,",
+        "start": 316.473,
+        "end": 316.847,
+        "duration": 0.374
+      },
+      {
+        "word": "mas",
+        "start": 316.847,
+        "end": 317.071,
+        "duration": 0.224
+      },
+      {
+        "word": "a",
+        "start": 317.071,
+        "end": 317.146,
+        "duration": 0.075
+      },
+      {
+        "word": "prova",
+        "start": 317.146,
+        "end": 317.52,
+        "duration": 0.374
+      },
+      {
+        "word": "mais",
+        "start": 317.52,
+        "end": 317.819,
+        "duration": 0.299
+      },
+      {
+        "word": "aterrorizante",
+        "start": 317.819,
+        "end": 318.791,
+        "duration": 0.972
+      },
+      {
+        "word": "de",
+        "start": 318.791,
+        "end": 318.94,
+        "duration": 0.149
+      },
+      {
+        "word": "que",
+        "start": 318.94,
+        "end": 319.164,
+        "duration": 0.224
+      },
+      {
+        "word": "todos",
+        "start": 319.164,
+        "end": 319.538,
+        "duration": 0.374
+      },
+      {
+        "word": "estão",
+        "start": 319.538,
+        "end": 319.912,
+        "duration": 0.374
+      },
+      {
+        "word": "se",
+        "start": 319.912,
+        "end": 320.061,
+        "duration": 0.149
+      },
+      {
+        "word": "escondendo.",
+        "start": 320.061,
+        "end": 320.883,
+        "duration": 0.822
+      }
+    ]
+  },
+  "audioPath": "video-007-dark-forest_audio.mp3",
+  "audioIntroPath": "video-007-dark-forest_audio_intro.mp3",
+  "audioRestPath": "video-007-dark-forest_audio_rest.mp3",
+  "bgMusicPath": "audio/ambient_space_drone.wav",
+  "bgMusicVolume": 0.12
+}

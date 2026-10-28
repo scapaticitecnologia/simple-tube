@@ -1,0 +1,118 @@
+{
+  "id": "video-001-wow-signal",
+  "title": "O Sinal WOW!: O Enigma de 1977 que a Ciência Demorou 50 Anos para Explicar",
+  "topic": "Sinal WOW!, Astrofísica e Tecnologia de Rádio Cósmica",
+  "channel": "Scapatici Tecnologia",
+  "target_duration_seconds": 320,
+  "fps": 30,
+  "seo": {
+    "title_options": [
+      "O Sinal WOW!: O Enigma de 1977 que a Ciência Demorou 50 Anos para Explicar",
+      "Recebemos um Contato Alienígena em 1977? A Resposta Definitiva da Ciência",
+      "O Mistério do Código 6EQUJ5: O Maior Sinal de Rádio do Espaço Explicado"
+    ],
+    "description": "Em 15 de agosto de 1977, o radiotelescópio Big Ear captou um sinal de rádio de 72 segundos tão intenso e focado que chocou astrônomos do mundo inteiro. Conhecido como o Sinal WOW!, esse evento permaneceu como o candidato mais forte a uma transmissão extraterrestre por quase cinco décadas.\n\nNeste vídeo completo da Scapatici Tecnologia, mergulhamos nos dados originais de computação de 1977, na frequência proibida do hidrogênio neutro, nas teorias de cometas e na surpreendente explicação científica revelada recentemente pelos astrofísicos.\n\n⏱️ Capítulos:\n00:00 A Noite que Mudou a Astronomia\n00:38 O Enigmático Código 6EQUJ5\n01:18 A Frequência Cósmica de 1420 MHz\n01:58 O Mistério da Constelação de Sagitário\n02:38 A Eliminação de Hipóteses Militares e Terrestres\n03:18 A Teoria dos Cometas: Fato ou Equívoco?\n03:58 A Revelação de 2024: O Maser Cósmico e Magnetares\n04:38 O Paradoxo de Fermi e a Nova Fronteira Tecnológica\n\n🔔 Inscreva-se no Scapatici Tecnologia para acompanhar as fronteiras da ciência, inteligência artificial e mistérios do universo.\n\n#ScapaticiTecnologia #SinalWOW #Astronomia #CuriosidadesCientificas #Fisica #Cosmos #Espaco",
+    "tags": [
+      "scapatici tecnologia",
+      "sinal wow",
+      "codigo 6equj5",
+      "paradoxo de fermi",
+      "astronomia",
+      "ciencia e tecnologia",
+      "vida extraterrestre",
+      "maser cosmico",
+      "radiotelescopio",
+      "curiosidades cientificas"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "scene_1_intro",
+      "type": "hook",
+      "visual_theme": "retro_observatory",
+      "headline": "A TRANSMISSÃO QUE PAROU O MUNDO",
+      "narration": "Na noite silenciosa de 15 de agosto de 1977, em Delaware, Ohio, o gigantesco radiotelescópio Big Ear estava escaneando o céu sem qualquer tripulação humana presente. Ele operava de forma totalmente automatizada, gravando sinais eletromagnéticos do espaço interestelar diretamente em folhas contínuas de um mainframe IBM. Mas, exatamente às 22 horas e 16 minutos, os receptores registraram uma anomalia sem precedentes: um pulso de rádio trinta vezes mais potente que todo o ruído de fundo do universo observável, com duração precisa de setenta e dois segundos.",
+      "highlight_words": ["15 DE AGOSTO DE 1977", "BIG EAR", "72 SEGUNDOS", "ANOMALIA"],
+      "stats": { "label": "Potência Acima do Ruído", "value": "30x" },
+      "backgroundImage": "assets/video-001-wow-signal/scene_1.jpg",
+      "panDirection": "zoom-in"
+    },
+    {
+      "id": "scene_2_code",
+      "type": "investigation",
+      "visual_theme": "code_printout",
+      "headline": "O CÓDIGO ALFANUMÉRICO 6EQUJ5",
+      "narration": "Dias depois, quando o astrônomo voluntário Jerry Ehman revisava os relatórios impressos pelo computador, ele se deparou com uma sequência vertical estarrecedora: 6, E, Q, U, J, 5. Naquele sistema de computação dos anos setenta, os números de um a nove mediam intensidades baixas, enquanto letras do alfabeto representavam picos cada vez maiores. A letra U indicava uma potência descomunal de intensidade trinta. Tomado pelo choque e pela adrenalina científica, Ehman pegou uma caneta esferográfica vermelha, circulou os seis caracteres e escreveu uma única palavra na margem: WOW! Nascia assim o maior enigma da radioastronomia.",
+      "highlight_words": ["6EQUJ5", "INTENSIDADE U", "JERRY EHMAN", "WOW!"],
+      "stats": { "label": "Pico da Letra U", "value": "Escala 30" },
+      "backgroundImage": "assets/video-001-wow-signal/scene_2.jpg",
+      "panDirection": "zoom-out"
+    },
+    {
+      "id": "scene_3_frequency",
+      "type": "investigation",
+      "visual_theme": "hydrogen_line",
+      "headline": "A FREQUÊNCIA PROIBIDA: 1420 MHZ",
+      "narration": "O detalhe mais inquietante para os cientistas não foi apenas a força do sinal, mas sua frequência exata. O evento ocorreu em 1420.405 Megahertz. Para os físicos e radioastrônomos, esse número é sagrado: é a linha de emissão do hidrogênio neutro, o elemento mais abundante de todo o cosmos. Anos antes, os físicos Philip Morrison e Giuseppe Cocconi haviam teorizado que, se qualquer civilização inteligente na galáxia tentasse se comunicar conosco, usaria exatamente essa frequência, conhecida como o canal de saudação universal. Na Terra, tratados internacionais proíbem qualquer transmissão comercial nessa faixa para manter o canal limpo.",
+      "highlight_words": ["1420.405 MHz", "HIDROGÊNIO NEUTRO", "CANAL CÓSMICO"],
+      "stats": { "label": "Comprimento de Onda", "value": "21 cm" },
+      "backgroundImage": "assets/video-001-wow-signal/scene_3.jpg",
+      "panDirection": "zoom-in"
+    },
+    {
+      "id": "scene_4_sagittarius",
+      "type": "investigation",
+      "visual_theme": "deep_space_void",
+      "headline": "O ENIGMA DA CONSTELAÇÃO DE SAGITÁRIO",
+      "narration": "O Big Ear utilizava a rotação da Terra para varrer o céu. Por causa de sua abertura física, qualquer sinal estacionário no espaço levaria exatamente setenta e dois segundos para passar pelo seu campo de visão, desenhando uma curva perfeita em formato de sino. Foi rigorosamente o que aconteceu. O sinal emanava de uma região próxima à estrela Chi Sagittarii, em direção ao núcleo denso da Via Láctea. Porém, nas décadas seguintes, os maiores radiotelescópios do planeta, incluindo o Very Large Array no Novo México e o Observatório de Arecibo, apontaram para as mesmas coordenadas centenas de vezes. O resultado? Um silêncio perturbador.",
+      "highlight_words": ["CHI SAGITTARII", "CURVA DE SINO", "SILÊNCIO ABSOLUTO"],
+      "stats": { "label": "Buscas Posteriores", "value": "100+ Horas" },
+      "backgroundImage": "assets/video-001-wow-signal/scene_4.jpg",
+      "panDirection": "zoom-out"
+    },
+    {
+      "id": "scene_5_earth_origins",
+      "type": "investigation",
+      "visual_theme": "radar_dishes",
+      "headline": "DESVENDANDO A HIPÓTESE MILITAR E TERRESTRE",
+      "narration": "Durante anos, os céticos tentaram explicar o evento como uma interferência humana. Seria um satélite militar secreto americano ou soviético? Ou talvez o reflexo de um radar em uma aeronave comercial? A resposta da astrofísica foi categórica: não. O Big Ear possuía duas buzinas receptoras ligeiramente separadas no espaço. Se fosse um objeto em órbita baixa da Terra ou uma aeronave, o sinal teria sido detectado por ambas as cornetas com poucos minutos de intervalo. Ele foi captado por apenas uma. O que quer que tenha emitido o sinal WOW!, estava no espaço profundo, muito além da Lua.",
+      "highlight_words": ["INTERFERÊNCIA DESCARTADA", "DUAS BUZINAS", "ESPAÇO PROFUNDO"],
+      "stats": { "label": "Origem Terrestre", "value": "0% Chance" },
+      "backgroundImage": "assets/video-001-wow-signal/scene_5.jpg",
+      "panDirection": "zoom-in"
+    },
+    {
+      "id": "scene_6_comets",
+      "type": "revelation",
+      "visual_theme": "space_comet",
+      "headline": "A TEORIA DOS COMETAS E SUA FALHA",
+      "narration": "Em 2016, uma nova hipótese causou estardalhaço mundial. Um pesquisador propôs que dois cometas catalogados recentemente, desconhecidos na época de 1977, poderiam estar cruzando aquela região exata de Sagitário. Como os cometas liberam gigantescas nuvens de gás de hidrogênio ao se aproximarem do Sol, eles poderiam ter emitido em 1420 Megahertz. Contudo, astrônomos do Instituto SETI logo apontaram falhas graves nessa explicação. Nuvens de cometa são difusas e teriam gerado um sinal amplo e contínuo por dias, nunca um feixe pontual e super concentrado de apenas um minuto.",
+      "highlight_words": ["COMETAS 266P", "NUVEM DE GÁS", "REFUTAÇÃO CIENTÍFICA"],
+      "stats": { "label": "Status da Teoria", "value": "Refutada" },
+      "backgroundImage": "assets/video-001-wow-signal/scene_6.jpg",
+      "panDirection": "zoom-out"
+    },
+    {
+      "id": "scene_7_maser_solution",
+      "type": "climax",
+      "visual_theme": "magnetar_maser",
+      "headline": "A REVELAÇÃO: O MASER CÓSMICO E A MAGNETAR",
+      "narration": "A virada definitiva na história ocorreu em estudos astrofísicos recentes liderados pelo projeto Arecibo WOW. Analisando dados de arquivo com algoritmos modernos, os pesquisadores descobriram sinais similares, embora menos intensos, originados por fenômenos naturais raros conhecidos como masers astrofísicos. O que aconteceu em 1977 foi provavelmente o alinhamento cósmico mais extraordinário já registrado: a explosão de radiação de uma magnetar, um tipo extremo de estrela de nêutrons magnética, atravessou uma densa nuvem fria de hidrogênio neutro, agindo como um gigantesco amplificador natural de micro-ondas em direção exata à Terra.",
+      "highlight_words": ["MASER ASTROFÍSICO", "MAGNETAR", "AMPLIFICADOR CÓSMICO"],
+      "stats": { "label": "Mecanismo Físico", "value": "Laser Cósmico" },
+      "backgroundImage": "assets/video-001-wow-signal/scene_7.jpg",
+      "panDirection": "zoom-in"
+    },
+    {
+      "id": "scene_8_future_cta",
+      "type": "cta",
+      "visual_theme": "future_network",
+      "headline": "O PARADOXO DE FERMI E A TECNOLOGIA DO AMANHÃ",
+      "narration": "A ciência finalmente encontrou uma explicação física plausível para o sinal WOW, revelando o poder assustador da física dos magnetares. Mas isso encerra o debate? Para muitos cientistas, a precisão matemática da frequência 1420 Megahertz ainda deixa uma fagulha de mistério no ar: e se foi uma baliza tecnológica passageira? O que você acha? Acredita que foi apenas a fúria da natureza cósmica ou um vislumbre fugaz de outra civilização? Deixe sua teoria nos comentários, inscreva-se no canal Scapatici Tecnologia para explorar as maiores fronteiras da ciência e até o próximo vídeo!",
+      "highlight_words": ["SCAPATICI TECNOLOGIA", "PARADOXO DE FERMI", "DEIXE SEU COMENTÁRIO"],
+      "stats": { "label": "Canal Oficial", "value": "Scapatici Tech" },
+      "backgroundImage": "assets/video-001-wow-signal/scene_8.jpg",
+      "panDirection": "zoom-out"
+    }
+  ]
+}

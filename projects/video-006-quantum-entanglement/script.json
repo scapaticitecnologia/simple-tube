@@ -1,0 +1,122 @@
+{
+  "id": "video-006-quantum-entanglement",
+  "title": "O Universo Não é Localmente Real: O Mistério Quântico Que Assustou Albert Einstein",
+  "topic": "Entrelaçamento Quântico, Paradoxo EPR, Teorema de Bell e Nobel de Física de 2022",
+  "channel": "Scapatici Tecnologia",
+  "target_duration_seconds": 325,
+  "fps": 30,
+  "vinheta_duration_frames": 90,
+  "bg_music_volume": 0.12,
+  "seo": {
+    "title_options": [
+      "O Universo Não é Localmente Real: O Mistério Quântico Que Assustou Albert Einstein",
+      "Entrelaçamento Quântico: A Descoberta que Provou Que o Espaço é uma Ilusão",
+      "A Física Provou que Einstein Estava Errado: O Universo Não é o que Parece"
+    ],
+    "description": "Se você separar dois fótons entrelaçados em lados opostos da galáxia e medir um deles, o outro reage instantaneamente, superando a velocidade da luz. Albert Einstein chamou essa anomalia com desprezo de 'ação fantasmagórica à distância' e passou o resto da vida tentando refutar essa teoria. Mas em 2022, o Prêmio Nobel de Física confirmou o veredito mais perturbador da história da ciência: o nosso universo não é localmente real.\n\nNeste sexto episódio da Scapatici Tecnologia, mergulhamos no Paradoxo EPR de 1935, na genialidade do Teorema de John Bell de 1964, nos experimentos revolucionários de Alain Aspect e Anton Zeilinger, e no nascimento do teletransporte quântico e da computação quântica de última geração.\n\n⏱️ Capítulos:\n00:00 A 'Ação Fantasmagórica' que Desafiou Einstein\n00:58 Scapatici Tecnologia\n01:01 O Paradoxo EPR: A Última Batalha de Einstein\n01:43 O Teorema de Bell: Testando a Própria Realidade\n02:25 O Experimento de Alain Aspect: O Choque Experimental\n03:07 Prêmio Nobel de 2022: O que Significa 'Não Ser Localmente Real'?\n03:49 Teletransporte Quântico: Da Ficção aos Satélites Espaciais\n04:31 A Internet Quântica e o Futuro Inviolável\n05:13 O Cosmos Conectado: Estamos Todos Entrelaçados Desde o Big Bang?\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para acompanhar as fronteiras da mecânica quântica, astrofísica e inteligência artificial.\n\n#ScapaticiTecnologia #EntrelacamentoQuantico #AlbertEinstein #FisicaQuantica #NobelDeFisica #Teletransporte #MecanicaQuantica #Ciencia #Cosmos",
+    "tags": [
+      "scapatici tecnologia",
+      "entrelacamento quantico",
+      "albert einstein",
+      "acao fantasmagorica",
+      "fisica quantica",
+      "premio nobel de fisica",
+      "teorema de bell",
+      "teletransporte quantico",
+      "computacao quantica",
+      "mecanica quantica",
+      "curiosidades cientificas",
+      "misterios do universo"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "scene_1_intro_spooky",
+      "type": "hook",
+      "visual_theme": "quantum_entanglement_spooky_action",
+      "headline": "A 'AÇÃO FANTASMAGÓRICA' QUE DESAFIOU EINSTEIN",
+      "narration": "Imagine duas partículas criadas exatamente no mesmo instante. Se você mantiver uma delas aqui na Terra e levar a outra para a borda mais distante do universo observável... No exato milésimo de segundo em que você medir a direção de rotação da primeira partícula, a segunda partícula adotará a rotação oposta instantaneamente. Sem atraso. Sem sinal viajando pelo espaço. Superando qualquer barreira de tempo e espaço. Quando Albert Einstein se deparou com essa consequência matemática da física quântica, ele se recusou terminantemente a aceitá-la. Ele chamou o fenômeno com ironia e desprezo de 'ação fantasmagórica à distância'. Para Einstein, aceitar isso significaria admitir que a velocidade da luz não era o limite supremo do cosmos, ou que o próprio conceito de realidade física estava quebrado. Ele jurou até o fim da vida que a física quântica estava errada... Mas em 2022, o Prêmio Nobel de Física coroou a prova experimental mais chocante do século: Einstein estava errado, e o nosso universo fundamentalmente não é localmente real.",
+      "highlight_words": ["AÇÃO FANTASMAGÓRICA", "ALBERT EINSTEIN", "INSTANTANEAMENTE", "NÃO É LOCALMENTE REAL"],
+      "stats": { "label": "Veredito da Física", "value": "Nobel de Física 2022" },
+      "backgroundImage": "assets/video-006-quantum-entanglement/scene_1.jpg",
+      "panDirection": "zoom-in"
+    },
+    {
+      "id": "scene_2_epr_paradox",
+      "type": "investigation",
+      "visual_theme": "einstein_podolsky_rosen_1935",
+      "headline": "O PARADOXO EPR: A ÚLTIMA BATALHA DE EINSTEIN",
+      "narration": "Em 1935, inconformado com a ideia de que a natureza dependesse de probabilidades e conexões invisíveis, Einstein se uniu aos físicos Boris Podolsky e Nathan Rosen para publicar um dos artigos mais influentes de todos os tempos: o Paradoxo EPR. O argumento deles parecia irrefutável. Pense em um par de sapatos guardados em duas caixas idênticas. Se você abrir uma caixa e encontrar o sapato esquerdo, você sabe instantaneamente que a outra caixa contém o sapato direito... Não porque houve uma comunicação mágica entre eles, mas porque o sapato sempre foi o direito desde o momento em que foi embalado. Einstein argumentava que com as partículas quânticas acontecia o mesmo: existiam variáveis ocultas locais programadas desde a sua criação. A física quântica de Niels Bohr seria apenas uma teoria incompleta.",
+      "highlight_words": ["PARADOXO EPR", "VARIÁVEIS OCULTAS", "NIELS BOHR", "INCOMPLETA"],
+      "stats": { "label": "Ano do Desafio", "value": "1935 (Artigo EPR)" },
+      "backgroundImage": "assets/video-006-quantum-entanglement/scene_2.jpg",
+      "panDirection": "pan-right"
+    },
+    {
+      "id": "scene_3_bell_theorem",
+      "type": "investigation",
+      "visual_theme": "john_bell_inequality_quantum_math",
+      "headline": "O TEOREMA DE BELL: TESTANDO A PRÓPRIA REALIDADE",
+      "narration": "Por quase trinta anos, o debate entre Einstein e Bohr ficou preso no campo da pura filosofia. Parecia impossível testar experimentalmente se as partículas já tinham propriedades pré-definidas ou se a realidade era genuinamente indeterminada. Foi quando, em 1964, um brilhante físico norte-irlandês chamado John Stewart Bell mudou os rumos da ciência moderna. Bell deduziu uma desigualdade matemática rigorosa. Ele provou matematicamente que, se a visão de Einstein estivesse correta e as partículas tivessem informações secretas locais pré-programadas, as correlações entre as medidas nunca poderiam ultrapassar um determinado limite numérico. Pela primeira vez na história, a existência da própria realidade objetiva podia ser decidida dentro de um laboratório.",
+      "highlight_words": ["JOHN STEWART BELL", "DESIGUALDADE DE BELL", "REALIDADE OBJETIVA", "CORRELAÇÕES"],
+      "stats": { "label": "Marco Teórico", "value": "Desigualdade de Bell (1964)" },
+      "backgroundImage": "assets/video-006-quantum-entanglement/scene_3.jpg",
+      "panDirection": "pan-left"
+    },
+    {
+      "id": "scene_4_aspect_experiment",
+      "type": "investigation",
+      "visual_theme": "alain_aspect_laser_optics_lab",
+      "headline": "O EXPERIMENTO DECISIVO: O CHOQUE EXPERIMENTAL",
+      "narration": "Na década de 1980, na Universidade de Paris, o físico Alain Aspect construiu um dos experimentos ópticos mais sofisticados do planeta. Ele disparou pares de fótons entrelaçados em direções opostas em direção a detectores separados por doze metros. O segredo genial de Aspect foi alterar as configurações dos detectores enquanto os fótons já estavam em pleno voo. O tempo que a luz levava para cruzar a distância entre eles era muito maior do que a mudança no detector. Se houvesse qualquer comunicação enviada de um fóton para o outro, ela teria que viajar a uma velocidade infinitamente superior à da luz. O resultado saiu e chocou o mundo: a desigualdade de Bell foi violada com perfeição matemática. Einstein havia perdido a aposta.",
+      "highlight_words": ["ALAIN ASPECT", "FÓTONS EM VOO", "SUPERIOR À LUZ", "DESIGUALDADE VIOLADA"],
+      "stats": { "label": "Velocidade de Troca", "value": "Aparente Instantânea" },
+      "backgroundImage": "assets/video-006-quantum-entanglement/scene_4.jpg",
+      "panDirection": "zoom-out"
+    },
+    {
+      "id": "scene_5_nobel_2022",
+      "type": "climax",
+      "visual_theme": "nobel_prize_physics_2022_not_locally_real",
+      "headline": "O QUE SIGNIFICA 'NÃO SER LOCALMENTE REAL'?",
+      "narration": "Em outubro de 2022, a Real Academia Sueca de Ciências concedeu o Prêmio Nobel de Física a Alain Aspect, John Clauser e Anton Zeilinger. O anúncio oficial usou uma frase que ecoou por todo o meio acadêmico: 'Os experimentos provaram que o universo não é localmente real'. Mas o que essa afirmação perturbadora realmente significa? Realismo significa que os objetos possuem propriedades definidas mesmo quando ninguém está olhando para eles. Localidade significa que um objeto só pode ser influenciado pelo que está ao seu redor imediato, limitado pela velocidade da luz. Ao derrubar o realismo local, a física provou que você é obrigado a abandonar pelo menos uma dessas duas premissas intuitivas. Ou as coisas não têm propriedades reais até serem medidas... Ou o espaço entre os corpos é uma ilusão e tudo está fundamentalmente interligado.",
+      "highlight_words": ["PRÊMIO NOBEL 2022", "NÃO É LOCALMENTE REAL", "PROPRIEDADES DEFINIDAS", "ESPAÇO É UMA ILUSÃO"],
+      "stats": { "label": "Láureas do Nobel", "value": "Aspect, Clauser e Zeilinger" },
+      "backgroundImage": "assets/video-006-quantum-entanglement/scene_5.jpg",
+      "panDirection": "zoom-in"
+    },
+    {
+      "id": "scene_6_quantum_teleportation",
+      "type": "technology",
+      "visual_theme": "quantum_teleportation_satellite_micius",
+      "headline": "TELETRANSPORTE QUÂNTICO: DA FICÇÃO AOS SATÉLITES",
+      "narration": "Longe de ser apenas uma curiosidade teórica, o entrelaçamento quântico inaugurou a era do teletransporte de informação. Em laboratórios pioneiros liderados por Anton Zeilinger e cientistas em todo o mundo, partículas de luz e átomos já tiveram seus estados quânticos teleportados instantaneamente através do Rio Danúbio e por fibras ópticas urbanas. Em 2017, a China utilizou o satélite quântico Micius para estabelecer pares de fótons entrelaçados a uma distância recorde de mais de mil e duzentos quilômetros entre o espaço e estações terrestres no Tibete. Não estamos teleportando matéria humana como em Star Trek, mas estamos transmitindo a identidade e a informação fundamental da matéria de forma instantânea e pura.",
+      "highlight_words": ["TELETRANSPORTE QUÂNTICO", "SATÉLITE MICIUS", "ESTADOS QUÂNTICOS", "1200 QUILÔMETROS"],
+      "stats": { "label": "Recorde Espacial", "value": "1.200 km de Órbita" },
+      "backgroundImage": "assets/video-006-quantum-entanglement/scene_6.jpg",
+      "panDirection": "pan-right"
+    },
+    {
+      "id": "scene_7_quantum_computing_internet",
+      "type": "technology",
+      "visual_theme": "quantum_computer_processor_golden_chandelier",
+      "headline": "A INTERNET QUÂNTICA E O FUTURO INVIOLÁVEL",
+      "narration": "O entrelaçamento é hoje o coração pulsante da segunda revolução quântica. Ele é o combustível que permite aos computadores quânticos da IBM, Google e dezenas de startups operarem com qubits entrelaçados, executando cálculos simultâneos que levariam milhares de anos nos maiores supercomputadores clássicos. Além disso, a tecnologia da Criptografia Quântica de Distribuição de Chaves torna a comunicação absolutamente inviolável pelas leis da física. Se qualquer espião ou hacker tentar interceptar um sinal entrelaçado em uma futura Internet Quântica, o próprio ato de tentar medir a informação quebra o entrelaçamento e alerta os usuários no mesmo instante. A segurança definitiva do futuro foi construída sobre o pesadelo de Einstein.",
+      "highlight_words": ["COMPUTADORES QUÂNTICOS", "CRIPTOGRAFIA QUÂNTICA", "INVIOLÁVEL", "INTERNET QUÂNTICA"],
+      "stats": { "label": "Segurança", "value": "100% Inviolável pela Física" },
+      "backgroundImage": "assets/video-006-quantum-entanglement/scene_7.jpg",
+      "panDirection": "pan-left"
+    },
+    {
+      "id": "scene_8_conclusion_big_bang",
+      "type": "cta",
+      "visual_theme": "big_bang_entangled_cosmic_web",
+      "headline": "O COSMOS CONECTADO: ESTAMOS TODOS ENTRELAÇADOS?",
+      "narration": "Pense por um instante na origem de tudo. Há treze vírgula oito bilhões de anos, toda a matéria, energia e espaço do nosso cosmos estavam comprimidos em uma única singularidade microscópica infinitamente densa no instante do Big Bang. Todas as partículas fundamentais que hoje compõem as galáxias, as estrelas, o ar que você respira e os átomos do seu próprio corpo estiveram em contato direto e íntimo naquele ponto primordial. Se duas partículas mantêm sua conexão quântica para sempre através de galáxias inteiras... Será que todo o tecido do universo ainda guarda vestígios de um gigantesco entrelaçamento cósmico compartilhado? O que parecia ficção ou fantasmagoria para Einstein revelou-se a verdade mais poética e profunda da física: no nível fundamental, a separação entre nós e o cosmos nunca existiu. E você, sente essa conexão cósmica? Deixe sua reflexão nos comentários, compartilhe este vídeo com quem ama os mistérios da física quântica, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e até o próximo vídeo!",
+      "highlight_words": ["BIG BANG", "SCAPATICI TECNOLOGIA", "ENTRELAÇAMENTO CÓSMICO", "INSCREVA-SE"],
+      "stats": { "label": "Origem do Cosmos", "value": "13.8 Bilhões de Anos" },
+      "backgroundImage": "assets/video-006-quantum-entanglement/scene_8.jpg",
+      "panDirection": "zoom-out"
+    }
+  ]
+}

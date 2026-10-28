@@ -1,0 +1,5262 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+0%",
+  "pitch": "+0Hz",
+  "intro_duration_sec": 55.375,
+  "vinheta_duration_sec": 3.0,
+  "rest_duration_sec": 300.19,
+  "total_duration_sec": 358.565,
+  "total_words": 875,
+  "timeline": [
+    {
+      "word": "Se",
+      "start": 0.1,
+      "end": 0.238,
+      "duration": 0.138
+    },
+    {
+      "word": "uma",
+      "start": 0.238,
+      "end": 0.444,
+      "duration": 0.206
+    },
+    {
+      "word": "sonda",
+      "start": 0.444,
+      "end": 0.788,
+      "duration": 0.344
+    },
+    {
+      "word": "da",
+      "start": 0.788,
+      "end": 0.926,
+      "duration": 0.138
+    },
+    {
+      "word": "NASA",
+      "start": 0.926,
+      "end": 1.201,
+      "duration": 0.275
+    },
+    {
+      "word": "perfurar",
+      "start": 1.201,
+      "end": 1.751,
+      "duration": 0.55
+    },
+    {
+      "word": "o",
+      "start": 1.751,
+      "end": 1.82,
+      "duration": 0.069
+    },
+    {
+      "word": "solo",
+      "start": 1.82,
+      "end": 2.095,
+      "duration": 0.275
+    },
+    {
+      "word": "congelado",
+      "start": 2.095,
+      "end": 2.714,
+      "duration": 0.619
+    },
+    {
+      "word": "de",
+      "start": 2.714,
+      "end": 2.852,
+      "duration": 0.138
+    },
+    {
+      "word": "Marte",
+      "start": 2.852,
+      "end": 3.196,
+      "duration": 0.344
+    },
+    {
+      "word": "amanhã",
+      "start": 3.196,
+      "end": 3.609,
+      "duration": 0.413
+    },
+    {
+      "word": "e",
+      "start": 3.609,
+      "end": 3.678,
+      "duration": 0.069
+    },
+    {
+      "word": "anunciar",
+      "start": 3.678,
+      "end": 4.228,
+      "duration": 0.55
+    },
+    {
+      "word": "ao",
+      "start": 4.228,
+      "end": 4.366,
+      "duration": 0.138
+    },
+    {
+      "word": "mundo",
+      "start": 4.366,
+      "end": 4.71,
+      "duration": 0.344
+    },
+    {
+      "word": "que",
+      "start": 4.71,
+      "end": 4.916,
+      "duration": 0.206
+    },
+    {
+      "word": "encontrou",
+      "start": 4.916,
+      "end": 5.535,
+      "duration": 0.619
+    },
+    {
+      "word": "os",
+      "start": 5.535,
+      "end": 5.673,
+      "duration": 0.138
+    },
+    {
+      "word": "restos",
+      "start": 5.673,
+      "end": 6.086,
+      "duration": 0.413
+    },
+    {
+      "word": "fósseis",
+      "start": 6.086,
+      "end": 6.567,
+      "duration": 0.481
+    },
+    {
+      "word": "de",
+      "start": 6.567,
+      "end": 6.705,
+      "duration": 0.138
+    },
+    {
+      "word": "organismos",
+      "start": 6.705,
+      "end": 7.393,
+      "duration": 0.688
+    },
+    {
+      "word": "complexos,",
+      "start": 7.393,
+      "end": 8.081,
+      "duration": 0.688
+    },
+    {
+      "word": "a",
+      "start": 8.081,
+      "end": 8.15,
+      "duration": 0.069
+    },
+    {
+      "word": "humanidade",
+      "start": 8.15,
+      "end": 8.838,
+      "duration": 0.688
+    },
+    {
+      "word": "inteira",
+      "start": 8.838,
+      "end": 9.319,
+      "duration": 0.481
+    },
+    {
+      "word": "provavelmente",
+      "start": 9.319,
+      "end": 10.213,
+      "duration": 0.894
+    },
+    {
+      "word": "comemoraria",
+      "start": 10.213,
+      "end": 10.969,
+      "duration": 0.756
+    },
+    {
+      "word": "a",
+      "start": 10.969,
+      "end": 11.038,
+      "duration": 0.069
+    },
+    {
+      "word": "maior",
+      "start": 11.038,
+      "end": 11.382,
+      "duration": 0.344
+    },
+    {
+      "word": "manchete",
+      "start": 11.382,
+      "end": 11.932,
+      "duration": 0.55
+    },
+    {
+      "word": "científica",
+      "start": 11.932,
+      "end": 12.62,
+      "duration": 0.688
+    },
+    {
+      "word": "de",
+      "start": 12.62,
+      "end": 12.758,
+      "duration": 0.138
+    },
+    {
+      "word": "todos",
+      "start": 12.758,
+      "end": 13.102,
+      "duration": 0.344
+    },
+    {
+      "word": "os",
+      "start": 13.102,
+      "end": 13.24,
+      "duration": 0.138
+    },
+    {
+      "word": "tempos.",
+      "start": 13.24,
+      "end": 13.721,
+      "duration": 0.481
+    },
+    {
+      "word": "Os",
+      "start": 13.662,
+      "end": 13.816,
+      "duration": 0.154
+    },
+    {
+      "word": "jornais",
+      "start": 13.816,
+      "end": 14.354,
+      "duration": 0.538
+    },
+    {
+      "word": "celebrariam",
+      "start": 14.354,
+      "end": 15.2,
+      "duration": 0.846
+    },
+    {
+      "word": "que",
+      "start": 15.2,
+      "end": 15.431,
+      "duration": 0.231
+    },
+    {
+      "word": "não",
+      "start": 15.431,
+      "end": 15.662,
+      "duration": 0.231
+    },
+    {
+      "word": "estamos",
+      "start": 15.662,
+      "end": 16.2,
+      "duration": 0.538
+    },
+    {
+      "word": "sozinhos",
+      "start": 16.2,
+      "end": 16.815,
+      "duration": 0.615
+    },
+    {
+      "word": "no",
+      "start": 16.815,
+      "end": 16.969,
+      "duration": 0.154
+    },
+    {
+      "word": "universo.",
+      "start": 16.969,
+      "end": 17.661,
+      "duration": 0.692
+    },
+    {
+      "word": "Mas",
+      "start": 17.663,
+      "end": 17.893,
+      "duration": 0.23
+    },
+    {
+      "word": "para",
+      "start": 17.893,
+      "end": 18.2,
+      "duration": 0.307
+    },
+    {
+      "word": "os",
+      "start": 18.2,
+      "end": 18.353,
+      "duration": 0.153
+    },
+    {
+      "word": "maiores",
+      "start": 18.353,
+      "end": 18.89,
+      "duration": 0.537
+    },
+    {
+      "word": "astrofísicos",
+      "start": 18.89,
+      "end": 19.811,
+      "duration": 0.921
+    },
+    {
+      "word": "e",
+      "start": 19.811,
+      "end": 19.888,
+      "duration": 0.077
+    },
+    {
+      "word": "filósofos",
+      "start": 19.888,
+      "end": 20.579,
+      "duration": 0.691
+    },
+    {
+      "word": "de",
+      "start": 20.579,
+      "end": 20.732,
+      "duration": 0.153
+    },
+    {
+      "word": "Oxford,",
+      "start": 20.732,
+      "end": 21.269,
+      "duration": 0.537
+    },
+    {
+      "word": "como",
+      "start": 21.269,
+      "end": 21.576,
+      "duration": 0.307
+    },
+    {
+      "word": "Nick",
+      "start": 21.576,
+      "end": 21.883,
+      "duration": 0.307
+    },
+    {
+      "word": "Bostrom",
+      "start": 21.883,
+      "end": 22.42,
+      "duration": 0.537
+    },
+    {
+      "word": "e",
+      "start": 22.42,
+      "end": 22.497,
+      "duration": 0.077
+    },
+    {
+      "word": "Robin",
+      "start": 22.497,
+      "end": 22.881,
+      "duration": 0.384
+    },
+    {
+      "word": "Hanson,",
+      "start": 22.881,
+      "end": 23.418,
+      "duration": 0.537
+    },
+    {
+      "word": "essa",
+      "start": 23.418,
+      "end": 23.725,
+      "duration": 0.307
+    },
+    {
+      "word": "seria",
+      "start": 23.725,
+      "end": 24.109,
+      "duration": 0.384
+    },
+    {
+      "word": "categoricamente",
+      "start": 24.109,
+      "end": 25.26,
+      "duration": 1.151
+    },
+    {
+      "word": "a",
+      "start": 25.26,
+      "end": 25.337,
+      "duration": 0.077
+    },
+    {
+      "word": "pior",
+      "start": 25.337,
+      "end": 25.644,
+      "duration": 0.307
+    },
+    {
+      "word": "notícia",
+      "start": 25.644,
+      "end": 26.181,
+      "duration": 0.537
+    },
+    {
+      "word": "já",
+      "start": 26.181,
+      "end": 26.334,
+      "duration": 0.153
+    },
+    {
+      "word": "recebida",
+      "start": 26.334,
+      "end": 26.948,
+      "duration": 0.614
+    },
+    {
+      "word": "pela",
+      "start": 26.948,
+      "end": 27.255,
+      "duration": 0.307
+    },
+    {
+      "word": "nossa",
+      "start": 27.255,
+      "end": 27.639,
+      "duration": 0.384
+    },
+    {
+      "word": "espécie.",
+      "start": 27.639,
+      "end": 28.253,
+      "duration": 0.614
+    },
+    {
+      "word": "Seria",
+      "start": 28.25,
+      "end": 28.679,
+      "duration": 0.429
+    },
+    {
+      "word": "um",
+      "start": 28.679,
+      "end": 28.851,
+      "duration": 0.172
+    },
+    {
+      "word": "anúncio",
+      "start": 28.851,
+      "end": 29.452,
+      "duration": 0.601
+    },
+    {
+      "word": "fúnebre",
+      "start": 29.452,
+      "end": 30.053,
+      "duration": 0.601
+    },
+    {
+      "word": "para",
+      "start": 30.053,
+      "end": 30.396,
+      "duration": 0.343
+    },
+    {
+      "word": "o",
+      "start": 30.396,
+      "end": 30.482,
+      "duration": 0.086
+    },
+    {
+      "word": "nosso",
+      "start": 30.482,
+      "end": 30.911,
+      "duration": 0.429
+    },
+    {
+      "word": "futuro.",
+      "start": 30.911,
+      "end": 31.512,
+      "duration": 0.601
+    },
+    {
+      "word": "Porque",
+      "start": 31.512,
+      "end": 31.958,
+      "duration": 0.446
+    },
+    {
+      "word": "existe",
+      "start": 31.958,
+      "end": 32.404,
+      "duration": 0.446
+    },
+    {
+      "word": "uma",
+      "start": 32.404,
+      "end": 32.627,
+      "duration": 0.223
+    },
+    {
+      "word": "barreira",
+      "start": 32.627,
+      "end": 33.222,
+      "duration": 0.595
+    },
+    {
+      "word": "matemática",
+      "start": 33.222,
+      "end": 33.966,
+      "duration": 0.744
+    },
+    {
+      "word": "implacável",
+      "start": 33.966,
+      "end": 34.71,
+      "duration": 0.744
+    },
+    {
+      "word": "que",
+      "start": 34.71,
+      "end": 34.933,
+      "duration": 0.223
+    },
+    {
+      "word": "explica",
+      "start": 34.933,
+      "end": 35.454,
+      "duration": 0.521
+    },
+    {
+      "word": "o",
+      "start": 35.454,
+      "end": 35.528,
+      "duration": 0.074
+    },
+    {
+      "word": "silêncio",
+      "start": 35.528,
+      "end": 36.123,
+      "duration": 0.595
+    },
+    {
+      "word": "mortal",
+      "start": 36.123,
+      "end": 36.569,
+      "duration": 0.446
+    },
+    {
+      "word": "do",
+      "start": 36.569,
+      "end": 36.718,
+      "duration": 0.149
+    },
+    {
+      "word": "cosmos:",
+      "start": 36.718,
+      "end": 37.239,
+      "duration": 0.521
+    },
+    {
+      "word": "a",
+      "start": 37.239,
+      "end": 37.313,
+      "duration": 0.074
+    },
+    {
+      "word": "Teoria",
+      "start": 37.313,
+      "end": 37.759,
+      "duration": 0.446
+    },
+    {
+      "word": "do",
+      "start": 37.759,
+      "end": 37.908,
+      "duration": 0.149
+    },
+    {
+      "word": "Grande",
+      "start": 37.908,
+      "end": 38.354,
+      "duration": 0.446
+    },
+    {
+      "word": "Filtro.",
+      "start": 38.354,
+      "end": 38.875,
+      "duration": 0.521
+    },
+    {
+      "word": "E",
+      "start": 38.875,
+      "end": 38.97,
+      "duration": 0.095
+    },
+    {
+      "word": "se",
+      "start": 38.97,
+      "end": 39.159,
+      "duration": 0.189
+    },
+    {
+      "word": "a",
+      "start": 39.159,
+      "end": 39.254,
+      "duration": 0.095
+    },
+    {
+      "word": "vida",
+      "start": 39.254,
+      "end": 39.632,
+      "duration": 0.378
+    },
+    {
+      "word": "complexa",
+      "start": 39.632,
+      "end": 40.389,
+      "duration": 0.757
+    },
+    {
+      "word": "for",
+      "start": 40.389,
+      "end": 40.673,
+      "duration": 0.284
+    },
+    {
+      "word": "comum",
+      "start": 40.673,
+      "end": 41.146,
+      "duration": 0.473
+    },
+    {
+      "word": "no",
+      "start": 41.146,
+      "end": 41.335,
+      "duration": 0.189
+    },
+    {
+      "word": "universo...",
+      "start": 41.335,
+      "end": 42.376,
+      "duration": 1.041
+    },
+    {
+      "word": "Significa",
+      "start": 42.375,
+      "end": 43.036,
+      "duration": 0.661
+    },
+    {
+      "word": "que",
+      "start": 43.036,
+      "end": 43.256,
+      "duration": 0.22
+    },
+    {
+      "word": "quase",
+      "start": 43.256,
+      "end": 43.623,
+      "duration": 0.367
+    },
+    {
+      "word": "todas",
+      "start": 43.623,
+      "end": 43.99,
+      "duration": 0.367
+    },
+    {
+      "word": "as",
+      "start": 43.99,
+      "end": 44.137,
+      "duration": 0.147
+    },
+    {
+      "word": "civilizações",
+      "start": 44.137,
+      "end": 45.018,
+      "duration": 0.881
+    },
+    {
+      "word": "inteligentes",
+      "start": 45.018,
+      "end": 45.899,
+      "duration": 0.881
+    },
+    {
+      "word": "são",
+      "start": 45.899,
+      "end": 46.119,
+      "duration": 0.22
+    },
+    {
+      "word": "sumariamente",
+      "start": 46.119,
+      "end": 47.0,
+      "duration": 0.881
+    },
+    {
+      "word": "exterminadas",
+      "start": 47.0,
+      "end": 47.881,
+      "duration": 0.881
+    },
+    {
+      "word": "antes",
+      "start": 47.881,
+      "end": 48.248,
+      "duration": 0.367
+    },
+    {
+      "word": "de",
+      "start": 48.248,
+      "end": 48.395,
+      "duration": 0.147
+    },
+    {
+      "word": "conquistarem",
+      "start": 48.395,
+      "end": 49.276,
+      "duration": 0.881
+    },
+    {
+      "word": "as",
+      "start": 49.276,
+      "end": 49.423,
+      "duration": 0.147
+    },
+    {
+      "word": "estrelas.",
+      "start": 49.423,
+      "end": 50.084,
+      "duration": 0.661
+    },
+    {
+      "word": "E",
+      "start": 50.087,
+      "end": 50.166,
+      "duration": 0.079
+    },
+    {
+      "word": "o",
+      "start": 50.166,
+      "end": 50.245,
+      "duration": 0.079
+    },
+    {
+      "word": "pior:",
+      "start": 50.245,
+      "end": 50.64,
+      "duration": 0.395
+    },
+    {
+      "word": "a",
+      "start": 50.64,
+      "end": 50.719,
+      "duration": 0.079
+    },
+    {
+      "word": "nossa",
+      "start": 50.719,
+      "end": 51.114,
+      "duration": 0.395
+    },
+    {
+      "word": "barreira",
+      "start": 51.114,
+      "end": 51.745,
+      "duration": 0.631
+    },
+    {
+      "word": "de",
+      "start": 51.745,
+      "end": 51.903,
+      "duration": 0.158
+    },
+    {
+      "word": "extinção",
+      "start": 51.903,
+      "end": 52.534,
+      "duration": 0.631
+    },
+    {
+      "word": "estaria",
+      "start": 52.534,
+      "end": 53.086,
+      "duration": 0.552
+    },
+    {
+      "word": "nos",
+      "start": 53.086,
+      "end": 53.323,
+      "duration": 0.237
+    },
+    {
+      "word": "esperando",
+      "start": 53.323,
+      "end": 54.033,
+      "duration": 0.71
+    },
+    {
+      "word": "logo",
+      "start": 54.033,
+      "end": 54.349,
+      "duration": 0.316
+    },
+    {
+      "word": "ali",
+      "start": 54.349,
+      "end": 54.586,
+      "duration": 0.237
+    },
+    {
+      "word": "na",
+      "start": 54.586,
+      "end": 54.744,
+      "duration": 0.158
+    },
+    {
+      "word": "esquina.",
+      "start": 54.744,
+      "end": 55.375,
+      "duration": 0.631
+    },
+    {
+      "word": "Em",
+      "start": 58.475,
+      "end": 58.65,
+      "duration": 0.175
+    },
+    {
+      "word": "1996,",
+      "start": 58.65,
+      "end": 59.087,
+      "duration": 0.437
+    },
+    {
+      "word": "o",
+      "start": 59.087,
+      "end": 59.174,
+      "duration": 0.087
+    },
+    {
+      "word": "economista",
+      "start": 59.174,
+      "end": 60.048,
+      "duration": 0.874
+    },
+    {
+      "word": "e",
+      "start": 60.048,
+      "end": 60.135,
+      "duration": 0.087
+    },
+    {
+      "word": "pesquisador",
+      "start": 60.135,
+      "end": 61.096,
+      "duration": 0.961
+    },
+    {
+      "word": "Robin",
+      "start": 61.096,
+      "end": 61.533,
+      "duration": 0.437
+    },
+    {
+      "word": "Hanson",
+      "start": 61.533,
+      "end": 62.057,
+      "duration": 0.524
+    },
+    {
+      "word": "formulou",
+      "start": 62.057,
+      "end": 62.756,
+      "duration": 0.699
+    },
+    {
+      "word": "uma",
+      "start": 62.756,
+      "end": 63.018,
+      "duration": 0.262
+    },
+    {
+      "word": "das",
+      "start": 63.018,
+      "end": 63.28,
+      "duration": 0.262
+    },
+    {
+      "word": "deduções",
+      "start": 63.28,
+      "end": 63.979,
+      "duration": 0.699
+    },
+    {
+      "word": "mais",
+      "start": 63.979,
+      "end": 64.329,
+      "duration": 0.35
+    },
+    {
+      "word": "perturbadoras",
+      "start": 64.329,
+      "end": 65.465,
+      "duration": 1.136
+    },
+    {
+      "word": "da",
+      "start": 65.465,
+      "end": 65.64,
+      "duration": 0.175
+    },
+    {
+      "word": "astrobiologia",
+      "start": 65.64,
+      "end": 66.776,
+      "duration": 1.136
+    },
+    {
+      "word": "moderna.",
+      "start": 66.776,
+      "end": 67.475,
+      "duration": 0.699
+    },
+    {
+      "word": "O",
+      "start": 67.425,
+      "end": 67.501,
+      "duration": 0.076
+    },
+    {
+      "word": "nosso",
+      "start": 67.501,
+      "end": 67.879,
+      "duration": 0.378
+    },
+    {
+      "word": "universo",
+      "start": 67.879,
+      "end": 68.484,
+      "duration": 0.605
+    },
+    {
+      "word": "tem",
+      "start": 68.484,
+      "end": 68.711,
+      "duration": 0.227
+    },
+    {
+      "word": "quase",
+      "start": 68.711,
+      "end": 69.089,
+      "duration": 0.378
+    },
+    {
+      "word": "quatorze",
+      "start": 69.089,
+      "end": 69.694,
+      "duration": 0.605
+    },
+    {
+      "word": "bilhões",
+      "start": 69.694,
+      "end": 70.223,
+      "duration": 0.529
+    },
+    {
+      "word": "de",
+      "start": 70.223,
+      "end": 70.374,
+      "duration": 0.151
+    },
+    {
+      "word": "anos",
+      "start": 70.374,
+      "end": 70.676,
+      "duration": 0.302
+    },
+    {
+      "word": "e",
+      "start": 70.676,
+      "end": 70.752,
+      "duration": 0.076
+    },
+    {
+      "word": "abriga",
+      "start": 70.752,
+      "end": 71.206,
+      "duration": 0.454
+    },
+    {
+      "word": "trilhões",
+      "start": 71.206,
+      "end": 71.811,
+      "duration": 0.605
+    },
+    {
+      "word": "de",
+      "start": 71.811,
+      "end": 71.962,
+      "duration": 0.151
+    },
+    {
+      "word": "planetas",
+      "start": 71.962,
+      "end": 72.567,
+      "duration": 0.605
+    },
+    {
+      "word": "na",
+      "start": 72.567,
+      "end": 72.718,
+      "duration": 0.151
+    },
+    {
+      "word": "zona",
+      "start": 72.718,
+      "end": 73.02,
+      "duration": 0.302
+    },
+    {
+      "word": "habitável.",
+      "start": 73.02,
+      "end": 73.776,
+      "duration": 0.756
+    },
+    {
+      "word": "Pela",
+      "start": 73.775,
+      "end": 74.049,
+      "duration": 0.274
+    },
+    {
+      "word": "lógica",
+      "start": 74.049,
+      "end": 74.459,
+      "duration": 0.41
+    },
+    {
+      "word": "probabilística,",
+      "start": 74.459,
+      "end": 75.485,
+      "duration": 1.026
+    },
+    {
+      "word": "qualquer",
+      "start": 75.485,
+      "end": 76.032,
+      "duration": 0.547
+    },
+    {
+      "word": "civilização",
+      "start": 76.032,
+      "end": 76.784,
+      "duration": 0.752
+    },
+    {
+      "word": "que",
+      "start": 76.784,
+      "end": 76.989,
+      "duration": 0.205
+    },
+    {
+      "word": "tivesse",
+      "start": 76.989,
+      "end": 77.468,
+      "duration": 0.479
+    },
+    {
+      "word": "apenas",
+      "start": 77.468,
+      "end": 77.878,
+      "duration": 0.41
+    },
+    {
+      "word": "um",
+      "start": 77.878,
+      "end": 78.015,
+      "duration": 0.137
+    },
+    {
+      "word": "milhão",
+      "start": 78.015,
+      "end": 78.425,
+      "duration": 0.41
+    },
+    {
+      "word": "de",
+      "start": 78.425,
+      "end": 78.562,
+      "duration": 0.137
+    },
+    {
+      "word": "anos",
+      "start": 78.562,
+      "end": 78.836,
+      "duration": 0.274
+    },
+    {
+      "word": "a",
+      "start": 78.836,
+      "end": 78.904,
+      "duration": 0.068
+    },
+    {
+      "word": "mais",
+      "start": 78.904,
+      "end": 79.178,
+      "duration": 0.274
+    },
+    {
+      "word": "do",
+      "start": 79.178,
+      "end": 79.315,
+      "duration": 0.137
+    },
+    {
+      "word": "que",
+      "start": 79.315,
+      "end": 79.52,
+      "duration": 0.205
+    },
+    {
+      "word": "a",
+      "start": 79.52,
+      "end": 79.588,
+      "duration": 0.068
+    },
+    {
+      "word": "Terra",
+      "start": 79.588,
+      "end": 79.93,
+      "duration": 0.342
+    },
+    {
+      "word": "já",
+      "start": 79.93,
+      "end": 80.067,
+      "duration": 0.137
+    },
+    {
+      "word": "deveria",
+      "start": 80.067,
+      "end": 80.546,
+      "duration": 0.479
+    },
+    {
+      "word": "ter",
+      "start": 80.546,
+      "end": 80.751,
+      "duration": 0.205
+    },
+    {
+      "word": "colonizado",
+      "start": 80.751,
+      "end": 81.435,
+      "duration": 0.684
+    },
+    {
+      "word": "a",
+      "start": 81.435,
+      "end": 81.503,
+      "duration": 0.068
+    },
+    {
+      "word": "galáxia",
+      "start": 81.503,
+      "end": 81.982,
+      "duration": 0.479
+    },
+    {
+      "word": "inteira",
+      "start": 81.982,
+      "end": 82.461,
+      "duration": 0.479
+    },
+    {
+      "word": "e",
+      "start": 82.461,
+      "end": 82.529,
+      "duration": 0.068
+    },
+    {
+      "word": "acendido",
+      "start": 82.529,
+      "end": 83.076,
+      "duration": 0.547
+    },
+    {
+      "word": "suas",
+      "start": 83.076,
+      "end": 83.35,
+      "duration": 0.274
+    },
+    {
+      "word": "assinaturas",
+      "start": 83.35,
+      "end": 84.102,
+      "duration": 0.752
+    },
+    {
+      "word": "energéticas",
+      "start": 84.102,
+      "end": 84.854,
+      "duration": 0.752
+    },
+    {
+      "word": "no",
+      "start": 84.854,
+      "end": 84.991,
+      "duration": 0.137
+    },
+    {
+      "word": "céu.",
+      "start": 84.991,
+      "end": 85.265,
+      "duration": 0.274
+    },
+    {
+      "word": "No",
+      "start": 85.262,
+      "end": 85.42,
+      "duration": 0.158
+    },
+    {
+      "word": "entanto,",
+      "start": 85.42,
+      "end": 86.052,
+      "duration": 0.632
+    },
+    {
+      "word": "quando",
+      "start": 86.052,
+      "end": 86.526,
+      "duration": 0.474
+    },
+    {
+      "word": "apontamos",
+      "start": 86.526,
+      "end": 87.237,
+      "duration": 0.711
+    },
+    {
+      "word": "nossos",
+      "start": 87.237,
+      "end": 87.711,
+      "duration": 0.474
+    },
+    {
+      "word": "telescópios",
+      "start": 87.711,
+      "end": 88.58,
+      "duration": 0.869
+    },
+    {
+      "word": "para",
+      "start": 88.58,
+      "end": 88.896,
+      "duration": 0.316
+    },
+    {
+      "word": "o",
+      "start": 88.896,
+      "end": 88.975,
+      "duration": 0.079
+    },
+    {
+      "word": "cosmos,",
+      "start": 88.975,
+      "end": 89.528,
+      "duration": 0.553
+    },
+    {
+      "word": "encontramos",
+      "start": 89.528,
+      "end": 90.397,
+      "duration": 0.869
+    },
+    {
+      "word": "apenas",
+      "start": 90.397,
+      "end": 90.871,
+      "duration": 0.474
+    },
+    {
+      "word": "um",
+      "start": 90.871,
+      "end": 91.029,
+      "duration": 0.158
+    },
+    {
+      "word": "deserto",
+      "start": 91.029,
+      "end": 91.582,
+      "duration": 0.553
+    },
+    {
+      "word": "silencioso",
+      "start": 91.582,
+      "end": 92.372,
+      "duration": 0.79
+    },
+    {
+      "word": "e",
+      "start": 92.372,
+      "end": 92.451,
+      "duration": 0.079
+    },
+    {
+      "word": "frio.",
+      "start": 92.451,
+      "end": 92.846,
+      "duration": 0.395
+    },
+    {
+      "word": "Hanson",
+      "start": 92.85,
+      "end": 93.275,
+      "duration": 0.425
+    },
+    {
+      "word": "concluiu",
+      "start": 93.275,
+      "end": 93.841,
+      "duration": 0.566
+    },
+    {
+      "word": "que,",
+      "start": 93.841,
+      "end": 94.124,
+      "duration": 0.283
+    },
+    {
+      "word": "em",
+      "start": 94.124,
+      "end": 94.266,
+      "duration": 0.142
+    },
+    {
+      "word": "algum",
+      "start": 94.266,
+      "end": 94.62,
+      "duration": 0.354
+    },
+    {
+      "word": "ponto",
+      "start": 94.62,
+      "end": 94.974,
+      "duration": 0.354
+    },
+    {
+      "word": "entre",
+      "start": 94.974,
+      "end": 95.328,
+      "duration": 0.354
+    },
+    {
+      "word": "a",
+      "start": 95.328,
+      "end": 95.399,
+      "duration": 0.071
+    },
+    {
+      "word": "matéria",
+      "start": 95.399,
+      "end": 95.894,
+      "duration": 0.495
+    },
+    {
+      "word": "inanimada",
+      "start": 95.894,
+      "end": 96.531,
+      "duration": 0.637
+    },
+    {
+      "word": "e",
+      "start": 96.531,
+      "end": 96.602,
+      "duration": 0.071
+    },
+    {
+      "word": "uma",
+      "start": 96.602,
+      "end": 96.814,
+      "duration": 0.212
+    },
+    {
+      "word": "civilização",
+      "start": 96.814,
+      "end": 97.593,
+      "duration": 0.779
+    },
+    {
+      "word": "interestelar",
+      "start": 97.593,
+      "end": 98.442,
+      "duration": 0.849
+    },
+    {
+      "word": "capaz",
+      "start": 98.442,
+      "end": 98.796,
+      "duration": 0.354
+    },
+    {
+      "word": "de",
+      "start": 98.796,
+      "end": 98.938,
+      "duration": 0.142
+    },
+    {
+      "word": "colonizar",
+      "start": 98.938,
+      "end": 99.575,
+      "duration": 0.637
+    },
+    {
+      "word": "galáxias,",
+      "start": 99.575,
+      "end": 100.212,
+      "duration": 0.637
+    },
+    {
+      "word": "existe",
+      "start": 100.212,
+      "end": 100.637,
+      "duration": 0.425
+    },
+    {
+      "word": "uma",
+      "start": 100.637,
+      "end": 100.849,
+      "duration": 0.212
+    },
+    {
+      "word": "muralha",
+      "start": 100.849,
+      "end": 101.344,
+      "duration": 0.495
+    },
+    {
+      "word": "estatística",
+      "start": 101.344,
+      "end": 102.123,
+      "duration": 0.779
+    },
+    {
+      "word": "intransponível:",
+      "start": 102.123,
+      "end": 103.185,
+      "duration": 1.062
+    },
+    {
+      "word": "o",
+      "start": 103.185,
+      "end": 103.256,
+      "duration": 0.071
+    },
+    {
+      "word": "Grande",
+      "start": 103.256,
+      "end": 103.681,
+      "duration": 0.425
+    },
+    {
+      "word": "Filtro.",
+      "start": 103.681,
+      "end": 104.176,
+      "duration": 0.495
+    },
+    {
+      "word": "A",
+      "start": 104.175,
+      "end": 104.249,
+      "duration": 0.074
+    },
+    {
+      "word": "teoria",
+      "start": 104.249,
+      "end": 104.694,
+      "duration": 0.445
+    },
+    {
+      "word": "divide",
+      "start": 104.694,
+      "end": 105.139,
+      "duration": 0.445
+    },
+    {
+      "word": "o",
+      "start": 105.139,
+      "end": 105.213,
+      "duration": 0.074
+    },
+    {
+      "word": "surgimento",
+      "start": 105.213,
+      "end": 105.954,
+      "duration": 0.741
+    },
+    {
+      "word": "de",
+      "start": 105.954,
+      "end": 106.102,
+      "duration": 0.148
+    },
+    {
+      "word": "uma",
+      "start": 106.102,
+      "end": 106.324,
+      "duration": 0.222
+    },
+    {
+      "word": "espécie",
+      "start": 106.324,
+      "end": 106.843,
+      "duration": 0.519
+    },
+    {
+      "word": "interestelar",
+      "start": 106.843,
+      "end": 107.733,
+      "duration": 0.89
+    },
+    {
+      "word": "em",
+      "start": 107.733,
+      "end": 107.881,
+      "duration": 0.148
+    },
+    {
+      "word": "nove",
+      "start": 107.881,
+      "end": 108.178,
+      "duration": 0.297
+    },
+    {
+      "word": "degraus",
+      "start": 108.178,
+      "end": 108.697,
+      "duration": 0.519
+    },
+    {
+      "word": "fundamentais.",
+      "start": 108.697,
+      "end": 109.661,
+      "duration": 0.964
+    },
+    {
+      "word": "Começa",
+      "start": 109.663,
+      "end": 110.087,
+      "duration": 0.424
+    },
+    {
+      "word": "com",
+      "start": 110.087,
+      "end": 110.299,
+      "duration": 0.212
+    },
+    {
+      "word": "a",
+      "start": 110.299,
+      "end": 110.37,
+      "duration": 0.071
+    },
+    {
+      "word": "formação",
+      "start": 110.37,
+      "end": 110.935,
+      "duration": 0.565
+    },
+    {
+      "word": "de",
+      "start": 110.935,
+      "end": 111.076,
+      "duration": 0.141
+    },
+    {
+      "word": "um",
+      "start": 111.076,
+      "end": 111.217,
+      "duration": 0.141
+    },
+    {
+      "word": "planeta",
+      "start": 111.217,
+      "end": 111.711,
+      "duration": 0.494
+    },
+    {
+      "word": "estável",
+      "start": 111.711,
+      "end": 112.205,
+      "duration": 0.494
+    },
+    {
+      "word": "com",
+      "start": 112.205,
+      "end": 112.417,
+      "duration": 0.212
+    },
+    {
+      "word": "água",
+      "start": 112.417,
+      "end": 112.7,
+      "duration": 0.283
+    },
+    {
+      "word": "líquida",
+      "start": 112.7,
+      "end": 113.194,
+      "duration": 0.494
+    },
+    {
+      "word": "—",
+      "start": 113.194,
+      "end": 113.265,
+      "duration": 0.071
+    },
+    {
+      "word": "passa",
+      "start": 113.265,
+      "end": 113.618,
+      "duration": 0.353
+    },
+    {
+      "word": "pela",
+      "start": 113.618,
+      "end": 113.901,
+      "duration": 0.283
+    },
+    {
+      "word": "abiogênese,",
+      "start": 113.901,
+      "end": 114.678,
+      "duration": 0.777
+    },
+    {
+      "word": "que",
+      "start": 114.678,
+      "end": 114.89,
+      "duration": 0.212
+    },
+    {
+      "word": "é",
+      "start": 114.89,
+      "end": 114.961,
+      "duration": 0.071
+    },
+    {
+      "word": "o",
+      "start": 114.961,
+      "end": 115.032,
+      "duration": 0.071
+    },
+    {
+      "word": "salto",
+      "start": 115.032,
+      "end": 115.385,
+      "duration": 0.353
+    },
+    {
+      "word": "misterioso",
+      "start": 115.385,
+      "end": 116.091,
+      "duration": 0.706
+    },
+    {
+      "word": "de",
+      "start": 116.091,
+      "end": 116.232,
+      "duration": 0.141
+    },
+    {
+      "word": "compostos",
+      "start": 116.232,
+      "end": 116.868,
+      "duration": 0.636
+    },
+    {
+      "word": "químicos",
+      "start": 116.868,
+      "end": 117.433,
+      "duration": 0.565
+    },
+    {
+      "word": "inertes",
+      "start": 117.433,
+      "end": 117.927,
+      "duration": 0.494
+    },
+    {
+      "word": "para",
+      "start": 117.927,
+      "end": 118.21,
+      "duration": 0.283
+    },
+    {
+      "word": "o",
+      "start": 118.21,
+      "end": 118.281,
+      "duration": 0.071
+    },
+    {
+      "word": "primeiro",
+      "start": 118.281,
+      "end": 118.846,
+      "duration": 0.565
+    },
+    {
+      "word": "organismo",
+      "start": 118.846,
+      "end": 119.482,
+      "duration": 0.636
+    },
+    {
+      "word": "vivo",
+      "start": 119.482,
+      "end": 119.765,
+      "duration": 0.283
+    },
+    {
+      "word": "—",
+      "start": 119.765,
+      "end": 119.836,
+      "duration": 0.071
+    },
+    {
+      "word": "segue",
+      "start": 119.836,
+      "end": 120.189,
+      "duration": 0.353
+    },
+    {
+      "word": "para",
+      "start": 120.189,
+      "end": 120.472,
+      "duration": 0.283
+    },
+    {
+      "word": "o",
+      "start": 120.472,
+      "end": 120.543,
+      "duration": 0.071
+    },
+    {
+      "word": "surgimento",
+      "start": 120.543,
+      "end": 121.249,
+      "duration": 0.706
+    },
+    {
+      "word": "de",
+      "start": 121.249,
+      "end": 121.39,
+      "duration": 0.141
+    },
+    {
+      "word": "células",
+      "start": 121.39,
+      "end": 121.884,
+      "duration": 0.494
+    },
+    {
+      "word": "com",
+      "start": 121.884,
+      "end": 122.096,
+      "duration": 0.212
+    },
+    {
+      "word": "núcleo,",
+      "start": 122.096,
+      "end": 122.59,
+      "duration": 0.494
+    },
+    {
+      "word": "a",
+      "start": 122.59,
+      "end": 122.661,
+      "duration": 0.071
+    },
+    {
+      "word": "reprodução",
+      "start": 122.661,
+      "end": 123.367,
+      "duration": 0.706
+    },
+    {
+      "word": "sexuada,",
+      "start": 123.367,
+      "end": 123.932,
+      "duration": 0.565
+    },
+    {
+      "word": "organismos",
+      "start": 123.932,
+      "end": 124.638,
+      "duration": 0.706
+    },
+    {
+      "word": "multicelulares",
+      "start": 124.638,
+      "end": 125.627,
+      "duration": 0.989
+    },
+    {
+      "word": "complexos",
+      "start": 125.627,
+      "end": 126.263,
+      "duration": 0.636
+    },
+    {
+      "word": "e",
+      "start": 126.263,
+      "end": 126.334,
+      "duration": 0.071
+    },
+    {
+      "word": "o",
+      "start": 126.334,
+      "end": 126.405,
+      "duration": 0.071
+    },
+    {
+      "word": "desenvolvimento",
+      "start": 126.405,
+      "end": 127.465,
+      "duration": 1.06
+    },
+    {
+      "word": "do",
+      "start": 127.465,
+      "end": 127.606,
+      "duration": 0.141
+    },
+    {
+      "word": "cérebro",
+      "start": 127.606,
+      "end": 128.1,
+      "duration": 0.494
+    },
+    {
+      "word": "com",
+      "start": 128.1,
+      "end": 128.312,
+      "duration": 0.212
+    },
+    {
+      "word": "uso",
+      "start": 128.312,
+      "end": 128.524,
+      "duration": 0.212
+    },
+    {
+      "word": "de",
+      "start": 128.524,
+      "end": 128.665,
+      "duration": 0.141
+    },
+    {
+      "word": "ferramentas.",
+      "start": 128.665,
+      "end": 129.513,
+      "duration": 0.848
+    },
+    {
+      "word": "Depois",
+      "start": 129.513,
+      "end": 130.003,
+      "duration": 0.49
+    },
+    {
+      "word": "vem",
+      "start": 130.003,
+      "end": 130.248,
+      "duration": 0.245
+    },
+    {
+      "word": "a",
+      "start": 130.248,
+      "end": 130.33,
+      "duration": 0.082
+    },
+    {
+      "word": "criação",
+      "start": 130.33,
+      "end": 130.902,
+      "duration": 0.572
+    },
+    {
+      "word": "da",
+      "start": 130.902,
+      "end": 131.065,
+      "duration": 0.163
+    },
+    {
+      "word": "civilização",
+      "start": 131.065,
+      "end": 131.963,
+      "duration": 0.898
+    },
+    {
+      "word": "tecnológica,",
+      "start": 131.963,
+      "end": 132.943,
+      "duration": 0.98
+    },
+    {
+      "word": "e",
+      "start": 132.943,
+      "end": 133.025,
+      "duration": 0.082
+    },
+    {
+      "word": "finalmente",
+      "start": 133.025,
+      "end": 133.842,
+      "duration": 0.817
+    },
+    {
+      "word": "a",
+      "start": 133.842,
+      "end": 133.924,
+      "duration": 0.082
+    },
+    {
+      "word": "expansão",
+      "start": 133.924,
+      "end": 134.577,
+      "duration": 0.653
+    },
+    {
+      "word": "interestelar.",
+      "start": 134.577,
+      "end": 135.639,
+      "duration": 1.062
+    },
+    {
+      "word": "Se",
+      "start": 135.638,
+      "end": 135.779,
+      "duration": 0.141
+    },
+    {
+      "word": "qualquer",
+      "start": 135.779,
+      "end": 136.344,
+      "duration": 0.565
+    },
+    {
+      "word": "um",
+      "start": 136.344,
+      "end": 136.485,
+      "duration": 0.141
+    },
+    {
+      "word": "desses",
+      "start": 136.485,
+      "end": 136.908,
+      "duration": 0.423
+    },
+    {
+      "word": "passos",
+      "start": 136.908,
+      "end": 137.331,
+      "duration": 0.423
+    },
+    {
+      "word": "anteriores",
+      "start": 137.331,
+      "end": 138.037,
+      "duration": 0.706
+    },
+    {
+      "word": "for",
+      "start": 138.037,
+      "end": 138.249,
+      "duration": 0.212
+    },
+    {
+      "word": "um",
+      "start": 138.249,
+      "end": 138.39,
+      "duration": 0.141
+    },
+    {
+      "word": "milagre",
+      "start": 138.39,
+      "end": 138.884,
+      "duration": 0.494
+    },
+    {
+      "word": "quase",
+      "start": 138.884,
+      "end": 139.237,
+      "duration": 0.353
+    },
+    {
+      "word": "impossível",
+      "start": 139.237,
+      "end": 139.943,
+      "duration": 0.706
+    },
+    {
+      "word": "de",
+      "start": 139.943,
+      "end": 140.084,
+      "duration": 0.141
+    },
+    {
+      "word": "acontecer",
+      "start": 140.084,
+      "end": 140.719,
+      "duration": 0.635
+    },
+    {
+      "word": "na",
+      "start": 140.719,
+      "end": 140.86,
+      "duration": 0.141
+    },
+    {
+      "word": "física,",
+      "start": 140.86,
+      "end": 141.354,
+      "duration": 0.494
+    },
+    {
+      "word": "então",
+      "start": 141.354,
+      "end": 141.707,
+      "duration": 0.353
+    },
+    {
+      "word": "nós",
+      "start": 141.707,
+      "end": 141.919,
+      "duration": 0.212
+    },
+    {
+      "word": "somos",
+      "start": 141.919,
+      "end": 142.272,
+      "duration": 0.353
+    },
+    {
+      "word": "o",
+      "start": 142.272,
+      "end": 142.343,
+      "duration": 0.071
+    },
+    {
+      "word": "bilhete",
+      "start": 142.343,
+      "end": 142.837,
+      "duration": 0.494
+    },
+    {
+      "word": "premiado",
+      "start": 142.837,
+      "end": 143.402,
+      "duration": 0.565
+    },
+    {
+      "word": "da",
+      "start": 143.402,
+      "end": 143.543,
+      "duration": 0.141
+    },
+    {
+      "word": "loteria",
+      "start": 143.543,
+      "end": 144.037,
+      "duration": 0.494
+    },
+    {
+      "word": "cósmica.",
+      "start": 144.037,
+      "end": 144.602,
+      "duration": 0.565
+    },
+    {
+      "word": "Nós",
+      "start": 144.6,
+      "end": 144.856,
+      "duration": 0.256
+    },
+    {
+      "word": "já",
+      "start": 144.856,
+      "end": 145.026,
+      "duration": 0.17
+    },
+    {
+      "word": "teríamos",
+      "start": 145.026,
+      "end": 145.707,
+      "duration": 0.681
+    },
+    {
+      "word": "vencido",
+      "start": 145.707,
+      "end": 146.303,
+      "duration": 0.596
+    },
+    {
+      "word": "o",
+      "start": 146.303,
+      "end": 146.388,
+      "duration": 0.085
+    },
+    {
+      "word": "Grande",
+      "start": 146.388,
+      "end": 146.899,
+      "duration": 0.511
+    },
+    {
+      "word": "Filtro",
+      "start": 146.899,
+      "end": 147.41,
+      "duration": 0.511
+    },
+    {
+      "word": "no",
+      "start": 147.41,
+      "end": 147.58,
+      "duration": 0.17
+    },
+    {
+      "word": "passado.",
+      "start": 147.58,
+      "end": 148.261,
+      "duration": 0.681
+    },
+    {
+      "word": "Esta",
+      "start": 148.263,
+      "end": 148.599,
+      "duration": 0.336
+    },
+    {
+      "word": "é",
+      "start": 148.599,
+      "end": 148.683,
+      "duration": 0.084
+    },
+    {
+      "word": "a",
+      "start": 148.683,
+      "end": 148.767,
+      "duration": 0.084
+    },
+    {
+      "word": "bifurcação",
+      "start": 148.767,
+      "end": 149.606,
+      "duration": 0.839
+    },
+    {
+      "word": "mais",
+      "start": 149.606,
+      "end": 149.942,
+      "duration": 0.336
+    },
+    {
+      "word": "aterrorizante",
+      "start": 149.942,
+      "end": 151.033,
+      "duration": 1.091
+    },
+    {
+      "word": "da",
+      "start": 151.033,
+      "end": 151.201,
+      "duration": 0.168
+    },
+    {
+      "word": "filosofia",
+      "start": 151.201,
+      "end": 151.956,
+      "duration": 0.755
+    },
+    {
+      "word": "cósmica.",
+      "start": 151.956,
+      "end": 152.627,
+      "duration": 0.671
+    },
+    {
+      "word": "O",
+      "start": 152.625,
+      "end": 152.702,
+      "duration": 0.077
+    },
+    {
+      "word": "Grande",
+      "start": 152.702,
+      "end": 153.166,
+      "duration": 0.464
+    },
+    {
+      "word": "Filtro",
+      "start": 153.166,
+      "end": 153.63,
+      "duration": 0.464
+    },
+    {
+      "word": "só",
+      "start": 153.63,
+      "end": 153.785,
+      "duration": 0.155
+    },
+    {
+      "word": "pode",
+      "start": 153.785,
+      "end": 154.094,
+      "duration": 0.309
+    },
+    {
+      "word": "estar",
+      "start": 154.094,
+      "end": 154.481,
+      "duration": 0.387
+    },
+    {
+      "word": "em",
+      "start": 154.481,
+      "end": 154.636,
+      "duration": 0.155
+    },
+    {
+      "word": "dois",
+      "start": 154.636,
+      "end": 154.945,
+      "duration": 0.309
+    },
+    {
+      "word": "lugares",
+      "start": 154.945,
+      "end": 155.486,
+      "duration": 0.541
+    },
+    {
+      "word": "da",
+      "start": 155.486,
+      "end": 155.641,
+      "duration": 0.155
+    },
+    {
+      "word": "linha",
+      "start": 155.641,
+      "end": 156.028,
+      "duration": 0.387
+    },
+    {
+      "word": "do",
+      "start": 156.028,
+      "end": 156.183,
+      "duration": 0.155
+    },
+    {
+      "word": "tempo:",
+      "start": 156.183,
+      "end": 156.647,
+      "duration": 0.464
+    },
+    {
+      "word": "ou",
+      "start": 156.647,
+      "end": 156.802,
+      "duration": 0.155
+    },
+    {
+      "word": "ele",
+      "start": 156.802,
+      "end": 157.034,
+      "duration": 0.232
+    },
+    {
+      "word": "ficou",
+      "start": 157.034,
+      "end": 157.421,
+      "duration": 0.387
+    },
+    {
+      "word": "para",
+      "start": 157.421,
+      "end": 157.73,
+      "duration": 0.309
+    },
+    {
+      "word": "trás,",
+      "start": 157.73,
+      "end": 158.117,
+      "duration": 0.387
+    },
+    {
+      "word": "no",
+      "start": 158.117,
+      "end": 158.272,
+      "duration": 0.155
+    },
+    {
+      "word": "nosso",
+      "start": 158.272,
+      "end": 158.659,
+      "duration": 0.387
+    },
+    {
+      "word": "passado",
+      "start": 158.659,
+      "end": 159.2,
+      "duration": 0.541
+    },
+    {
+      "word": "distante,",
+      "start": 159.2,
+      "end": 159.896,
+      "duration": 0.696
+    },
+    {
+      "word": "ou",
+      "start": 159.896,
+      "end": 160.051,
+      "duration": 0.155
+    },
+    {
+      "word": "ele",
+      "start": 160.051,
+      "end": 160.283,
+      "duration": 0.232
+    },
+    {
+      "word": "está",
+      "start": 160.283,
+      "end": 160.592,
+      "duration": 0.309
+    },
+    {
+      "word": "nos",
+      "start": 160.592,
+      "end": 160.824,
+      "duration": 0.232
+    },
+    {
+      "word": "esperando",
+      "start": 160.824,
+      "end": 161.52,
+      "duration": 0.696
+    },
+    {
+      "word": "logo",
+      "start": 161.52,
+      "end": 161.829,
+      "duration": 0.309
+    },
+    {
+      "word": "à",
+      "start": 161.829,
+      "end": 161.906,
+      "duration": 0.077
+    },
+    {
+      "word": "frente,",
+      "start": 161.906,
+      "end": 162.447,
+      "duration": 0.541
+    },
+    {
+      "word": "no",
+      "start": 162.447,
+      "end": 162.602,
+      "duration": 0.155
+    },
+    {
+      "word": "nosso",
+      "start": 162.602,
+      "end": 162.989,
+      "duration": 0.387
+    },
+    {
+      "word": "futuro",
+      "start": 162.989,
+      "end": 163.453,
+      "duration": 0.464
+    },
+    {
+      "word": "imediato.",
+      "start": 163.453,
+      "end": 164.149,
+      "duration": 0.696
+    },
+    {
+      "word": "Se",
+      "start": 164.15,
+      "end": 164.293,
+      "duration": 0.143
+    },
+    {
+      "word": "o",
+      "start": 164.293,
+      "end": 164.364,
+      "duration": 0.071
+    },
+    {
+      "word": "filtro",
+      "start": 164.364,
+      "end": 164.792,
+      "duration": 0.428
+    },
+    {
+      "word": "estiver",
+      "start": 164.792,
+      "end": 165.291,
+      "duration": 0.499
+    },
+    {
+      "word": "no",
+      "start": 165.291,
+      "end": 165.434,
+      "duration": 0.143
+    },
+    {
+      "word": "passado,",
+      "start": 165.434,
+      "end": 166.005,
+      "duration": 0.571
+    },
+    {
+      "word": "significa",
+      "start": 166.005,
+      "end": 166.647,
+      "duration": 0.642
+    },
+    {
+      "word": "que",
+      "start": 166.647,
+      "end": 166.861,
+      "duration": 0.214
+    },
+    {
+      "word": "o",
+      "start": 166.861,
+      "end": 166.932,
+      "duration": 0.071
+    },
+    {
+      "word": "surgimento",
+      "start": 166.932,
+      "end": 167.645,
+      "duration": 0.713
+    },
+    {
+      "word": "da",
+      "start": 167.645,
+      "end": 167.788,
+      "duration": 0.143
+    },
+    {
+      "word": "vida",
+      "start": 167.788,
+      "end": 168.073,
+      "duration": 0.285
+    },
+    {
+      "word": "inteligente",
+      "start": 168.073,
+      "end": 168.858,
+      "duration": 0.785
+    },
+    {
+      "word": "é",
+      "start": 168.858,
+      "end": 168.929,
+      "duration": 0.071
+    },
+    {
+      "word": "uma",
+      "start": 168.929,
+      "end": 169.143,
+      "duration": 0.214
+    },
+    {
+      "word": "anomalia",
+      "start": 169.143,
+      "end": 169.714,
+      "duration": 0.571
+    },
+    {
+      "word": "microscópica",
+      "start": 169.714,
+      "end": 170.57,
+      "duration": 0.856
+    },
+    {
+      "word": "e",
+      "start": 170.57,
+      "end": 170.641,
+      "duration": 0.071
+    },
+    {
+      "word": "única,",
+      "start": 170.641,
+      "end": 171.069,
+      "duration": 0.428
+    },
+    {
+      "word": "e",
+      "start": 171.069,
+      "end": 171.14,
+      "duration": 0.071
+    },
+    {
+      "word": "que",
+      "start": 171.14,
+      "end": 171.354,
+      "duration": 0.214
+    },
+    {
+      "word": "o",
+      "start": 171.354,
+      "end": 171.425,
+      "duration": 0.071
+    },
+    {
+      "word": "universo",
+      "start": 171.425,
+      "end": 171.996,
+      "duration": 0.571
+    },
+    {
+      "word": "inteiro",
+      "start": 171.996,
+      "end": 172.495,
+      "duration": 0.499
+    },
+    {
+      "word": "é",
+      "start": 172.495,
+      "end": 172.566,
+      "duration": 0.071
+    },
+    {
+      "word": "um",
+      "start": 172.566,
+      "end": 172.709,
+      "duration": 0.143
+    },
+    {
+      "word": "santuário",
+      "start": 172.709,
+      "end": 173.351,
+      "duration": 0.642
+    },
+    {
+      "word": "silencioso",
+      "start": 173.351,
+      "end": 174.064,
+      "duration": 0.713
+    },
+    {
+      "word": "esperando",
+      "start": 174.064,
+      "end": 174.706,
+      "duration": 0.642
+    },
+    {
+      "word": "para",
+      "start": 174.706,
+      "end": 174.991,
+      "duration": 0.285
+    },
+    {
+      "word": "ser",
+      "start": 174.991,
+      "end": 175.205,
+      "duration": 0.214
+    },
+    {
+      "word": "habitado",
+      "start": 175.205,
+      "end": 175.776,
+      "duration": 0.571
+    },
+    {
+      "word": "por",
+      "start": 175.776,
+      "end": 175.99,
+      "duration": 0.214
+    },
+    {
+      "word": "nós.",
+      "start": 175.99,
+      "end": 176.275,
+      "duration": 0.285
+    },
+    {
+      "word": "Mas",
+      "start": 176.275,
+      "end": 176.554,
+      "duration": 0.279
+    },
+    {
+      "word": "se",
+      "start": 176.554,
+      "end": 176.74,
+      "duration": 0.186
+    },
+    {
+      "word": "o",
+      "start": 176.74,
+      "end": 176.833,
+      "duration": 0.093
+    },
+    {
+      "word": "filtro",
+      "start": 176.833,
+      "end": 177.391,
+      "duration": 0.558
+    },
+    {
+      "word": "estiver",
+      "start": 177.391,
+      "end": 178.042,
+      "duration": 0.651
+    },
+    {
+      "word": "no",
+      "start": 178.042,
+      "end": 178.228,
+      "duration": 0.186
+    },
+    {
+      "word": "futuro...",
+      "start": 178.228,
+      "end": 179.064,
+      "duration": 0.836
+    },
+    {
+      "word": "Significa",
+      "start": 179.063,
+      "end": 179.715,
+      "duration": 0.652
+    },
+    {
+      "word": "que",
+      "start": 179.715,
+      "end": 179.932,
+      "duration": 0.217
+    },
+    {
+      "word": "a",
+      "start": 179.932,
+      "end": 180.004,
+      "duration": 0.072
+    },
+    {
+      "word": "vida",
+      "start": 180.004,
+      "end": 180.294,
+      "duration": 0.29
+    },
+    {
+      "word": "brota",
+      "start": 180.294,
+      "end": 180.656,
+      "duration": 0.362
+    },
+    {
+      "word": "aos",
+      "start": 180.656,
+      "end": 180.873,
+      "duration": 0.217
+    },
+    {
+      "word": "montes",
+      "start": 180.873,
+      "end": 181.307,
+      "duration": 0.434
+    },
+    {
+      "word": "pela",
+      "start": 181.307,
+      "end": 181.597,
+      "duration": 0.29
+    },
+    {
+      "word": "galáxia,",
+      "start": 181.597,
+      "end": 182.176,
+      "duration": 0.579
+    },
+    {
+      "word": "mas",
+      "start": 182.176,
+      "end": 182.393,
+      "duration": 0.217
+    },
+    {
+      "word": "toda",
+      "start": 182.393,
+      "end": 182.683,
+      "duration": 0.29
+    },
+    {
+      "word": "civilização",
+      "start": 182.683,
+      "end": 183.479,
+      "duration": 0.796
+    },
+    {
+      "word": "inevitavelmente",
+      "start": 183.479,
+      "end": 184.565,
+      "duration": 1.086
+    },
+    {
+      "word": "desenvolve",
+      "start": 184.565,
+      "end": 185.289,
+      "duration": 0.724
+    },
+    {
+      "word": "tecnologias",
+      "start": 185.289,
+      "end": 186.085,
+      "duration": 0.796
+    },
+    {
+      "word": "que",
+      "start": 186.085,
+      "end": 186.302,
+      "duration": 0.217
+    },
+    {
+      "word": "acabam",
+      "start": 186.302,
+      "end": 186.736,
+      "duration": 0.434
+    },
+    {
+      "word": "destruindo",
+      "start": 186.736,
+      "end": 187.46,
+      "duration": 0.724
+    },
+    {
+      "word": "o",
+      "start": 187.46,
+      "end": 187.532,
+      "duration": 0.072
+    },
+    {
+      "word": "seu",
+      "start": 187.532,
+      "end": 187.749,
+      "duration": 0.217
+    },
+    {
+      "word": "próprio",
+      "start": 187.749,
+      "end": 188.256,
+      "duration": 0.507
+    },
+    {
+      "word": "planeta.",
+      "start": 188.256,
+      "end": 188.835,
+      "duration": 0.579
+    },
+    {
+      "word": "É",
+      "start": 188.838,
+      "end": 188.923,
+      "duration": 0.085
+    },
+    {
+      "word": "aqui",
+      "start": 188.923,
+      "end": 189.263,
+      "duration": 0.34
+    },
+    {
+      "word": "que",
+      "start": 189.263,
+      "end": 189.518,
+      "duration": 0.255
+    },
+    {
+      "word": "o",
+      "start": 189.518,
+      "end": 189.603,
+      "duration": 0.085
+    },
+    {
+      "word": "alerta",
+      "start": 189.603,
+      "end": 190.113,
+      "duration": 0.51
+    },
+    {
+      "word": "de",
+      "start": 190.113,
+      "end": 190.283,
+      "duration": 0.17
+    },
+    {
+      "word": "Nick",
+      "start": 190.283,
+      "end": 190.623,
+      "duration": 0.34
+    },
+    {
+      "word": "Bostrom",
+      "start": 190.623,
+      "end": 191.218,
+      "duration": 0.595
+    },
+    {
+      "word": "ganha",
+      "start": 191.218,
+      "end": 191.643,
+      "duration": 0.425
+    },
+    {
+      "word": "contornos",
+      "start": 191.643,
+      "end": 192.409,
+      "duration": 0.766
+    },
+    {
+      "word": "sombrios.",
+      "start": 192.409,
+      "end": 193.175,
+      "duration": 0.766
+    },
+    {
+      "word": "Toda",
+      "start": 193.175,
+      "end": 193.453,
+      "duration": 0.278
+    },
+    {
+      "word": "vez",
+      "start": 193.453,
+      "end": 193.661,
+      "duration": 0.208
+    },
+    {
+      "word": "que",
+      "start": 193.661,
+      "end": 193.869,
+      "duration": 0.208
+    },
+    {
+      "word": "procuramos",
+      "start": 193.869,
+      "end": 194.563,
+      "duration": 0.694
+    },
+    {
+      "word": "fósseis",
+      "start": 194.563,
+      "end": 195.049,
+      "duration": 0.486
+    },
+    {
+      "word": "de",
+      "start": 195.049,
+      "end": 195.188,
+      "duration": 0.139
+    },
+    {
+      "word": "micróbios",
+      "start": 195.188,
+      "end": 195.813,
+      "duration": 0.625
+    },
+    {
+      "word": "em",
+      "start": 195.813,
+      "end": 195.952,
+      "duration": 0.139
+    },
+    {
+      "word": "Marte,",
+      "start": 195.952,
+      "end": 196.368,
+      "duration": 0.416
+    },
+    {
+      "word": "no",
+      "start": 196.368,
+      "end": 196.507,
+      "duration": 0.139
+    },
+    {
+      "word": "oceano",
+      "start": 196.507,
+      "end": 196.923,
+      "duration": 0.416
+    },
+    {
+      "word": "congelado",
+      "start": 196.923,
+      "end": 197.548,
+      "duration": 0.625
+    },
+    {
+      "word": "de",
+      "start": 197.548,
+      "end": 197.687,
+      "duration": 0.139
+    },
+    {
+      "word": "Europa",
+      "start": 197.687,
+      "end": 198.103,
+      "duration": 0.416
+    },
+    {
+      "word": "ou",
+      "start": 198.103,
+      "end": 198.242,
+      "duration": 0.139
+    },
+    {
+      "word": "sob",
+      "start": 198.242,
+      "end": 198.45,
+      "duration": 0.208
+    },
+    {
+      "word": "os",
+      "start": 198.45,
+      "end": 198.589,
+      "duration": 0.139
+    },
+    {
+      "word": "gêiseres",
+      "start": 198.589,
+      "end": 199.144,
+      "duration": 0.555
+    },
+    {
+      "word": "de",
+      "start": 199.144,
+      "end": 199.283,
+      "duration": 0.139
+    },
+    {
+      "word": "Encélado,",
+      "start": 199.283,
+      "end": 199.908,
+      "duration": 0.625
+    },
+    {
+      "word": "estamos",
+      "start": 199.908,
+      "end": 200.394,
+      "duration": 0.486
+    },
+    {
+      "word": "fazendo",
+      "start": 200.394,
+      "end": 200.88,
+      "duration": 0.486
+    },
+    {
+      "word": "uma",
+      "start": 200.88,
+      "end": 201.088,
+      "duration": 0.208
+    },
+    {
+      "word": "aposta",
+      "start": 201.088,
+      "end": 201.504,
+      "duration": 0.416
+    },
+    {
+      "word": "de",
+      "start": 201.504,
+      "end": 201.643,
+      "duration": 0.139
+    },
+    {
+      "word": "altíssimo",
+      "start": 201.643,
+      "end": 202.268,
+      "duration": 0.625
+    },
+    {
+      "word": "risco",
+      "start": 202.268,
+      "end": 202.615,
+      "duration": 0.347
+    },
+    {
+      "word": "com",
+      "start": 202.615,
+      "end": 202.823,
+      "duration": 0.208
+    },
+    {
+      "word": "a",
+      "start": 202.823,
+      "end": 202.892,
+      "duration": 0.069
+    },
+    {
+      "word": "nossa",
+      "start": 202.892,
+      "end": 203.239,
+      "duration": 0.347
+    },
+    {
+      "word": "sobrevivência.",
+      "start": 203.239,
+      "end": 204.211,
+      "duration": 0.972
+    },
+    {
+      "word": "Se",
+      "start": 204.213,
+      "end": 204.358,
+      "duration": 0.145
+    },
+    {
+      "word": "encontrarmos",
+      "start": 204.358,
+      "end": 205.228,
+      "duration": 0.87
+    },
+    {
+      "word": "vida",
+      "start": 205.228,
+      "end": 205.518,
+      "duration": 0.29
+    },
+    {
+      "word": "que",
+      "start": 205.518,
+      "end": 205.736,
+      "duration": 0.218
+    },
+    {
+      "word": "surgiu",
+      "start": 205.736,
+      "end": 206.171,
+      "duration": 0.435
+    },
+    {
+      "word": "de",
+      "start": 206.171,
+      "end": 206.316,
+      "duration": 0.145
+    },
+    {
+      "word": "forma",
+      "start": 206.316,
+      "end": 206.679,
+      "duration": 0.363
+    },
+    {
+      "word": "independente",
+      "start": 206.679,
+      "end": 207.549,
+      "duration": 0.87
+    },
+    {
+      "word": "duas",
+      "start": 207.549,
+      "end": 207.839,
+      "duration": 0.29
+    },
+    {
+      "word": "vezes",
+      "start": 207.839,
+      "end": 208.202,
+      "duration": 0.363
+    },
+    {
+      "word": "em",
+      "start": 208.202,
+      "end": 208.347,
+      "duration": 0.145
+    },
+    {
+      "word": "um",
+      "start": 208.347,
+      "end": 208.492,
+      "duration": 0.145
+    },
+    {
+      "word": "mesmo",
+      "start": 208.492,
+      "end": 208.855,
+      "duration": 0.363
+    },
+    {
+      "word": "sistema",
+      "start": 208.855,
+      "end": 209.363,
+      "duration": 0.508
+    },
+    {
+      "word": "solar,",
+      "start": 209.363,
+      "end": 209.798,
+      "duration": 0.435
+    },
+    {
+      "word": "fica",
+      "start": 209.798,
+      "end": 210.088,
+      "duration": 0.29
+    },
+    {
+      "word": "matematicamente",
+      "start": 210.088,
+      "end": 211.176,
+      "duration": 1.088
+    },
+    {
+      "word": "provado",
+      "start": 211.176,
+      "end": 211.684,
+      "duration": 0.508
+    },
+    {
+      "word": "que",
+      "start": 211.684,
+      "end": 211.902,
+      "duration": 0.218
+    },
+    {
+      "word": "a",
+      "start": 211.902,
+      "end": 211.975,
+      "duration": 0.073
+    },
+    {
+      "word": "abiogênese",
+      "start": 211.975,
+      "end": 212.7,
+      "duration": 0.725
+    },
+    {
+      "word": "e",
+      "start": 212.7,
+      "end": 212.773,
+      "duration": 0.073
+    },
+    {
+      "word": "o",
+      "start": 212.773,
+      "end": 212.846,
+      "duration": 0.073
+    },
+    {
+      "word": "surgimento",
+      "start": 212.846,
+      "end": 213.571,
+      "duration": 0.725
+    },
+    {
+      "word": "da",
+      "start": 213.571,
+      "end": 213.716,
+      "duration": 0.145
+    },
+    {
+      "word": "vida",
+      "start": 213.716,
+      "end": 214.006,
+      "duration": 0.29
+    },
+    {
+      "word": "não",
+      "start": 214.006,
+      "end": 214.224,
+      "duration": 0.218
+    },
+    {
+      "word": "são",
+      "start": 214.224,
+      "end": 214.442,
+      "duration": 0.218
+    },
+    {
+      "word": "raros.",
+      "start": 214.442,
+      "end": 214.877,
+      "duration": 0.435
+    },
+    {
+      "word": "Se",
+      "start": 214.875,
+      "end": 215.034,
+      "duration": 0.159
+    },
+    {
+      "word": "encontrarmos",
+      "start": 215.034,
+      "end": 215.988,
+      "duration": 0.954
+    },
+    {
+      "word": "fósseis",
+      "start": 215.988,
+      "end": 216.545,
+      "duration": 0.557
+    },
+    {
+      "word": "de",
+      "start": 216.545,
+      "end": 216.704,
+      "duration": 0.159
+    },
+    {
+      "word": "animais",
+      "start": 216.704,
+      "end": 217.261,
+      "duration": 0.557
+    },
+    {
+      "word": "complexos",
+      "start": 217.261,
+      "end": 217.977,
+      "duration": 0.716
+    },
+    {
+      "word": "em",
+      "start": 217.977,
+      "end": 218.136,
+      "duration": 0.159
+    },
+    {
+      "word": "Marte,",
+      "start": 218.136,
+      "end": 218.613,
+      "duration": 0.477
+    },
+    {
+      "word": "significa",
+      "start": 218.613,
+      "end": 219.329,
+      "duration": 0.716
+    },
+    {
+      "word": "que",
+      "start": 219.329,
+      "end": 219.567,
+      "duration": 0.238
+    },
+    {
+      "word": "todos",
+      "start": 219.567,
+      "end": 219.965,
+      "duration": 0.398
+    },
+    {
+      "word": "os",
+      "start": 219.965,
+      "end": 220.124,
+      "duration": 0.159
+    },
+    {
+      "word": "passos",
+      "start": 220.124,
+      "end": 220.601,
+      "duration": 0.477
+    },
+    {
+      "word": "biológicos",
+      "start": 220.601,
+      "end": 221.396,
+      "duration": 0.795
+    },
+    {
+      "word": "são",
+      "start": 221.396,
+      "end": 221.634,
+      "duration": 0.238
+    },
+    {
+      "word": "fáceis",
+      "start": 221.634,
+      "end": 222.111,
+      "duration": 0.477
+    },
+    {
+      "word": "no",
+      "start": 222.111,
+      "end": 222.27,
+      "duration": 0.159
+    },
+    {
+      "word": "cosmos.",
+      "start": 222.27,
+      "end": 222.827,
+      "duration": 0.557
+    },
+    {
+      "word": "E",
+      "start": 222.825,
+      "end": 222.912,
+      "duration": 0.087
+    },
+    {
+      "word": "por",
+      "start": 222.912,
+      "end": 223.172,
+      "duration": 0.26
+    },
+    {
+      "word": "eliminação",
+      "start": 223.172,
+      "end": 224.039,
+      "duration": 0.867
+    },
+    {
+      "word": "matemática",
+      "start": 224.039,
+      "end": 224.906,
+      "duration": 0.867
+    },
+    {
+      "word": "cruel,",
+      "start": 224.906,
+      "end": 225.426,
+      "duration": 0.52
+    },
+    {
+      "word": "se",
+      "start": 225.426,
+      "end": 225.599,
+      "duration": 0.173
+    },
+    {
+      "word": "todos",
+      "start": 225.599,
+      "end": 226.033,
+      "duration": 0.434
+    },
+    {
+      "word": "os",
+      "start": 226.033,
+      "end": 226.206,
+      "duration": 0.173
+    },
+    {
+      "word": "degraus",
+      "start": 226.206,
+      "end": 226.813,
+      "duration": 0.607
+    },
+    {
+      "word": "do",
+      "start": 226.813,
+      "end": 226.986,
+      "duration": 0.173
+    },
+    {
+      "word": "passado",
+      "start": 226.986,
+      "end": 227.593,
+      "duration": 0.607
+    },
+    {
+      "word": "são",
+      "start": 227.593,
+      "end": 227.853,
+      "duration": 0.26
+    },
+    {
+      "word": "fáceis...",
+      "start": 227.853,
+      "end": 228.634,
+      "duration": 0.781
+    },
+    {
+      "word": "O",
+      "start": 228.637,
+      "end": 228.733,
+      "duration": 0.096
+    },
+    {
+      "word": "Grande",
+      "start": 228.733,
+      "end": 229.311,
+      "duration": 0.578
+    },
+    {
+      "word": "Filtro",
+      "start": 229.311,
+      "end": 229.889,
+      "duration": 0.578
+    },
+    {
+      "word": "não",
+      "start": 229.889,
+      "end": 230.178,
+      "duration": 0.289
+    },
+    {
+      "word": "está",
+      "start": 230.178,
+      "end": 230.563,
+      "duration": 0.385
+    },
+    {
+      "word": "no",
+      "start": 230.563,
+      "end": 230.756,
+      "duration": 0.193
+    },
+    {
+      "word": "passado.",
+      "start": 230.756,
+      "end": 231.526,
+      "duration": 0.77
+    },
+    {
+      "word": "Ele",
+      "start": 231.525,
+      "end": 231.763,
+      "duration": 0.238
+    },
+    {
+      "word": "está",
+      "start": 231.763,
+      "end": 232.081,
+      "duration": 0.318
+    },
+    {
+      "word": "na",
+      "start": 232.081,
+      "end": 232.24,
+      "duration": 0.159
+    },
+    {
+      "word": "nossa",
+      "start": 232.24,
+      "end": 232.637,
+      "duration": 0.397
+    },
+    {
+      "word": "frente,",
+      "start": 232.637,
+      "end": 233.193,
+      "duration": 0.556
+    },
+    {
+      "word": "nos",
+      "start": 233.193,
+      "end": 233.431,
+      "duration": 0.238
+    },
+    {
+      "word": "aguardando",
+      "start": 233.431,
+      "end": 234.226,
+      "duration": 0.795
+    },
+    {
+      "word": "como",
+      "start": 234.226,
+      "end": 234.544,
+      "duration": 0.318
+    },
+    {
+      "word": "uma",
+      "start": 234.544,
+      "end": 234.782,
+      "duration": 0.238
+    },
+    {
+      "word": "guilhotina",
+      "start": 234.782,
+      "end": 235.577,
+      "duration": 0.795
+    },
+    {
+      "word": "cósmica.",
+      "start": 235.577,
+      "end": 236.213,
+      "duration": 0.636
+    },
+    {
+      "word": "Se",
+      "start": 236.213,
+      "end": 236.381,
+      "duration": 0.168
+    },
+    {
+      "word": "o",
+      "start": 236.381,
+      "end": 236.465,
+      "duration": 0.084
+    },
+    {
+      "word": "Grande",
+      "start": 236.465,
+      "end": 236.968,
+      "duration": 0.503
+    },
+    {
+      "word": "Filtro",
+      "start": 236.968,
+      "end": 237.471,
+      "duration": 0.503
+    },
+    {
+      "word": "estiver",
+      "start": 237.471,
+      "end": 238.058,
+      "duration": 0.587
+    },
+    {
+      "word": "no",
+      "start": 238.058,
+      "end": 238.226,
+      "duration": 0.168
+    },
+    {
+      "word": "nosso",
+      "start": 238.226,
+      "end": 238.645,
+      "duration": 0.419
+    },
+    {
+      "word": "futuro,",
+      "start": 238.645,
+      "end": 239.232,
+      "duration": 0.587
+    },
+    {
+      "word": "o",
+      "start": 239.232,
+      "end": 239.316,
+      "duration": 0.084
+    },
+    {
+      "word": "que",
+      "start": 239.316,
+      "end": 239.568,
+      "duration": 0.252
+    },
+    {
+      "word": "exatamente",
+      "start": 239.568,
+      "end": 240.407,
+      "duration": 0.839
+    },
+    {
+      "word": "ele",
+      "start": 240.407,
+      "end": 240.659,
+      "duration": 0.252
+    },
+    {
+      "word": "seria?",
+      "start": 240.659,
+      "end": 241.162,
+      "duration": 0.503
+    },
+    {
+      "word": "Astrônomos",
+      "start": 241.162,
+      "end": 241.859,
+      "duration": 0.697
+    },
+    {
+      "word": "e",
+      "start": 241.859,
+      "end": 241.929,
+      "duration": 0.07
+    },
+    {
+      "word": "teóricos",
+      "start": 241.929,
+      "end": 242.487,
+      "duration": 0.558
+    },
+    {
+      "word": "dos",
+      "start": 242.487,
+      "end": 242.696,
+      "duration": 0.209
+    },
+    {
+      "word": "riscos",
+      "start": 242.696,
+      "end": 243.114,
+      "duration": 0.418
+    },
+    {
+      "word": "existenciais",
+      "start": 243.114,
+      "end": 243.95,
+      "duration": 0.836
+    },
+    {
+      "word": "apontam",
+      "start": 243.95,
+      "end": 244.438,
+      "duration": 0.488
+    },
+    {
+      "word": "que",
+      "start": 244.438,
+      "end": 244.647,
+      "duration": 0.209
+    },
+    {
+      "word": "a",
+      "start": 244.647,
+      "end": 244.717,
+      "duration": 0.07
+    },
+    {
+      "word": "humanidade",
+      "start": 244.717,
+      "end": 245.414,
+      "duration": 0.697
+    },
+    {
+      "word": "entrou",
+      "start": 245.414,
+      "end": 245.832,
+      "duration": 0.418
+    },
+    {
+      "word": "justamente",
+      "start": 245.832,
+      "end": 246.529,
+      "duration": 0.697
+    },
+    {
+      "word": "no",
+      "start": 246.529,
+      "end": 246.668,
+      "duration": 0.139
+    },
+    {
+      "word": "século",
+      "start": 246.668,
+      "end": 247.086,
+      "duration": 0.418
+    },
+    {
+      "word": "mais",
+      "start": 247.086,
+      "end": 247.365,
+      "duration": 0.279
+    },
+    {
+      "word": "perigoso",
+      "start": 247.365,
+      "end": 247.923,
+      "duration": 0.558
+    },
+    {
+      "word": "de",
+      "start": 247.923,
+      "end": 248.062,
+      "duration": 0.139
+    },
+    {
+      "word": "sua",
+      "start": 248.062,
+      "end": 248.271,
+      "duration": 0.209
+    },
+    {
+      "word": "história.",
+      "start": 248.271,
+      "end": 248.898,
+      "duration": 0.627
+    },
+    {
+      "word": "Pela",
+      "start": 248.9,
+      "end": 249.25,
+      "duration": 0.35
+    },
+    {
+      "word": "primeira",
+      "start": 249.25,
+      "end": 249.95,
+      "duration": 0.7
+    },
+    {
+      "word": "vez,",
+      "start": 249.95,
+      "end": 250.3,
+      "duration": 0.35
+    },
+    {
+      "word": "nós",
+      "start": 250.3,
+      "end": 250.562,
+      "duration": 0.262
+    },
+    {
+      "word": "criamos",
+      "start": 250.562,
+      "end": 251.174,
+      "duration": 0.612
+    },
+    {
+      "word": "o",
+      "start": 251.174,
+      "end": 251.261,
+      "duration": 0.087
+    },
+    {
+      "word": "poder",
+      "start": 251.261,
+      "end": 251.698,
+      "duration": 0.437
+    },
+    {
+      "word": "de",
+      "start": 251.698,
+      "end": 251.873,
+      "duration": 0.175
+    },
+    {
+      "word": "extinguir",
+      "start": 251.873,
+      "end": 252.66,
+      "duration": 0.787
+    },
+    {
+      "word": "a",
+      "start": 252.66,
+      "end": 252.747,
+      "duration": 0.087
+    },
+    {
+      "word": "nós",
+      "start": 252.747,
+      "end": 253.009,
+      "duration": 0.262
+    },
+    {
+      "word": "mesmos.",
+      "start": 253.009,
+      "end": 253.621,
+      "duration": 0.612
+    },
+    {
+      "word": "Armas",
+      "start": 253.625,
+      "end": 253.981,
+      "duration": 0.356
+    },
+    {
+      "word": "termonucleares",
+      "start": 253.981,
+      "end": 254.978,
+      "duration": 0.997
+    },
+    {
+      "word": "capazes",
+      "start": 254.978,
+      "end": 255.477,
+      "duration": 0.499
+    },
+    {
+      "word": "de",
+      "start": 255.477,
+      "end": 255.619,
+      "duration": 0.142
+    },
+    {
+      "word": "cobrir",
+      "start": 255.619,
+      "end": 256.046,
+      "duration": 0.427
+    },
+    {
+      "word": "o",
+      "start": 256.046,
+      "end": 256.117,
+      "duration": 0.071
+    },
+    {
+      "word": "planeta",
+      "start": 256.117,
+      "end": 256.616,
+      "duration": 0.499
+    },
+    {
+      "word": "em",
+      "start": 256.616,
+      "end": 256.758,
+      "duration": 0.142
+    },
+    {
+      "word": "um",
+      "start": 256.758,
+      "end": 256.9,
+      "duration": 0.142
+    },
+    {
+      "word": "inverno",
+      "start": 256.9,
+      "end": 257.399,
+      "duration": 0.499
+    },
+    {
+      "word": "eterno,",
+      "start": 257.399,
+      "end": 257.898,
+      "duration": 0.499
+    },
+    {
+      "word": "biologia",
+      "start": 257.898,
+      "end": 258.468,
+      "duration": 0.57
+    },
+    {
+      "word": "sintética",
+      "start": 258.468,
+      "end": 259.109,
+      "duration": 0.641
+    },
+    {
+      "word": "desenhada",
+      "start": 259.109,
+      "end": 259.75,
+      "duration": 0.641
+    },
+    {
+      "word": "para",
+      "start": 259.75,
+      "end": 260.035,
+      "duration": 0.285
+    },
+    {
+      "word": "criar",
+      "start": 260.035,
+      "end": 260.391,
+      "duration": 0.356
+    },
+    {
+      "word": "patógenos",
+      "start": 260.391,
+      "end": 261.032,
+      "duration": 0.641
+    },
+    {
+      "word": "desenfreados,",
+      "start": 261.032,
+      "end": 261.958,
+      "duration": 0.926
+    },
+    {
+      "word": "e",
+      "start": 261.958,
+      "end": 262.029,
+      "duration": 0.071
+    },
+    {
+      "word": "acima",
+      "start": 262.029,
+      "end": 262.385,
+      "duration": 0.356
+    },
+    {
+      "word": "de",
+      "start": 262.385,
+      "end": 262.527,
+      "duration": 0.142
+    },
+    {
+      "word": "tudo,",
+      "start": 262.527,
+      "end": 262.883,
+      "duration": 0.356
+    },
+    {
+      "word": "o",
+      "start": 262.883,
+      "end": 262.954,
+      "duration": 0.071
+    },
+    {
+      "word": "surgimento",
+      "start": 262.954,
+      "end": 263.666,
+      "duration": 0.712
+    },
+    {
+      "word": "de",
+      "start": 263.666,
+      "end": 263.808,
+      "duration": 0.142
+    },
+    {
+      "word": "uma",
+      "start": 263.808,
+      "end": 264.022,
+      "duration": 0.214
+    },
+    {
+      "word": "Inteligência",
+      "start": 264.022,
+      "end": 264.877,
+      "duration": 0.855
+    },
+    {
+      "word": "Artificial",
+      "start": 264.877,
+      "end": 265.589,
+      "duration": 0.712
+    },
+    {
+      "word": "Geral",
+      "start": 265.589,
+      "end": 265.945,
+      "duration": 0.356
+    },
+    {
+      "word": "superinteligente",
+      "start": 265.945,
+      "end": 267.085,
+      "duration": 1.14
+    },
+    {
+      "word": "com",
+      "start": 267.085,
+      "end": 267.299,
+      "duration": 0.214
+    },
+    {
+      "word": "desalinhamento",
+      "start": 267.299,
+      "end": 268.296,
+      "duration": 0.997
+    },
+    {
+      "word": "ético.",
+      "start": 268.296,
+      "end": 268.723,
+      "duration": 0.427
+    },
+    {
+      "word": "E",
+      "start": 268.725,
+      "end": 268.809,
+      "duration": 0.084
+    },
+    {
+      "word": "se",
+      "start": 268.809,
+      "end": 268.976,
+      "duration": 0.167
+    },
+    {
+      "word": "toda",
+      "start": 268.976,
+      "end": 269.311,
+      "duration": 0.335
+    },
+    {
+      "word": "civilização",
+      "start": 269.311,
+      "end": 270.231,
+      "duration": 0.92
+    },
+    {
+      "word": "que",
+      "start": 270.231,
+      "end": 270.482,
+      "duration": 0.251
+    },
+    {
+      "word": "descobre",
+      "start": 270.482,
+      "end": 271.151,
+      "duration": 0.669
+    },
+    {
+      "word": "a",
+      "start": 271.151,
+      "end": 271.235,
+      "duration": 0.084
+    },
+    {
+      "word": "eletricidade",
+      "start": 271.235,
+      "end": 272.239,
+      "duration": 1.004
+    },
+    {
+      "word": "inevitavelmente",
+      "start": 272.239,
+      "end": 273.494,
+      "duration": 1.255
+    },
+    {
+      "word": "cria",
+      "start": 273.494,
+      "end": 273.829,
+      "duration": 0.335
+    },
+    {
+      "word": "uma",
+      "start": 273.829,
+      "end": 274.08,
+      "duration": 0.251
+    },
+    {
+      "word": "IA",
+      "start": 274.08,
+      "end": 274.247,
+      "duration": 0.167
+    },
+    {
+      "word": "que",
+      "start": 274.247,
+      "end": 274.498,
+      "duration": 0.251
+    },
+    {
+      "word": "a",
+      "start": 274.498,
+      "end": 274.582,
+      "duration": 0.084
+    },
+    {
+      "word": "extermina",
+      "start": 274.582,
+      "end": 275.335,
+      "duration": 0.753
+    },
+    {
+      "word": "menos",
+      "start": 275.335,
+      "end": 275.753,
+      "duration": 0.418
+    },
+    {
+      "word": "de",
+      "start": 275.753,
+      "end": 275.92,
+      "duration": 0.167
+    },
+    {
+      "word": "três",
+      "start": 275.92,
+      "end": 276.255,
+      "duration": 0.335
+    },
+    {
+      "word": "séculos",
+      "start": 276.255,
+      "end": 276.841,
+      "duration": 0.586
+    },
+    {
+      "word": "depois?",
+      "start": 276.841,
+      "end": 277.427,
+      "duration": 0.586
+    },
+    {
+      "word": "Essa",
+      "start": 277.425,
+      "end": 277.723,
+      "duration": 0.298
+    },
+    {
+      "word": "perspectiva",
+      "start": 277.723,
+      "end": 278.542,
+      "duration": 0.819
+    },
+    {
+      "word": "transforma",
+      "start": 278.542,
+      "end": 279.286,
+      "duration": 0.744
+    },
+    {
+      "word": "a",
+      "start": 279.286,
+      "end": 279.36,
+      "duration": 0.074
+    },
+    {
+      "word": "poesia",
+      "start": 279.36,
+      "end": 279.807,
+      "duration": 0.447
+    },
+    {
+      "word": "do",
+      "start": 279.807,
+      "end": 279.956,
+      "duration": 0.149
+    },
+    {
+      "word": "céu",
+      "start": 279.956,
+      "end": 280.179,
+      "duration": 0.223
+    },
+    {
+      "word": "estrelado",
+      "start": 280.179,
+      "end": 280.849,
+      "duration": 0.67
+    },
+    {
+      "word": "em",
+      "start": 280.849,
+      "end": 280.998,
+      "duration": 0.149
+    },
+    {
+      "word": "um",
+      "start": 280.998,
+      "end": 281.147,
+      "duration": 0.149
+    },
+    {
+      "word": "mistério",
+      "start": 281.147,
+      "end": 281.743,
+      "duration": 0.596
+    },
+    {
+      "word": "aterrador.",
+      "start": 281.743,
+      "end": 282.487,
+      "duration": 0.744
+    },
+    {
+      "word": "Quando",
+      "start": 282.488,
+      "end": 282.917,
+      "duration": 0.429
+    },
+    {
+      "word": "olhamos",
+      "start": 282.917,
+      "end": 283.417,
+      "duration": 0.5
+    },
+    {
+      "word": "para",
+      "start": 283.417,
+      "end": 283.703,
+      "duration": 0.286
+    },
+    {
+      "word": "a",
+      "start": 283.703,
+      "end": 283.774,
+      "duration": 0.071
+    },
+    {
+      "word": "Via",
+      "start": 283.774,
+      "end": 283.988,
+      "duration": 0.214
+    },
+    {
+      "word": "Láctea,",
+      "start": 283.988,
+      "end": 284.488,
+      "duration": 0.5
+    },
+    {
+      "word": "podemos",
+      "start": 284.488,
+      "end": 284.988,
+      "duration": 0.5
+    },
+    {
+      "word": "não",
+      "start": 284.988,
+      "end": 285.202,
+      "duration": 0.214
+    },
+    {
+      "word": "estar",
+      "start": 285.202,
+      "end": 285.559,
+      "duration": 0.357
+    },
+    {
+      "word": "contemplando",
+      "start": 285.559,
+      "end": 286.417,
+      "duration": 0.858
+    },
+    {
+      "word": "um",
+      "start": 286.417,
+      "end": 286.56,
+      "duration": 0.143
+    },
+    {
+      "word": "vazio",
+      "start": 286.56,
+      "end": 286.917,
+      "duration": 0.357
+    },
+    {
+      "word": "pacífico",
+      "start": 286.917,
+      "end": 287.489,
+      "duration": 0.572
+    },
+    {
+      "word": "e",
+      "start": 287.489,
+      "end": 287.56,
+      "duration": 0.071
+    },
+    {
+      "word": "inexplorado...",
+      "start": 287.56,
+      "end": 288.561,
+      "duration": 1.001
+    },
+    {
+      "word": "Mas",
+      "start": 288.563,
+      "end": 288.778,
+      "duration": 0.215
+    },
+    {
+      "word": "sim",
+      "start": 288.778,
+      "end": 288.993,
+      "duration": 0.215
+    },
+    {
+      "word": "um",
+      "start": 288.993,
+      "end": 289.136,
+      "duration": 0.143
+    },
+    {
+      "word": "cemitério",
+      "start": 289.136,
+      "end": 289.781,
+      "duration": 0.645
+    },
+    {
+      "word": "cósmico",
+      "start": 289.781,
+      "end": 290.282,
+      "duration": 0.501
+    },
+    {
+      "word": "em",
+      "start": 290.282,
+      "end": 290.425,
+      "duration": 0.143
+    },
+    {
+      "word": "escala",
+      "start": 290.425,
+      "end": 290.855,
+      "duration": 0.43
+    },
+    {
+      "word": "astronômica,",
+      "start": 290.855,
+      "end": 291.714,
+      "duration": 0.859
+    },
+    {
+      "word": "repleto",
+      "start": 291.714,
+      "end": 292.215,
+      "duration": 0.501
+    },
+    {
+      "word": "de",
+      "start": 292.215,
+      "end": 292.358,
+      "duration": 0.143
+    },
+    {
+      "word": "mundos",
+      "start": 292.358,
+      "end": 292.788,
+      "duration": 0.43
+    },
+    {
+      "word": "que",
+      "start": 292.788,
+      "end": 293.003,
+      "duration": 0.215
+    },
+    {
+      "word": "floresceram,",
+      "start": 293.003,
+      "end": 293.862,
+      "duration": 0.859
+    },
+    {
+      "word": "construíram",
+      "start": 293.862,
+      "end": 294.65,
+      "duration": 0.788
+    },
+    {
+      "word": "radiotelescópios,",
+      "start": 294.65,
+      "end": 295.868,
+      "duration": 1.218
+    },
+    {
+      "word": "criaram",
+      "start": 295.868,
+      "end": 296.369,
+      "duration": 0.501
+    },
+    {
+      "word": "computadores",
+      "start": 296.369,
+      "end": 297.228,
+      "duration": 0.859
+    },
+    {
+      "word": "e",
+      "start": 297.228,
+      "end": 297.3,
+      "duration": 0.072
+    },
+    {
+      "word": "sonharam",
+      "start": 297.3,
+      "end": 297.873,
+      "duration": 0.573
+    },
+    {
+      "word": "com",
+      "start": 297.873,
+      "end": 298.088,
+      "duration": 0.215
+    },
+    {
+      "word": "as",
+      "start": 298.088,
+      "end": 298.231,
+      "duration": 0.143
+    },
+    {
+      "word": "estrelas,",
+      "start": 298.231,
+      "end": 298.876,
+      "duration": 0.645
+    },
+    {
+      "word": "apenas",
+      "start": 298.876,
+      "end": 299.306,
+      "duration": 0.43
+    },
+    {
+      "word": "para",
+      "start": 299.306,
+      "end": 299.592,
+      "duration": 0.286
+    },
+    {
+      "word": "colapsarem",
+      "start": 299.592,
+      "end": 300.308,
+      "duration": 0.716
+    },
+    {
+      "word": "diante",
+      "start": 300.308,
+      "end": 300.738,
+      "duration": 0.43
+    },
+    {
+      "word": "de",
+      "start": 300.738,
+      "end": 300.881,
+      "duration": 0.143
+    },
+    {
+      "word": "suas",
+      "start": 300.881,
+      "end": 301.167,
+      "duration": 0.286
+    },
+    {
+      "word": "próprias",
+      "start": 301.167,
+      "end": 301.74,
+      "duration": 0.573
+    },
+    {
+      "word": "tecnologias",
+      "start": 301.74,
+      "end": 302.528,
+      "duration": 0.788
+    },
+    {
+      "word": "ou",
+      "start": 302.528,
+      "end": 302.671,
+      "duration": 0.143
+    },
+    {
+      "word": "de",
+      "start": 302.671,
+      "end": 302.814,
+      "duration": 0.143
+    },
+    {
+      "word": "cataclismos",
+      "start": 302.814,
+      "end": 303.602,
+      "duration": 0.788
+    },
+    {
+      "word": "planetários.",
+      "start": 303.602,
+      "end": 304.461,
+      "duration": 0.859
+    },
+    {
+      "word": "Cada",
+      "start": 304.463,
+      "end": 304.771,
+      "duration": 0.308
+    },
+    {
+      "word": "planeta",
+      "start": 304.771,
+      "end": 305.311,
+      "duration": 0.54
+    },
+    {
+      "word": "rochoso",
+      "start": 305.311,
+      "end": 305.851,
+      "duration": 0.54
+    },
+    {
+      "word": "silencioso",
+      "start": 305.851,
+      "end": 306.622,
+      "duration": 0.771
+    },
+    {
+      "word": "pode",
+      "start": 306.622,
+      "end": 306.93,
+      "duration": 0.308
+    },
+    {
+      "word": "ser",
+      "start": 306.93,
+      "end": 307.161,
+      "duration": 0.231
+    },
+    {
+      "word": "a",
+      "start": 307.161,
+      "end": 307.238,
+      "duration": 0.077
+    },
+    {
+      "word": "lápide",
+      "start": 307.238,
+      "end": 307.701,
+      "duration": 0.463
+    },
+    {
+      "word": "de",
+      "start": 307.701,
+      "end": 307.855,
+      "duration": 0.154
+    },
+    {
+      "word": "uma",
+      "start": 307.855,
+      "end": 308.086,
+      "duration": 0.231
+    },
+    {
+      "word": "espécie",
+      "start": 308.086,
+      "end": 308.626,
+      "duration": 0.54
+    },
+    {
+      "word": "que",
+      "start": 308.626,
+      "end": 308.857,
+      "duration": 0.231
+    },
+    {
+      "word": "pensou",
+      "start": 308.857,
+      "end": 309.32,
+      "duration": 0.463
+    },
+    {
+      "word": "ser",
+      "start": 309.32,
+      "end": 309.551,
+      "duration": 0.231
+    },
+    {
+      "word": "invencível,",
+      "start": 309.551,
+      "end": 310.399,
+      "duration": 0.848
+    },
+    {
+      "word": "antes",
+      "start": 310.571,
+      "end": 311.003,
+      "duration": 0.432
+    },
+    {
+      "word": "de",
+      "start": 311.003,
+      "end": 311.176,
+      "duration": 0.173
+    },
+    {
+      "word": "encontrar",
+      "start": 311.176,
+      "end": 311.954,
+      "duration": 0.778
+    },
+    {
+      "word": "o",
+      "start": 311.954,
+      "end": 312.04,
+      "duration": 0.086
+    },
+    {
+      "word": "seu",
+      "start": 312.04,
+      "end": 312.299,
+      "duration": 0.259
+    },
+    {
+      "word": "próprio",
+      "start": 312.299,
+      "end": 312.904,
+      "duration": 0.605
+    },
+    {
+      "word": "filtro.",
+      "start": 312.904,
+      "end": 313.509,
+      "duration": 0.605
+    },
+    {
+      "word": "Ainda",
+      "start": 313.458,
+      "end": 313.908,
+      "duration": 0.45
+    },
+    {
+      "word": "temos",
+      "start": 313.908,
+      "end": 314.358,
+      "duration": 0.45
+    },
+    {
+      "word": "uma",
+      "start": 314.358,
+      "end": 314.628,
+      "duration": 0.27
+    },
+    {
+      "word": "chance",
+      "start": 314.628,
+      "end": 315.168,
+      "duration": 0.54
+    },
+    {
+      "word": "extraordinária.",
+      "start": 315.168,
+      "end": 316.519,
+      "duration": 1.351
+    },
+    {
+      "word": "Talvez",
+      "start": 316.521,
+      "end": 316.917,
+      "duration": 0.396
+    },
+    {
+      "word": "sejamos",
+      "start": 316.917,
+      "end": 317.379,
+      "duration": 0.462
+    },
+    {
+      "word": "os",
+      "start": 317.379,
+      "end": 317.511,
+      "duration": 0.132
+    },
+    {
+      "word": "pioneiros",
+      "start": 317.511,
+      "end": 318.106,
+      "duration": 0.595
+    },
+    {
+      "word": "solitários,",
+      "start": 318.106,
+      "end": 318.833,
+      "duration": 0.727
+    },
+    {
+      "word": "a",
+      "start": 318.833,
+      "end": 318.899,
+      "duration": 0.066
+    },
+    {
+      "word": "primeira",
+      "start": 318.899,
+      "end": 319.428,
+      "duration": 0.529
+    },
+    {
+      "word": "espécie",
+      "start": 319.428,
+      "end": 319.89,
+      "duration": 0.462
+    },
+    {
+      "word": "viva",
+      "start": 319.89,
+      "end": 320.154,
+      "duration": 0.264
+    },
+    {
+      "word": "a",
+      "start": 320.154,
+      "end": 320.22,
+      "duration": 0.066
+    },
+    {
+      "word": "quebrar",
+      "start": 320.22,
+      "end": 320.682,
+      "duration": 0.462
+    },
+    {
+      "word": "as",
+      "start": 320.682,
+      "end": 320.814,
+      "duration": 0.132
+    },
+    {
+      "word": "correntes",
+      "start": 320.814,
+      "end": 321.409,
+      "duration": 0.595
+    },
+    {
+      "word": "da",
+      "start": 321.409,
+      "end": 321.541,
+      "duration": 0.132
+    },
+    {
+      "word": "gravidade",
+      "start": 321.541,
+      "end": 322.136,
+      "duration": 0.595
+    },
+    {
+      "word": "e",
+      "start": 322.136,
+      "end": 322.202,
+      "duration": 0.066
+    },
+    {
+      "word": "carregar",
+      "start": 322.202,
+      "end": 322.731,
+      "duration": 0.529
+    },
+    {
+      "word": "a",
+      "start": 322.731,
+      "end": 322.797,
+      "duration": 0.066
+    },
+    {
+      "word": "tocha",
+      "start": 322.797,
+      "end": 323.127,
+      "duration": 0.33
+    },
+    {
+      "word": "da",
+      "start": 323.127,
+      "end": 323.259,
+      "duration": 0.132
+    },
+    {
+      "word": "consciência",
+      "start": 323.259,
+      "end": 323.986,
+      "duration": 0.727
+    },
+    {
+      "word": "pelo",
+      "start": 323.986,
+      "end": 324.25,
+      "duration": 0.264
+    },
+    {
+      "word": "universo",
+      "start": 324.25,
+      "end": 324.779,
+      "duration": 0.529
+    },
+    {
+      "word": "adentro.",
+      "start": 324.779,
+      "end": 325.308,
+      "duration": 0.529
+    },
+    {
+      "word": "Mas",
+      "start": 325.308,
+      "end": 325.555,
+      "duration": 0.247
+    },
+    {
+      "word": "essa",
+      "start": 325.555,
+      "end": 325.884,
+      "duration": 0.329
+    },
+    {
+      "word": "tocha",
+      "start": 325.884,
+      "end": 326.295,
+      "duration": 0.411
+    },
+    {
+      "word": "é",
+      "start": 326.295,
+      "end": 326.377,
+      "duration": 0.082
+    },
+    {
+      "word": "frágil,",
+      "start": 326.377,
+      "end": 326.952,
+      "duration": 0.575
+    },
+    {
+      "word": "e",
+      "start": 326.952,
+      "end": 327.034,
+      "duration": 0.082
+    },
+    {
+      "word": "o",
+      "start": 327.034,
+      "end": 327.116,
+      "duration": 0.082
+    },
+    {
+      "word": "futuro",
+      "start": 327.116,
+      "end": 327.609,
+      "duration": 0.493
+    },
+    {
+      "word": "exigirá",
+      "start": 327.609,
+      "end": 328.184,
+      "duration": 0.575
+    },
+    {
+      "word": "cada",
+      "start": 328.184,
+      "end": 328.513,
+      "duration": 0.329
+    },
+    {
+      "word": "grama",
+      "start": 328.513,
+      "end": 328.924,
+      "duration": 0.411
+    },
+    {
+      "word": "de",
+      "start": 328.924,
+      "end": 329.088,
+      "duration": 0.164
+    },
+    {
+      "word": "sabedoria,",
+      "start": 329.088,
+      "end": 329.91,
+      "duration": 0.822
+    },
+    {
+      "word": "ciência",
+      "start": 329.91,
+      "end": 330.485,
+      "duration": 0.575
+    },
+    {
+      "word": "e",
+      "start": 330.485,
+      "end": 330.567,
+      "duration": 0.082
+    },
+    {
+      "word": "tecnologia",
+      "start": 330.567,
+      "end": 331.389,
+      "duration": 0.822
+    },
+    {
+      "word": "responsável",
+      "start": 331.389,
+      "end": 332.293,
+      "duration": 0.904
+    },
+    {
+      "word": "que",
+      "start": 332.293,
+      "end": 332.54,
+      "duration": 0.247
+    },
+    {
+      "word": "possuirmos.",
+      "start": 332.54,
+      "end": 333.444,
+      "duration": 0.904
+    },
+    {
+      "word": "E",
+      "start": 333.446,
+      "end": 333.607,
+      "duration": 0.161
+    },
+    {
+      "word": "você,",
+      "start": 333.607,
+      "end": 334.411,
+      "duration": 0.804
+    },
+    {
+      "word": "o",
+      "start": 334.411,
+      "end": 334.572,
+      "duration": 0.161
+    },
+    {
+      "word": "que",
+      "start": 334.572,
+      "end": 335.055,
+      "duration": 0.483
+    },
+    {
+      "word": "acha?",
+      "start": 335.055,
+      "end": 335.859,
+      "duration": 0.804
+    },
+    {
+      "word": "Você",
+      "start": 335.858,
+      "end": 336.147,
+      "duration": 0.289
+    },
+    {
+      "word": "acredita",
+      "start": 336.147,
+      "end": 336.726,
+      "duration": 0.579
+    },
+    {
+      "word": "que",
+      "start": 336.726,
+      "end": 336.943,
+      "duration": 0.217
+    },
+    {
+      "word": "a",
+      "start": 336.943,
+      "end": 337.015,
+      "duration": 0.072
+    },
+    {
+      "word": "humanidade",
+      "start": 337.015,
+      "end": 337.739,
+      "duration": 0.724
+    },
+    {
+      "word": "já",
+      "start": 337.739,
+      "end": 337.884,
+      "duration": 0.145
+    },
+    {
+      "word": "venceu",
+      "start": 337.884,
+      "end": 338.318,
+      "duration": 0.434
+    },
+    {
+      "word": "o",
+      "start": 338.318,
+      "end": 338.39,
+      "duration": 0.072
+    },
+    {
+      "word": "Grande",
+      "start": 338.39,
+      "end": 338.824,
+      "duration": 0.434
+    },
+    {
+      "word": "Filtro",
+      "start": 338.824,
+      "end": 339.258,
+      "duration": 0.434
+    },
+    {
+      "word": "no",
+      "start": 339.258,
+      "end": 339.403,
+      "duration": 0.145
+    },
+    {
+      "word": "passado,",
+      "start": 339.403,
+      "end": 339.982,
+      "duration": 0.579
+    },
+    {
+      "word": "ou",
+      "start": 339.982,
+      "end": 340.127,
+      "duration": 0.145
+    },
+    {
+      "word": "a",
+      "start": 340.127,
+      "end": 340.199,
+      "duration": 0.072
+    },
+    {
+      "word": "nossa",
+      "start": 340.199,
+      "end": 340.561,
+      "duration": 0.362
+    },
+    {
+      "word": "maior",
+      "start": 340.561,
+      "end": 340.923,
+      "duration": 0.362
+    },
+    {
+      "word": "barreira",
+      "start": 340.923,
+      "end": 341.502,
+      "duration": 0.579
+    },
+    {
+      "word": "ainda",
+      "start": 341.502,
+      "end": 341.864,
+      "duration": 0.362
+    },
+    {
+      "word": "está",
+      "start": 341.864,
+      "end": 342.153,
+      "duration": 0.289
+    },
+    {
+      "word": "por",
+      "start": 342.153,
+      "end": 342.37,
+      "duration": 0.217
+    },
+    {
+      "word": "vir",
+      "start": 342.37,
+      "end": 342.587,
+      "duration": 0.217
+    },
+    {
+      "word": "nos",
+      "start": 342.587,
+      "end": 342.804,
+      "duration": 0.217
+    },
+    {
+      "word": "próximos",
+      "start": 342.804,
+      "end": 343.383,
+      "duration": 0.579
+    },
+    {
+      "word": "anos?",
+      "start": 343.383,
+      "end": 343.745,
+      "duration": 0.362
+    },
+    {
+      "word": "Deixe",
+      "start": 343.746,
+      "end": 344.111,
+      "duration": 0.365
+    },
+    {
+      "word": "sua",
+      "start": 344.111,
+      "end": 344.33,
+      "duration": 0.219
+    },
+    {
+      "word": "reflexão",
+      "start": 344.33,
+      "end": 344.914,
+      "duration": 0.584
+    },
+    {
+      "word": "nos",
+      "start": 344.914,
+      "end": 345.133,
+      "duration": 0.219
+    },
+    {
+      "word": "comentários,",
+      "start": 345.133,
+      "end": 346.009,
+      "duration": 0.876
+    },
+    {
+      "word": "compartilhe",
+      "start": 346.009,
+      "end": 346.812,
+      "duration": 0.803
+    },
+    {
+      "word": "este",
+      "start": 346.812,
+      "end": 347.104,
+      "duration": 0.292
+    },
+    {
+      "word": "vídeo",
+      "start": 347.104,
+      "end": 347.469,
+      "duration": 0.365
+    },
+    {
+      "word": "com",
+      "start": 347.469,
+      "end": 347.688,
+      "duration": 0.219
+    },
+    {
+      "word": "quem",
+      "start": 347.688,
+      "end": 347.98,
+      "duration": 0.292
+    },
+    {
+      "word": "é",
+      "start": 347.98,
+      "end": 348.053,
+      "duration": 0.073
+    },
+    {
+      "word": "fascinado",
+      "start": 348.053,
+      "end": 348.71,
+      "duration": 0.657
+    },
+    {
+      "word": "pelos",
+      "start": 348.71,
+      "end": 349.075,
+      "duration": 0.365
+    },
+    {
+      "word": "mistérios",
+      "start": 349.075,
+      "end": 349.732,
+      "duration": 0.657
+    },
+    {
+      "word": "do",
+      "start": 349.732,
+      "end": 349.878,
+      "duration": 0.146
+    },
+    {
+      "word": "cosmos",
+      "start": 349.878,
+      "end": 350.316,
+      "duration": 0.438
+    },
+    {
+      "word": "e",
+      "start": 350.316,
+      "end": 350.389,
+      "duration": 0.073
+    },
+    {
+      "word": "da",
+      "start": 350.389,
+      "end": 350.535,
+      "duration": 0.146
+    },
+    {
+      "word": "ciência,",
+      "start": 350.535,
+      "end": 351.119,
+      "duration": 0.584
+    },
+    {
+      "word": "inscreva-se",
+      "start": 351.119,
+      "end": 351.922,
+      "duration": 0.803
+    },
+    {
+      "word": "no",
+      "start": 351.922,
+      "end": 352.068,
+      "duration": 0.146
+    },
+    {
+      "word": "canal",
+      "start": 352.068,
+      "end": 352.433,
+      "duration": 0.365
+    },
+    {
+      "word": "Scapatici",
+      "start": 352.433,
+      "end": 353.09,
+      "duration": 0.657
+    },
+    {
+      "word": "Tecnologia",
+      "start": 353.09,
+      "end": 353.82,
+      "duration": 0.73
+    },
+    {
+      "word": "para",
+      "start": 353.82,
+      "end": 354.112,
+      "duration": 0.292
+    },
+    {
+      "word": "desvendar",
+      "start": 354.112,
+      "end": 354.769,
+      "duration": 0.657
+    },
+    {
+      "word": "as",
+      "start": 354.769,
+      "end": 354.915,
+      "duration": 0.146
+    },
+    {
+      "word": "maiores",
+      "start": 354.915,
+      "end": 355.426,
+      "duration": 0.511
+    },
+    {
+      "word": "fronteiras",
+      "start": 355.426,
+      "end": 356.156,
+      "duration": 0.73
+    },
+    {
+      "word": "do",
+      "start": 356.156,
+      "end": 356.302,
+      "duration": 0.146
+    },
+    {
+      "word": "conhecimento,",
+      "start": 356.302,
+      "end": 357.251,
+      "duration": 0.949
+    },
+    {
+      "word": "e",
+      "start": 357.251,
+      "end": 357.324,
+      "duration": 0.073
+    },
+    {
+      "word": "até",
+      "start": 357.324,
+      "end": 357.543,
+      "duration": 0.219
+    },
+    {
+      "word": "o",
+      "start": 357.543,
+      "end": 357.616,
+      "duration": 0.073
+    },
+    {
+      "word": "próximo",
+      "start": 357.616,
+      "end": 358.127,
+      "duration": 0.511
+    },
+    {
+      "word": "vídeo!",
+      "start": 358.127,
+      "end": 358.565,
+      "duration": 0.438
+    }
+  ]
+}
