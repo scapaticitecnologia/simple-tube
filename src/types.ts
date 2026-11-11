@@ -15,6 +15,8 @@ export interface SubtitlesData {
   intro_duration_sec?: number;
   vinheta_duration_sec?: number;
   rest_duration_sec?: number;
+  shorts_duration_sec?: number;
+  shorts_timeline?: WordTimeline[];
 }
 
 export type PanDirection =
@@ -51,6 +53,7 @@ export interface VideoScript {
   target_duration_seconds?: number;
   fps?: number;
   vinheta_duration_frames?: number;
+  shorts_narration?: string;
   seo?: {
     tags: string[];
     description: string;
@@ -65,6 +68,7 @@ export interface MainVideoProps {
   audioPath?: string;
   audioIntroPath?: string;
   audioRestPath?: string;
+  audioShortsPath?: string;
   bgMusicPath?: string;
   bgMusicVolume?: number;
 }

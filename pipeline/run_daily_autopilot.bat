@@ -1,5 +1,7 @@
 @echo off
 setlocal
+set PYTHONIOENCODING=utf-8
+set AUTOPILOT_UNATTENDED=1
 cd /d "%~dp0\.."
 
 echo [SIMPLE-TUBE AUTOPILOT] Iniciando rotina diaria: %date% %time% >> pipeline\autopilot_runner.log

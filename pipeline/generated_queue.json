@@ -1,0 +1,1395 @@
+[
+  {
+    "id": "video-022-gravitational-waves-exoplanets",
+    "slug": "gravitational-waves-exoplanets",
+    "title": "Ondas no Espaço-Tempo: Como a Gravidade Revela Mundos e Catástrofes Ocultas",
+    "topic": "Ondas Gravitacionais, Exoplanetas, Relatividade Geral e Detectores Laser",
+    "channel": "Scapatici Tecnologia",
+    "target_duration_seconds": 320,
+    "fps": 30,
+    "vinheta_duration_frames": 90,
+    "bg_music_volume": 0.12,
+    "trend_context": {
+      "source": "Phys.org Space",
+      "title": "How ripples in space-time can reveal new exoplanets",
+      "summary": "The LISA (Laser Interferometer Space Antenna) observatory, now in development, will detect gravitational waves, the tiny ripples in space-time caused by orbiting masses. Now two studies led by NASA astrophysicists show in new detail how LISA could reveal a new and unique populati",
+      "link": "https://phys.org/news/2026-11-ripples-space-reveal-exoplanets.html"
+    },
+    "thumbnail_text": {
+      "line1": "ONDAS NO",
+      "line2": "ESPAÇO-TEMPO!",
+      "subtitle": "A GRAVIDADE REVELA MUNDOS OCULTOS | SCAPATICI TECNOLOGIA"
+    },
+    "seo": {
+      "title_options": [
+        "Ondas no Espaço-Tempo: Como a Gravidade Revela Mundos e Catástrofes Ocultas",
+        "Como Ondas Invisíveis no Espaço-Tempo Podem Descobrir Novos Exoplanetas",
+        "Ouvindo o Universo: A Nova Era da Astronomia de Ondas Gravitacionais"
+      ],
+      "description": "Previstas por Einstein em 1916, as ondulações do espaço-tempo não mostram apenas colisões de buracos negros — novas pesquisas apontam como podem revelar exoplanetas invisíveis à luz.\n\n🔎 Pauta em destaque nas tendências (Phys.org Space): How ripples in space-time can reveal new exoplanets\n\nNeste episódio do canal Scapatici Tecnologia, mergulhamos com rigor científico e dados reais dos observatórios espaciais neste enigma do cosmos.\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para novos documentários todos os dias!\n\n#scapaticitecnologia #ondasgravitacionais #einstein #exoplanetas #ligo #espacotempo #fisica #ciencia",
+      "tags": [
+        "scapatici tecnologia",
+        "ondas gravitacionais",
+        "einstein",
+        "exoplanetas",
+        "ligo",
+        "espaco tempo",
+        "fisica",
+        "ciencia"
+      ]
+    },
+    "shorts_narration": "Novas notícias científicas e observações espaciais voltaram a colocar este tema no centro das atenções em todo o mundo. De Galileu ao Telescópio James Webb, toda a astronomia dependia de capturar fótons de luz, raios X ou ondas de rádio. Mas o universo guarda eventos colossais completamente escuros e invisíveis. Tudo mudou quando aprendemos a medir ondas gravitacionais: vibrações reais do próprio espaço-tempo viajando pelo cosmos à velocidade da luz. Quando Albert Einstein previu as ondas gravitacionais em mil novecentos e dezesseis usando a Relatividade Geral, ele mesmo achou que o sinal seria tão fraco que nenhum equipamento humano jamais conseguiria detectá-lo. Ele subestimou a engenhosidade dos detectores a laser do LIGO, cujos braços de quatro quilômetros medem deformações dez mil vezes menores que o núcleo de um único átomo de hidrogênio! Novas pesquisas em astrofísica revelaram um uso surpreendente para essas ondas: encontrar exoplanetas completamente ocultos! Pares de estrelas anãs brancas em órbita fechada emitem ondas gravitacionais contínuas como um metrônomo cósmico perfeito. Quando um planeta orbita esse sistema, ele faz o par oscilar levemente para frente e para trás, alterando o ritmo das ondas de gravidade captadas aqui na Terra. Ao contrário da luz visível, que é bloqueada por muralhas de poeira interestelar ou ofuscada pelo brilho das estrelas-mãe, as ondas gravitacionais atravessam planetas, estrelas e galáxias inteiras sem quase nenhuma interferência! Isso abre a porta para mapear mundos sobreviventes em volta de cadáveres estelares até mesmo em galáxias vizinhas. Para capturar ondas gravitacionais ainda maiores — de comprimentos de onda de anos-luz geradas por buracos negros supermassivos no centro de galáxias em fusão — os astrônomos usam estrelas de nêutrons giratórias espalhadas pela Via Láctea como uma antena do tamanho da própria galáxia, medindo atrasos de nanossegundos em seus pulsos de rádio. A investigação completa com todos os detalhes e implicações cósmicas está no vídeo principal do YouTube: acesse o link fixado nos comentários e na descrição, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+    "scenes": [
+      {
+        "id": "scene_1_hook",
+        "type": "hook",
+        "visual_theme": "gravitational-waves-exoplanets_hook",
+        "headline": "O SEXTO SENTIDO DA HUMANIDADE",
+        "narration": "Novas notícias científicas e observações espaciais voltaram a colocar este tema no centro das atenções em todo o mundo. De Galileu ao Telescópio James Webb, toda a astronomia dependia de capturar fótons de luz, raios X ou ondas de rádio. Mas o universo guarda eventos colossais completamente escuros e invisíveis. Tudo mudou quando aprendemos a medir ondas gravitacionais: vibrações reais do próprio espaço-tempo viajando pelo cosmos à velocidade da luz.",
+        "highlight_words": [
+          "ONDAS GRAVITACIONAIS",
+          "EINSTEIN",
+          "ESPAÇO-TEMPO"
+        ],
+        "stats": {
+          "label": "Velocidade da Onda",
+          "value": "299.792 km/s (Igual à Luz)"
+        },
+        "backgroundImage": "assets/video-022-gravitational-waves-exoplanets/scene_1.jpg",
+        "panDirection": "zoom-in"
+      },
+      {
+        "id": "scene_2_einstein",
+        "type": "investigation",
+        "visual_theme": "gravitational-waves-exoplanets_einstein",
+        "headline": "A PREVISÃO QUE EINSTEIN DUVIDOU",
+        "narration": "Quando Albert Einstein previu as ondas gravitacionais em mil novecentos e dezesseis usando a Relatividade Geral, ele mesmo achou que o sinal seria tão fraco que nenhum equipamento humano jamais conseguiria detectá-lo. Ele subestimou a engenhosidade dos detectores a laser do LIGO, cujos braços de quatro quilômetros medem deformações dez mil vezes menores que o núcleo de um único átomo de hidrogênio!",
+        "highlight_words": [
+          "RELATIVIDADE GERAL",
+          "1916",
+          "TREMOR CÓSMICO"
+        ],
+        "stats": {
+          "label": "Precisão Exigida",
+          "value": "1/10.000 de um Próton"
+        },
+        "backgroundImage": "assets/video-022-gravitational-waves-exoplanets/scene_2.jpg",
+        "panDirection": "pan-right"
+      },
+      {
+        "id": "scene_3_exoplanets",
+        "type": "revelation",
+        "visual_theme": "gravitational-waves-exoplanets_exoplanets",
+        "headline": "CAÇANDO EXOPLANETAS SEM USAR LUZ",
+        "narration": "Novas pesquisas em astrofísica revelaram um uso surpreendente para essas ondas: encontrar exoplanetas completamente ocultos! Pares de estrelas anãs brancas em órbita fechada emitem ondas gravitacionais contínuas como um metrônomo cósmico perfeito. Quando um planeta orbita esse sistema, ele faz o par oscilar levemente para frente e para trás, alterando o ritmo das ondas de gravidade captadas aqui na Terra.",
+        "highlight_words": [
+          "EXOPLANETAS",
+          "ANÃS BRANCAS",
+          "EFEITO DOPPLER"
+        ],
+        "stats": {
+          "label": "Novo Método",
+          "value": "Doppler Gravitacional"
+        },
+        "backgroundImage": "assets/video-022-gravitational-waves-exoplanets/scene_3.jpg",
+        "panDirection": "pan-left"
+      },
+      {
+        "id": "scene_4_galaxy",
+        "type": "investigation",
+        "visual_theme": "gravitational-waves-exoplanets_galaxy",
+        "headline": "ENXERGANDO ATRAVÉS DA POEIRA GALÁCTICA",
+        "narration": "Ao contrário da luz visível, que é bloqueada por muralhas de poeira interestelar ou ofuscada pelo brilho das estrelas-mãe, as ondas gravitacionais atravessam planetas, estrelas e galáxias inteiras sem quase nenhuma interferência! Isso abre a porta para mapear mundos sobreviventes em volta de cadáveres estelares até mesmo em galáxias vizinhas.",
+        "highlight_words": [
+          "NÚCLEO GALÁCTICO",
+          "OUTRAS GALÁXIAS",
+          "TRANSPARÊNCIA"
+        ],
+        "stats": {
+          "label": "Alcance Potencial",
+          "value": "Via Láctea e Além"
+        },
+        "backgroundImage": "assets/video-022-gravitational-waves-exoplanets/scene_4.jpg",
+        "panDirection": "hyper-zoom"
+      },
+      {
+        "id": "scene_5_pulsar",
+        "type": "investigation",
+        "visual_theme": "gravitational-waves-exoplanets_pulsar",
+        "headline": "A REDE DE PULSARES DA VIA LÁCTEA",
+        "narration": "Para capturar ondas gravitacionais ainda maiores — de comprimentos de onda de anos-luz geradas por buracos negros supermassivos no centro de galáxias em fusão — os astrônomos usam estrelas de nêutrons giratórias espalhadas pela Via Láctea como uma antena do tamanho da própria galáxia, medindo atrasos de nanossegundos em seus pulsos de rádio.",
+        "highlight_words": [
+          "PULSAR TIMING",
+          "ORQUESTRA CÓSMICA",
+          "BURACOS NEGROS"
+        ],
+        "stats": {
+          "label": "Detetor Natural",
+          "value": "Relógios Estelares"
+        },
+        "backgroundImage": "assets/video-022-gravitational-waves-exoplanets/scene_5.jpg",
+        "panDirection": "dramatic-pulse"
+      },
+      {
+        "id": "scene_6_lisa",
+        "type": "climax",
+        "visual_theme": "gravitational-waves-exoplanets_lisa",
+        "headline": "TRÊS SATÉLITES NO VÁCUO ESPACIAL",
+        "narration": "Na próxima década, a missão espacial LISA colocará três espaçonaves em órbita solar formando um triângulo perfeito com dois milhões e meio de quilômetros de cada lado, conectadas por feixes de laser no vácuo absoluto do espaço. Sem o ruído de terremotos ou oceanos terrestres, esse instrumento poderá detectar dezenas de milhares de fontes binárias e seus possíveis planetas.",
+        "highlight_words": [
+          "LISA",
+          "LASERS DE 2,5M KM",
+          "2035"
+        ],
+        "stats": {
+          "label": "Braço dos Lasers",
+          "value": "2,5 Milhões de km"
+        },
+        "backgroundImage": "assets/video-022-gravitational-waves-exoplanets/scene_6.jpg",
+        "panDirection": "floating-drift"
+      },
+      {
+        "id": "scene_7_future",
+        "type": "investigation",
+        "visual_theme": "gravitational-waves-exoplanets_future",
+        "headline": "O ECO DO PRÓPRIO BIG BANG",
+        "narration": "O maior sonho da astronomia gravitacional vai além de planetas e estrelas: um dia, essas antenas podem escutar o fundo primordial de ondas gravitacionais nascidas no primeiro trilionésimo de segundo do universo — revelando diretamente como o Big Bang expandiu o espaço antes mesmo da existência da luz.",
+        "highlight_words": [
+          "ONDAS PRIMORDIAIS",
+          "INFLAÇÃO CÓSMICA",
+          "ORIGEM DO TEMPO"
+        ],
+        "stats": {
+          "label": "Alvo Definitivo",
+          "value": "Primeiro Trilionésimo de s"
+        },
+        "backgroundImage": "assets/video-022-gravitational-waves-exoplanets/scene_7.jpg",
+        "panDirection": "tilt-down"
+      },
+      {
+        "id": "scene_8_scapatici_cta",
+        "type": "cta",
+        "visual_theme": "scapatici_space_observatory_community",
+        "headline": "OUVINDO A SINFINIA DA GRAVIDADE",
+        "narration": "E você, imaginava que tremores microscópicos no próprio tecido do espaço poderiam revelar mundos do outro lado da galáxia? Deixe a sua teoria aqui nos comentários, compartilhe este vídeo com quem é fascinado pelos mistérios do universo, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia, e até o próximo vídeo!",
+        "highlight_words": [
+          "SCAPATICI TECNOLOGIA",
+          "DEIXE SEU COMENTÁRIO",
+          "INSCREVA-SE",
+          "PRÓXIMO VÍDEO"
+        ],
+        "stats": {
+          "label": "Comunidade Oficial",
+          "value": "Scapatici Tecnologia"
+        },
+        "backgroundImage": "assets/video-022-gravitational-waves-exoplanets/scene_8.jpg",
+        "panDirection": "zoom-out"
+      }
+    ],
+    "image_queries": {
+      "scene_1.jpg": "gravitational waves ripples spacetime simulation nasa",
+      "scene_2.jpg": "ligo interferometer laser gravitational observatory",
+      "scene_3.jpg": "white dwarf binary stars orbiting space nasa",
+      "scene_4.jpg": "exoplanet deep space hidden dust nebula nasa",
+      "scene_5.jpg": "lisa gravitational wave observatory spacecraft esa nasa",
+      "scene_6.jpg": "neutron star merger explosion optical light hubble",
+      "scene_7.jpg": "cosmic spacetime curvature einstein gravity",
+      "scene_8.jpg": "deep space starry universe pillars of creation webb",
+      "thumbnail.jpg": "gravitational waves binary black holes ligo space time nasa"
+    }
+  },
+  {
+    "id": "video-023-bennu-asteroids-origin-life",
+    "slug": "bennu-asteroids-origin-life",
+    "title": "Asteroide Bennu: Os Blocos da Vida Encontrados Fora da Terra Pela NASA",
+    "topic": "Asteroide Bennu, OSIRIS-REx, Origem da Vida e Química Pré-Biótica no Espaço",
+    "channel": "Scapatici Tecnologia",
+    "target_duration_seconds": 320,
+    "fps": 30,
+    "vinheta_duration_frames": 90,
+    "bg_music_volume": 0.12,
+    "trend_context": {
+      "source": "Phys.org Space",
+      "title": "Bennu asteroid analysis suggests unexpected origins for organics in space",
+      "summary": "Samples from the Bennu asteroid, which is currently more than 200 million miles (322 million kilometers) from Earth, and the Murchison meteorite, which fell to Earth in 1969, both contain molecules that build proteins necessary for life. New research has found that the molecules ",
+      "link": "https://phys.org/news/2026-11-bennu-asteroid-analysis-unexpected-space.html"
+    },
+    "thumbnail_text": {
+      "line1": "SEGREDO DO",
+      "line2": "ASTEROIDE BENNU!",
+      "subtitle": "A NASA ENCONTROU A ORIGEM DA VIDA? | SCAPATICI TECNOLOGIA"
+    },
+    "seo": {
+      "title_options": [
+        "Asteroide Bennu: Os Blocos da Vida Encontrados Fora da Terra Pela NASA",
+        "O Que a NASA Encontrou Dentro das Amostras do Asteroide Bennu Mudou Tudo",
+        "Os Ingredientes do DNA Vieram do Espaço? O Segredo do Asteroide Bennu"
+      ],
+      "description": "A análise de laboratório da poeira intocada do asteroide Bennu revelou moléculas orgânicas complexas, sais minerais antigos e todas as 5 bases nitrogenadas do DNA e do RNA.\n\n🔎 Pauta em destaque nas tendências (Phys.org Space): Bennu asteroid analysis suggests unexpected origins for organics in space\n\nNeste episódio do canal Scapatici Tecnologia, mergulhamos com rigor científico e dados reais dos observatórios espaciais neste enigma do cosmos.\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para novos documentários todos os dias!\n\n#scapaticitecnologia #asteroidebennu #nasa #osirisrex #origemdavida #astrobiologia #universo #ciencia",
+      "tags": [
+        "scapatici tecnologia",
+        "asteroide bennu",
+        "nasa",
+        "osiris rex",
+        "origem da vida",
+        "astrobiologia",
+        "universo",
+        "ciencia"
+      ]
+    },
+    "shorts_narration": "Novas notícias científicas e observações espaciais voltaram a colocar este tema no centro das atenções em todo o mundo. Por mais de duzentos anos, os cientistas procuram a peça faltante do maior quebra-cabeça da biologia: como moléculas sem vida conseguiram se organizar nos primeiros códigos genéticos da Terra primitiva? Parte dessa resposta não está em nossos oceanos atuais, mas em cento e vinte e um gramas de poeira preta trazidos diretamente do asteroide Bennu pela espaçonave OSIRIS-REx da NASA. Em salas limpas esterilizadas para evitar qualquer contaminação moderna, pesquisadores descobriram que as amostras de Bennu carregam dezenas de milhares de compostos orgânicos diferentes. O choque foi encontrar todas as cinco bases nitrogenadas que codificam o DNA e o RNA terrestres — adenina, guanina, citosina, timina e uracila — além de catorze dos vinte aminoácidos usados para fabricar proteínas. Os exames de microscopia eletrônica também detectaram onze minerais raros de evaporito — incluindo fosfatos e carbonatos de sódio idênticos aos que se formam quando lagos salgados secam na Terra. Isso prova que o protoplaneta original do qual Bennu se fragmentou abrigava bolsões de água líquida salgada e morna nos primeiros milhões de anos do Sistema Solar. A vida na Terra tem uma preferência intrigante: quase todos os nossos aminoácidos giram para o lado esquerdo, como uma luva canhota. No asteroide Bennu, porém, os cientistas encontraram misturas perfeitamente equilibradas entre formas esquerdas e direitas! Esse contraste mostra que a química pré-biótica nasceu simétrica no espaço, mas algum evento misterioso na Terra escolheu apenas um lado. Há quatro bilhões de anos, durante o Intenso Bombardeio Tardio, milhões de asteroides carbonáceos como Bennu atingiram a Terra recém-formada. Se cada rocha trazia água, fósforo, aminoácidos e nucleobases prontas em seu interior protegido, os nossos oceanos primitivos receberam um verdadeiro kit de partida químico vindo diretamente das estrelas. A investigação completa com todos os detalhes e implicações cósmicas está no vídeo principal do YouTube: acesse o link fixado nos comentários e na descrição, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+    "scenes": [
+      {
+        "id": "scene_1_hook",
+        "type": "hook",
+        "visual_theme": "bennu-asteroids-origin-life_hook",
+        "headline": "O TESOURO NEGRO DE 4,5 BILHÕES DE ANOS",
+        "narration": "Novas notícias científicas e observações espaciais voltaram a colocar este tema no centro das atenções em todo o mundo. Por mais de duzentos anos, os cientistas procuram a peça faltante do maior quebra-cabeça da biologia: como moléculas sem vida conseguiram se organizar nos primeiros códigos genéticos da Terra primitiva? Parte dessa resposta não está em nossos oceanos atuais, mas em cento e vinte e um gramas de poeira preta trazidos diretamente do asteroide Bennu pela espaçonave OSIRIS-REx da NASA.",
+        "highlight_words": [
+          "ASTEROIDE BENNU",
+          "OSIRIS-REX",
+          "ORIGEM DA VIDA"
+        ],
+        "stats": {
+          "label": "Amostra Coletada",
+          "value": "121,6 Gramas Puras"
+        },
+        "backgroundImage": "assets/video-023-bennu-asteroids-origin-life/scene_1.jpg",
+        "panDirection": "zoom-in"
+      },
+      {
+        "id": "scene_2_dna",
+        "type": "revelation",
+        "visual_theme": "bennu-asteroids-origin-life_dna",
+        "headline": "TODAS AS PEÇAS DO DNA FORA DA TERRA",
+        "narration": "Em salas limpas esterilizadas para evitar qualquer contaminação moderna, pesquisadores descobriram que as amostras de Bennu carregam dezenas de milhares de compostos orgânicos diferentes. O choque foi encontrar todas as cinco bases nitrogenadas que codificam o DNA e o RNA terrestres — adenina, guanina, citosina, timina e uracila — além de catorze dos vinte aminoácidos usados para fabricar proteínas.",
+        "highlight_words": [
+          "5 NUCLEOBASES",
+          "AMINOÁCIDOS",
+          "DNA E RNA"
+        ],
+        "stats": {
+          "label": "Descoberta Química",
+          "value": "14 de 20 Aminoácidos"
+        },
+        "backgroundImage": "assets/video-023-bennu-asteroids-origin-life/scene_2.jpg",
+        "panDirection": "pan-right"
+      },
+      {
+        "id": "scene_3_water",
+        "type": "investigation",
+        "visual_theme": "bennu-asteroids-origin-life_water",
+        "headline": "VESTÍGIOS DE OCEANOS ANTIGOS NO ESPAÇO",
+        "narration": "Os exames de microscopia eletrônica também detectaram onze minerais raros de evaporito — incluindo fosfatos e carbonatos de sódio idênticos aos que se formam quando lagos salgados secam na Terra. Isso prova que o protoplaneta original do qual Bennu se fragmentou abrigava bolsões de água líquida salgada e morna nos primeiros milhões de anos do Sistema Solar.",
+        "highlight_words": [
+          "SALMOURA LÍQUIDA",
+          "EVAPORAÇÃO",
+          "MINERAIS"
+        ],
+        "stats": {
+          "label": "Idade dos Cristais",
+          "value": "4,5 Bilhões de Anos"
+        },
+        "backgroundImage": "assets/video-023-bennu-asteroids-origin-life/scene_3.jpg",
+        "panDirection": "pan-left"
+      },
+      {
+        "id": "scene_4_chirality",
+        "type": "investigation",
+        "visual_theme": "bennu-asteroids-origin-life_chirality",
+        "headline": "O MISTÉRIO DA QUIRALIDADE",
+        "narration": "A vida na Terra tem uma preferência intrigante: quase todos os nossos aminoácidos giram para o lado esquerdo, como uma luva canhota. No asteroide Bennu, porém, os cientistas encontraram misturas perfeitamente equilibradas entre formas esquerdas e direitas! Esse contraste mostra que a química pré-biótica nasceu simétrica no espaço, mas algum evento misterioso na Terra escolheu apenas um lado.",
+        "highlight_words": [
+          "SIMETRIA",
+          "ISÓTOPOS",
+          "ENIGMA QUÍMICO"
+        ],
+        "stats": {
+          "label": "Mistério Aberto",
+          "value": "Assinatura Simétrica"
+        },
+        "backgroundImage": "assets/video-023-bennu-asteroids-origin-life/scene_4.jpg",
+        "panDirection": "hyper-zoom"
+      },
+      {
+        "id": "scene_5_impact",
+        "type": "investigation",
+        "visual_theme": "bennu-asteroids-origin-life_impact",
+        "headline": "O BOMBARDEIO QUE SEMEOU A TERRA",
+        "narration": "Há quatro bilhões de anos, durante o Intenso Bombardeio Tardio, milhões de asteroides carbonáceos como Bennu atingiram a Terra recém-formada. Se cada rocha trazia água, fósforo, aminoácidos e nucleobases prontas em seu interior protegido, os nossos oceanos primitivos receberam um verdadeiro kit de partida químico vindo diretamente das estrelas.",
+        "highlight_words": [
+          "PANSPERMIA QUÍMICA",
+          "COMETAS",
+          "EARTH"
+        ],
+        "stats": {
+          "label": "Teoria Reforçada",
+          "value": "Entrega Cósmica"
+        },
+        "backgroundImage": "assets/video-023-bennu-asteroids-origin-life/scene_5.jpg",
+        "panDirection": "dramatic-pulse"
+      },
+      {
+        "id": "scene_6_hazard",
+        "type": "climax",
+        "visual_theme": "bennu-asteroids-origin-life_hazard",
+        "headline": "O ASTEROIDE QUE AINDA PASSA PERTO",
+        "narration": "Além de ser uma cápsula do tempo biológica, Bennu também faz parte da lista dos asteroides mais observados pela Defesa Planetária. Com quase quinhentos metros de diâmetro, os cálculos orbitais apontam uma probabilidade real de cerca de um em dois mil e setecentos de cruzar perigosamente a rota da Terra no ano dois mil cento e oitenta e dois — motivo pelo qual sua estrutura fofa e porosa foi mapeada centímetro a centímetro.",
+        "highlight_words": [
+          "RISCO DE IMPACTO",
+          "ANO 2182",
+          "MONITORAMENTO"
+        ],
+        "stats": {
+          "label": "Aproximação Crítica",
+          "value": "Setembro de 2182"
+        },
+        "backgroundImage": "assets/video-023-bennu-asteroids-origin-life/scene_6.jpg",
+        "panDirection": "floating-drift"
+      },
+      {
+        "id": "scene_7_implication",
+        "type": "investigation",
+        "visual_theme": "bennu-asteroids-origin-life_implication",
+        "headline": "VIDA EM OUTROS MUNDOS É INEVITÁVEL?",
+        "narration": "Se as mesmas moléculas encontradas em Bennu viajam presas na poeira de outros discos protoplanetários pela Via Láctea, então a química básica do DNA não é uma exclusividade rara da Terra. Ela pode ser uma receita padrão espalhada por bilhões de sistemas estelares esperando apenas por água líquida e tempo para despertar.",
+        "highlight_words": [
+          "ASTROBIOLOGIA",
+          "EXOPLANETAS",
+          "COSMOS"
+        ],
+        "stats": {
+          "label": "Impacto Científico",
+          "value": "Ingredientes Universais"
+        },
+        "backgroundImage": "assets/video-023-bennu-asteroids-origin-life/scene_7.jpg",
+        "panDirection": "tilt-down"
+      },
+      {
+        "id": "scene_8_scapatici_cta",
+        "type": "cta",
+        "visual_theme": "scapatici_space_observatory_community",
+        "headline": "SOMOS FILHOS DOS ASTEROIDES?",
+        "narration": "E você, acredita que as sementes químicas da vida na Terra vieram de asteroides antigos como o Bennu? Deixe a sua teoria aqui nos comentários, compartilhe este vídeo com quem é fascinado pelos mistérios do universo, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia, e até o próximo vídeo!",
+        "highlight_words": [
+          "SCAPATICI TECNOLOGIA",
+          "DEIXE SEU COMENTÁRIO",
+          "INSCREVA-SE",
+          "PRÓXIMO VÍDEO"
+        ],
+        "stats": {
+          "label": "Comunidade Oficial",
+          "value": "Scapatici Tecnologia"
+        },
+        "backgroundImage": "assets/video-023-bennu-asteroids-origin-life/scene_8.jpg",
+        "panDirection": "zoom-out"
+      }
+    ],
+    "image_queries": {
+      "scene_1.jpg": "asteroid bennu surface mosaic osiris rex nasa",
+      "scene_2.jpg": "osiris rex sample return capsule utah desert nasa",
+      "scene_3.jpg": "johnson space center astromaterials clean room bennu nasa",
+      "scene_4.jpg": "protoplanetary disk early solar system formation nasa",
+      "scene_5.jpg": "ancient earth ocean comets asteroid impacts nasa",
+      "scene_6.jpg": "organic molecules spectroscopy space chemistry nasa",
+      "scene_7.jpg": "deep space nebula carbon dust pillars webb",
+      "scene_8.jpg": "deep space starry universe pillars of creation webb",
+      "thumbnail.jpg": "asteroid bennu osiris rex surface boulders nasa"
+    }
+  },
+  {
+    "id": "video-024-quasar-pair-cosmic-dawn",
+    "slug": "quasar-pair-cosmic-dawn",
+    "title": "Quasares Gigantes no Início do Tempo: O Mistério Que Desafia Einstein",
+    "topic": "Quasares Primordiais, Pares de Buracos Negros e o Crescimento Impossível Após o Big Bang",
+    "channel": "Scapatici Tecnologia",
+    "target_duration_seconds": 320,
+    "fps": 30,
+    "vinheta_duration_frames": 90,
+    "bg_music_volume": 0.12,
+    "trend_context": {
+      "source": "Phys.org Space",
+      "title": "Earliest known compact quasar pair poses a black hole growth puzzle",
+      "summary": "The oldest pair of compact quasars ever observed has been found only 900 million years after the Big Bang. Scientists say there is no theoretical explanation for how the pair of actively feeding black holes grew so massive at such an early time in the history of the universe. The",
+      "link": "https://phys.org/news/2026-11-earliest-compact-quasar-pair-poses.html"
+    },
+    "thumbnail_text": {
+      "line1": "MONSTROS NO",
+      "line2": "INÍCIO DO TEMPO!",
+      "subtitle": "POR QUE ESSES QUASARES NÃO DEVERIAM EXISTIR? | SCAPATICI TECNOLOGIA"
+    },
+    "seo": {
+      "title_options": [
+        "Quasares Gigantes no Início do Tempo: O Mistério Que Desafia Einstein",
+        "Como Dois Buracos Negros Supermassivos Existiam Tão Cedo Após o Big Bang?",
+        "O Enigma dos Quasares Binários: Monstros Que Cresceram Rápido Demais"
+      ],
+      "description": "Astrônomos identificaram quasares compactos e buracos negros bilionários menos de 900 milhões de anos após o Big Bang — rápido demais para os modelos convencionais.\n\n🔎 Pauta em destaque nas tendências (Phys.org Space): Earliest known compact quasar pair poses a black hole growth puzzle\n\nNeste episódio do canal Scapatici Tecnologia, mergulhamos com rigor científico e dados reais dos observatórios espaciais neste enigma do cosmos.\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para novos documentários todos os dias!\n\n#scapaticitecnologia #quasar #buraconegro #jameswebb #bigbang #cosmologia #astrofisica #universo",
+      "tags": [
+        "scapatici tecnologia",
+        "quasar",
+        "buraco negro",
+        "james webb",
+        "big bang",
+        "cosmologia",
+        "astrofisica",
+        "universo"
+      ]
+    },
+    "shorts_narration": "Novas notícias científicas e observações espaciais voltaram a colocar este tema no centro das atenções em todo o mundo. Os quasares são os objetos mais luminosos de todo o universo: núcleos galácticos alimentados por buracos negros supermassivos capazes de ofuscar centenas de bilhões de estrelas ao redor. Mas quando telescópios modernos avistaram pares compactos de quasares já ativos menos de novecentos milhões de anos após o Big Bang, a conta matemática da cosmologia simplesmente não fechou. Para crescer, um buraco negro precisa sugar gás e poeira em espiral. Contudo, o disco giratório aquece a milhões de graus e dispara tanta luz e pressão de radiação para fora que afasta o gás ao redor — um teto natural conhecido como Limite de Eddington. Mesmo comendo no limite máximo ininterruptamente desde a primeira geração de estrelas, não há tempo suficiente para chegar a bilhões de massas solares tão cedo. Observações recentes revelaram quasares duplos ainda mais raros: dois monstros supermassivos girando lado a lado durante fusões precoces de galáxias jovens. Encontrar pares tão compactos no alvorecer cósmico sugere que grandes concentrações de matéria escura e gás denso se juntavam em ritmo frenético logo após a formação das primeiras teias cósmicas. A primeira hipótese favorita pelos pesquisadores do James Webb é o Colapso Direto. No universo jovem, nuvens gigantescas de hidrogênio puro, banhadas por radiação ultravioleta de estrelas vizinhas que impediam o resfriamento lento, teriam desabado inteiras de uma só vez formando buracos negros sementes já com cem mil massas solares sem nunca passar pela fase estelar. Uma segunda possibilidade ainda mais ousada propõe os Buracos Negros Primordiais: regiões onde o próprio espaço primordial era tão denso logo na primeira fração de segundo após o Big Bang que colapsaram diretamente em gravidade pura, muito antes que o primeiro átomo de hidrogênio existisse. Eles teriam atuado como ímãs gravitacionais construindo galáxias inteiras ao seu redor. A investigação completa com todos os detalhes e implicações cósmicas está no vídeo principal do YouTube: acesse o link fixado nos comentários e na descrição, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+    "scenes": [
+      {
+        "id": "scene_1_hook",
+        "type": "hook",
+        "visual_theme": "quasar-pair-cosmic-dawn_hook",
+        "headline": "FARÓIS NOS CONFINS DO TEMPO",
+        "narration": "Novas notícias científicas e observações espaciais voltaram a colocar este tema no centro das atenções em todo o mundo. Os quasares são os objetos mais luminosos de todo o universo: núcleos galácticos alimentados por buracos negros supermassivos capazes de ofuscar centenas de bilhões de estrelas ao redor. Mas quando telescópios modernos avistaram pares compactos de quasares já ativos menos de novecentos milhões de anos após o Big Bang, a conta matemática da cosmologia simplesmente não fechou.",
+        "highlight_words": [
+          "QUASARES",
+          "1 BILHÃO DE SÓIS",
+          "BIG BANG"
+        ],
+        "stats": {
+          "label": "Brilho Cósmico",
+          "value": "100x Mais Que a Via Láctea"
+        },
+        "backgroundImage": "assets/video-024-quasar-pair-cosmic-dawn/scene_1.jpg",
+        "panDirection": "zoom-in"
+      },
+      {
+        "id": "scene_2_eddington",
+        "type": "investigation",
+        "visual_theme": "quasar-pair-cosmic-dawn_eddington",
+        "headline": "O LIMITE IMPLACÁVEL DE EDDINGTON",
+        "narration": "Para crescer, um buraco negro precisa sugar gás e poeira em espiral. Contudo, o disco giratório aquece a milhões de graus e dispara tanta luz e pressão de radiação para fora que afasta o gás ao redor — um teto natural conhecido como Limite de Eddington. Mesmo comendo no limite máximo ininterruptamente desde a primeira geração de estrelas, não há tempo suficiente para chegar a bilhões de massas solares tão cedo.",
+        "highlight_words": [
+          "LIMITE DE EDDINGTON",
+          "RADIAÇÃO",
+          "ALIMENTAÇÃO"
+        ],
+        "stats": {
+          "label": "Barreira Física",
+          "value": "Pressão de Radiação"
+        },
+        "backgroundImage": "assets/video-024-quasar-pair-cosmic-dawn/scene_2.jpg",
+        "panDirection": "pan-right"
+      },
+      {
+        "id": "scene_3_binary",
+        "type": "revelation",
+        "visual_theme": "quasar-pair-cosmic-dawn_binary",
+        "headline": "DANÇA MORTAL DE QUASARES BINÁRIOS",
+        "narration": "Observações recentes revelaram quasares duplos ainda mais raros: dois monstros supermassivos girando lado a lado durante fusões precoces de galáxias jovens. Encontrar pares tão compactos no alvorecer cósmico sugere que grandes concentrações de matéria escura e gás denso se juntavam em ritmo frenético logo após a formação das primeiras teias cósmicas.",
+        "highlight_words": [
+          "QUASARES BINÁRIOS",
+          "COLISÃO GALÁCTICA",
+          "FUSÃO"
+        ],
+        "stats": {
+          "label": "Separação Recorde",
+          "value": "Poucos Milhares de Anos-Luz"
+        },
+        "backgroundImage": "assets/video-024-quasar-pair-cosmic-dawn/scene_3.jpg",
+        "panDirection": "pan-left"
+      },
+      {
+        "id": "scene_4_direct",
+        "type": "investigation",
+        "visual_theme": "quasar-pair-cosmic-dawn_direct",
+        "headline": "SEMENTES DE COLAPSO DIRETO",
+        "narration": "A primeira hipótese favorita pelos pesquisadores do James Webb é o Colapso Direto. No universo jovem, nuvens gigantescas de hidrogênio puro, banhadas por radiação ultravioleta de estrelas vizinhas que impediam o resfriamento lento, teriam desabado inteiras de uma só vez formando buracos negros sementes já com cem mil massas solares sem nunca passar pela fase estelar.",
+        "highlight_words": [
+          "COLAPSO DIRETO",
+          "NUVENS PRIMORDIAIS",
+          "SEMENTES PESADAS"
+        ],
+        "stats": {
+          "label": "Massa Inicial",
+          "value": "10.000 a 100.000 Sóis"
+        },
+        "backgroundImage": "assets/video-024-quasar-pair-cosmic-dawn/scene_4.jpg",
+        "panDirection": "hyper-zoom"
+      },
+      {
+        "id": "scene_5_primordial",
+        "type": "investigation",
+        "visual_theme": "quasar-pair-cosmic-dawn_primordial",
+        "headline": "CICATRIZES DO PRIMEIRO SEGUNDO",
+        "narration": "Uma segunda possibilidade ainda mais ousada propõe os Buracos Negros Primordiais: regiões onde o próprio espaço primordial era tão denso logo na primeira fração de segundo após o Big Bang que colapsaram diretamente em gravidade pura, muito antes que o primeiro átomo de hidrogênio existisse. Eles teriam atuado como ímãs gravitacionais construindo galáxias inteiras ao seu redor.",
+        "highlight_words": [
+          "BURACOS NEGROS PRIMORDIAIS",
+          "INFLAÇÃO CÓSMICA",
+          "SINGULARIDADE"
+        ],
+        "stats": {
+          "label": "Origem Teórica",
+          "value": "10⁻²³ Segundos Pós-Big Bang"
+        },
+        "backgroundImage": "assets/video-024-quasar-pair-cosmic-dawn/scene_5.jpg",
+        "panDirection": "dramatic-pulse"
+      },
+      {
+        "id": "scene_6_jets",
+        "type": "climax",
+        "visual_theme": "quasar-pair-cosmic-dawn_jets",
+        "headline": "JATOS QUE MOLDAM GALÁXIAS INTEIRAS",
+        "narration": "Os campos magnéticos torcidos perto do horizonte de eventos lançam dois feixes de partículas relativísticas a velocidades próximas à da luz. Esses jatos atravessam galáxias inteiras, aquecendo as nuvens interestelares e controlando quando e quantas novas estrelas poderão nascer durante os próximos bilhões de anos.",
+        "highlight_words": [
+          "JATOS RELATIVÍSTICOS",
+          "99% DA LUZ",
+          "VENTOS CÓSMICOS"
+        ],
+        "stats": {
+          "label": "Alcance do Jato",
+          "value": "Milhares de Anos-Luz"
+        },
+        "backgroundImage": "assets/video-024-quasar-pair-cosmic-dawn/scene_6.jpg",
+        "panDirection": "floating-drift"
+      },
+      {
+        "id": "scene_7_lisa",
+        "type": "investigation",
+        "visual_theme": "quasar-pair-cosmic-dawn_lisa",
+        "headline": "OUVINDO A FUSÃO PELAS ONDAS GRAVITACIONAIS",
+        "narration": "Na próxima década, observatórios espaciais de ondas gravitacionais como a missão LISA detectarão as ondulações exatas no espaço-tempo deixadas por esses pares de quasares quando colidem nos confins do universo — finalmente revelando se os primeiros monstros cósmicos vieram de estrelas gigantes ou do próprio Big Bang.",
+        "highlight_words": [
+          "MISSÃO LISA",
+          "ONDAS GRAVITACIONAIS",
+          "FUTURO"
+        ],
+        "stats": {
+          "label": "Observatório Espacial",
+          "value": "Triângulo Laser (ESA/NASA)"
+        },
+        "backgroundImage": "assets/video-024-quasar-pair-cosmic-dawn/scene_7.jpg",
+        "panDirection": "tilt-down"
+      },
+      {
+        "id": "scene_8_scapatici_cta",
+        "type": "cta",
+        "visual_theme": "scapatici_space_observatory_community",
+        "headline": "COMO OS GIGANTES NASCERAM?",
+        "narration": "E você, acredita que os primeiros buracos negros nasceram já gigantes logo nos primeiros segundos do Big Bang? Deixe a sua teoria aqui nos comentários, compartilhe este vídeo com quem é fascinado pelos mistérios do universo, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia, e até o próximo vídeo!",
+        "highlight_words": [
+          "SCAPATICI TECNOLOGIA",
+          "DEIXE SEU COMENTÁRIO",
+          "INSCREVA-SE",
+          "PRÓXIMO VÍDEO"
+        ],
+        "stats": {
+          "label": "Comunidade Oficial",
+          "value": "Scapatici Tecnologia"
+        },
+        "backgroundImage": "assets/video-024-quasar-pair-cosmic-dawn/scene_8.jpg",
+        "panDirection": "zoom-out"
+      }
+    ],
+    "image_queries": {
+      "scene_1.jpg": "quasar brightest object universe active galactic nucleus nasa",
+      "scene_2.jpg": "binary supermassive black holes merging galaxies nasa",
+      "scene_3.jpg": "james webb early galaxies cosmic dawn infrared",
+      "scene_4.jpg": "black hole accretion disk relativistic jet chandra",
+      "scene_5.jpg": "galaxy collision tidal streams hubble",
+      "scene_6.jpg": "primordial black holes early universe simulation nasa",
+      "scene_7.jpg": "deep space cosmos clusters galaxies webb",
+      "scene_8.jpg": "deep space starry universe pillars of creation webb",
+      "thumbnail.jpg": "quasar supermassive black hole jet active galaxy nasa"
+    }
+  },
+  {
+    "id": "video-025-voyager-interstellar-edge",
+    "slug": "voyager-interstellar-edge",
+    "title": "Voyager 1 a Um Dia-Luz da Terra: O Que Ela Descobriu na Parede de Fogo do Sistema Solar",
+    "topic": "Sonda Voyager 1, Heliopausa, Espaço Interestelar e a Parede de Plasma Solar",
+    "channel": "Scapatici Tecnologia",
+    "target_duration_seconds": 320,
+    "fps": 30,
+    "vinheta_duration_frames": 90,
+    "bg_music_volume": 0.12,
+    "trend_context": {
+      "source": "NASA Breaking",
+      "title": "NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities",
+      "summary": "Launched nearly 50 years ago in 1977, NASA’s Voyager 1 on Wednesday, Nov. 18 will have traveled one light-day from Earth, which is more than 16 billion miles (25.9 billion kilometers). Voyager 1 is the most distant human-made object, and any light from Earth would take 24 hours t",
+      "link": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/"
+    },
+    "thumbnail_text": {
+      "line1": "1 DIA-LUZ",
+      "line2": "DA TERRA!",
+      "subtitle": "O SEGREDO QUE A VOYAGER 1 ENCONTROU | SCAPATICI TECNOLOGIA"
+    },
+    "seo": {
+      "title_options": [
+        "Voyager 1 a Um Dia-Luz da Terra: O Que Ela Descobriu na Parede de Fogo do Sistema Solar",
+        "O Muro de Plasma de 50 Mil Graus Que a Voyager 1 Atravessou Fora do Sistema Solar",
+        "A 26 Bilhões de Km: O Último Mistério da Sonda Voyager 1 no Espaço Interestelar"
+      ],
+      "description": "A mais de 25 bilhões de quilômetros da Terra, a Voyager 1 alcança a marca histórica de um dia-luz de distância — onde um único sinal de rádio leva 24 horas para ir e mais 24 para voltar.\n\n🔎 Pauta em destaque nas tendências (NASA Breaking): NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities\n\nNeste episódio do canal Scapatici Tecnologia, mergulhamos com rigor científico e dados reais dos observatórios espaciais neste enigma do cosmos.\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para novos documentários todos os dias!\n\n#scapaticitecnologia #voyager1 #nasa #espacointerestelar #astronomia #sondasespaciais #universo #ciencia",
+      "tags": [
+        "scapatici tecnologia",
+        "voyager 1",
+        "nasa",
+        "espaco interestelar",
+        "astronomia",
+        "sondas espaciais",
+        "universo",
+        "ciencia"
+      ]
+    },
+    "shorts_narration": "Novas notícias científicas e observações espaciais voltaram a colocar este tema no centro das atenções em todo o mundo. A mais de vinte e cinco bilhões de quilômetros de distância, existe um único objeto fabricado por mãos humanas que cruzou a fronteira gravitacional da bolha solar e agora navega pelo espaço interestelar. A sonda Voyager Um, lançada em mil novecentos e setenta e sete, está alcançando a marca simbólica de um dia-luz completo da Terra: um ponto tão remoto que nem a luz consegue cruzar em menos de vinte e quatro horas. Quando os engenheiros do Laboratório de Propulsão a Jato da NASA enviam uma correção de código pela Rede de Espaço Profundo, o sinal de rádio viaja a trezentos mil quilômetros por segundo durante um dia inteiro antes de tocar a antena de três vírgula sete metros da Voyager. Quando chega, a potência restante do sinal captado na Terra é menor do que a energia de um bilionésimo de bilionésimo de watt. Ao cruzar a Heliopausa — o limite onde o vento solar encontra os ventos gelados de outras estrelas — os sensores da Voyager Um registraram uma anomalia chocante: a temperatura do plasma saltou abruptamente para até cinquenta mil Kelvin! Essa barreira foi apelidada pela mídia científica de parede de fogo cósmica, onde partículas colidem sob pressão magnética interestelar. Como uma nave de alumínio com circuitos dos anos setenta atravessou cinquenta mil graus sem vaporizar? A física responde com a diferença entre temperatura e calor. Embora cada elétron lá fora possua energia altíssima, há menos de uma partícula por centímetro cúbico. Como quase não há colisões com o casco da nave, ela continua congelada em um vácuo quase absoluto. Os modelos teóricos previam que, assim que a Voyager deixasse a influência do Sol, a direção das linhas do campo magnético mudaria drasticamente. Em vez disso, os instrumentos detectaram que o campo magnético do espaço interestelar está misteriosamente alinhado com o campo interno do nosso Sistema Solar, sugerindo conexões invisíveis que ainda desafiam a astrofísica. A investigação completa com todos os detalhes e implicações cósmicas está no vídeo principal do YouTube: acesse o link fixado nos comentários e na descrição, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+    "scenes": [
+      {
+        "id": "scene_1_hook",
+        "type": "hook",
+        "visual_theme": "voyager-interstellar-edge_hook",
+        "headline": "A FRONTEIRA DE UM DIA-LUZ",
+        "narration": "Novas notícias científicas e observações espaciais voltaram a colocar este tema no centro das atenções em todo o mundo. A mais de vinte e cinco bilhões de quilômetros de distância, existe um único objeto fabricado por mãos humanas que cruzou a fronteira gravitacional da bolha solar e agora navega pelo espaço interestelar. A sonda Voyager Um, lançada em mil novecentos e setenta e sete, está alcançando a marca simbólica de um dia-luz completo da Terra: um ponto tão remoto que nem a luz consegue cruzar em menos de vinte e quatro horas.",
+        "highlight_words": [
+          "VOYAGER 1",
+          "UM DIA-LUZ",
+          "25 BILHÕES DE KM"
+        ],
+        "stats": {
+          "label": "Distância Histórica",
+          "value": "~26 Bilhões de km"
+        },
+        "backgroundImage": "assets/video-025-voyager-interstellar-edge/scene_1.jpg",
+        "panDirection": "zoom-in"
+      },
+      {
+        "id": "scene_2_signal",
+        "type": "investigation",
+        "visual_theme": "voyager-interstellar-edge_signal",
+        "headline": "48 HORAS PARA UMA CONVERSA",
+        "narration": "Quando os engenheiros do Laboratório de Propulsão a Jato da NASA enviam uma correção de código pela Rede de Espaço Profundo, o sinal de rádio viaja a trezentos mil quilômetros por segundo durante um dia inteiro antes de tocar a antena de três vírgula sete metros da Voyager. Quando chega, a potência restante do sinal captado na Terra é menor do que a energia de um bilionésimo de bilionésimo de watt.",
+        "highlight_words": [
+          "VELOCIDADE DA LUZ",
+          "DEEP SPACE NETWORK",
+          "SINAL FRACO"
+        ],
+        "stats": {
+          "label": "Tempo de Resposta",
+          "value": "48 Horas (Ida e Volta)"
+        },
+        "backgroundImage": "assets/video-025-voyager-interstellar-edge/scene_2.jpg",
+        "panDirection": "pan-right"
+      },
+      {
+        "id": "scene_3_firewall",
+        "type": "revelation",
+        "visual_theme": "voyager-interstellar-edge_firewall",
+        "headline": "A PAREDE DE FOGO DE 50 MIL KELVIN",
+        "narration": "Ao cruzar a Heliopausa — o limite onde o vento solar encontra os ventos gelados de outras estrelas — os sensores da Voyager Um registraram uma anomalia chocante: a temperatura do plasma saltou abruptamente para até cinquenta mil Kelvin! Essa barreira foi apelidada pela mídia científica de parede de fogo cósmica, onde partículas colidem sob pressão magnética interestelar.",
+        "highlight_words": [
+          "HELIOPAUSA",
+          "50.000 KELVIN",
+          "PLASMA"
+        ],
+        "stats": {
+          "label": "Temperatura na Borda",
+          "value": "30.000 a 50.000 K"
+        },
+        "backgroundImage": "assets/video-025-voyager-interstellar-edge/scene_3.jpg",
+        "panDirection": "pan-left"
+      },
+      {
+        "id": "scene_4_density",
+        "type": "investigation",
+        "visual_theme": "voyager-interstellar-edge_density",
+        "headline": "POR QUE A SONDA NÃO DERRETEU?",
+        "narration": "Como uma nave de alumínio com circuitos dos anos setenta atravessou cinquenta mil graus sem vaporizar? A física responde com a diferença entre temperatura e calor. Embora cada elétron lá fora possua energia altíssima, há menos de uma partícula por centímetro cúbico. Como quase não há colisões com o casco da nave, ela continua congelada em um vácuo quase absoluto.",
+        "highlight_words": [
+          "DENSIDADE QUASE ZERO",
+          "TERMODINÂMICA",
+          "VÁCUO"
+        ],
+        "stats": {
+          "label": "Densidade de Partículas",
+          "value": "0,1 Átomo por cm³"
+        },
+        "backgroundImage": "assets/video-025-voyager-interstellar-edge/scene_4.jpg",
+        "panDirection": "hyper-zoom"
+      },
+      {
+        "id": "scene_5_magnetism",
+        "type": "investigation",
+        "visual_theme": "voyager-interstellar-edge_magnetism",
+        "headline": "O ENIGMA DO CAMPO MAGNÉTICO",
+        "narration": "Os modelos teóricos previam que, assim que a Voyager deixasse a influência do Sol, a direção das linhas do campo magnético mudaria drasticamente. Em vez disso, os instrumentos detectaram que o campo magnético do espaço interestelar está misteriosamente alinhado com o campo interno do nosso Sistema Solar, sugerindo conexões invisíveis que ainda desafiam a astrofísica.",
+        "highlight_words": [
+          "CAMPO MAGNÉTICO",
+          "ANOMALIA INTERESTELAR",
+          "FÍSICA"
+        ],
+        "stats": {
+          "label": "Descoberta Chave",
+          "value": "Alinhamento Inesperado"
+        },
+        "backgroundImage": "assets/video-025-voyager-interstellar-edge/scene_5.jpg",
+        "panDirection": "dramatic-pulse"
+      },
+      {
+        "id": "scene_6_power",
+        "type": "climax",
+        "visual_theme": "voyager-interstellar-edge_power",
+        "headline": "O CORAÇÃO NUCLEAR QUE ESTÁ SE APAGANDO",
+        "narration": "Tão longe do Sol que os painéis solares seriam completamente inúteis, a Voyager Um sobrevive graças ao decaimento radioativo de esferas de Plutônio duzentos e trinta e oito. Perdendo cerca de quatro watts de potência por ano, a equipe da NASA já desligou quase todos os aquecedores e instrumentos não essenciais, mantendo apenas os detectores mais preciosos vivos enquanto ela transmite seus últimos suspiros.",
+        "highlight_words": [
+          "PLUTÔNIO-238",
+          "GERADOR NUCLEAR",
+          "DESLIGAMENTO"
+        ],
+        "stats": {
+          "label": "Queda de Energia",
+          "value": "-4 Watts por Ano"
+        },
+        "backgroundImage": "assets/video-025-voyager-interstellar-edge/scene_6.jpg",
+        "panDirection": "floating-drift"
+      },
+      {
+        "id": "scene_7_legacy",
+        "type": "investigation",
+        "visual_theme": "voyager-interstellar-edge_legacy",
+        "headline": "A CARTA DE AMOR DA HUMANIDADE",
+        "narration": "Preso ao casco da Voyager segue o Disco de Ouro: uma gravação banhada a cobre e ouro contendo sons da Terra, músicas de Bach a Chuck Berry, ondas cerebrais e mapas de pulsares indicando a posição do nosso planeta. Mesmo quando suas baterias morrerem na década de dois mil e trinta, ela continuará orbitando a Via Láctea em silêncio por bilhões de anos como o último monumento da civilização humana.",
+        "highlight_words": [
+          "DISCO DE OURO",
+          "40 MIL ANOS",
+          "ETERNIDADE"
+        ],
+        "stats": {
+          "label": "Próxima Estrela",
+          "value": "Gliese 445 (40.000 Anos)"
+        },
+        "backgroundImage": "assets/video-025-voyager-interstellar-edge/scene_7.jpg",
+        "panDirection": "tilt-down"
+      },
+      {
+        "id": "scene_8_scapatici_cta",
+        "type": "cta",
+        "visual_theme": "scapatici_space_observatory_community",
+        "headline": "A MENSAGEM HUMANA NA ETERNIDADE",
+        "narration": "E você, o que acha da Voyager 1 continuar viajando pela galáxia por bilhões de anos após a nossa era? Deixe a sua teoria aqui nos comentários, compartilhe este vídeo com quem é fascinado pelos mistérios do universo, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia, e até o próximo vídeo!",
+        "highlight_words": [
+          "SCAPATICI TECNOLOGIA",
+          "DEIXE SEU COMENTÁRIO",
+          "INSCREVA-SE",
+          "PRÓXIMO VÍDEO"
+        ],
+        "stats": {
+          "label": "Comunidade Oficial",
+          "value": "Scapatici Tecnologia"
+        },
+        "backgroundImage": "assets/video-025-voyager-interstellar-edge/scene_8.jpg",
+        "panDirection": "zoom-out"
+      }
+    ],
+    "image_queries": {
+      "scene_1.jpg": "voyager spacecraft deep space mission nasa",
+      "scene_2.jpg": "heliosphere solar wind bubble interstellar space nasa",
+      "scene_3.jpg": "solar corona plasma magnetic field sdo nasa",
+      "scene_4.jpg": "deep space network radio telescope dish nasa",
+      "scene_5.jpg": "interstellar medium nebula dust gas webb",
+      "scene_6.jpg": "golden record voyager space exploration nasa",
+      "scene_7.jpg": "milky way galaxy spiral arms stars",
+      "scene_8.jpg": "deep space starry universe pillars of creation webb",
+      "thumbnail.jpg": "voyager spacecraft interstellar deep space stars nasa"
+    }
+  },
+  {
+    "id": "video-026-europa-enceladus-alien-oceans",
+    "slug": "europa-enceladus-alien-oceans",
+    "title": "Oceanos Sob o Gelo de Europa e Encélado: O Maior Candidato a Vida Alienígena",
+    "topic": "Lua Europa, Encélado, Missão Europa Clipper e Oceanos Subglaciais Habitáveis",
+    "channel": "Scapatici Tecnologia",
+    "target_duration_seconds": 320,
+    "fps": 30,
+    "vinheta_duration_frames": 90,
+    "bg_music_volume": 0.12,
+    "trend_context": {
+      "source": "NASA Breaking",
+      "title": "Water Surges Into Navajo Reservoir",
+      "summary": "Rounds of heavy rain in the U.S. Southwest flooded rivers and rapidly raised New Mexico’s second-largest reservoir.",
+      "link": "https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir/"
+    },
+    "thumbnail_text": {
+      "line1": "OCEANOS SECRETOS",
+      "line2": "DE ÁGUA LÍQUIDA!",
+      "subtitle": "A VIDA PODE ESTAR EM EUROPA E ENCÉLADO | SCAPATICI TECNOLOGIA"
+    },
+    "seo": {
+      "title_options": [
+        "Oceanos Sob o Gelo de Europa e Encélado: O Maior Candidato a Vida Alienígena",
+        "O Que Existe no Fundo dos Oceanos Secretos de Europa e Encélado?",
+        "Europa Clipper e o Enigma da Vida Alienígena nas Luas Geladas"
+      ],
+      "description": "Muito além da Zona Habitável clássica, luas de Júpiter e Saturno escondem oceanos globais com mais água líquida do que todos os oceanos da Terra juntos.\n\n🔎 Pauta em destaque nas tendências (NASA Breaking): Water Surges Into Navajo Reservoir\n\nNeste episódio do canal Scapatici Tecnologia, mergulhamos com rigor científico e dados reais dos observatórios espaciais neste enigma do cosmos.\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para novos documentários todos os dias!\n\n#scapaticitecnologia #europaclipper #encelado #vidaalienigena #astrobiologia #jupiter #nasa #ciencia",
+      "tags": [
+        "scapatici tecnologia",
+        "europa clipper",
+        "encelado",
+        "vida alienigena",
+        "astrobiologia",
+        "jupiter",
+        "nasa",
+        "ciencia"
+      ]
+    },
+    "shorts_narration": "Novas notícias científicas e observações espaciais voltaram a colocar este tema no centro das atenções em todo o mundo. Marte já teve rios no passado, mas hoje é um deserto seco e irradiado. Se você quiser encontrar um oceano inteiro de água líquida salgada banhando rochas quentes hoje mesmo, precisa olhar para a lua Europa de Júpiter e a lua Encélado de Saturno: mundos cobertos por uma armadura branca de gelo, mas fervilhando de atividade em suas profundezas. A quase oitocentos milhões de quilômetros do Sol, a luz solar é vinte e cinco vezes mais fraca que na Terra. O segredo que impede esses oceanos de virarem pedra de gelo sólida é o aquecimento de maré: a gravidade colossal de Júpiter e das luas vizinhas deforma Europa continuamente em sua órbita elíptica, gerando atrito interno capaz de derreter o gelo inferior e alimentar vulcões submarinos. Em Saturno, a lua Encélado realiza um presente incrível para os cientistas: através de rachaduras conhecidas como listras de tigre no polo sul, ela cospe plumas gigantescas de vapor de água e grãos de gelo oceânico diretamente no espaço! Ao mergulhar por esses jatos, a sonda Cassini detectou água salgada, metano, hidrogênio e recentemente fósforo — o elemento mais raro e essencial para montar moléculas de DNA e energia celular. Na Terra, descobrimos ecossistemas inteiros prosperando na escuridão total a quatro mil metros de profundidade no oceano Atlântico e Pacífico, alimentados não pela fotossíntese do Sol, mas por reações químicas entre água do mar e minerais quentes que brotam de fissuras vulcânicas. É exatamente esse mesmo metabolismo que pode pulsar no assoalho rochoso de Europa e Encélado. A maior nave interplanetária planetária já construída pela NASA, a Europa Clipper, equipada com painéis solares gigantescos para capturar a fraca luz perto de Júpiter, realizará cerca de cinquenta sobrevoos rasantes a apenas vinte e cinco quilômetros acima da crosta de Europa. Seus radares de penetração mapearão a espessura exata do gelo e localizarão lagos internos próximos à superfície. A investigação completa com todos os detalhes e implicações cósmicas está no vídeo principal do YouTube: acesse o link fixado nos comentários e na descrição, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+    "scenes": [
+      {
+        "id": "scene_1_hook",
+        "type": "hook",
+        "visual_theme": "europa-enceladus-alien-oceans_hook",
+        "headline": "O DOBRO DE ÁGUA DA TERRA SOB O GELO",
+        "narration": "Novas notícias científicas e observações espaciais voltaram a colocar este tema no centro das atenções em todo o mundo. Marte já teve rios no passado, mas hoje é um deserto seco e irradiado. Se você quiser encontrar um oceano inteiro de água líquida salgada banhando rochas quentes hoje mesmo, precisa olhar para a lua Europa de Júpiter e a lua Encélado de Saturno: mundos cobertos por uma armadura branca de gelo, mas fervilhando de atividade em suas profundezas.",
+        "highlight_words": [
+          "LUA EUROPA",
+          "OCEANOS OCULTOS",
+          "ÁGUA LÍQUIDA"
+        ],
+        "stats": {
+          "label": "Volume de Água",
+          "value": "2x Todos Oceanos da Terra"
+        },
+        "backgroundImage": "assets/video-026-europa-enceladus-alien-oceans/scene_1.jpg",
+        "panDirection": "zoom-in"
+      },
+      {
+        "id": "scene_2_tidal",
+        "type": "investigation",
+        "visual_theme": "europa-enceladus-alien-oceans_tidal",
+        "headline": "O MOTOR INVISÍVEL DAS MARÉS",
+        "narration": "A quase oitocentos milhões de quilômetros do Sol, a luz solar é vinte e cinco vezes mais fraca que na Terra. O segredo que impede esses oceanos de virarem pedra de gelo sólida é o aquecimento de maré: a gravidade colossal de Júpiter e das luas vizinhas deforma Europa continuamente em sua órbita elíptica, gerando atrito interno capaz de derreter o gelo inferior e alimentar vulcões submarinos.",
+        "highlight_words": [
+          "AQUECIMENTO DE MARÉ",
+          "JÚPITER",
+          "GRAVIDADE"
+        ],
+        "stats": {
+          "label": "Profundidade Oceânica",
+          "value": "~100 Quilômetros"
+        },
+        "backgroundImage": "assets/video-026-europa-enceladus-alien-oceans/scene_2.jpg",
+        "panDirection": "pan-right"
+      },
+      {
+        "id": "scene_3_enceladus",
+        "type": "revelation",
+        "visual_theme": "europa-enceladus-alien-oceans_enceladus",
+        "headline": "GÊISERES QUE REVELARAM OS INGREDIENTES DA VIDA",
+        "narration": "Em Saturno, a lua Encélado realiza um presente incrível para os cientistas: através de rachaduras conhecidas como listras de tigre no polo sul, ela cospe plumas gigantescas de vapor de água e grãos de gelo oceânico diretamente no espaço! Ao mergulhar por esses jatos, a sonda Cassini detectou água salgada, metano, hidrogênio e recentemente fósforo — o elemento mais raro e essencial para montar moléculas de DNA e energia celular.",
+        "highlight_words": [
+          "ENCÉLADO",
+          "CASSINI",
+          "FÓSFORO E CARBONO"
+        ],
+        "stats": {
+          "label": "Velocidade dos Jatos",
+          "value": "~1.300 Km/h no Espaço"
+        },
+        "backgroundImage": "assets/video-026-europa-enceladus-alien-oceans/scene_3.jpg",
+        "panDirection": "pan-left"
+      },
+      {
+        "id": "scene_4_vents",
+        "type": "investigation",
+        "visual_theme": "europa-enceladus-alien-oceans_vents",
+        "headline": "CHAMINÉS HIDROTERMAIS SEM LUZ SOLAR",
+        "narration": "Na Terra, descobrimos ecossistemas inteiros prosperando na escuridão total a quatro mil metros de profundidade no oceano Atlântico e Pacífico, alimentados não pela fotossíntese do Sol, mas por reações químicas entre água do mar e minerais quentes que brotam de fissuras vulcânicas. É exatamente esse mesmo metabolismo que pode pulsar no assoalho rochoso de Europa e Encélado.",
+        "highlight_words": [
+          "FONTES HIDROTERMAIS",
+          "QUIMIOSSÍNTESE",
+          "SEM SOL"
+        ],
+        "stats": {
+          "label": "Energia Biológica",
+          "value": "Quimiossíntese Profunda"
+        },
+        "backgroundImage": "assets/video-026-europa-enceladus-alien-oceans/scene_4.jpg",
+        "panDirection": "hyper-zoom"
+      },
+      {
+        "id": "scene_5_clipper",
+        "type": "investigation",
+        "visual_theme": "europa-enceladus-alien-oceans_clipper",
+        "headline": "A MISSÃO EUROPA CLIPPER DA NASA",
+        "narration": "A maior nave interplanetária planetária já construída pela NASA, a Europa Clipper, equipada com painéis solares gigantescos para capturar a fraca luz perto de Júpiter, realizará cerca de cinquenta sobrevoos rasantes a apenas vinte e cinco quilômetros acima da crosta de Europa. Seus radares de penetração mapearão a espessura exata do gelo e localizarão lagos internos próximos à superfície.",
+        "highlight_words": [
+          "EUROPA CLIPPER",
+          "RADARES DE GELO",
+          "ESPECTRÔMETROS"
+        ],
+        "stats": {
+          "label": "Sobrevoos Planejados",
+          "value": "~50 Passagens Rasantes"
+        },
+        "backgroundImage": "assets/video-026-europa-enceladus-alien-oceans/scene_5.jpg",
+        "panDirection": "dramatic-pulse"
+      },
+      {
+        "id": "scene_6_radiation",
+        "type": "climax",
+        "visual_theme": "europa-enceladus-alien-oceans_radiation",
+        "headline": "O INFERNO RADIOATIVO DE JÚPITER",
+        "narration": "Estudar Europa exige sobreviver a um dos ambientes mais hostis do Sistema Solar: os cinturões magnéticos de Júpiter aceleram partículas a níveis de radiação milhões de vezes superiores aos da Terra. Para proteger seus computadores sensíveis durante cada passagem, a nave carrega um cofre blindado com paredes espessas de titânio e alumínio.",
+        "highlight_words": [
+          "RADIAÇÃO LETAL",
+          "COFRE DE TITÂNIO",
+          "ESCUDO"
+        ],
+        "stats": {
+          "label": "Dose Externa",
+          "value": "Letal em Minutos"
+        },
+        "backgroundImage": "assets/video-026-europa-enceladus-alien-oceans/scene_6.jpg",
+        "panDirection": "floating-drift"
+      },
+      {
+        "id": "scene_7_search",
+        "type": "investigation",
+        "visual_theme": "europa-enceladus-alien-oceans_search",
+        "headline": "UMA SEGUNDA GÊNESE NO COSMOS",
+        "narration": "Se encontrarmos evidências de vida microbiana evoluída de maneira totalmente independente em um oceano oculto em torno de Júpiter ou Saturno, teremos a maior prova científica da história: a vida não é um acidente único da Terra, mas uma consequência natural inevitável da química sempre que água, calor e minerais se encontram pelo universo.",
+        "highlight_words": [
+          "SEGUNDA GÊNESE",
+          "ASTROBIOLOGIA",
+          "REVOLUÇÃO"
+        ],
+        "stats": {
+          "label": "Impacto Científico",
+          "value": "Mudança de Paradigma"
+        },
+        "backgroundImage": "assets/video-026-europa-enceladus-alien-oceans/scene_7.jpg",
+        "panDirection": "tilt-down"
+      },
+      {
+        "id": "scene_8_scapatici_cta",
+        "type": "cta",
+        "visual_theme": "scapatici_space_observatory_community",
+        "headline": "NÃO ESTAMOS SOZINHOS NO SISTEMA SOLAR?",
+        "narration": "E você, acredita que quando perfurarmos ou analisarmos as plumas de Europa encontraremos microrganismos alienígenas? Deixe a sua teoria aqui nos comentários, compartilhe este vídeo com quem é fascinado pelos mistérios do universo, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia, e até o próximo vídeo!",
+        "highlight_words": [
+          "SCAPATICI TECNOLOGIA",
+          "DEIXE SEU COMENTÁRIO",
+          "INSCREVA-SE",
+          "PRÓXIMO VÍDEO"
+        ],
+        "stats": {
+          "label": "Comunidade Oficial",
+          "value": "Scapatici Tecnologia"
+        },
+        "backgroundImage": "assets/video-026-europa-enceladus-alien-oceans/scene_8.jpg",
+        "panDirection": "zoom-out"
+      }
+    ],
+    "image_queries": {
+      "scene_1.jpg": "europa clipper spacecraft jupiter icy moon nasa",
+      "scene_2.jpg": "europa moon surface reddish fractures galileo nasa",
+      "scene_3.jpg": "enceladus water plumes jets saturn cassini nasa",
+      "scene_4.jpg": "deep ocean hydrothermal vents earth biology",
+      "scene_5.jpg": "jupiter great red spot icy moons voyager nasa",
+      "scene_6.jpg": "saturn rings enceladus backlit cassini nasa",
+      "scene_7.jpg": "astrobiology water world exoplanet ocean nasa",
+      "scene_8.jpg": "deep space starry universe pillars of creation webb",
+      "thumbnail.jpg": "europa moon jupiter icy surface cracks spacecraft nasa"
+    }
+  },
+  {
+    "id": "video-027-carrington-solar-superstorm",
+    "slug": "carrington-solar-superstorm",
+    "title": "Supertempestades Solares: Como Uma Erupção do Sol Pode Parar o Planeta",
+    "topic": "Evento Carrington, Ejeção de Massa Coronal, Tempestades Geomagnéticas e Redes Elétricas",
+    "channel": "Scapatici Tecnologia",
+    "target_duration_seconds": 320,
+    "fps": 30,
+    "vinheta_duration_frames": 90,
+    "bg_music_volume": 0.12,
+    "trend_context": {
+      "source": "Phys.org Space",
+      "title": "Earth's 'core carbon' may have come from the far reaches of the solar system",
+      "summary": "A new study suggests that most of Earth's carbon originated in the outer solar system and didn't arrive here until the late stages of planetary development. The study, led by researchers at Yale and Columbia, is based upon an analysis of magma droplets called \"melt inclusions\" fr",
+      "link": "https://phys.org/news/2026-11-earth-core-carbon-solar.html"
+    },
+    "thumbnail_text": {
+      "line1": "SUPERTEMPESTADE",
+      "line2": "DO SOL!",
+      "subtitle": "O RISCO REAL PARA NOSSA CIVILIZAÇÃO DIGITAL | SCAPATICI TECNOLOGIA"
+    },
+    "seo": {
+      "title_options": [
+        "Supertempestades Solares: Como Uma Erupção do Sol Pode Parar o Planeta",
+        "O Evento Carrington: O Dia em Que o Sol Incendiou Telégrafos na Terra",
+        "Tempestade Solar Extrema: Estamos Preparados Para Um Apagão Global?"
+      ],
+      "description": "Em 1859, uma erupção solar gigantesca acendeu auroras nos trópicos e deu choque em telégrafos desligados. O que aconteceria se uma igual atingisse nossa rede digital hoje?\n\n🔎 Pauta em destaque nas tendências (Phys.org Space): Earth's 'core carbon' may have come from the far reaches of the solar system\n\nNeste episódio do canal Scapatici Tecnologia, mergulhamos com rigor científico e dados reais dos observatórios espaciais neste enigma do cosmos.\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para novos documentários todos os dias!\n\n#scapaticitecnologia #tempestadesolar #eventocarrington #sol #astronomia #tecnologia #apagao #ciencia",
+      "tags": [
+        "scapatici tecnologia",
+        "tempestade solar",
+        "evento carrington",
+        "sol",
+        "astronomia",
+        "tecnologia",
+        "apagao",
+        "ciencia"
+      ]
+    },
+    "shorts_narration": "Novas notícias científicas e observações espaciais voltaram a colocar este tema no centro das atenções em todo o mundo. O Sol parece calmo e constante no céu de todos os dias, mas é uma bomba de fusão magnetizada que gira de forma desigual, retorcendo suas linhas de campo magnético até que elas se rompem violentamente. Em setembro de mil oitocentos e cinquenta e nove, uma dessas rupturas lançou contra a Terra a maior tempestade geomagnética já registrada pela ciência moderna. Durante o Evento Carrington, a magnetosfera terrestre foi comprimida pela metade enquanto bilhões de toneladas de plasma eletrificado despejavam correntes imensas na atmosfera. Auroras brilhavam intensas em Cuba e no Havaí, e as linhas telegráficas absorveram tanta eletricidade induzida do ar que máquinas continuaram transmitindo mensagens mesmo após os técnicos desconectarem todas as pilhas. Quando o campo magnético terrestre vibra rapidamente, longas linhas de transmissão metálicas funcionam como antenas gigantes que captam correntes contínuas induzidas pelo solo. Esse excesso elétrico penetra em transformadores pesados de subestações, superaquecendo o óleo isolante e podendo fundir bobinas de cobre de centenas de toneladas fabricadas apenas sob encomenda. Lá em cima, a tempestade aquece e expande a alta atmosfera terrestre, aumentando subitamente o atrito do ar sobre satélites em órbita baixa e derrubando aparelhos desprotegidos. Ao mesmo tempo, explosões de raios X e partículas energéticas embaralham os sinais de rádio de precisão usados por navios, aviões em rotas polares e sistemas de sincronização bancária do GPS. Isso não é um risco apenas dos livros de história do século dezenove. Em julho de dois mil e doze, o Sol disparou uma ejeção de massa coronal equivalente em força ao Evento Carrington que cruzou exatamente o ponto da órbita terrestre — com uma diferença de apenas nove dias de onde a Terra estava! Se tivesse acontecido uma semana antes, teríamos enfrentado blecautes regionais históricos. A investigação completa com todos os detalhes e implicações cósmicas está no vídeo principal do YouTube: acesse o link fixado nos comentários e na descrição, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+    "scenes": [
+      {
+        "id": "scene_1_hook",
+        "type": "hook",
+        "visual_theme": "carrington-solar-superstorm_hook",
+        "headline": "17 HORAS ATÉ O IMPACTO SOLAR",
+        "narration": "Novas notícias científicas e observações espaciais voltaram a colocar este tema no centro das atenções em todo o mundo. O Sol parece calmo e constante no céu de todos os dias, mas é uma bomba de fusão magnetizada que gira de forma desigual, retorcendo suas linhas de campo magnético até que elas se rompem violentamente. Em setembro de mil oitocentos e cinquenta e nove, uma dessas rupturas lançou contra a Terra a maior tempestade geomagnética já registrada pela ciência moderna.",
+        "highlight_words": [
+          "EVENTO CARRINGTON",
+          "1859",
+          "ERUPÇÃO SOLAR"
+        ],
+        "stats": {
+          "label": "Velocidade da CME",
+          "value": "+2.400 Km por Segundo"
+        },
+        "backgroundImage": "assets/video-027-carrington-solar-superstorm/scene_1.jpg",
+        "panDirection": "zoom-in"
+      },
+      {
+        "id": "scene_2_history",
+        "type": "investigation",
+        "visual_theme": "carrington-solar-superstorm_history",
+        "headline": "TELÉGRAFOS FUNCIONANDO SEM BATERIAS",
+        "narration": "Durante o Evento Carrington, a magnetosfera terrestre foi comprimida pela metade enquanto bilhões de toneladas de plasma eletrificado despejavam correntes imensas na atmosfera. Auroras brilhavam intensas em Cuba e no Havaí, e as linhas telegráficas absorveram tanta eletricidade induzida do ar que máquinas continuaram transmitindo mensagens mesmo após os técnicos desconectarem todas as pilhas.",
+        "highlight_words": [
+          "TELÉGRAFOS",
+          "AURORAS TROPICAIS",
+          "INDUÇÃO"
+        ],
+        "stats": {
+          "label": "Alcance das Auroras",
+          "value": "Até a Linha do Equador"
+        },
+        "backgroundImage": "assets/video-027-carrington-solar-superstorm/scene_2.jpg",
+        "panDirection": "pan-right"
+      },
+      {
+        "id": "scene_3_grid",
+        "type": "revelation",
+        "visual_theme": "carrington-solar-superstorm_grid",
+        "headline": "O PONTO FRACO DA ERA DIGITAL",
+        "narration": "Quando o campo magnético terrestre vibra rapidamente, longas linhas de transmissão metálicas funcionam como antenas gigantes que captam correntes contínuas induzidas pelo solo. Esse excesso elétrico penetra em transformadores pesados de subestações, superaquecendo o óleo isolante e podendo fundir bobinas de cobre de centenas de toneladas fabricadas apenas sob encomenda.",
+        "highlight_words": [
+          "TRANSFORMADORES",
+          "CABOS LONGOS",
+          "REDES ELÉTRICAS"
+        ],
+        "stats": {
+          "label": "Tempo de Troca",
+          "value": "Meses por Transformador"
+        },
+        "backgroundImage": "assets/video-027-carrington-solar-superstorm/scene_3.jpg",
+        "panDirection": "pan-left"
+      },
+      {
+        "id": "scene_4_gps",
+        "type": "investigation",
+        "visual_theme": "carrington-solar-superstorm_gps",
+        "headline": "O IMPACTO NA ÓRBITA E NA NAVEGAÇÃO",
+        "narration": "Lá em cima, a tempestade aquece e expande a alta atmosfera terrestre, aumentando subitamente o atrito do ar sobre satélites em órbita baixa e derrubando aparelhos desprotegidos. Ao mesmo tempo, explosões de raios X e partículas energéticas embaralham os sinais de rádio de precisão usados por navios, aviões em rotas polares e sistemas de sincronização bancária do GPS.",
+        "highlight_words": [
+          "SATÉLITES",
+          "ARRASTO ATMOSFÉRICO",
+          "GPS"
+        ],
+        "stats": {
+          "label": "Risco Orbital",
+          "value": "Perda de Sinal e Altitude"
+        },
+        "backgroundImage": "assets/video-027-carrington-solar-superstorm/scene_4.jpg",
+        "panDirection": "hyper-zoom"
+      },
+      {
+        "id": "scene_5_near_miss",
+        "type": "climax",
+        "visual_theme": "carrington-solar-superstorm_near_miss",
+        "headline": "O QUASE IMPACTO DE 2012",
+        "narration": "Isso não é um risco apenas dos livros de história do século dezenove. Em julho de dois mil e doze, o Sol disparou uma ejeção de massa coronal equivalente em força ao Evento Carrington que cruzou exatamente o ponto da órbita terrestre — com uma diferença de apenas nove dias de onde a Terra estava! Se tivesse acontecido uma semana antes, teríamos enfrentado blecautes regionais históricos.",
+        "highlight_words": [
+          "2012",
+          "9 DIAS DE DIFERENÇA",
+          "CLASSE X"
+        ],
+        "stats": {
+          "label": "Margem de Sorte",
+          "value": "Apenas 9 Dias na Órbita"
+        },
+        "backgroundImage": "assets/video-027-carrington-solar-superstorm/scene_5.jpg",
+        "panDirection": "dramatic-pulse"
+      },
+      {
+        "id": "scene_6_miyake",
+        "type": "investigation",
+        "visual_theme": "carrington-solar-superstorm_miyake",
+        "headline": "OS EVENTOS MIYAKE NOS ANÉIS DAS ÁRVORES",
+        "narration": "Estudando picos súbitos de Carbono catorze preservados em anéis de árvores milenares e núcleos de gelo da Antártica, a física Fusa Miyake descobriu marcas de tempestades solares dez vezes mais violentas que a de Carrington ocorridas há mais de mil e duzentos anos — provando que o Sol guarda reservas de fúria ainda maiores em escalas milenares.",
+        "highlight_words": [
+          "EVENTOS MIYAKE",
+          "CARBONO-14",
+          "10X MAIS FORTE"
+        ],
+        "stats": {
+          "label": "Superexplosão Antiga",
+          "value": "Ano 774 d.C. (10x Maior)"
+        },
+        "backgroundImage": "assets/video-027-carrington-solar-superstorm/scene_6.jpg",
+        "panDirection": "floating-drift"
+      },
+      {
+        "id": "scene_7_defense",
+        "type": "investigation",
+        "visual_theme": "carrington-solar-superstorm_defense",
+        "headline": "AS SENTINELAS DE DEFESA ESPACIAL",
+        "narration": "A grande vantagem do século vinte e um é que não somos mais pegos de surpresa: satélites sentinelas posicionados entre o Sol e a Terra medem o campo magnético das ejeções com minutos a horas de antecedência, permitindo que operadores desliguem preventivamente linhas vulneráveis e coloquem naves em modo de segurança até a onda cósmica passar.",
+        "highlight_words": [
+          "SOHO",
+          "PARKER SOLAR PROBE",
+          "PREVISÃO"
+        ],
+        "stats": {
+          "label": "Alerta Precoce",
+          "value": "Monitoramento 24/7"
+        },
+        "backgroundImage": "assets/video-027-carrington-solar-superstorm/scene_7.jpg",
+        "panDirection": "tilt-down"
+      },
+      {
+        "id": "scene_8_scapatici_cta",
+        "type": "cta",
+        "visual_theme": "scapatici_space_observatory_community",
+        "headline": "NOSSO ESCUDO MAGNÉTICO AGUENTA?",
+        "narration": "E você, sabia que dependemos tanto de satélites e transformadores vulneráveis ao humor do nosso próprio Sol? Deixe a sua teoria aqui nos comentários, compartilhe este vídeo com quem é fascinado pelos mistérios do universo, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia, e até o próximo vídeo!",
+        "highlight_words": [
+          "SCAPATICI TECNOLOGIA",
+          "DEIXE SEU COMENTÁRIO",
+          "INSCREVA-SE",
+          "PRÓXIMO VÍDEO"
+        ],
+        "stats": {
+          "label": "Comunidade Oficial",
+          "value": "Scapatici Tecnologia"
+        },
+        "backgroundImage": "assets/video-027-carrington-solar-superstorm/scene_8.jpg",
+        "panDirection": "zoom-out"
+      }
+    ],
+    "image_queries": {
+      "scene_1.jpg": "solar dynamics observatory x class flare sun nasa",
+      "scene_2.jpg": "earth magnetosphere solar wind shield simulation nasa",
+      "scene_3.jpg": "aurora borealis green space station earth nasa",
+      "scene_4.jpg": "parker solar probe approaching sun corona nasa",
+      "scene_5.jpg": "earth city lights night power grid space station",
+      "scene_6.jpg": "satellite constellation earth orbit technology nasa",
+      "scene_7.jpg": "sunspots active region magnetic loop nasa",
+      "scene_8.jpg": "deep space starry universe pillars of creation webb",
+      "thumbnail.jpg": "sun coronal mass ejection solar flare sdo nasa"
+    }
+  },
+  {
+    "id": "video-028-oumuamua-interstellar-visitors",
+    "slug": "oumuamua-interstellar-visitors",
+    "title": "Visitantes Interestelares: O Mistério de Oumuamua e os Próximos Viajantes",
+    "topic": "Oumuamua, Cometa Borisov, Visitantes Interestelares e Observatório Vera Rubin",
+    "channel": "Scapatici Tecnologia",
+    "target_duration_seconds": 320,
+    "fps": 30,
+    "vinheta_duration_frames": 90,
+    "bg_music_volume": 0.12,
+    "trend_context": {
+      "source": "Space.com",
+      "title": "Did comets bring building blocks of life to Earth? Scientists aren't so sure anymore",
+      "summary": "For over a century astronomers have speculated that comets could have delivered organic molecules necessary for life to Earth, but new modeling shows these molecules wouldn't have survived impact.",
+      "link": "https://www.space.com/astronomy/comets/did-comets-bring-building-blocks-of-life-to-earth-scientists-arent-so-sure-anymore"
+    },
+    "thumbnail_text": {
+      "line1": "VEIO DE FORA",
+      "line2": "DO SISTEMA SOLAR!",
+      "subtitle": "O MISTÉRIO NÃO RESOLVIDO DE OUMUAMUA | SCAPATICI TECNOLOGIA"
+    },
+    "seo": {
+      "title_options": [
+        "Visitantes Interestelares: O Mistério de Oumuamua e os Próximos Viajantes",
+        "O Que Realmente Era Oumuamua? O Primeiro Mensageiro de Outra Estrela",
+        "Por Que Oumuamua Acelerou ao Deixar o Sol Sem Soltar Nenhuma Cauda Visível?"
+      ],
+      "description": "Em 2017, um objeto alongado cruzou o Sistema Solar vindo do espaço entre as estrelas, girou estranhamente e acelerou para longe do Sol sem rastro de cometa visível.\n\n🔎 Pauta em destaque nas tendências (Space.com): Did comets bring building blocks of life to Earth? Scientists aren't so sure anymore\n\nNeste episódio do canal Scapatici Tecnologia, mergulhamos com rigor científico e dados reais dos observatórios espaciais neste enigma do cosmos.\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para novos documentários todos os dias!\n\n#scapaticitecnologia #oumuamua #visitantesinterestelares #astronomia #nasa #verarubin #universo #ciencia",
+      "tags": [
+        "scapatici tecnologia",
+        "oumuamua",
+        "visitantes interestelares",
+        "astronomia",
+        "nasa",
+        "vera rubin",
+        "universo",
+        "ciencia"
+      ]
+    },
+    "shorts_narration": "Novas notícias científicas e observações espaciais voltaram a colocar este tema no centro das atenções em todo o mundo. Todos os asteroides e cometas do nosso Sistema Solar obedecem a órbitas elípticas fechadas, aprisionados eternamente pela gravidade do Sol. Mas em outubro de dois mil e dezessete, um ponto de luz fugaz mostrou uma trajetória hiperbólica aberta tão veloz que era impossível ter nascido aqui: pela primeira vez, testemunhamos um mensageiro sólido vindo do espaço interestelar. Pequeno demais para gerar fotos diretas com pixels detalhados, Oumuamua revelava sua geometria pelas pulsações de luz solar refletida a cada oito horas. Seu brilho caía e subia dez vezes mais rápido que o normal — algo que só ocorre com um objeto extremamente achatado ou alongado girando caoticamente depois de algum choque violento no passado. Quando um cometa comum se aproxima do Sol, o gelo derrete liberando jatos visíveis de água e poeira que empurram o núcleo como pequenos foguetes. Oumuamua mostrou exatamente esse empurrão extra desviando sua saída, porém nem o telescópio Spitzer em infravermelho encontrou um único traço de carbono ou nuvem de poeira ao redor dele. A explicação científica mais elegante surgiu com um mecanismo sutil: durante milhões de anos viajando fora de estrelas, raios cósmicos bombardeiam um bloco comum de gelo de água, quebrando moléculas e prendendo bolhas de gás hidrogênio lá dentro. Ao aquecer perto do Sol, esse gelo libera um jato invisível de hidrogênio puro — forte o bastante para acelerar um objeto pequeno sem arrastar poeira pesada. Apenas dois anos depois, o astrônomo amador Gennady Borisov descobriu o segundo visitante interestelar confirmado. Ao contrário de Oumuamua, Borisov comportou-se exatamente como um cometa clássico cercado por uma imensa coma brilhante rica em monóxido de carbono, provando que há uma enorme diversidade química entre objetos ejetados de outros sistemas planetários. A investigação completa com todos os detalhes e implicações cósmicas está no vídeo principal do YouTube: acesse o link fixado nos comentários e na descrição, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+    "scenes": [
+      {
+        "id": "scene_1_hook",
+        "type": "hook",
+        "visual_theme": "oumuamua-interstellar-visitors_hook",
+        "headline": "O PRIMEIRO VIAJANTE DE OUTRA ESTRELA",
+        "narration": "Novas notícias científicas e observações espaciais voltaram a colocar este tema no centro das atenções em todo o mundo. Todos os asteroides e cometas do nosso Sistema Solar obedecem a órbitas elípticas fechadas, aprisionados eternamente pela gravidade do Sol. Mas em outubro de dois mil e dezessete, um ponto de luz fugaz mostrou uma trajetória hiperbólica aberta tão veloz que era impossível ter nascido aqui: pela primeira vez, testemunhamos um mensageiro sólido vindo do espaço interestelar.",
+        "highlight_words": [
+          "OUMUAMUA",
+          "ÓRBITA HIPERBÓLICA",
+          "315 MIL KM/H"
+        ],
+        "stats": {
+          "label": "Velocidade de Entrada",
+          "value": "95.000 km/h (Até 315 mil)"
+        },
+        "backgroundImage": "assets/video-028-oumuamua-interstellar-visitors/scene_1.jpg",
+        "panDirection": "zoom-in"
+      },
+      {
+        "id": "scene_2_shape",
+        "type": "investigation",
+        "visual_theme": "oumuamua-interstellar-visitors_shape",
+        "headline": "UM FORMATO SEM PRECEDENTES",
+        "narration": "Pequeno demais para gerar fotos diretas com pixels detalhados, Oumuamua revelava sua geometria pelas pulsações de luz solar refletida a cada oito horas. Seu brilho caía e subia dez vezes mais rápido que o normal — algo que só ocorre com um objeto extremamente achatado ou alongado girando caoticamente depois de algum choque violento no passado.",
+        "highlight_words": [
+          "BRILHO VARIÁVEL",
+          "PANQUECA CÓSMICA",
+          "ROTAÇÃO"
+        ],
+        "stats": {
+          "label": "Proporção Extrema",
+          "value": "Até 10:1 (Comprimento/Largura)"
+        },
+        "backgroundImage": "assets/video-028-oumuamua-interstellar-visitors/scene_2.jpg",
+        "panDirection": "pan-right"
+      },
+      {
+        "id": "scene_3_acceleration",
+        "type": "revelation",
+        "visual_theme": "oumuamua-interstellar-visitors_acceleration",
+        "headline": "A ACELERAÇÃO FANTASMA SEM CAUDA",
+        "narration": "Quando um cometa comum se aproxima do Sol, o gelo derrete liberando jatos visíveis de água e poeira que empurram o núcleo como pequenos foguetes. Oumuamua mostrou exatamente esse empurrão extra desviando sua saída, porém nem o telescópio Spitzer em infravermelho encontrou um único traço de carbono ou nuvem de poeira ao redor dele.",
+        "highlight_words": [
+          "ACELERAÇÃO NÃO-GRAVITACIONAL",
+          "SEM CAUDA",
+          "ENIGMA"
+        ],
+        "stats": {
+          "label": "Anomalia Orbital",
+          "value": "Empuxo Extra Sem Poeira"
+        },
+        "backgroundImage": "assets/video-028-oumuamua-interstellar-visitors/scene_3.jpg",
+        "panDirection": "pan-left"
+      },
+      {
+        "id": "scene_4_hydrogen",
+        "type": "investigation",
+        "visual_theme": "oumuamua-interstellar-visitors_hydrogen",
+        "headline": "A CHAVE DO HIDROGÊNIO APRISIONADO",
+        "narration": "A explicação científica mais elegante surgiu com um mecanismo sutil: durante milhões de anos viajando fora de estrelas, raios cósmicos bombardeiam um bloco comum de gelo de água, quebrando moléculas e prendendo bolhas de gás hidrogênio lá dentro. Ao aquecer perto do Sol, esse gelo libera um jato invisível de hidrogênio puro — forte o bastante para acelerar um objeto pequeno sem arrastar poeira pesada.",
+        "highlight_words": [
+          "HIDROGÊNIO",
+          "RAIOS CÓSMICOS",
+          "GELO"
+        ],
+        "stats": {
+          "label": "Solução Física",
+          "value": "Sublimação Invisível de H₂"
+        },
+        "backgroundImage": "assets/video-028-oumuamua-interstellar-visitors/scene_4.jpg",
+        "panDirection": "hyper-zoom"
+      },
+      {
+        "id": "scene_5_borisov",
+        "type": "investigation",
+        "visual_theme": "oumuamua-interstellar-visitors_borisov",
+        "headline": "BORISOV: O SEGUNDO VISITANTE CONFIRMA A REGRA",
+        "narration": "Apenas dois anos depois, o astrônomo amador Gennady Borisov descobriu o segundo visitante interestelar confirmado. Ao contrário de Oumuamua, Borisov comportou-se exatamente como um cometa clássico cercado por uma imensa coma brilhante rica em monóxido de carbono, provando que há uma enorme diversidade química entre objetos ejetados de outros sistemas planetários.",
+        "highlight_words": [
+          "COMETA BORISOV",
+          "MONÓXIDO DE CARBONO",
+          "2019"
+        ],
+        "stats": {
+          "label": "Visitante #2",
+          "value": "2I/Borisov (Rico em CO)"
+        },
+        "backgroundImage": "assets/video-028-oumuamua-interstellar-visitors/scene_5.jpg",
+        "panDirection": "dramatic-pulse"
+      },
+      {
+        "id": "scene_6_rubin",
+        "type": "climax",
+        "visual_theme": "oumuamua-interstellar-visitors_rubin",
+        "headline": "O OBSERVATÓRIO QUE VAI DESCOBRIR DEZENAS",
+        "narration": "Estima-se que, a qualquer instante, vários objetos interestelares estejam passando silenciosamente dentro da órbita de Marte sem que tenhamos notado. Com a câmera de três vírgula dois gigapixels do Observatório Vera Rubin varrendo o céu inteiro repetidamente, estamos entrando em uma era capaz de identificar esses viajantes meses antes de chegarem perto do Sol.",
+        "highlight_words": [
+          "VERA RUBIN",
+          "CÂMERA DE 3.2 GIGAPIXELS",
+          "INTERCEPTAÇÃO"
+        ],
+        "stats": {
+          "label": "Nova Capacidade",
+          "value": "Mapeia o Céu Todo em 3 Dias"
+        },
+        "backgroundImage": "assets/video-028-oumuamua-interstellar-visitors/scene_6.jpg",
+        "panDirection": "floating-drift"
+      },
+      {
+        "id": "scene_7_comet_interceptor",
+        "type": "investigation",
+        "visual_theme": "oumuamua-interstellar-visitors_comet_interceptor",
+        "headline": "MISSÕES PRONTAS PARA PERSEGUIR UM ALVO",
+        "narration": "A Agência Espacial Europeia já prepara a missão Comet Interceptor, uma sonda que ficará estacionada aguardando em órbita pronta para acelerar e interceptar um novo visitante interestelar logo que for avistado — permitindo pela primeira vez tocarmos e fotografarmos de perto um fragmento físico nascido em volta de outra estrela da Via Láctea.",
+        "highlight_words": [
+          "COMET INTERCEPTOR",
+          "FOTOGRAFIA DE PERTO",
+          "EXOPLANETAS"
+        ],
+        "stats": {
+          "label": "Estratégia Futura",
+          "value": "Nave Estacionada no Ponto L2"
+        },
+        "backgroundImage": "assets/video-028-oumuamua-interstellar-visitors/scene_7.jpg",
+        "panDirection": "tilt-down"
+      },
+      {
+        "id": "scene_8_scapatici_cta",
+        "type": "cta",
+        "visual_theme": "scapatici_space_observatory_community",
+        "headline": "QUANTOS ESTÃO PASSANDO AGORA?",
+        "narration": "E você, acha que o próximo visitante interestelar detectado pelo Observatório Vera Rubin nos trará uma resposta definitiva? Deixe a sua teoria aqui nos comentários, compartilhe este vídeo com quem é fascinado pelos mistérios do universo, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia, e até o próximo vídeo!",
+        "highlight_words": [
+          "SCAPATICI TECNOLOGIA",
+          "DEIXE SEU COMENTÁRIO",
+          "INSCREVA-SE",
+          "PRÓXIMO VÍDEO"
+        ],
+        "stats": {
+          "label": "Comunidade Oficial",
+          "value": "Scapatici Tecnologia"
+        },
+        "backgroundImage": "assets/video-028-oumuamua-interstellar-visitors/scene_8.jpg",
+        "panDirection": "zoom-out"
+      }
+    ],
+    "image_queries": {
+      "scene_1.jpg": "interstellar object space silhouette stars nasa",
+      "scene_2.jpg": "pan-starrs observatory haleakala hawaii stars",
+      "scene_3.jpg": "comet tail ice sublimation solar system nasa",
+      "scene_4.jpg": "solar system orbit trajectory spacecraft nasa",
+      "scene_5.jpg": "vera rubin observatory telescope dome stars",
+      "scene_6.jpg": "milky way stars stellar neighborhood deep space",
+      "scene_7.jpg": "deep space asteroid rocky surface close up nasa",
+      "scene_8.jpg": "deep space starry universe pillars of creation webb",
+      "thumbnail.jpg": "interstellar asteroid elongated space stars nasa"
+    }
+  }
+]

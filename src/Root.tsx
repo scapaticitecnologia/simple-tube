@@ -62,12 +62,12 @@ export const RemotionRoot: React.FC = () => {
         calculateMetadata={async (args: any) => {
           const props = args.props as MainVideoProps;
           const fps = props.script?.fps || 30;
-          const introSec =
+          const shortsSec =
+            props.subtitles?.shorts_duration_sec ||
             props.subtitles?.intro_duration_sec ||
-            (props.subtitles?.total_duration_sec
-              ? Math.min(props.subtitles.total_duration_sec, 65)
-              : 60);
-          const totalFrames = Math.ceil((introSec + 3.5) * fps);
+            props.subtitles?.total_duration_sec ||
+            90;
+          const totalFrames = Math.ceil((shortsSec + 3.5) * fps);
 
           return {
             durationInFrames: Math.max(totalFrames, 300),

@@ -1,0 +1,188 @@
+{
+  "id": "video-016-hubble-tension",
+  "title": "A Crise da Tensão de Hubble: Por Que o Universo Está se Expandindo em Duas Velocidades Diferentes?",
+  "topic": "Tensão de Hubble, Constante de Hubble, James Webb, Cosmologia e Crise no Modelo Padrão",
+  "channel": "Scapatici Tecnologia",
+  "target_duration_seconds": 330,
+  "fps": 30,
+  "vinheta_duration_frames": 90,
+  "bg_music_volume": 0.12,
+  "thumbnail_text": {
+    "line1": "A FÍSICA QUEBROU?",
+    "line2": "DUAS VELOCIDADES NO ESPAÇO",
+    "subtitle": "A TENSÃO DE HUBBLE | SCAPATICI TECNOLOGIA"
+  },
+  "seo": {
+    "title_options": [
+      "A Crise da Tensão de Hubble: Por Que o Universo Está se Expandindo em Duas Velocidades Diferentes?",
+      "O Maior Erro da Cosmologia Moderna: A Tensão de Hubble Confirmada Pelo James Webb",
+      "O Universo Não Deveria Estar Fazendo Isso: A Crise Que Quebrou as Equações de Einstein"
+    ],
+    "description": "Imagine medir a velocidade de expansão do universo usando a luz da infância cósmica e obter um resultado; depois medir usando as estrelas modernas e obter outro completamente diferente. Esse abismo estatístico é a Tensão de Hubble: a maior crise da física contemporânea.\n\nNeste episódio do canal Scapatici Tecnologia, investigamos como o Telescópio Espacial James Webb testou as medições da Constante de Hubble e confirmou que a anomalia não é erro de medição: a física fundamental pode estar faltando uma peça cósmica inteira.\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para desvendar os maiores enigmas da ciência e da tecnologia.\n\n#ScapaticiTecnologia #TensaoDeHubble #ConstanteDeHubble #Cosmologia #Astrofisica #JamesWebb #Ciencia",
+    "tags": [
+      "scapatici tecnologia",
+      "tensao de hubble",
+      "hubble tension",
+      "constante de hubble",
+      "james webb",
+      "big bang",
+      "astrofisica",
+      "universo",
+      "misterios do universo"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "scene_1_hook",
+      "type": "hook",
+      "visual_theme": "expanding_universe_split_velocities_divergence",
+      "headline": "A MAIOR CRISE DA FÍSICA MODERNA",
+      "narration": "Se você medir a velocidade de um carro olhando pelo velocímetro e seu amigo medir olhando por um radar na estrada, os números devem bater perfeitamente. Mas quando os maiores astrofísicos do planeta apontam os telescópios mais sofisticados da história para medir a velocidade em que o universo está se expandindo, os dois melhores métodos da ciência chegam a respostas incompatíveis. Pior ainda: a margem de erro estatístico é de uma chance em cem milhões de ser coincidência. Bem-vindo à Tensão de Hubble: a crise matemática mais profunda da física do século vinte e um, que sugere que o nosso modelo padrão do cosmos está fundamentalmente quebrado.",
+      "highlight_words": [
+        "TENSÃO DE HUBBLE",
+        "RESPOSTAS INCOMPATÍVEIS",
+        "UMA EM CEM MILHÕES",
+        "FÍSICA QUEBRADA"
+      ],
+      "stats": {
+        "label": "Nível de Significância",
+        "value": "Acima de 5 Sigma (Definitivo)"
+      },
+      "backgroundImage": "assets/video-016-hubble-tension/scene_1.jpg",
+      "panDirection": "zoom-in"
+    },
+    {
+      "id": "scene_2_hubble_law_history",
+      "type": "investigation",
+      "visual_theme": "edwin_hubble_mount_wilson_discovery",
+      "headline": "A EQUAÇÃO QUE EXPANDIU A MENTE HUMANA",
+      "narration": "Em 1929, o astrônomo Edwin Hubble mudou a história da humanidade ao provar que as galáxias distantes estão se afastando de nós: quanto mais longe uma galáxia está, mais rápido ela parece se mover. Essa taxa de velocidade por distância é a famosa Constante de Hubble. Se soubermos o valor exato dessa constante, podemos calcular a idade precisa do universo, o seu tamanho observável e o destino final do espaço-tempo. Mas o universo se recusou a nos dar um número único.",
+      "highlight_words": [
+        "1929",
+        "EDWIN HUBBLE",
+        "CONSTANTE DE HUBBLE",
+        "DESTINO DO ESPAÇO"
+      ],
+      "stats": {
+        "label": "Descoberta",
+        "value": "Expansão Universal (1929)"
+      },
+      "backgroundImage": "assets/video-016-hubble-tension/scene_2.jpg",
+      "panDirection": "pan-right"
+    },
+    {
+      "id": "scene_3_the_two_camps",
+      "type": "climax",
+      "visual_theme": "planck_cmb_vs_supernova_cepheid_split",
+      "headline": "O CONFLITO DOS DOIS NÚMEROS: 67 VERSUS 73",
+      "narration": "O conflito é direto e implacável. De um lado, o satélite Planck da Agência Espacial Europeia olhou para a radiação fóssil do Big Bang emitida há treze vírgula oito bilhões de anos e calculou que o cosmos se expande a sessenta e sete vírgula quatro quilômetros por segundo por megaparsec. Do outro lado, astrônomos liderados pelo Prêmio Nobel Adam Riess mediram supernovas e estrelas Cefeidas no universo moderno e encontraram setenta e três vírgula zero. Uma diferença de quase nove por cento que não deveria existir de acordo com as equações de Albert Einstein.",
+      "highlight_words": [
+        "SESSENTA E SETE",
+        "SETENTA E TRÊS",
+        "PRÊMIO NOBEL",
+        "NOVE POR CENTO"
+      ],
+      "stats": {
+        "label": "Divergência",
+        "value": "67.4 vs 73.0 km/s/Mpc"
+      },
+      "backgroundImage": "assets/video-016-hubble-tension/scene_3.jpg",
+      "panDirection": "hyper-zoom"
+    },
+    {
+      "id": "scene_4_jwst_verdict",
+      "type": "technology",
+      "visual_theme": "james_webb_sharp_resolution_cepheid_stars",
+      "headline": "O VEREDITO DO JAMES WEBB EM 2024",
+      "narration": "Muitos físicos céticos acreditavam que o valor de setenta e três era apenas uma ilusão provocada pela poeira estelar ou resolução limitada do antigo Telescópio Hubble. Mas quando o Telescópio Espacial James Webb apontou seus espelhos infravermelhos ultraprecisos para as mesmas estrelas Cefeidas, o resultado chocou a comunidade: o James Webb confirmou os dados com precisão inédita. Não era erro de instrumento. O universo moderno realmente está se expandindo mais rápido do que o modelo prevê a partir do início dos tempos.",
+      "highlight_words": [
+        "JAMES WEBB 2024",
+        "CONFIRMAÇÃO DEFINITIVA",
+        "NÃO É ERRO",
+        "UNIVERSO MODERNO"
+      ],
+      "stats": {
+        "label": "Verificação JWST",
+        "value": "Erro Sistemático Descartado"
+      },
+      "backgroundImage": "assets/video-016-hubble-tension/scene_4.jpg",
+      "panDirection": "floating-drift"
+    },
+    {
+      "id": "scene_5_early_dark_energy",
+      "type": "investigation",
+      "visual_theme": "early_dark_energy_acceleration_infancy",
+      "headline": "A HIPÓTESE DA ENERGIA ESCURA PRIMORDIAL",
+      "narration": "Se os dois números estão corretos, o que está quebrado? Uma das teorias mais fascinantes é a Energia Escura Primordial. E se a energia escura não for uma constante imutável, mas tiver sofrido um surto temporário de aceleração logo antes dos átomos se formarem no Big Bang? Esse breve espasmo de aceleração cósmica resolveria as equações, mas exigiria reescrever os livros didáticos de termodinâmica e cosmologia.",
+      "highlight_words": [
+        "ENERGIA ESCURA PRIMORDIAL",
+        "SURTO TEMPORÁRIO",
+        "REESCREVER LIVROS",
+        "NOVA FORÇA"
+      ],
+      "stats": {
+        "label": "Candidato Teórico",
+        "value": "Early Dark Energy"
+      },
+      "backgroundImage": "assets/video-016-hubble-tension/scene_5.jpg",
+      "panDirection": "pan-left"
+    },
+    {
+      "id": "scene_6_decaying_dark_matter",
+      "type": "investigation",
+      "visual_theme": "dark_matter_decaying_into_dark_radiation",
+      "headline": "A MATÉRIA ESCURA QUE SE DESINTEGRA",
+      "narration": "Outra explicação assustadora envolve a própria matéria escura. E se as partículas de matéria escura forem instáveis e estiverem se decompondo lentamente ao longo dos bilhões de anos em radiação escura invisível? Conforme o universo envelheceu, a gravidade que segurava os aglomerados de galáxias teria enfraquecido, permitindo que o universo atual se acelerasse em um ritmo muito mais agressivo do que no passado.",
+      "highlight_words": [
+        "MATÉRIA ESCURA INSTÁVEL",
+        "RADIAÇÃO ESCURA",
+        "GRAVIDADE ENFRAQUECIDA",
+        "RITMO AGRESSIVO"
+      ],
+      "stats": {
+        "label": "Modelo Alternativo",
+        "value": "Decaimento de Matéria Escura"
+      },
+      "backgroundImage": "assets/video-016-hubble-tension/scene_6.jpg",
+      "panDirection": "tilt-down"
+    },
+    {
+      "id": "scene_7_beyond_einstein",
+      "type": "climax",
+      "visual_theme": "einstein_general_relativity_modifications",
+      "headline": "O FIM DA RELATIVIDADE GERAL OU UMA NOVA FÍSICA?",
+      "narration": "A Tensão de Hubble é o presente mais valioso que a natureza poderia dar aos cientistas: ela prova que ainda não sabemos tudo. Assim como as anomalias na órbita de Mercúrio provaram que a física de Newton estava incompleta e abriram caminho para Albert Einstein, esse abismo na velocidade do cosmos pode ser a primeira fresta para a tão esperada Teoria de Tudo que unificará a gravidade com a física quântica.",
+      "highlight_words": [
+        "ALÉM DE EINSTEIN",
+        "TEORIA DE TUDO",
+        "ÓRBITA DE MERCÚRIO",
+        "PRIMEIRA FRESTA"
+      ],
+      "stats": {
+        "label": "Veredito da Ciência",
+        "value": "Necessidade de Nova Física"
+      },
+      "backgroundImage": "assets/video-016-hubble-tension/scene_7.jpg",
+      "panDirection": "dramatic-pulse"
+    },
+    {
+      "id": "scene_8_scapatici_cta",
+      "type": "cta",
+      "visual_theme": "scapatici_space_observatory_community",
+      "headline": "O DESTINO FINAL DA EXPANSÃO CÓSMICA",
+      "narration": "E você, qual é a sua aposta sobre a Tensão de Hubble? Acredita que existe uma nova forma de energia desconhecida acelerando o cosmos ou que a própria gravidade de Einstein precisa ser atualizada? Deixe sua teoria aqui nos comentários, compartilhe este vídeo com quem é fascinado pelos mistérios do universo, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia, e até o próximo vídeo!",
+      "highlight_words": [
+        "SCAPATICI TECNOLOGIA",
+        "DEIXE SUA TEORIA",
+        "INSCREVA-SE",
+        "PRÓXIMO VÍDEO"
+      ],
+      "stats": {
+        "label": "Comunidade Oficial",
+        "value": "Scapatici Tecnologia"
+      },
+      "backgroundImage": "assets/video-016-hubble-tension/scene_8.jpg",
+      "panDirection": "zoom-out"
+    }
+  ]
+}

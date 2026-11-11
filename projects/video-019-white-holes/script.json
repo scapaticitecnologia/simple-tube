@@ -1,0 +1,188 @@
+{
+  "id": "video-019-white-holes",
+  "title": "Buracos Brancos: O Oposto Impossível dos Buracos Negros Onde o Tempo Corre ao Contrário",
+  "topic": "Buracos Brancos, Gravidade Quântica em Loop, Pontes de Einstein-Rosen e a Origem do Big Bang",
+  "channel": "Scapatici Tecnologia",
+  "target_duration_seconds": 330,
+  "fps": 30,
+  "vinheta_duration_frames": 90,
+  "bg_music_volume": 0.12,
+  "thumbnail_text": {
+    "line1": "O OPOSTO DO",
+    "line2": "BURACO NEGRO!",
+    "subtitle": "O MISTÉRIO DOS BURACOS BRANCOS | SCAPATICI TECNOLOGIA"
+  },
+  "seo": {
+    "title_options": [
+      "Buracos Brancos: O Oposto Impossível dos Buracos Negros Onde o Tempo Corre ao Contrário",
+      "E Se o Big Bang Foi o Nascimento de um Buraco Branco? O Enigma Que Inverte o Tempo",
+      "A Matemática Que Previu os Buracos Brancos: O Que Acontece no Fim de um Buraco Negro?"
+    ],
+    "description": "Se um buraco negro é uma região do espaço de onde absolutamente nada consegue escapar, a matemática da Relatividade Geral de Albert Einstein possui uma solução inversa exata e perturbadora: os Buracos Brancos, regiões de onde nada consegue entrar.\n\nNeste décimo nono episódio do canal Scapatici Tecnologia, investigamos a física dos Buracos Brancos, a hipótese de ricochete quântico de Carlo Rovelli e a fascinante teoria de que o próprio nascimento do nosso universo possa ter sido a explosão de um buraco branco.\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia.\n\n#ScapaticiTecnologia #BuracosBrancos #BuracoNegro #RelatividadeGeral #FisicaQuantica #BigBang #Ciencia",
+    "tags": [
+      "scapatici tecnologia",
+      "buracos brancos",
+      "white holes",
+      "buraco negro",
+      "relatividade geral",
+      "einstein",
+      "carlo rovelli",
+      "big bang",
+      "misterios do universo"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "scene_1_hook",
+      "type": "hook",
+      "visual_theme": "white_hole_ejecting_blinding_matter_light_space",
+      "headline": "A PORTA CÓSMICA ONDE NADA PODE ENTRAR",
+      "narration": "Todo mundo sabe como funciona um buraco negro: um poço gravitacional tão implacável que nada no universo, nem mesmo a luz, consegue escapar do seu horizonte de eventos. Mas as mesmas equações matemáticas da Relatividade Geral de Albert Einstein que previram os buracos negros possuem outra solução perfeitamente válida e simétrica: os Buracos Brancos. Em um buraco branco, a física funciona exatamente ao contrário. Ele é uma fonte contínua de luz e matéria cuspida para o espaço, protegida por um horizonte de eventos onde absolutamente nada consegue entrar, não importa quão veloz ou poderoso você seja. Tentar entrar em um buraco branco exigiria mais energia do que toda a massa existente no universo observável.",
+      "highlight_words": [
+        "BURACOS BRANCOS",
+        "SIMETRIA TEMPORAL",
+        "NADA PODE ENTRAR",
+        "ENERGIA INFINITA"
+      ],
+      "stats": {
+        "label": "Previsão Matemática",
+        "value": "Solução Exata da Relatividade Geral"
+      },
+      "backgroundImage": "assets/video-019-white-holes/scene_1.jpg",
+      "panDirection": "zoom-in"
+    },
+    {
+      "id": "scene_2_time_reversal_symmetry",
+      "type": "investigation",
+      "visual_theme": "einstein_field_equations_time_symmetry_diagram",
+      "headline": "A SIMETRIA TEMPORAL DA FÍSICA CLÁSSICA",
+      "narration": "As leis fundamentais da física que governam a gravidade e o movimento não têm preferência pela direção do tempo. Se você filmar a Terra orbitando o Sol e rodar o vídeo de trás para frente, as equações de Einstein continuam perfeitamente corretas. Um buraco branco é simplesmente um buraco negro onde o tempo está correndo na direção oposta. Se a matéria colapsa para dentro em direção a uma singularidade no futuro, o buraco branco nasce de uma singularidade no passado e expele tudo o que foi engolido de volta para a realidade.",
+      "highlight_words": [
+        "DIREÇÃO DO TEMPO",
+        "RODAR DE TRÁS PRA FRENTE",
+        "PASSADO E FUTURO",
+        "SINGULARIDADE INVERTIDA"
+      ],
+      "stats": {
+        "label": "Propriedade Física",
+        "value": "Invariância por Reversão Temporal"
+      },
+      "backgroundImage": "assets/video-019-white-holes/scene_2.jpg",
+      "panDirection": "pan-right"
+    },
+    {
+      "id": "scene_3_einstein_rosen_bridges",
+      "type": "investigation",
+      "visual_theme": "wormhole_connecting_black_hole_to_white_hole",
+      "headline": "A PONTE DE EINSTEIN-ROSEN E BURACOS DE MINHOCA",
+      "narration": "Em 1935, Albert Einstein e o físico Nathan Rosen calcularam a primeira geometria matemática de um buraco de minhoca. Nessa estrutura, um buraco negro em uma região do cosmos atua como um ralo de entrada, conectado através de uma garganta do espaço-tempo a um buraco branco que atua como uma torneira de saída em outra região distante do universo, ou até mesmo em outro universo paralelo. Tudo o que é sugado pelo abismo de um lado seria expelido sob a forma de luz pura e partículas do outro lado.",
+      "highlight_words": [
+        "1935",
+        "EINSTEIN E ROSEN",
+        "BURACO DE MINHOCA",
+        "RALO E TORNEIRA"
+      ],
+      "stats": {
+        "label": "Estrutura Geométrica",
+        "value": "Ponte de Einstein-Rosen"
+      },
+      "backgroundImage": "assets/video-019-white-holes/scene_3.jpg",
+      "panDirection": "hyper-zoom"
+    },
+    {
+      "id": "scene_4_thermodynamics_problem",
+      "type": "climax",
+      "visual_theme": "entropy_second_law_arrow_of_time_cosmos",
+      "headline": "A SEGUNDA LEI DA TERMODINÂMICA E A ENTROPIA",
+      "narration": "Se os buracos brancos são matematicamente permitidos, por que os nossos telescópios nunca avistaram nenhum com certeza? O obstáculo não está na gravidade, mas na Segunda Lei da Termodinâmica. A entropia, que mede o grau de desordem do universo, só pode aumentar com o tempo. Um buraco branco pareceria diminuir a entropia localmente, expelindo matéria altamente organizada. Durante décadas, os físicos consideraram que os buracos brancos eram apenas monstros teóricos descartados pelas leis do calor e da desordem cósmica.",
+      "highlight_words": [
+        "SEGUNDA LEI",
+        "TERMODINÂMICA",
+        "ENTROPIA",
+        "DESORDEM CÓSMICA"
+      ],
+      "stats": {
+        "label": "Barreira Física",
+        "value": "Segunda Lei da Termodinâmica"
+      },
+      "backgroundImage": "assets/video-019-white-holes/scene_4.jpg",
+      "panDirection": "floating-drift"
+    },
+    {
+      "id": "scene_5_carlo_rovelli_quantum_bounce",
+      "type": "technology",
+      "visual_theme": "loop_quantum_gravity_planck_star_bounce_rovelli",
+      "headline": "A VIRADA QUÂNTICA DE CARLO ROVELLI",
+      "narration": "A revolução teórica veio com a Gravidade Quântica em Loop e o físico italiano Carlo Rovelli. Na física quântica, o espaço não é contínuo, mas feito de grânulos mínimos chamados Comprimento de Planck. Quando a matéria colapsa dentro de um buraco negro, ela não pode ser esmagada em um ponto infinitesimal infinito: ela para na barreira de Planck, formando uma Estrela de Planck que ricocheteia como uma bola elástica. Devido à dilatação extrema do tempo provocada pela gravidade, o que para a estrela leva uma fração de segundo, para nós do lado de fora leva bilhões de anos: o buraco negro eventualmente explode e se transforma em um buraco branco.",
+      "highlight_words": [
+        "CARLO ROVELLI",
+        "GRAVIDADE QUÂNTICA EM LOOP",
+        "ESTRELA DE PLANCK",
+        "RICOCHETE QUÂNTICO"
+      ],
+      "stats": {
+        "label": "Teoria Moderna",
+        "value": "Transição Buraco Negro -> Branco"
+      },
+      "backgroundImage": "assets/video-019-white-holes/scene_5.jpg",
+      "panDirection": "pan-left"
+    },
+    {
+      "id": "scene_6_dark_matter_connection",
+      "type": "investigation",
+      "visual_theme": "microscopic_white_hole_relicts_dark_matter",
+      "headline": "ELES SÃO A MATÉRIA ESCURA QUE BUSCAMOS?",
+      "narration": "Se os buracos negros primordiais formados logo após o Big Bang já tiveram tempo de ricochetear e se transformar em buracos brancos microscópicos, o universo estaria repleto de remanescentes estáveis do tamanho de um grão de poeira, mas com a massa de montanhas inteiras. Vários físicos teóricos sugerem que esses resíduos de buracos brancos não interagem com a luz, possuem gravidade intensa e poderiam ser a resposta exata para a identidade da misteriosa Matéria Escura.",
+      "highlight_words": [
+        "REMANESCENTES MICROSCÓPICOS",
+        "GRÃO DE POEIRA",
+        "MASSA DE MONTANHAS",
+        "RESPOSTA DA MATÉRIA ESCURA"
+      ],
+      "stats": {
+        "label": "Massa do Remanescente",
+        "value": "Massa de Planck (~20 microgramas)"
+      },
+      "backgroundImage": "assets/video-019-white-holes/scene_6.jpg",
+      "panDirection": "dramatic-pulse"
+    },
+    {
+      "id": "scene_7_was_the_big_bang_a_white_hole",
+      "type": "climax",
+      "visual_theme": "big_bang_origin_white_hole_cosmic_genesis",
+      "headline": "E SE O BIG BANG FOI UM BURACO BRANCO?",
+      "narration": "A hipótese mais grandiosa de todas conecta o início da nossa própria existência aos buracos brancos. Pense na definição de um buraco branco: um evento a partir do qual toda a matéria, energia e luz são expelidas instantaneamente sem que nada do lado de fora possa intervir. O Big Bang que gerou o nosso universo compartilhou exatamente essas propriedades. O nosso próprio cosmos pode ser o interior em expansão de um gigantesco buraco branco que nasceu da morte de um buraco negro em outro universo ancestral.",
+      "highlight_words": [
+        "BIG BANG",
+        "NOSSA EXISTÊNCIA",
+        "UNIVERSO ANCESTRAL",
+        "NASCIMENTO DO COSMOS"
+      ],
+      "stats": {
+        "label": "Hipótese Cosmológica",
+        "value": "Cosmologia do Big Bounce"
+      },
+      "backgroundImage": "assets/video-019-white-holes/scene_7.jpg",
+      "panDirection": "tilt-down"
+    },
+    {
+      "id": "scene_8_scapatici_cta",
+      "type": "cta",
+      "visual_theme": "scapatici_space_observatory_community",
+      "headline": "O CICLO INFINITO DA GRAVIDADE",
+      "narration": "E você, o que acha do conceito fascinante dos Buracos Brancos? Acredita que o Big Bang pode ter sido a explosão de um buraco branco ou que um dia os telescópios encontrarão um deles brilhando no céu? Deixe sua teoria aqui nos comentários, compartilhe este vídeo com quem é fascinado pelos mistérios do universo, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia, e até o próximo vídeo!",
+      "highlight_words": [
+        "SCAPATICI TECNOLOGIA",
+        "DEIXE SUA TEORIA",
+        "INSCREVA-SE",
+        "PRÓXIMO VÍDEO"
+      ],
+      "stats": {
+        "label": "Comunidade Oficial",
+        "value": "Scapatici Tecnologia"
+      },
+      "backgroundImage": "assets/video-019-white-holes/scene_8.jpg",
+      "panDirection": "zoom-out"
+    }
+  ]
+}

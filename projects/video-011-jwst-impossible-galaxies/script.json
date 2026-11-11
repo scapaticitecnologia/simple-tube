@@ -1,0 +1,183 @@
+{
+  "id": "video-011-jwst-impossible-galaxies",
+  "title": "As Galáxias Impossíveis do James Webb: O Descoberta Que Quebrou o Modelo do Big Bang",
+  "topic": "Telescópio Espacial James Webb, Galáxias Primordiais Massivas, Cosmologia e Crise no Modelo Padrão",
+  "channel": "Scapatici Tecnologia",
+  "target_duration_seconds": 330,
+  "fps": 30,
+  "vinheta_duration_frames": 90,
+  "bg_music_volume": 0.12,
+  "seo": {
+    "title_options": [
+      "As Galáxias Impossíveis do James Webb: A Descoberta Que Quebrou o Modelo do Big Bang",
+      "O James Webb Enxergou Galáxias Antigas Demais Para Existirem? O Mistério dos Pontos Vermelhos",
+      "O Universo É Duas Vezes Mais Velho do Que Pensávamos? O Enigma do Telescópio James Webb"
+    ],
+    "description": "Quando o Telescópio Espacial James Webb apontou seus espelhos banhados a ouro para o início do tempo, os cientistas esperavam ver apenas pequenos fragmentos de estrelas recém-nascidas. Em vez disso, encontraram seis colossos galácticos maduros que simplesmente não deveriam existir tão cedo após o Big Bang.\n\nNeste episódio do canal Scapatici Tecnologia, exploramos os chamados 'Quebradores de Universo': galáxias e buracos negros supermassivos primordiais que estão forçando a astrofísica a repensar a história do cosmos.\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para desvendar os maiores enigmas do cosmos e da ciência de ponta.\n\n#ScapaticiTecnologia #JamesWebb #BigBang #GalaxiasImpossiveis #Astrofisica #Cosmos #Ciencia",
+    "tags": [
+      "scapatici tecnologia",
+      "james webb",
+      "jwst",
+      "galaxias impossiveis",
+      "big bang",
+      "astrofisica",
+      "universo",
+      "buracos negros",
+      "misterios do universo"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "scene_1_hook",
+      "type": "hook",
+      "visual_theme": "jwst_deep_field_red_dots_anomaly",
+      "headline": "OS SEIS PONTOS QUE CHOCARAM A FÍSICA",
+      "narration": "Quando o Telescópio Espacial James Webb enviou suas primeiras imagens do abismo mais profundo do espaço-tempo, os astrofísicos encontraram seis pequenos pontos vermelhos brilhando na escuridão primordial. À primeira vista, pareciam apenas ruído nos sensores infravermelhos. Mas quando os supercomputadores calcularam a distância e a massa daqueles objetos, o pânico silencioso tomou conta dos observatórios. Aqueles pontos eram galáxias colossais, tão maduras e repletas de estrelas quanto a nossa Via Láctea, existindo apenas quinhentos milhões de anos após o Big Bang. Segundo todas as leis da cosmologia moderna, não havia tempo nem matéria suficiente para elas existirem. Os próprios cientistas deram a elas um apelido oficial: As Quebradoras de Universo.",
+      "highlight_words": [
+        "QUEBRADORAS DE UNIVERSO",
+        "JAMES WEBB",
+        "500 MILHÕES DE ANOS",
+        "PONTOS VERMELHOS"
+      ],
+      "stats": {
+        "label": "Era Cósmica",
+        "value": "3% da Idade do Universo"
+      },
+      "backgroundImage": "assets/video-011-jwst-impossible-galaxies/scene_1.jpg",
+      "panDirection": "zoom-in"
+    },
+    {
+      "id": "scene_2_time_machine_infrared",
+      "type": "technology",
+      "visual_theme": "james_webb_gold_mirror_infrared_spectrum",
+      "headline": "A MÁQUINA DO TEMPO DE OURO E INFRAVERMELHO",
+      "narration": "Para entender por que o Telescópio Hubble nunca viu esses monstros, precisamos entender como o espaço estica a própria luz. Conforme a luz das primeiras estrelas viaja por mais de treze bilhões de anos até nós, a expansão do universo estica suas ondas, transformando o brilho ultravioleta e visível em radiação infravermelha invisível aos olhos humanos. Com seu espelho hexagonal de seis metros e meio revestido de ouro puro e refrigerado perto do zero absoluto, o James Webb foi projetado especificamente para enxergar através desse véu temporal.",
+      "highlight_words": [
+        "TREZE BILHÕES DE ANOS",
+        "LUZ ESTICADA",
+        "ESPELHO DE OURO",
+        "INFRAVERMELHO"
+      ],
+      "stats": {
+        "label": "Alcance Temporal",
+        "value": "13,5 Bilhões de Anos"
+      },
+      "backgroundImage": "assets/video-011-jwst-impossible-galaxies/scene_2.jpg",
+      "panDirection": "pan-right"
+    },
+    {
+      "id": "scene_3_standard_model_expectation",
+      "type": "investigation",
+      "visual_theme": "early_universe_baby_galaxies_simulation",
+      "headline": "O QUE DEVERIA ESTAR LÁ NO INÍCIO?",
+      "narration": "O Modelo Padrão da Cosmologia, conhecido como Lambda-CDM, previa que a infância do universo fosse lenta e caótica. Após o Big Bang, nuvens de gás hidrogênio deveriam levar bilhões de anos se aglutinando lentamente dentro de halos de matéria escura para formar pequenas galáxias anãs irregulares. Encontrar uma galáxia com cem bilhões de estrelas já pronta na aurora cósmica é o equivalente biológico a entrar em uma maternidade e encontrar um recém-nascido de dois dias de vida com a altura e o peso de um adulto de trinta anos.",
+      "highlight_words": [
+        "MODELO PADRÃO",
+        "MATÉRIA ESCURA",
+        "CEM BILHÕES DE ESTRELAS",
+        "PARADOXO TEMPORAL"
+      ],
+      "stats": {
+        "label": "Massa Estelar",
+        "value": "+100 Bilhões de Sóis"
+      },
+      "backgroundImage": "assets/video-011-jwst-impossible-galaxies/scene_3.jpg",
+      "panDirection": "pan-left"
+    },
+    {
+      "id": "scene_4_impossible_efficiency",
+      "type": "climax",
+      "visual_theme": "hyper_efficient_star_formation_furnace",
+      "headline": "A FÁBRICA DE ESTRELAS 100% EFICIENTE",
+      "narration": "Quando o astrofísico Ivo Labbé e sua equipe publicaram os dados na revista Nature, o cálculo mais assustador veio à tona: para aquelas galáxias terem crescido tão rápido no tempo disponível desde o Big Bang, elas precisariam ter convertido quase cem por cento de todo o gás disponível no universo primordial diretamente em estrelas, instantaneamente. Na física conhecida, nenhuma galáxia consegue converter mais do que dez a vinte por cento do seu gás, porque a própria explosão das primeiras supernovas sopra o restante do gás para longe.",
+      "highlight_words": [
+        "IVO LABBÉ",
+        "REVISTA NATURE",
+        "100% DE EFICIÊNCIA",
+        "FÍSICA IMPOSSÍVEL"
+      ],
+      "stats": {
+        "label": "Taxa de Conversão",
+        "value": "Acima do Limite Físico"
+      },
+      "backgroundImage": "assets/video-011-jwst-impossible-galaxies/scene_4.jpg",
+      "panDirection": "hyper-zoom"
+    },
+    {
+      "id": "scene_5_primordial_black_holes",
+      "type": "investigation",
+      "visual_theme": "supermassive_black_hole_quasar_early_cosmos",
+      "headline": "OS BURACOS NEGROS QUE NASCERAM GIGANTES",
+      "narration": "O mistério ficou ainda mais denso quando o espectrógrafo do James Webb analisou o interior desses pequenos pontos vermelhos. Alguns deles não eram apenas aglomerados de estrelas, mas abrigavam buracos negros supermassivos engolindo matéria em um ritmo frenético. O problema é o mesmo: um buraco negro que nasce da morte de uma estrela comum jamais teria tempo de crescer até atingir bilhões de massas solares tão cedo. Isso reacendeu uma teoria fascinante: as sementes de colapso direto, onde nuvens titânicas de gás primordial colapsaram direto em buracos negros gigantes sem nunca terem sido estrelas.",
+      "highlight_words": [
+        "COLAPSO DIRETO",
+        "BURACOS NEGROS PRIMORDIAIS",
+        "SEMENTES CÓSMICAS",
+        "QUASARES"
+      ],
+      "stats": {
+        "label": "Anomalia Central",
+        "value": "Buracos Negros Gigantes"
+      },
+      "backgroundImage": "assets/video-011-jwst-impossible-galaxies/scene_5.jpg",
+      "panDirection": "dramatic-pulse"
+    },
+    {
+      "id": "scene_6_alternative_cosmology",
+      "type": "investigation",
+      "visual_theme": "cosmic_timeline_expansion_equations",
+      "headline": "O BIG BANG ESTÁ ERRADO OU INCOMPLETO?",
+      "narration": "Essas descobertas geraram manchetes no mundo inteiro afirmando que o Big Bang havia sido refutado. Alguns físicos teóricos chegaram a propor modelos radicais que dobrariam a idade do universo para vinte e seis vírgula sete bilhões de anos. Porém, a maioria dos cosmólogos alerta que o Big Bang continua sustentado por provas sólidas, como a radiação cósmica de fundo. O que o James Webb realmente quebrou foi a nossa compreensão sobre como as primeiras estruturas se formaram e como a energia escura primordial atuou nos primeiros milhões de anos.",
+      "highlight_words": [
+        "26,7 BILHÕES DE ANOS",
+        "ENERGIA ESCURA PRIMORDIAL",
+        "NOVA FÍSICA",
+        "AURORA CÓSMICA"
+      ],
+      "stats": {
+        "label": "Impacto Científico",
+        "value": "Revisão da Formação Galáctica"
+      },
+      "backgroundImage": "assets/video-011-jwst-impossible-galaxies/scene_6.jpg",
+      "panDirection": "floating-drift"
+    },
+    {
+      "id": "scene_7_population_iii_stars",
+      "type": "climax",
+      "visual_theme": "population_iii_hypergiant_first_stars",
+      "headline": "A CAÇADA ÀS ESTRELAS DE POPULAÇÃO TRÊS",
+      "narration": "A peça final desse quebra-cabeça pode estar nas lendárias estrelas de População Três: os primeiros astros do universo, forjados puramente de hidrogênio e hélio, milhares de vezes mais massivos e brilhantes do que o nosso Sol. Se essas estrelas titânicas dominaram as primeiras galáxias, o brilho delas teria enganado nossos cálculos, fazendo galáxias menores parecerem colossos impossíveis. O James Webb está apenas no início de sua missão, e cada nova imagem nos aproxima do instante zero da criação.",
+      "highlight_words": [
+        "POPULAÇÃO TRÊS",
+        "PRIMEIRAS ESTRELAS",
+        "MILHARES DE SÓIS",
+        "INSTANTE ZERO"
+      ],
+      "stats": {
+        "label": "Próxima Fronteira",
+        "value": "As Primeiras Estrelas"
+      },
+      "backgroundImage": "assets/video-011-jwst-impossible-galaxies/scene_7.jpg",
+      "panDirection": "tilt-down"
+    },
+    {
+      "id": "scene_8_scapatici_cta",
+      "type": "cta",
+      "visual_theme": "scapatici_space_observatory_community",
+      "headline": "OS SEGREDOS DO INÍCIO DO TEMPO",
+      "narration": "E você, o que acha das descobertas do James Webb? Acredita que apenas entendemos errado o nascimento das primeiras estrelas ou que a física está prestes a passar pela maior revolução desde Albert Einstein? Deixe sua teoria aqui nos comentários, compartilhe este vídeo com quem é fascinado pelos mistérios do universo, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia, e até o próximo vídeo!",
+      "highlight_words": [
+        "SCAPATICI TECNOLOGIA",
+        "DEIXE SUA TEORIA",
+        "INSCREVA-SE",
+        "PRÓXIMO VÍDEO"
+      ],
+      "stats": {
+        "label": "Comunidade Oficial",
+        "value": "Scapatici Tecnologia"
+      },
+      "backgroundImage": "assets/video-011-jwst-impossible-galaxies/scene_8.jpg",
+      "panDirection": "zoom-out"
+    }
+  ]
+}

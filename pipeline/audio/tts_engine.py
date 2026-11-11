@@ -46,27 +46,42 @@ def naturalize_text_prosody(text: str) -> str:
     return t
 
 async def synthesize_segment(text: str, output_audio_path: str, voice: str = DEFAULT_VOICE, rate: str = "+0%", pitch: str = "+0Hz"):
-    """Sintetiza um segmento de texto e retorna os limites de palavras e duração total com cadência natural."""
+    """Sintetiza um segmento de texto com retry automático e retorna os limites de palavras e duração total."""
     os.makedirs(os.path.dirname(os.path.abspath(output_audio_path)), exist_ok=True)
-    
     optimized_text = naturalize_text_prosody(text)
-    communicate = edge_tts.Communicate(optimized_text, voice, rate=rate, pitch=pitch)
+
+    last_err = None
     boundaries = []
-    
-    with open(output_audio_path, "wb") as audio_file:
-        async for chunk in communicate.stream():
-            if chunk["type"] == "audio":
-                audio_file.write(chunk["data"])
-            elif chunk["type"] in ("WordBoundary", "SentenceBoundary"):
-                offset_sec = chunk["offset"] / 10_000_000
-                duration_sec = chunk["duration"] / 10_000_000
-                boundaries.append({
-                    "type": chunk["type"],
-                    "text": chunk.get("text", ""),
-                    "start": round(offset_sec, 3),
-                    "end": round(offset_sec + duration_sec, 3),
-                    "duration": round(duration_sec, 3)
-                })
+    for attempt in range(1, 4):
+        try:
+            communicate = edge_tts.Communicate(optimized_text, voice, rate=rate, pitch=pitch)
+            boundaries = []
+            with open(output_audio_path, "wb") as audio_file:
+                async for chunk in communicate.stream():
+                    if chunk["type"] == "audio":
+                        audio_file.write(chunk["data"])
+                    elif chunk["type"] in ("WordBoundary", "SentenceBoundary"):
+                        offset_sec = chunk["offset"] / 10_000_000
+                        duration_sec = chunk["duration"] / 10_000_000
+                        boundaries.append({
+                            "type": chunk["type"],
+                            "text": chunk.get("text", ""),
+                            "start": round(offset_sec, 3),
+                            "end": round(offset_sec + duration_sec, 3),
+                            "duration": round(duration_sec, 3)
+                        })
+            if os.path.exists(output_audio_path) and os.path.getsize(output_audio_path) > 512:
+                last_err = None
+                break
+            raise RuntimeError("Arquivo de áudio gerado vazio pelo Edge-TTS.")
+        except Exception as err:
+            last_err = err
+            wait_sec = 3 * attempt
+            print(f"[TTS] ⚠️ Tentativa {attempt}/3 falhou ({err}). Repetindo em {wait_sec}s...", flush=True)
+            await asyncio.sleep(wait_sec)
+
+    if last_err is not None:
+        raise last_err
                 
     words_timeline = []
     for b in boundaries:
@@ -146,10 +161,43 @@ async def process_structured_script(script_data: dict, out_audio_path: str, out_
         print(f"[TTS] ✅ Restante do vídeo gerado: {rest_dur:.2f}s ({len(rest_words)} palavras)")
 
     # Também gera a narração contínua completa para fallback
-    full_text = " ".join([s.get("narration", "") for s in scenes])
+    full_text = " ".join([s.get("narration", "") for s in scenes if s.get("narration")])
     await synthesize_segment(full_text, out_audio_path, voice=voice, rate=rate, pitch=pitch)
 
-    # Combina timelines
+    # Sintetiza o mini-documentário vertical (Shorts / Reels / TikTok ~1m40s a 1m55s)
+    audio_shorts_path = os.path.join(project_dir, "audio_shorts.mp3")
+    shorts_narration = script_data.get("shorts_narration", "").strip()
+    if len(shorts_narration.split()) < 220 and len(scenes) > 2:
+        # Constrói versão vertical densa e explicativa (~250-300 palavras / ~95s-115s) a partir dos principais atos + CTA
+        core_acts = [s.get("narration", "").strip() for s in scenes[:-1] if s.get("narration", "").strip()]
+        chosen_acts = []
+        word_total = 0
+        for act in core_acts:
+            if word_total >= 245:
+                break
+            chosen_acts.append(act)
+            word_total += len(act.split())
+        shorts_cta = (
+            "A investigação completa com todos os detalhes está no vídeo principal do YouTube: "
+            "acesse o link fixado nos comentários e na descrição, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!"
+        )
+        shorts_narration = " ".join(chosen_acts) + " " + shorts_cta
+
+    if shorts_narration:
+        print("[TTS] 📱 Sintetizando narração densa para SHORTS / REELS / TIKTOK (~1m45s)...")
+        shorts_dur, shorts_words, _ = await synthesize_segment(
+            shorts_narration,
+            audio_shorts_path,
+            voice=voice, rate=rate, pitch=pitch
+        )
+        print(f"[TTS] ✅ Áudio Vertical Denso gerado: {shorts_dur:.2f}s ({len(shorts_words)} palavras)")
+    else:
+        import shutil
+        shutil.copyfile(audio_intro_path, audio_shorts_path)
+        shorts_dur = intro_dur
+        shorts_words = intro_words
+
+    # Combina timelines para o vídeo 16:9
     combined_timeline = intro_words + rest_words
     total_duration_sec = round(intro_dur + vinheta_sec + rest_dur, 3)
 
@@ -160,9 +208,11 @@ async def process_structured_script(script_data: dict, out_audio_path: str, out_
         "intro_duration_sec": intro_dur,
         "vinheta_duration_sec": vinheta_sec,
         "rest_duration_sec": rest_dur,
+        "shorts_duration_sec": shorts_dur,
         "total_duration_sec": total_duration_sec,
         "total_words": len(combined_timeline),
-        "timeline": combined_timeline
+        "timeline": combined_timeline,
+        "shorts_timeline": shorts_words
     }
 
     if out_sub_path:

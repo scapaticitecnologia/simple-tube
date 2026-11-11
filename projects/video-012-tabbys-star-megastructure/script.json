@@ -1,0 +1,183 @@
+{
+  "id": "video-012-tabbys-star-megastructure",
+  "title": "A Estrela de Tabby: O Objeto Que Bloqueou 22% da Luz de um Sol a 1.470 Anos-Luz",
+  "topic": "Estrela de Tabby (KIC 8462852), Telescópio Kepler, Esfera de Dyson e Anomalias Estelares",
+  "channel": "Scapatici Tecnologia",
+  "target_duration_seconds": 330,
+  "fps": 30,
+  "vinheta_duration_frames": 90,
+  "bg_music_volume": 0.12,
+  "seo": {
+    "title_options": [
+      "A Estrela de Tabby: O Objeto Que Bloqueou 22% da Luz de um Sol a 1.470 Anos-Luz",
+      "A Estrela Mais Misteriosa da Via Láctea: Megaestrutura Alienígena ou Anomalia Cósmica?",
+      "Por Que a Estrela KIC 8462852 Está Escurecendo de Forma Impossível?"
+    ],
+    "description": "Quando um planeta gigante como Júpiter passa na frente de uma estrela, ele bloqueia apenas 1% da luz dela. Mas em 2015, a astrônoma Tabetha Boyajian descobriu uma estrela a 1.470 anos-luz da Terra cujo brilho despencou absurdos 22% de forma irregular e aperiódica.\n\nNeste episódio do canal Scapatici Tecnologia, investigamos o enigma da Estrela de Tabby (KIC 8462852): por que os dados do Telescópio Espacial Kepler levaram cientistas de Harvard e da Penn State a apontar os maiores radiotelescópios do mundo em busca de uma megaestrutura alienígena?\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para desvendar os maiores enigmas do cosmos e da ciência de ponta.\n\n#ScapaticiTecnologia #EstrelaDeTabby #EsferaDeDyson #Kepler #Astrofisica #Cosmos #Ciencia",
+    "tags": [
+      "scapatici tecnologia",
+      "estrela de tabby",
+      "kic 8462852",
+      "esfera de dyson",
+      "megaestrutura alienigena",
+      "kepler",
+      "astrofisica",
+      "universo",
+      "misterios do universo"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "scene_1_hook",
+      "type": "hook",
+      "visual_theme": "alien_megastructure_eclipsing_star_kepler",
+      "headline": "A SOMBRA IMPOSSÍVEL NA CONSTELAÇÃO DO CISNE",
+      "narration": "Quando o maior planeta do nosso Sistema Solar, Júpiter, passa exatamente na frente do Sol visto de longe, ele bloqueia apenas um por cento da luz solar. Essa é a regra básica que o Telescópio Espacial Kepler usou para descobrir milhares de exoplanetas. Mas ao analisar a estrela KIC oitenta e quatro, meia dois, oito cinco dois, a mil quatrocentos e setenta anos-luz da Terra, os cientistas encontraram algo que gelou a espinha da astronomia moderna. Algo colossal passou na frente daquela estrela e bloqueou absurdos vinte e dois por cento da sua luz. Para produzir uma sombra tão monstruosa, o objeto precisaria ser dezenas de vezes maior que um planeta gigante e ter um formato completamente assimétrico. Seria o primeiro registro de um Enxame de Dyson em construção?",
+      "highlight_words": [
+        "22% DA LUZ BLOQUEADA",
+        "ESTRELA DE TABBY",
+        "1.470 ANOS-LUZ",
+        "SOMBRA COLOSSAL"
+      ],
+      "stats": {
+        "label": "Queda de Brilho",
+        "value": "22% (22x Júpiter)"
+      },
+      "backgroundImage": "assets/video-012-tabbys-star-megastructure/scene_1.jpg",
+      "panDirection": "zoom-in"
+    },
+    {
+      "id": "scene_2_planet_hunters_discovery",
+      "type": "investigation",
+      "visual_theme": "kepler_light_curve_irregular_dips",
+      "headline": "O GRÁFICO QUE OS COMPUTADORES REJEITARAM",
+      "narration": "O mais impressionante é que essa anomalia quase passou despercebida. Os algoritmos da NASA estavam programados para buscar quedas de brilho perfeitamente repetitivas, como o tique-taque de um relógio planetário. Foi um grupo de cientistas cidadãos do projeto Planet Hunters, liderado pela astrônoma Tabetha Boyajian da Universidade de Yale, que notou a curva de luz mais bizarra da história. Em vez de um círculo suave, o gráfico mostrava quedas brutais, caóticas e sem nenhum padrão fixo, durando de cinco a oitenta dias seguidos.",
+      "highlight_words": [
+        "TABETHA BOYAJIAN",
+        "PLANET HUNTERS",
+        "CURVA CAÓTICA",
+        "OITENTA DIAS"
+      ],
+      "stats": {
+        "label": "Código Oficial",
+        "value": "KIC 8462852"
+      },
+      "backgroundImage": "assets/video-012-tabbys-star-megastructure/scene_2.jpg",
+      "panDirection": "pan-right"
+    },
+    {
+      "id": "scene_3_ruling_out_young_star",
+      "type": "investigation",
+      "visual_theme": "protoplanetary_disk_infrared_check",
+      "headline": "POR QUE NÃO É UM PLANETA EM FORMAÇÃO?",
+      "narration": "A primeira tentativa de explicação natural foi simples: talvez a Estrela de Tabby fosse uma estrela recém-nascida cercada por discos caóticos de poeira e rochas protoplanetárias. Mas havia uma falha fatal nessa hipótese. A Estrela de Tabby é uma estrela adulta de classe F, mais quente e maior que o nosso Sol. Além disso, qualquer disco de poeira jovem absorveria a luz da estrela e brilharia intensamente no infravermelho. Quando o Telescópio Spitzer verificou a estrela, não havia excesso de calor infravermelho nenhum.",
+      "highlight_words": [
+        "ESTRELA CLASSE F",
+        "SEM INFRAVERMELHO",
+        "TELESCÓPIO SPITZER",
+        "HIPÓTESE DESCARTADA"
+      ],
+      "stats": {
+        "label": "Excesso Infravermelho",
+        "value": "Zero Detectado"
+      },
+      "backgroundImage": "assets/video-012-tabbys-star-megastructure/scene_3.jpg",
+      "panDirection": "pan-left"
+    },
+    {
+      "id": "scene_4_comet_swarm_paradox",
+      "type": "investigation",
+      "visual_theme": "exocomet_swarm_disintegrating_orbit",
+      "headline": "A TEORIA DOS SEISCENTOS COMETAS GIGANTES",
+      "narration": "Desesperados por uma solução natural, os astrofísicos propuseram a hipótese de uma família de exocometas gigantes que teriam se despedaçado perto da estrela, criando uma nuvem de fragmentos. Mas quando os cálculos matemáticos foram feitos, a ideia esbarrou em outro absurdo estatístico: seriam necessários mais de seiscentos cometas de duzentos quilômetros de diâmetro passando em fila indiana bem na nossa linha de visão, sem deixar o rastro gasoso típico que cometas reais deixam.",
+      "highlight_words": [
+        "SEISCENTOS COMETAS",
+        "200 KM DE DIÂMETRO",
+        "ABSURDO ESTATÍSTICO",
+        "FILA INDIANA"
+      ],
+      "stats": {
+        "label": "Probabilidade Casual",
+        "value": "Extremamente Baixa"
+      },
+      "backgroundImage": "assets/video-012-tabbys-star-megastructure/scene_4.jpg",
+      "panDirection": "floating-drift"
+    },
+    {
+      "id": "scene_5_wright_dyson_hypothesis",
+      "type": "climax",
+      "visual_theme": "dyson_swarm_solar_collectors_megastructure",
+      "headline": "A HIPÓTESE DA MEGAESTRUTURA DE JASON WRIGHT",
+      "narration": "Foi então que o astrofísico Jason Wright, da Universidade Estadual da Pensilvânia, publicou o estudo que abalou a comunidade científica. Ele demonstrou que a curva de luz assimétrica da Estrela de Tabby coincidia exatamente com os modelos teóricos de uma civilização Tipo Dois na Escala de Kardashev construindo um Enxame de Dyson: bilhões de painéis coletores solares gigantescos em órbitas escalonadas para drenar a energia da estrela. Pela primeira vez na história, o instituto SETI apontou o Allen Telescope Array diretamente para uma estrela por suspeita de engenharia estelar.",
+      "highlight_words": [
+        "JASON WRIGHT",
+        "CIVILIZAÇÃO TIPO 2",
+        "ENXAME DE DYSON",
+        "ENGENHARIA ESTELAR"
+      ],
+      "stats": {
+        "label": "Escala Kardashev",
+        "value": "Suspeita Tipo II"
+      },
+      "backgroundImage": "assets/video-012-tabbys-star-megastructure/scene_5.jpg",
+      "panDirection": "hyper-zoom"
+    },
+    {
+      "id": "scene_6_secular_dimming_mystery",
+      "type": "climax",
+      "visual_theme": "century_long_photographic_plates_harvard",
+      "headline": "CEM ANOS APAGANDO EM SILÊNCIO",
+      "narration": "Para testar se a estrela sempre foi assim, o astrônomo Bradley Schaefer vasculhou chapas fotográficas de vidro arquivadas na Universidade de Harvard desde o ano de 1890. O que ele descobriu deixou o mistério dez vezes mais assustador: além das quedas bruscas de dias, a Estrela de Tabby perdeu quase vinte por cento do seu brilho total de forma contínua ao longo de um século inteiro. Nenhuma estrela normal daquela categoria apaga vinte por cento em apenas cem anos.",
+      "highlight_words": [
+        "DESDE 1890",
+        "ARQUIVOS DE HARVARD",
+        "20% EM UM SÉCULO",
+        "APAGANDO LENTAMENTE"
+      ],
+      "stats": {
+        "label": "Queda Secular",
+        "value": "-20% em 100 Anos"
+      },
+      "backgroundImage": "assets/video-012-tabbys-star-megastructure/scene_6.jpg",
+      "panDirection": "dramatic-pulse"
+    },
+    {
+      "id": "scene_7_wavelength_clue",
+      "type": "technology",
+      "visual_theme": "multi_wavelength_spectrum_analysis_observatory",
+      "headline": "A PISTA DAS CORES DA LUZ EM 2017",
+      "narration": "Em 2017, quando a estrela começou a escurecer novamente ao vivo, dezenas de telescópios terrestres e espaciais mediram o fenômeno em diferentes cores da luz simultaneamente. Eles descobriram que a luz azul era mais bloqueada do que a luz vermelha. Isso indicava que o objeto não era inteiramente opaco como metal sólido, mas continha partículas microscópicas translúcidas, talvez resultantes de uma lua inteira que foi vaporizada pela estrela. Ainda assim, nenhum modelo físico explica todas as anomalias da Estrela de Tabby ao mesmo tempo.",
+      "highlight_words": [
+        "LUZ AZUL E VERMELHA",
+        "LUA VAPORIZADA",
+        "POEIRA TRANSLÚCIDA",
+        "ENIGMA ABERTO"
+      ],
+      "stats": {
+        "label": "Status Científico",
+        "value": "Anomalia Sem Par"
+      },
+      "backgroundImage": "assets/video-012-tabbys-star-megastructure/scene_7.jpg",
+      "panDirection": "tilt-down"
+    },
+    {
+      "id": "scene_8_scapatici_cta",
+      "type": "cta",
+      "visual_theme": "scapatici_space_observatory_community",
+      "headline": "FENÔMENO EXÓTICO OU ENGENHARIA CÓSMICA?",
+      "narration": "E você, qual é o seu veredito sobre a Estrela de Tabby? Acredita que estamos diante dos destroços de uma lua destruída ou que um Enxame de Dyson a mil quatrocentos e setenta anos-luz não pode ser totalmente descartado? Deixe sua opinião aqui nos comentários, compartilhe este vídeo com quem é fascinado pelos mistérios do universo, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia, e até o próximo vídeo!",
+      "highlight_words": [
+        "SCAPATICI TECNOLOGIA",
+        "DEIXE SEU COMENTÁRIO",
+        "INSCREVA-SE",
+        "PRÓXIMO VÍDEO"
+      ],
+      "stats": {
+        "label": "Comunidade Oficial",
+        "value": "Scapatici Tecnologia"
+      },
+      "backgroundImage": "assets/video-012-tabbys-star-megastructure/scene_8.jpg",
+      "panDirection": "zoom-out"
+    }
+  ]
+}

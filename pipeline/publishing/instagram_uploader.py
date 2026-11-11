@@ -151,24 +151,32 @@ def upload_reel(project_id, username=None, password=None, verification_code=None
         return False
 
     title = f"Vídeo {project_id}"
+    topic_desc = ""
     tags = []
     if os.path.exists(script_path):
         try:
             with open(script_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 title = data.get("title", title)
+                raw_desc = data.get("seo", {}).get("description", "")
+                topic_desc = raw_desc.split("\n")[0].strip() if raw_desc else data.get("topic", "")
                 tags = data.get("seo", {}).get("tags", [])
         except Exception:
             pass
 
-    # Monta a legenda do Reel
-    hashtags_str = " ".join([f"#{t.replace(' ', '')}" for t in tags[:10] if t])
+    if not topic_desc:
+        topic_desc = "Uma investigação científica reveladora sobre as maiores fronteiras do cosmos e da tecnologia."
+
+    # Monta legenda otimizada para retenção, comentários e ganho de seguidores
+    hashtags_str = " ".join([f"#{t.replace(' ', '')}" for t in tags[:8] if t])
     caption = (
         f"⚛️ {title}\n\n"
-        "Se o universo não é o que parece no nível fundamental, o que isso significa para a nossa realidade?\n\n"
-        "👇 Assista ao documentário completo em alta definição no nosso canal do YouTube: Scapatici Tecnologia (Link na Bio)!\n\n"
+        f"{topic_desc[:260]}\n\n"
+        "💬 Qual é a sua teoria sobre esse mistério? Deixe nos comentários!\n"
+        "🔔 Siga @scapatici.tecnologia para 3 episódios diários de ciência profunda.\n"
+        "👇 Link do documentário completo no YouTube fixado no primeiro comentário!\n\n"
         ".\n.\n"
-        f"{hashtags_str} #scapaticitecnologia #ciencia #fisicaquantica #cosmos #universo #reels #curiosidades #fatos"
+        f"{hashtags_str} #scapaticitecnologia #ciencia #astronomia #fisica #universo #curiosidades #reels"
     )
 
     client = get_authenticated_client(username=username, password=password, verification_code=verification_code)
@@ -179,56 +187,73 @@ def upload_reel(project_id, username=None, password=None, verification_code=None
     print(f"🚀 INICIANDO UPLOAD NO INSTAGRAM REELS: {project_id}", flush=True)
     print("=" * 60, flush=True)
     print(f"📦 Arquivo: {video_path} ({round(os.path.getsize(video_path) / (1024*1024), 1)} MB)", flush=True)
-    print(f"📝 Legenda:\n{caption[:140]}...", flush=True)
+    print(f"📝 Legenda:\n{caption[:180]}...", flush=True)
     print("=" * 60 + "\n", flush=True)
 
-    try:
-        thumb = thumbnail_path if os.path.exists(thumbnail_path) else None
-        print("[INSTA] 📤 Enviando Reel para os servidores do Instagram...", flush=True)
-        media = client.clip_upload(
-            path=video_path,
-            caption=caption,
-            thumbnail=thumb
-        )
-        print(f"\n[INSTA] 🎉 Reel publicado com sucesso!", flush=True)
-        print(f"🔗 ID da Publicação: {media.id}", flush=True)
-        print(f"🌐 Link Direto: https://www.instagram.com/reel/{media.code}/", flush=True)
+    import time
+    thumb = thumbnail_path if os.path.exists(thumbnail_path) else None
+    last_err = None
+    for attempt in range(1, 3):
+        try:
+            print(f"[INSTA] 📤 Enviando Reel para os servidores do Instagram (tentativa {attempt}/2)...", flush=True)
+            media = client.clip_upload(
+                path=video_path,
+                caption=caption,
+                thumbnail=thumb
+            )
+            reel_url = f"https://www.instagram.com/reel/{media.code}/"
+            print(f"\n[INSTA] 🎉 Reel publicado com sucesso!", flush=True)
+            print(f"🔗 ID da Publicação: {media.id}", flush=True)
+            print(f"🌐 Link Direto: {reel_url}", flush=True)
 
-        # Busca link do vídeo completo no YouTube
-        info_16x9_path = os.path.join(project_dir, "youtube_16x9_info.json")
-        full_video_url = None
-        if os.path.exists(info_16x9_path):
+            # Salva confirmação local para evitar duplicidade em reexecuções
             try:
-                with open(info_16x9_path, "r", encoding="utf-8") as f:
-                    full_video_url = json.load(f).get("video_url")
+                with open(os.path.join(project_dir, "instagram_info.json"), "w", encoding="utf-8") as inf:
+                    json.dump({"media_id": str(media.id), "reel_url": reel_url}, inf, indent=2)
             except Exception:
                 pass
 
-        # Publica o primeiro comentário com o link do documentário completo
-        if full_video_url:
-            comment_text = (
-                f"🛸 Assista à investigação completa no YouTube:\n"
-                f"👉 {full_video_url}\n\n"
-                f"Inscreva-se no canal Scapatici Tecnologia!"
-            )
-        else:
-            comment_text = (
-                "🛸 Assista à investigação completa no nosso canal oficial do YouTube: Scapatici Tecnologia!\n"
-                "👉 Link no topo da nossa Bio!"
-            )
+            # Busca link do vídeo completo no YouTube
+            info_16x9_path = os.path.join(project_dir, "youtube_16x9_info.json")
+            full_video_url = None
+            if os.path.exists(info_16x9_path):
+                try:
+                    with open(info_16x9_path, "r", encoding="utf-8") as f:
+                        full_video_url = json.load(f).get("video_url")
+                except Exception:
+                    pass
 
-        try:
-            print(f"[INSTA] 💬 Publicando primeiro comentário com o link do vídeo completo...", flush=True)
-            client.media_comment(media.id, comment_text)
-            print(f"[INSTA] ✅ Primeiro comentário com link publicado com sucesso no Reels!", flush=True)
-        except Exception as ce:
-            print(f"[INSTA] ⚠️ Não foi possível postar o comentário automático no Reels: {ce}", flush=True)
+            # Publica o primeiro comentário com o link do documentário completo
+            if full_video_url:
+                comment_text = (
+                    f"🛸 Assista ao documentário completo e detalhado no YouTube:\n"
+                    f"👉 {full_video_url}\n\n"
+                    f"💬 E aí, qual foi a parte mais chocante? Siga @scapatici.tecnologia!"
+                )
+            else:
+                comment_text = (
+                    "🛸 Assista à investigação completa no nosso canal oficial do YouTube: Scapatici Tecnologia!\n"
+                    "👉 Link no topo da nossa Bio! Siga @scapatici.tecnologia!"
+                )
 
-        print("=" * 60 + "\n", flush=True)
-        return True
-    except Exception as e:
-        print(f"\n[INSTA] ❌ Erro ao publicar Reel: {e}", flush=True)
-        return False
+            try:
+                print(f"[INSTA] 💬 Publicando primeiro comentário com o link do vídeo completo...", flush=True)
+                c = client.media_comment(media.id, comment_text)
+                c_pk = getattr(c, "pk", getattr(c, "id", "ok"))
+                print(f"[INSTA] ✅ Primeiro comentário com link publicado com sucesso no Reels! (ID: {c_pk})", flush=True)
+            except Exception as ce:
+                print(f"[INSTA] ⚠️ Não foi possível postar o comentário automático no Reels: {ce}", flush=True)
+
+            print("=" * 60 + "\n", flush=True)
+            return True
+        except Exception as e:
+            last_err = e
+            print(f"\n[INSTA] ⚠️ Erro na tentativa {attempt}/2 ao publicar Reel: {e}", flush=True)
+            if attempt < 2:
+                time.sleep(10)
+
+    print(f"\n[INSTA] ❌ Falha definitiva ao publicar Reel: {last_err}", flush=True)
+    return False
 
 def main():
     parser = argparse.ArgumentParser(description="Simple-Tube Instagram Reels Uploader")
@@ -238,7 +263,9 @@ def main():
     parser.add_argument("--code", type=str, default=None, help="Código 2FA de verificação")
 
     args = parser.parse_args()
-    upload_reel(args.project, username=args.username, password=args.password, verification_code=args.code)
+    ok = upload_reel(args.project, username=args.username, password=args.password, verification_code=args.code)
+    if not ok:
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()

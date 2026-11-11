@@ -1,0 +1,188 @@
+{
+  "id": "video-015-magnetars",
+  "title": "Magnetars: Os Objetos Mais Magnéticos do Universo Que Podem Desintegrar Átomos a Mil Quilômetros",
+  "topic": "Magnetars, Estrelas de Nêutrons, Starquakes e os Campos Magnéticos Mais Extremos da Física",
+  "channel": "Scapatici Tecnologia",
+  "target_duration_seconds": 330,
+  "fps": 30,
+  "vinheta_duration_frames": 90,
+  "bg_music_volume": 0.12,
+  "thumbnail_text": {
+    "line1": "O OBJETO MAIS LETAL",
+    "line2": "DO ESPAÇO!",
+    "subtitle": "A FÚRIA DOS MAGNETARS | SCAPATICI TECNOLOGIA"
+  },
+  "seo": {
+    "title_options": [
+      "Magnetars: Os Objetos Mais Magnéticos do Universo Que Podem Desintegrar Átomos a Mil Quilômetros",
+      "O Que Aconteceria Se um Magnetar Entrasse no Nosso Sistema Solar?",
+      "Terremotos Estelares de Magnetars: A Explosão Que Quebrou Satélites na Terra a 50.000 Anos-Luz"
+    ],
+    "description": "Se você chegasse a mil quilômetros de um Magnetar, a força magnética não apenas apagaria todos os cartões de crédito da Terra: ela distorceria as nuvens de elétrons dos seus átomos em cilindros microscópicos, dissolvendo a sua estrutura molecular instantaneamente.\n\nNeste décimo quinto episódio do canal Scapatici Tecnologia, investigamos os Magnetars, os remanescentes estelares mais magneticamente furiosos do universo, cujos terremotos na crosta de ferro podem cegar satélites na órbita da Terra a 50 mil anos-luz de distância.\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia.\n\n#ScapaticiTecnologia #Magnetar #EstrelaDeNeutrons #Astrofisica #Cosmos #FisicaQuantica #Ciencia",
+    "tags": [
+      "scapatici tecnologia",
+      "magnetar",
+      "estrela de neutrons",
+      "campo magnetico",
+      "starquake",
+      "astrofisica",
+      "universo",
+      "fisica",
+      "misterios do universo"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "scene_1_hook",
+      "type": "hook",
+      "visual_theme": "magnetar_pulsar_extreme_magnetic_field_lines",
+      "headline": "A MURALHA MAGNÉTICA DA MORTE MOLECULAR",
+      "narration": "Se uma única moeda feita com a matéria de um Magnetar caísse na superfície da Terra, o impacto seria comparável a milhares de bombas atômicas. Mas a verdadeira força dessa anomalia não é apenas a sua densidade descomunal: é o seu campo magnético. Um Magnetar possui um campo magnético um quadrilhão de vezes mais poderoso que o do planeta Terra. Se um ser humano se aproximasse a mil quilômetros desse astro, não seria a gravidade que o mataria primeiro: a força magnética pura seria tão violenta que distorceria as órbitas dos seus elétrons em cilindros finos como agulhas, destruindo toda a química orgânica e dissolvendo o seu corpo em nível atômico em milésimos de segundo.",
+      "highlight_words": [
+        "1 QUADRILHÃO DE VEZES",
+        "MAGNETAR",
+        "DISSOLUÇÃO ATÔMICA",
+        "MIL QUILÔMETROS"
+      ],
+      "stats": {
+        "label": "Intensidade Magnética",
+        "value": "100 Bilhões de Teslas"
+      },
+      "backgroundImage": "assets/video-015-magnetars/scene_1.jpg",
+      "panDirection": "zoom-in"
+    },
+    {
+      "id": "scene_2_birth_of_a_magnetar",
+      "type": "investigation",
+      "visual_theme": "supernova_core_collapse_dynamo_effect",
+      "headline": "O EFEITO DÍNAMO QUE FORJA O MONSTRO",
+      "narration": "Como a natureza cria um objeto tão extremo? Quando uma estrela hipergigante com trinta vezes a massa do Sol encerra sua vida em uma explosão de supernova, o seu núcleo colapsa sob a gravidade esmagadora em uma esfera de apenas vinte quilômetros de diâmetro. Se essa esfera estiver girando a centenas de voltas por segundo no momento exato do colapso, ela dispara o chamado Efeito Dínamo: a convecção de matéria nuclear superdensa amplifica as linhas magnéticas da estrela morta a patamares que beiram os limites máximos permitidos pela física quântica.",
+      "highlight_words": [
+        "SUPERNOVA",
+        "20 QUILÔMETROS",
+        "EFEITO DÍNAMO",
+        "LIMITE QUÂNTICO"
+      ],
+      "stats": {
+        "label": "Diâmetro Médio",
+        "value": "Apenas 20 km de Diâmetro"
+      },
+      "backgroundImage": "assets/video-015-magnetars/scene_2.jpg",
+      "panDirection": "pan-right"
+    },
+    {
+      "id": "scene_3_the_starquake_2004",
+      "type": "climax",
+      "visual_theme": "sgr_1806_20_starquake_gamma_ray_burst",
+      "headline": "O TERREMOTO ESTELAR DE 27 DE DEZEMBRO DE 2004",
+      "narration": "Em vinte e sete de dezembro de 2004, os satélites de defesa e telescópios espaciais da Terra foram cegados por uma rajada devastadora de raios gama. O pulso de radiação foi tão brutal que alterou a ionosfera da Terra e queimou sensores em órbita. Mas a origem não estava no nosso Sistema Solar: veio do Magnetar SGR dezoito zero seis traço vinte, a cinquenta mil anos-luz de distância. Uma trinca microscópica de apenas um milímetro na sua crosta de ferro superdenso liberou, em um décimo de segundo, mais energia do que o nosso Sol emite em duzentos e cinquenta mil anos inteiros.",
+      "highlight_words": [
+        "27 DE DEZEMBRO DE 2004",
+        "50 MIL ANOS-LUZ",
+        "IONOSFERA DA TERRA",
+        "250 MIL ANOS DE SOL"
+      ],
+      "stats": {
+        "label": "Energia Liberada",
+        "value": "10^39 Joules em 0,1s"
+      },
+      "backgroundImage": "assets/video-015-magnetars/scene_3.jpg",
+      "panDirection": "hyper-zoom"
+    },
+    {
+      "id": "scene_4_quantum_electrodynamics",
+      "type": "investigation",
+      "visual_theme": "quantum_vacuum_birefringence_light_splitting",
+      "headline": "QUANDO O VÁCUO SE TRANSFORMA EM PRISMA",
+      "narration": "Perto de um Magnetar, o próprio espaço vazio deixa de ser neutro. O campo magnético é tão avassalador que ele quebra as leis da Eletrodinâmica Quântica, provocando um fenômeno previsto por Werner Heisenberg chamado Birrefringência do Vácuo. O tecido do vácuo ao redor do astro se comporta como um cristal transparente que divide a luz polarizada em duas direções diferentes. Fótons de raios X colidem com o campo magnético e se dividem espontaneamente em elétrons e pós-étrons no nada.",
+      "highlight_words": [
+        "ELETRODINÂMICA QUÂNTICA",
+        "HEISENBERG",
+        "BIRREFRINGÊNCIA DO VÁCUO",
+        "CRISTAL DE ESPAÇO"
+      ],
+      "stats": {
+        "label": "Fenômeno Físico",
+        "value": "Birrefringência do Vácuo"
+      },
+      "backgroundImage": "assets/video-015-magnetars/scene_4.jpg",
+      "panDirection": "floating-drift"
+    },
+    {
+      "id": "scene_5_fast_radio_bursts",
+      "type": "technology",
+      "visual_theme": "chime_radio_telescope_fast_radio_burst_detection",
+      "headline": "A RESPOSTA PARA AS RAJADAS RÁPIDAS DE RÁDIO",
+      "narration": "Durante mais de uma década, o maior mistério da radioastronomia eram as Rajadas Rápidas de Rádio: sinais intensos de milissegundos vindos de cantos distantes do cosmos. Em 2020, o radiotelescópio CHIME no Canadá flagrou uma rajada de rádio violenta disparando em sincronia perfeita com um surto de raios X vindo de um Magnetar dentro da nossa própria Via Láctea. O mistério estava solucionado: os espasmos magnéticos desses titãs são os motores por trás dos sinais mais energéticos do céu.",
+      "highlight_words": [
+        "RAJADAS RÁPIDAS DE RÁDIO",
+        "TELESCÓPIO CHIME",
+        "VIA LÁCTEA",
+        "MISTÉRIO SOLUCIONADO"
+      ],
+      "stats": {
+        "label": "Duração do Pulso",
+        "value": "Milissegundos Extremos"
+      },
+      "backgroundImage": "assets/video-015-magnetars/scene_5.jpg",
+      "panDirection": "pan-left"
+    },
+    {
+      "id": "scene_6_short_lifespan",
+      "type": "investigation",
+      "visual_theme": "magnetar_cooling_down_into_regular_pulsar",
+      "headline": "A FÚRIA QUE SE CONSOME EM DEZ MIL ANOS",
+      "narration": "Apesar do seu poder aterrador, a fase ativa de um Magnetar é uma das mais breves de todo o zoológico cósmico. Toda essa fúria magnética consome a própria rotação e energia do astro em apenas dez mil anos. Conforme suas linhas de campo se retorcem e dissipam calor na forma de radiação gama, o Magnetar desacelera e esfria, transformando-se em uma estrela de nêutrons comum e dormente que navegará pelo silêncio cósmico por trilhões de anos.",
+      "highlight_words": [
+        "DEZ MIL ANOS",
+        "ENERGIA DISSIPADA",
+        "ESTRELA DORMENTE",
+        "FÚRIA BREVE"
+      ],
+      "stats": {
+        "label": "Vida Ativa",
+        "value": "Apenas 10.000 Anos"
+      },
+      "backgroundImage": "assets/video-015-magnetars/scene_6.jpg",
+      "panDirection": "dramatic-pulse"
+    },
+    {
+      "id": "scene_7_what_if_near_earth",
+      "type": "climax",
+      "visual_theme": "magnetar_passing_solar_system_aurora_disaster",
+      "headline": "E SE UM MAGNETAR PASSASSE PERTO DA TERRA?",
+      "narration": "Se um Magnetar passasse a meio caminho entre a Terra e a Lua, a humanidade testemunharia o fim da era tecnológica em minutos. Antes mesmo da gravidade perturbar as marés, o campo magnético apagaria permanentemente todos os servidores, discos rígidos e redes elétricas do planeta. As auroras polares cobririam o céu inteiro de verde e roxo incandescente sob um bombardeio de radiação letal. Felizmente, o Magnetar mais próximo está a milhares de anos-luz de distância.",
+      "highlight_words": [
+        "FIM DA ERA DIGITAL",
+        "PANE ELÉTRICA GLOBAL",
+        "AURORAS TOTAIS",
+        "DISTÂNCIA SEGURA"
+      ],
+      "stats": {
+        "label": "Magnetar Mais Próximo",
+        "value": "+9.000 Anos-Luz da Terra"
+      },
+      "backgroundImage": "assets/video-015-magnetars/scene_7.jpg",
+      "panDirection": "tilt-down"
+    },
+    {
+      "id": "scene_8_scapatici_cta",
+      "type": "cta",
+      "visual_theme": "scapatici_space_observatory_community",
+      "headline": "O LIMITE EXTREMO DA MATÉRIA",
+      "narration": "E você, o que achou da física aterradora dos Magnetars? Acredita que a humanidade conseguirá um dia compreender totalmente essas forças que desafiam a mecânica quântica? Deixe sua teoria aqui nos comentários, compartilhe este vídeo com quem é fascinado pelos mistérios do universo, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia, e até o próximo vídeo!",
+      "highlight_words": [
+        "SCAPATICI TECNOLOGIA",
+        "DEIXE SEU COMENTÁRIO",
+        "INSCREVA-SE",
+        "PRÓXIMO VÍDEO"
+      ],
+      "stats": {
+        "label": "Comunidade Oficial",
+        "value": "Scapatici Tecnologia"
+      },
+      "backgroundImage": "assets/video-015-magnetars/scene_8.jpg",
+      "panDirection": "zoom-out"
+    }
+  ]
+}

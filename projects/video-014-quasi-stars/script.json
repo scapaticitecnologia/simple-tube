@@ -1,0 +1,188 @@
+{
+  "id": "video-014-quasi-stars",
+  "title": "Quasi-Estrelas: As Estrelas Gigantes Alimentadas por Buracos Negros no Início do Tempo",
+  "topic": "Quasi-Estrelas, Buracos Negros Primordiais, População III e a Aurora Cósmica",
+  "channel": "Scapatici Tecnologia",
+  "target_duration_seconds": 330,
+  "fps": 30,
+  "vinheta_duration_frames": 90,
+  "bg_music_volume": 0.12,
+  "thumbnail_text": {
+    "line1": "ESTRELAS COM BURACO NEGRO",
+    "line2": "DENTRO DO CORAÇÃO?",
+    "subtitle": "O MISTÉRIO DAS QUASI-ESTRELAS | SCAPATICI TECNOLOGIA"
+  },
+  "seo": {
+    "title_options": [
+      "Quasi-Estrelas: As Estrelas Gigantes Alimentadas por Buracos Negros no Início do Tempo",
+      "O Monstro Cósmico Que Tinha um Buraco Negro no Núcleo: O Mistério das Quasi-Estrelas",
+      "Como Nasceram os Primeiros Buracos Negros do Universo? O Enigma Revelado pelo James Webb"
+    ],
+    "description": "Imagine uma estrela tão gigantesca que o nosso Sol pareceria um grão de poeira ao seu lado. Uma estrela cujo diâmetro engoliria todo o Sistema Solar até a órbita de Saturno. Mas o detalhe mais aterrorizante não era o seu tamanho: no coração dessa estrela não havia fusão nuclear, mas um buraco negro supermassivo devorando o astro de dentro para fora.\n\nNeste décimo quarto episódio do canal Scapatici Tecnologia, investigamos as Quasi-Estrelas (ou Estrelas de Buraco Negro), os monstros colossais que reinaram na aurora cósmica e que finalmente explicam como buracos negros supermassivos surgiram tão rápido após o Big Bang.\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia.\n\n#ScapaticiTecnologia #QuasiEstrelas #BuracoNegro #Astrofisica #Cosmos #JamesWebb #Ciencia",
+    "tags": [
+      "scapatici tecnologia",
+      "quasi estrelas",
+      "black hole stars",
+      "buraco negro",
+      "james webb",
+      "astrofisica",
+      "universo",
+      "big bang",
+      "misterios do universo"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "scene_1_hook",
+      "type": "hook",
+      "visual_theme": "hypergiant_quasi_star_black_hole_core",
+      "headline": "O MONSTRO QUE DEVORAVA A SI MESMO",
+      "narration": "Imagine olhar para o céu primordial e ver uma estrela com dez bilhões de quilômetros de diâmetro. Um colosso tão desproporcional que, se fosse colocado no lugar do nosso Sol, engoliria Mercúrio, Vênus, a Terra, Marte, Júpiter e alcançaria os anéis de Saturno. Mas o segredo mais perturbador não estava na sua superfície dourada e incandescente: estava no seu coração. Diferente de todas as estrelas conhecidas pela física moderna, esse monstro não gerava luz por fusão nuclear. No centro exato do seu núcleo residia um buraco negro voraz, devorando a própria estrela de dentro para fora a cada fração de segundo. Os astrofísicos chamam essas anomalias de Quasi-Estrelas: os titãs mais brutais que já existiram na história do universo.",
+      "highlight_words": [
+        "DEZ BILHÕES DE KM",
+        "QUASI-ESTRELAS",
+        "BURACO NEGRO NO NÚCLEO",
+        "DEVORANDO A SI MESMO"
+      ],
+      "stats": {
+        "label": "Diâmetro Estimado",
+        "value": "10 Bilhões de Km (Até Saturno)"
+      },
+      "backgroundImage": "assets/video-014-quasi-stars/scene_1.jpg",
+      "panDirection": "zoom-in"
+    },
+    {
+      "id": "scene_2_eddington_limit_paradox",
+      "type": "investigation",
+      "visual_theme": "gas_infall_radiation_pressure_balance",
+      "headline": "O LIMITE DE EDDINGTON E A RADIAÇÃO SALVADORA",
+      "narration": "Em qualquer situação normal da física, quando um buraco negro começa a se alimentar de uma estrela, o astro é rasgado e destruído em poucos dias. Mas nas Quasi-Estrelas, a quantidade de gás primordial era tão descomunal que a gravidade da camada externa esmagava o buraco negro com força infinita. A matéria ao cair no horizonte de eventos atingia temperaturas de milhões de graus, gerando uma pressão de radiação tão colossal que empurrava o restante do gás para fora. Foi o equilíbrio perfeito entre a fome do abismo e a fúria da luz: uma estrela sustentada pela própria agonia do seu núcleo devorador.",
+      "highlight_words": [
+        "LIMITE DE EDDINGTON",
+        "PRESSÃO DE RADIAÇÃO",
+        "EQUILÍBRIO PERFEITO",
+        "FÚRIA DA LUZ"
+      ],
+      "stats": {
+        "label": "Massa Estelar",
+        "value": "+1.000 Sóis"
+      },
+      "backgroundImage": "assets/video-014-quasi-stars/scene_2.jpg",
+      "panDirection": "pan-right"
+    },
+    {
+      "id": "scene_3_the_seed_mystery",
+      "type": "investigation",
+      "visual_theme": "primordial_gas_cloud_direct_collapse",
+      "headline": "A SOLUÇÃO PARA O MAIOR QUEBRA-CABEÇA DA ASTRONOMIA",
+      "narration": "Durante décadas, os astrônomos enfrentaram um paradoxo insolúvel: como o universo jovem conseguiu criar buracos negros com bilhões de massas solares em menos de seiscentos milhões de anos após o Big Bang? Estrelas normais que morrem como supernovas deixam buracos negros bebês, que levariam bilhões de anos comendo para atingir esse tamanho. As Quasi-Estrelas são a peça que faltava no quebra-cabeça. Elas eram verdadeiros berçários de hiperalimentação rápida, permitindo que o buraco negro interno engordasse dez mil vezes mais rápido do que qualquer equação clássica considerava possível.",
+      "highlight_words": [
+        "PARADOXO INSOLÚVEL",
+        "HIPERALIMENTAÇÃO",
+        "SETE BILHÕES DE SÓIS",
+        "PEÇA QUE FALTAVA"
+      ],
+      "stats": {
+        "label": "Taxa de Crescimento",
+        "value": "10.000x Mais Rápida"
+      },
+      "backgroundImage": "assets/video-014-quasi-stars/scene_3.jpg",
+      "panDirection": "pan-left"
+    },
+    {
+      "id": "scene_4_the_stellar_death",
+      "type": "climax",
+      "visual_theme": "quasi_star_envelope_dissipation_quasar_birth",
+      "headline": "A MORTE DO INVÓLUCRO E O NASCIMENTO DO QUASAR",
+      "narration": "A vida de uma Quasi-Estrela era curta e violenta, durando cerca de sete milhões de anos: um piscar de olhos na escala cósmica. Conforme o buraco negro central crescia para dezenas de milhares de vezes a massa do Sol, a radiação interna se tornava tão insuportável que soprava todo o envelope estelar para o vácuo interestelar. A pele da estrela evaporava, revelando no meio do cosmos um quasar nu e brilhante, cuspindo jatos relativísticos de energia através de galáxias inteiras.",
+      "highlight_words": [
+        "SETE MILHÕES DE ANOS",
+        "NASCIMENTO DO QUASAR",
+        "JATOS RELATIVÍSTICOS",
+        "ENVELOPE EVAPORADO"
+      ],
+      "stats": {
+        "label": "Tempo de Vida",
+        "value": "7 Milhões de Anos"
+      },
+      "backgroundImage": "assets/video-014-quasi-stars/scene_4.jpg",
+      "panDirection": "hyper-zoom"
+    },
+    {
+      "id": "scene_5_jwst_red_dots",
+      "type": "technology",
+      "visual_theme": "james_webb_infrared_spectrum_little_red_dots",
+      "headline": "OS PONTOS VERMELHOS DO JAMES WEBB",
+      "narration": "O que antes era apenas uma teoria matemática elegante agora está ganhando provas materiais concretas. As observações recentes do Telescópio Espacial James Webb descobriram os misteriosos pequenos pontos vermelhos no amanhecer do cosmos: objetos ultracompactos, intensamente avermelhados e supermassivos que não se encaixam no modelo de galáxias normais. Vários astrofísicos de Oxford e Harvard agora suspeitam que alguns desses pontos possam ser nada menos que o primeiro vislumbre de Quasi-Estrelas em ação.",
+      "highlight_words": [
+        "JAMES WEBB",
+        "PONTOS VERMELHOS",
+        "OXFORD E HARVARD",
+        "PROVAS CONCRETAS"
+      ],
+      "stats": {
+        "label": "Detecção JWST",
+        "value": "Amanhecer Cósmico (z > 7)"
+      },
+      "backgroundImage": "assets/video-014-quasi-stars/scene_5.jpg",
+      "panDirection": "floating-drift"
+    },
+    {
+      "id": "scene_6_why_they_cant_form_today",
+      "type": "investigation",
+      "visual_theme": "heavy_elements_cooling_gas_nebula",
+      "headline": "POR QUE ELAS NUNCA MAIS PODERÃO EXISTIR?",
+      "narration": "Você nunca verá uma Quasi-Estrela nascer hoje no universo contemporâneo. Para que uma nuvem de gás colapse diretamente sem se fragmentar em milhares de estrelinhas pequenas, o gás precisava ser cem por cento puro: apenas hidrogênio e hélio primordiais, sem nenhum traço de carbono, oxigênio ou ferro. Quando as primeiras gerações de estrelas explodiram e semearam a tabela periódica pelo cosmos, elas 'envenenaram' o gás primordial, extinguindo para sempre a receita física que dava vida a esses titãs.",
+      "highlight_words": [
+        "NUNCA MAIS",
+        "GÁS PRIMORDIAL PURO",
+        "TABELA PERIÓDICA",
+        "RECEITA EXTINTA"
+      ],
+      "stats": {
+        "label": "Metalicitade Exigida",
+        "value": "Zero Absoluto (Pop. III)"
+      },
+      "backgroundImage": "assets/video-014-quasi-stars/scene_6.jpg",
+      "panDirection": "tilt-down"
+    },
+    {
+      "id": "scene_7_legacy_supermassive_seeds",
+      "type": "climax",
+      "visual_theme": "milky_way_sagittarius_a_star_origin",
+      "headline": "A HERANÇA NO CENTRO DA NOSSA GALÁXIA",
+      "narration": "O legado das Quasi-Estrelas não está perdido no passado: ele está vivo bem no coração da nossa própria casa. O buraco negro supermassivo Sagitário A estrela, com quatro milhões de massas solares ancorando a rotação de toda a Via Láctea, pode ser o descendente direto de uma Quasi-Estrela primordial. Sem esses gigantes devoradores do início do tempo, as galáxias espirais como a nossa talvez nunca tivessem tido gravidade suficiente para se aglutinar.",
+      "highlight_words": [
+        "SAGITÁRIO A*",
+        "CENTRO DA VIA LÁCTEA",
+        "HERANÇA CÓSMICA",
+        "ÂNCORA GRAVITACIONAL"
+      ],
+      "stats": {
+        "label": "Resultado Atual",
+        "value": "Buracos Negros Supermassivos"
+      },
+      "backgroundImage": "assets/video-014-quasi-stars/scene_7.jpg",
+      "panDirection": "dramatic-pulse"
+    },
+    {
+      "id": "scene_8_scapatici_cta",
+      "type": "cta",
+      "visual_theme": "scapatici_space_observatory_community",
+      "headline": "O ECO DOS PRIMEIROS MONSTROS DO COSMOS",
+      "narration": "E você, já imaginava que existiram estrelas que tinham um buraco negro devorador no próprio coração? Acredita que o James Webb vai confirmar de vez a existência das Quasi-Estrelas? Deixe sua teoria aqui nos comentários, compartilhe este vídeo com quem é fascinado pelos mistérios do universo, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia, e até o próximo vídeo!",
+      "highlight_words": [
+        "SCAPATICI TECNOLOGIA",
+        "DEIXE SEU COMENTÁRIO",
+        "INSCREVA-SE",
+        "PRÓXIMO VÍDEO"
+      ],
+      "stats": {
+        "label": "Comunidade Oficial",
+        "value": "Scapatici Tecnologia"
+      },
+      "backgroundImage": "assets/video-014-quasi-stars/scene_8.jpg",
+      "panDirection": "zoom-out"
+    }
+  ]
+}

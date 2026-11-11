@@ -10,6 +10,8 @@ import json
 import time
 import argparse
 import http.client
+import http.server
+import urllib.parse
 import httplib2
 import random
 
@@ -27,10 +29,11 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaFileUpload
 
-# Escopos necessários para upload e gerenciamento de vídeos e thumbnails
+# Escopos necessários para upload, gerenciamento de vídeos, thumbnails e comentários
 SCOPES = [
     "https://www.googleapis.com/auth/youtube.upload",
-    "https://www.googleapis.com/auth/youtube"
+    "https://www.googleapis.com/auth/youtube",
+    "https://www.googleapis.com/auth/youtube.force-ssl"
 ]
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -45,12 +48,29 @@ RETRIABLE_EXCEPTIONS = (
     http.client.ResponseNotReady, http.client.BadStatusLine
 )
 
-def get_authenticated_service():
-    """Obtém ou renova as credenciais OAuth 2.0 e inicializa a API do YouTube."""
+def _write_auth_alert(reason: str):
+    alert_file = os.path.join(os.path.dirname(SCRIPT_DIR), "health_alert.json")
+    try:
+        with open(alert_file, "w", encoding="utf-8") as f:
+            json.dump({
+                "service": "youtube_oauth",
+                "status": "ACTION_REQUIRED",
+                "reason": reason,
+                "fix_command": "python pipeline/publishing/youtube_uploader.py --auth-only",
+                "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S")
+            }, f, indent=2)
+    except Exception:
+        pass
+
+
+def get_authenticated_service(force_reauth=False, non_interactive=False):
+    """Obtém ou renova as credenciais OAuth 2.0 e inicializa a API do YouTube sem travar processos automáticos."""
+    is_unattended = non_interactive or (os.environ.get("AUTOPILOT_UNATTENDED") == "1")
     creds = None
-    if os.path.exists(TOKEN_FILE):
+    if os.path.exists(TOKEN_FILE) and not force_reauth:
         try:
-            creds = Credentials.from_authorized_user_file(TOKEN_FILE, SCOPES)
+            # Usa os escopos já autorizados no token.json para não quebrar execuções automáticas
+            creds = Credentials.from_authorized_user_file(TOKEN_FILE)
         except Exception as e:
             print(f"[AUTH] Token existente inválido ({e}), solicitando nova autorização...")
             creds = None
@@ -69,29 +89,81 @@ def get_authenticated_service():
                 print(f"[ERRO] client_secret.json não encontrado em: {CLIENT_SECRET_FILE}")
                 sys.exit(1)
 
-            flow = InstalledAppFlow.from_client_secrets_file(CLIENT_SECRET_FILE, SCOPES)
-            # Obter a URL de autorização antecipadamente para salvar e exibir ao usuário
+            if is_unattended:
+                _write_auth_alert("Token OAuth do YouTube expirou ou foi revogado em modo automático.")
+                print("[AUTH] ❌ Token expirado em modo não-interativo (AUTOPILOT_UNATTENDED=1). Abortando sem travar outras redes.", flush=True)
+                print("👉 Execute manualmente: python pipeline/publishing/youtube_uploader.py --auth-only", flush=True)
+                sys.exit(2)
+
+            redirect_uri = "http://localhost:8088/"
+            flow = InstalledAppFlow.from_client_secrets_file(
+                CLIENT_SECRET_FILE,
+                SCOPES,
+                redirect_uri=redirect_uri
+            )
             auth_url, _ = flow.authorization_url(prompt='consent', access_type='offline')
-            auth_url_file = os.path.join(SCRIPT_DIR, "auth_url.txt")
-            with open(auth_url_file, "w", encoding="utf-8") as f:
-                f.write(auth_url)
+
+            auth_code = None
+
+            class OAuthCallbackHandler(http.server.BaseHTTPRequestHandler):
+                def do_GET(self):
+                    nonlocal auth_code
+                    parsed = urllib.parse.urlparse(self.path)
+                    params = urllib.parse.parse_qs(parsed.query)
+                    if 'code' in params:
+                        auth_code = params['code'][0]
+                        self.send_response(200)
+                        self.send_header('Content-Type', 'text/html; charset=utf-8')
+                        self.end_headers()
+                        html = """
+                        <html><body style="font-family:Segoe UI,sans-serif;text-align:center;padding:60px;background:#0B0F19;color:#00F2FE;">
+                        <h1 style="font-size:32px;margin-bottom:12px;">✅ Autenticação do YouTube Concluída!</h1>
+                        <p style="color:#F3F4F6;font-size:18px;">O Simple-Tube já recebeu as credenciais com sucesso.</p>
+                        <p style="color:#9CA3AF;font-size:14px;margin-top:24px;">Você já pode fechar esta aba com segurança.</p>
+                        </body></html>
+                        """
+                        self.wfile.write(html.encode('utf-8'))
+                    else:
+                        self.send_response(400)
+                        self.end_headers()
+                        self.wfile.write(b"Erro: Codigo de autorizacao ausente.")
+
+                def log_message(self, format, *args):
+                    return
+
+            server = http.server.HTTPServer(('localhost', 8088), OAuthCallbackHandler)
+            server.timeout = 180
 
             print("\n" + "=" * 60)
-            print("🔑 AUTORIZAÇÃO DO YOUTUBE (OAUTH 2.0)")
-            print("Abra o seguinte link no seu navegador para autorizar:")
+            print("🔑 AUTORIZAÇÃO DO YOUTUBE (OAUTH 2.0) — TIMEOUT 180s")
+            print("Abra o seguinte link no seu navegador para autorizar (ou aguarde a abertura automática):")
             print(f"\n{auth_url}\n")
             print("=" * 60 + "\n", flush=True)
 
-            creds = flow.run_local_server(port=8088, open_browser=False)
+            try:
+                import webbrowser
+                webbrowser.open(auth_url)
+            except Exception:
+                pass
+
+            deadline = time.time() + 180
+            while auth_code is None and time.time() < deadline:
+                server.handle_request()
+
+            server.server_close()
+
+            if not auth_code:
+                _write_auth_alert("Tempo limite de 180s excedido aguardando autorização OAuth.")
+                print("[AUTH] ❌ Tempo limite de autorização excedido.", flush=True)
+                sys.exit(2)
+
+            print("[AUTH] 🔄 Trocando código de autorização por novo token...")
+            flow.fetch_token(code=auth_code)
+            creds = flow.credentials
 
         with open(TOKEN_FILE, "w", encoding="utf-8") as token_out:
             token_out.write(creds.to_json())
         print(f"[AUTH] ✅ Token salvo com sucesso em: {TOKEN_FILE}", flush=True)
-        if os.path.exists(os.path.join(SCRIPT_DIR, "auth_url.txt")):
-            try:
-                os.remove(os.path.join(SCRIPT_DIR, "auth_url.txt"))
-            except Exception:
-                pass
 
     return build("youtube", "v3", credentials=creds)
 
@@ -114,6 +186,31 @@ def upload_thumbnail(youtube, video_id, thumbnail_path):
         print(f"[THUMB] ❌ Erro ao enviar thumbnail: {e}")
         return False
 
+def _build_chapters_text(project_dir: str, data: dict) -> str:
+    """Gera capítulos automáticos (timestamps SEO) para a descrição do YouTube 16:9."""
+    sub_path = os.path.join(project_dir, "subtitles.json")
+    scenes = data.get("scenes", [])
+    if not scenes or not os.path.exists(sub_path):
+        return ""
+    try:
+        with open(sub_path, "r", encoding="utf-8") as f:
+            subs = json.load(f)
+        intro_sec = float(subs.get("intro_duration_sec", 25.0))
+        vinheta_sec = float(subs.get("vinheta_duration_sec", 3.0))
+        rest_sec = float(subs.get("rest_duration_sec", 120.0))
+        lines = ["⏱️ CAPÍTULOS DO EPISÓDIO:", f"00:00 - {scenes[0].get('headline', 'Introdução').title()}"]
+        if len(scenes) > 1:
+            t_cur = intro_sec + vinheta_sec
+            step = rest_sec / max(len(scenes) - 1, 1)
+            for idx, sc in enumerate(scenes[1:]):
+                total_s = int(round(t_cur + idx * step))
+                mm, ss = divmod(total_s, 60)
+                lines.append(f"{mm:02d}:{ss:02d} - {sc.get('headline', f'Capítulo {idx+2}').title()}")
+        return "\n".join(lines) + "\n"
+    except Exception:
+        return ""
+
+
 def upload_video(project_id, privacy_status="private", video_format="16x9"):
     """Realiza o upload completo do vídeo com metadados e thumbnail (16x9 ou shorts)."""
     project_dir = os.path.join("projects", project_id)
@@ -135,7 +232,14 @@ def upload_video(project_id, privacy_status="private", video_format="16x9"):
         data = json.load(f)
 
     seo = data.get("seo", {})
-    raw_title = seo.get("title_options", [data.get("title", f"Vídeo {project_id}")])[0]
+    title_candidates = seo.get("title_options", []) + [data.get("title", f"Vídeo {project_id}")]
+    raw_title = title_candidates[0]
+    for cand in title_candidates:
+        if cand and len(cand.strip()) <= 100:
+            raw_title = cand.strip()
+            break
+    if len(raw_title) > 100:
+        raw_title = raw_title[:97].rsplit(" ", 1)[0].rstrip(":,- ") + "..."
 
     info_16x9_path = os.path.join(project_dir, "youtube_16x9_info.json")
     full_video_url = None
@@ -164,7 +268,19 @@ def upload_video(project_id, privacy_status="private", video_format="16x9"):
         tags = list(set(seo.get("tags", []) + ["shorts", "youtube shorts", "curiosidades", "fatos rapidos", "ciencia"]))
     else:
         title = raw_title
-        description = seo.get("description", "")
+        chapters_block = _build_chapters_text(project_dir, data)
+        social_footer = (
+            "\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+            "⚛️ ACOMPANHE O SCAPATICI TECNOLOGIA:\n"
+            "🔔 Inscreva-se aqui no YouTube e ative o sininho!\n"
+            "📱 Instagram & TikTok (3 episódios verticais todo dia): @scapatici.tecnologia\n"
+            "💬 Qual teoria você achou mais surpreendente? Comente abaixo!"
+        )
+        base_desc = seo.get("description", "")
+        if chapters_block and "CAPÍTULOS" not in base_desc.upper():
+            description = f"{base_desc}\n\n{chapters_block}{social_footer}"
+        else:
+            description = f"{base_desc}{social_footer}"
         tags = seo.get("tags", ["scapatici tecnologia", "ciencia", "tecnologia"])
 
     print("\n" + "=" * 60)
@@ -257,6 +373,73 @@ def upload_video(project_id, privacy_status="private", video_format="16x9"):
     if os.path.exists(thumbnail_path):
         upload_thumbnail(youtube, video_id, thumbnail_path)
 
+    # Se for Vídeo Longo (16x9), posta comentário fixado de debate para estimular engajamento
+    if video_format == "16x9":
+        try:
+            topic_label = data.get("topic", title)
+            youtube.commentThreads().insert(
+                part="snippet",
+                body={
+                    "snippet": {
+                        "videoId": video_id,
+                        "topLevelComment": {
+                            "snippet": {
+                                "textOriginal": (
+                                    f"⚛️ E você, o que acha sobre {topic_label[:120]}?\n"
+                                    "💬 Deixe sua opinião ou teoria aqui embaixo — respondo os comentários e os melhores temas viram próximos episódios!\n\n"
+                                    "🔔 Inscreva-se no canal Scapatici Tecnologia e siga @scapatici.tecnologia no Instagram e TikTok!"
+                                )
+                            }
+                        }
+                    }
+                }
+            ).execute()
+            print("[YOUTUBE] 💬 Comentário inicial de engajamento publicado no vídeo principal!")
+        except Exception as mc_err:
+            print(f"[YOUTUBE] ℹ️ Comentário no vídeo 16:9: {mc_err}")
+
+    # Se for Vídeo Longo (16x9), verifica se o Shorts já foi postado e atualiza o link nele
+    if video_format == "16x9":
+        shorts_info_path = os.path.join(project_dir, "youtube_shorts_info.json")
+        if os.path.exists(shorts_info_path):
+            try:
+                with open(shorts_info_path, "r", encoding="utf-8") as sf:
+                    shorts_id = json.load(sf).get("video_id")
+                if shorts_id:
+                    print(f"[YOUTUBE] 🔄 Sincronizando link do vídeo longo no Shorts ({shorts_id})...")
+                    # Atualiza descrição do Shorts
+                    try:
+                        s_vid = youtube.videos().list(part="snippet", id=shorts_id).execute()
+                        if s_vid.get("items"):
+                            s_snippet = s_vid["items"][0]["snippet"]
+                            if video_url not in s_snippet["description"]:
+                                s_snippet["description"] = f"🚀 ASSISTA AO VÍDEO COMPLETO: {video_url}\n\n" + s_snippet["description"]
+                                youtube.videos().update(part="snippet", body={"id": shorts_id, "snippet": s_snippet}).execute()
+                                print("[YOUTUBE] ✅ Descrição do Shorts atualizada com o link do vídeo longo!")
+                    except Exception as sde:
+                        print(f"[YOUTUBE] ⚠️ Aviso ao atualizar descrição do Shorts: {sde}")
+
+                    # Tenta postar comentário no Shorts
+                    try:
+                        youtube.commentThreads().insert(
+                            part="snippet",
+                            body={
+                                "snippet": {
+                                    "videoId": shorts_id,
+                                    "topLevelComment": {
+                                        "snippet": {
+                                            "textOriginal": f"🚀 Assista ao documentário completo em alta definição aqui:\n👉 {video_url}\n\nInscreva-se no canal Scapatici Tecnologia!"
+                                        }
+                                    }
+                                }
+                            }
+                        ).execute()
+                        print("[YOUTUBE] ✅ Comentário com link postado no Shorts com sucesso!")
+                    except Exception as sce:
+                        print(f"[YOUTUBE] ℹ️ Comentário no Shorts: {sce}")
+            except Exception as e:
+                print(f"[YOUTUBE] ⚠️ Falha na sincronização com Shorts: {e}")
+
     # Se for Shorts e tiver link do vídeo longo, posta o primeiro comentário fixado
     if video_format == "shorts" and full_video_url:
         try:
@@ -291,15 +474,31 @@ def main():
     parser.add_argument("--privacy", type=str, choices=["private", "unlisted", "public"], default="private", help="Status de privacidade inicial")
     parser.add_argument("--format", type=str, choices=["16x9", "shorts"], default="16x9", help="Formato do vídeo (16x9 ou shorts)")
     parser.add_argument("--auth-only", action="store_true", help="Apenas autentica e salva o token")
+    parser.add_argument("--thumb-only", action="store_true", help="Apenas atualiza a thumbnail de um vídeo já publicado")
 
     args = parser.parse_args()
 
     if args.auth_only:
-        get_authenticated_service()
-        print("[AUTH] Autenticação concluída com sucesso.")
+        get_authenticated_service(force_reauth=True)
+        print("[AUTH] Autenticação concluída com sucesso (incluindo permissão para comentários no Shorts).")
         return
 
-    upload_video(args.project, privacy_status=args.privacy, video_format=args.format)
+    if args.thumb_only:
+        project_dir = os.path.join("projects", args.project)
+        info_file = os.path.join(project_dir, f"youtube_{args.format}_info.json")
+        thumb_path = os.path.join(project_dir, "thumbnail.jpg")
+        if not os.path.exists(info_file):
+            print(f"[ERRO] {info_file} não encontrado.")
+            sys.exit(1)
+        with open(info_file, "r", encoding="utf-8") as f:
+            video_id = json.load(f).get("video_id")
+        youtube = get_authenticated_service()
+        upload_thumbnail(youtube, video_id, thumb_path)
+        return
+
+    vid = upload_video(args.project, privacy_status=args.privacy, video_format=args.format)
+    if not vid:
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()

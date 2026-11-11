@@ -1,0 +1,188 @@
+{
+  "id": "video-018-strange-matter",
+  "title": "Matéria Estranha: O Estado da Matéria Capaz de Transformar Todo o Universo em uma Reação em Cadeia",
+  "topic": "Matéria Estranha, Strangelets, Quarks Strange, Estrelas Estranhas e o Hipotético Fim da Matéria",
+  "channel": "Scapatici Tecnologia",
+  "target_duration_seconds": 330,
+  "fps": 30,
+  "vinheta_duration_frames": 90,
+  "bg_music_volume": 0.12,
+  "thumbnail_text": {
+    "line1": "A MATÉRIA QUE DEVORA",
+    "line2": "ÁTOMOS NORMAIS!",
+    "subtitle": "O ENIGMA DOS STRANGELETS | SCAPATICI TECNOLOGIA"
+  },
+  "seo": {
+    "title_options": [
+      "Matéria Estranha: O Estado da Matéria Capaz de Transformar Todo o Universo em uma Reação em Cadeia",
+      "A Matéria Mais Perigosa do Universo: E Se Uma Gota Disso Atingir a Terra?",
+      "Strangelets: A Substância Quântica Que Pode Desintegrar Qualquer Átomo Conhecido"
+    ],
+    "description": "Tudo o que você toca e vê é feito de prótons e nêutrons formados apenas por dois tipos de partículas: quarks Up e quarks Down. Mas no coração hiperdenso das estrelas de nêutrons, a física quântica prevê a existência do quark Strange.\n\nNeste episódio do canal Scapatici Tecnologia, investigamos a Hipótese da Matéria Estranha de Edward Witten: um estado da matéria teoricamente mais estável do que o nosso próprio vácuo, capaz de converter qualquer átomo que encoste nele em uma reação em cadeia contagiosa e irreversível.\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia.\n\n#ScapaticiTecnologia #MateriaEstranha #Strangelets #FisicaQuantica #EstrelaDeNeutrons #Quarks #Ciencia",
+    "tags": [
+      "scapatici tecnologia",
+      "materia estranha",
+      "strange matter",
+      "strangelets",
+      "quarks",
+      "fisica quantica",
+      "estrela de neutrons",
+      "universo",
+      "misterios do universo"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "scene_1_hook",
+      "type": "hook",
+      "visual_theme": "strangelet_infecting_normal_matter_atomic_chain_reaction",
+      "headline": "A INFECÇÃO SUBATÔMICA MAIS LETAL DA FÍSICA",
+      "narration": "Tudo o que existe no universo observável, desde o seu próprio corpo até a estrela mais distante da galáxia, é feito exatamente dos mesmos blocos fundamentais: prótons e nêutrons, compostos exclusivamente por dois tipos de partículas chamadas quarks Up e quarks Down. Mas e se toda a matéria que conhecemos for apenas um estado frágil e temporário da natureza? E se existir um terceiro tipo de substância, tão perfeita e energeticamente estável que, ao encostar em um único átomo comum, ela o converte instantaneamente para a sua forma, disparando uma reação em cadeia irreversível que consumiria um planeta inteiro em minutos? Essa é a Hipótese da Matéria Estranha: o pesadelo quântico mais perturbador da física nuclear.",
+      "highlight_words": [
+        "QUARKS UP E DOWN",
+        "MATÉRIA ESTRANHA",
+        "REAÇÃO EM CADEIA",
+        "PESADELO QUÂNTICO"
+      ],
+      "stats": {
+        "label": "Classificação",
+        "value": "Estado Hipotético de Menor Energia"
+      },
+      "backgroundImage": "assets/video-018-strange-matter/scene_1.jpg",
+      "panDirection": "zoom-in"
+    },
+    {
+      "id": "scene_2_edward_witten_hypothesis",
+      "type": "investigation",
+      "visual_theme": "edward_witten_bodmer_strange_quark_matter_diagram",
+      "headline": "A HIPÓTESE DE BODMER E EDWARD WITTEN",
+      "narration": "Em 1984, o físico teórico Edward Witten, de Princeton, formalizou uma ideia que chocou a comunidade científica. Segundo os cálculos da Cromodinâmica Quântica, se você comprimir a matéria além de qualquer limite imaginável, como no centro de uma estrela de nêutrons morta, os prótons e nêutrons se dissolvem em uma sopa densa de quarks livres. Sob essa pressão esmagadora, metade dos quarks Down se transforma espontaneamente em quarks Strange, criando a chamada Matéria de Quarks Estranhos. Witten demonstrou que essa sopa pode ser o verdadeiro estado fundamental de menor energia do universo.",
+      "highlight_words": [
+        "EDWARD WITTEN",
+        "1984",
+        "CROMODINÂMICA QUÂNTICA",
+        "QUARKS STRANGE"
+      ],
+      "stats": {
+        "label": "Proposição Teórica",
+        "value": "Hipótese de Witten (1984)"
+      },
+      "backgroundImage": "assets/video-018-strange-matter/scene_2.jpg",
+      "panDirection": "pan-right"
+    },
+    {
+      "id": "scene_3_what_is_a_strangelet",
+      "type": "investigation",
+      "visual_theme": "microscopic_strangelet_droplet_glowing_nucleus",
+      "headline": "STRANGELETS: AS GOTAS CONTAGIOSAS DO COSMOS",
+      "narration": "Fragmentos microscópicos dessa substância são chamados de Strangelets: gotas ultraminúsculas e superdensas de quarks livres. Por serem mais estáveis que qualquer núcleo atômico comum, se um Strangelet entrar em contato com um átomo normal de oxigênio ou ferro, o núcleo atômico é forçado a ceder: os quarks normais caem no vale energético e se transformam em matéria estranha. O átomo vira outro Strangelet, liberando energia pura e contagiando o próximo átomo vizinho em uma avalanche imparável.",
+      "highlight_words": [
+        "STRANGELETS",
+        "VALE ENERGÉTICO",
+        "AVALANCHE IMPARÁVEL",
+        "ÁTOMOS TRANSFORMADOS"
+      ],
+      "stats": {
+        "label": "Tamanho Típico",
+        "value": "Escala Subatômica (Femtômetros)"
+      },
+      "backgroundImage": "assets/video-018-strange-matter/scene_3.jpg",
+      "panDirection": "hyper-zoom"
+    },
+    {
+      "id": "scene_4_strange_stars_collision",
+      "type": "climax",
+      "visual_theme": "neutron_star_collision_ejecting_strange_matter",
+      "headline": "A COLISÃO DE ESTRELAS DE NÊUTRONS",
+      "narration": "Se os Strangelets existem apenas nas profundezas das estrelas de nêutrons, como eles poderiam escapar para o espaço aberto? A resposta está nas Kilonovas: quando duas estrelas de nêutrons colidem em uma espiral da morte, o choque ejeta trilhões de toneladas de matéria nuclear no vácuo interestelar. Pedaços de matéria estranha poderiam estar vagando pela Via Láctea agora mesmo como projéteis silenciosos e invisíveis, acelerados a frações da velocidade da luz por campos gravitacionais titânicos.",
+      "highlight_words": [
+        "KILONOVAS",
+        "ESPIRAL DA MORTE",
+        "TRILHÕES DE TONELADAS",
+        "PROJÉTEIS INVISÍVEIS"
+      ],
+      "stats": {
+        "label": "Evento de Liberação",
+        "value": "Fusão de Estrelas de Nêutrons"
+      },
+      "backgroundImage": "assets/video-018-strange-matter/scene_4.jpg",
+      "panDirection": "floating-drift"
+    },
+    {
+      "id": "scene_5_what_if_hits_earth",
+      "type": "climax",
+      "visual_theme": "planet_earth_turning_into_strange_matter_sphere",
+      "headline": "E SE UM STRANGELET ATINGISSE A TERRA?",
+      "narration": "O cenário apocalíptico de um Strangelet atingindo a Terra é uma das simulações mais assustadoras da astrofísica. O fragmento microscópico afundaria direto para o centro do planeta devido à sua densidade infinita. Ao chegar no núcleo de ferro da Terra, a reação de conversão começaria a consumir a matéria de dentro para fora. Em questão de horas, toda a massa do nosso planeta seria condensada em uma esfera superdensa de matéria estranha com apenas cem metros de diâmetro, sem atmosfera e sem vida.",
+      "highlight_words": [
+        "CENTRO DA TERRA",
+        "NÚCLEO DE FERRO",
+        "CEM METROS DE DIÂMETRO",
+        "HORAS DE REAÇÃO"
+      ],
+      "stats": {
+        "label": "Resultado Teórico",
+        "value": "Terra Reduzida a 100 Metros"
+      },
+      "backgroundImage": "assets/video-018-strange-matter/scene_5.jpg",
+      "panDirection": "dramatic-pulse"
+    },
+    {
+      "id": "scene_6_why_we_are_still_here",
+      "type": "investigation",
+      "visual_theme": "lunar_surface_bombarded_by_cosmic_rays_safe",
+      "headline": "A PROVA DA LUA E DOS RAIOS CÓSMICOS",
+      "narration": "Mas se esse perigo é real, por que a Terra, a Lua e os outros planetas ainda estão intactos após quatro bilhões e meio de anos? Os astrofísicos apontam para a Lua como prova definitiva de segurança: por não ter atmosfera, a superfície lunar é bombardeada por raios cósmicos de altíssima energia há bilhões de anos, e nenhuma conversão em matéria estranha jamais ocorreu. Isso sugere que os Strangelets carregam uma carga elétrica positiva que repele núcleos atômicos normais sob temperaturas amenas, agindo como um escudo natural contra o contágio.",
+      "highlight_words": [
+        "PROVA DA LUA",
+        "4,5 BILHÕES DE ANOS",
+        "ESCUDO NATURAL",
+        "CARGA POSITIVA"
+      ],
+      "stats": {
+        "label": "Barreira Repulsiva",
+        "value": "Repulsão Coulombiana"
+      },
+      "backgroundImage": "assets/video-018-strange-matter/scene_6.jpg",
+      "panDirection": "pan-left"
+    },
+    {
+      "id": "scene_7_cern_and_cosmic_rays",
+      "type": "technology",
+      "visual_theme": "cern_alice_heavy_ion_collision_quark_gluon",
+      "headline": "A CAÇADA NO GRANDE COLISOR DE HÁDRONS",
+      "narration": "Experimentos no Grande Colisor de Hádrons do CERN, como o detector ALICE, colidem núcleos de chumbo para recriar o plasma de quarks e glúons primordial e medir as propriedades exatas dos quarks Strange. Até hoje, nenhum Strangelet estável foi criado em laboratório humano. A Matéria Estranha permanece como uma das fronteiras teóricas mais fascinantes e misteriosas da física de partículas moderna.",
+      "highlight_words": [
+        "CERN ALICE",
+        "NÚCLEOS DE CHUMBO",
+        "PLASMA DE QUARKS",
+        "FRONTEIRA TEÓRICA"
+      ],
+      "stats": {
+        "label": "Detecção Humana",
+        "value": "Nenhum Strangelet Livre Encontrado"
+      },
+      "backgroundImage": "assets/video-018-strange-matter/scene_7.jpg",
+      "panDirection": "tilt-down"
+    },
+    {
+      "id": "scene_8_scapatici_cta",
+      "type": "cta",
+      "visual_theme": "scapatici_space_observatory_community",
+      "headline": "O EQUILÍBRIO DA NOSSA MATÉRIA",
+      "narration": "E você, já conhecia a aterrorizante hipótese da Matéria Estranha? Acredita que as estrelas de nêutrons escondem substâncias capazes de reescrever a tabela periódica? Deixe sua teoria aqui nos comentários, compartilhe este vídeo com quem é fascinado pelos mistérios do universo, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia, e até o próximo vídeo!",
+      "highlight_words": [
+        "SCAPATICI TECNOLOGIA",
+        "DEIXE SUA TEORIA",
+        "INSCREVA-SE",
+        "PRÓXIMO VÍDEO"
+      ],
+      "stats": {
+        "label": "Comunidade Oficial",
+        "value": "Scapatici Tecnologia"
+      },
+      "backgroundImage": "assets/video-018-strange-matter/scene_8.jpg",
+      "panDirection": "zoom-out"
+    }
+  ]
+}
