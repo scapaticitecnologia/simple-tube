@@ -140,8 +140,8 @@ async def process_structured_script(script_data: dict, out_audio_path: str, out_
 
     rest_dur = 0.0
     rest_words = []
-    if rest_scenes:
-        rest_text = " ".join([s.get("narration", "") for s in rest_scenes])
+    rest_text = " ".join([s.get("narration", "").strip() for s in rest_scenes if s.get("narration", "").strip()])
+    if rest_text:
         print("[TTS] 🎙️ Sintetizando narração do RESTANTE DO VÍDEO...")
         raw_rest_dur, raw_rest_words, _ = await synthesize_segment(
             rest_text,
@@ -159,15 +159,23 @@ async def process_structured_script(script_data: dict, out_audio_path: str, out_
                 "duration": w["duration"]
             })
         print(f"[TTS] ✅ Restante do vídeo gerado: {rest_dur:.2f}s ({len(rest_words)} palavras)")
+    else:
+        if os.path.exists(audio_rest_path):
+            try:
+                os.remove(audio_rest_path)
+            except OSError:
+                pass
+        print("[TTS] ℹ️ Demais cenas sem narração separada; pulando áudio secundário.", flush=True)
 
     # Também gera a narração contínua completa para fallback
-    full_text = " ".join([s.get("narration", "") for s in scenes if s.get("narration")])
+    full_text = " ".join([s.get("narration", "").strip() for s in scenes if s.get("narration", "").strip()])
     await synthesize_segment(full_text, out_audio_path, voice=voice, rate=rate, pitch=pitch)
 
     # Sintetiza o mini-documentário vertical (Shorts / Reels / TikTok ~1m40s a 1m55s)
     audio_shorts_path = os.path.join(project_dir, "audio_shorts.mp3")
+    is_exclusive_tiktok = str(script_data.get("id", "")).startswith("tiktok-")
     shorts_narration = script_data.get("shorts_narration", "").strip()
-    if len(shorts_narration.split()) < 220 and len(scenes) > 2:
+    if not is_exclusive_tiktok and len(shorts_narration.split()) < 220 and len(scenes) > 2:
         # Constrói versão vertical densa e explicativa (~250-300 palavras / ~95s-115s) a partir dos principais atos + CTA
         core_acts = [s.get("narration", "").strip() for s in scenes[:-1] if s.get("narration", "").strip()]
         chosen_acts = []
@@ -177,13 +185,17 @@ async def process_structured_script(script_data: dict, out_audio_path: str, out_
                 break
             chosen_acts.append(act)
             word_total += len(act.split())
-        shorts_cta = (
-            "A investigação completa com todos os detalhes está no vídeo principal do YouTube: "
-            "acesse o link fixado nos comentários e na descrição, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!"
-        )
-        shorts_narration = " ".join(chosen_acts) + " " + shorts_cta
+        combined_core = " ".join(chosen_acts).strip()
+        if "scapatici tecnologia" in combined_core.lower():
+            shorts_narration = combined_core
+        else:
+            shorts_cta = (
+                "A investigação completa com todos os detalhes está no vídeo principal do YouTube: "
+                "acesse o link fixado nos comentários e na descrição, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!"
+            )
+            shorts_narration = f"{combined_core} {shorts_cta}".strip()
 
-    if shorts_narration:
+    if not is_exclusive_tiktok and shorts_narration:
         print("[TTS] 📱 Sintetizando narração densa para SHORTS / REELS / TIKTOK (~1m45s)...")
         shorts_dur, shorts_words, _ = await synthesize_segment(
             shorts_narration,

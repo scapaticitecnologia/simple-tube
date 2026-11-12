@@ -894,12 +894,23 @@ def _episode_to_tiktok_slot_item(ep: dict, slot_label: str) -> dict:
             "stats": act["stats"],
             "image_query": ep["image_queries"].get(f"scene_{idx + 1}.jpg", "deep space galaxies hubble"),
         })
+
+    clean_summary = re.sub(r"\s+", " ", ep.get("summary") or ep["seo"]["description"]).strip()
+    if len(clean_summary) > 220:
+        clean_summary = clean_summary[:217].rsplit(" ", 1)[0].rstrip(" ,;:-") + "..."
+
+    tt_narration = re.sub(
+        r"A investigação completa[^!]*acesse o link fixado nos comentários e na descrição, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+        "Siga @scapatici.tecnologia, inscreva-se no canal Scapatici Tecnologia no YouTube e até o próximo vídeo!",
+        ep["shorts_narration"],
+    )
+
     return {
         "id": f"tiktok-trend-{slot_label}-{ep['slug']}",
         "title": ep["title"],
         "headline": ep["scenes"][0]["headline"],
-        "description": ep["seo"]["description"][:220],
-        "narration": ep["shorts_narration"],
+        "description": clean_summary,
+        "narration": tt_narration,
         "tags": ep["seo"]["tags"],
         "chapters": chapters,
     }

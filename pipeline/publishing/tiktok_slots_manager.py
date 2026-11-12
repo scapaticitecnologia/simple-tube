@@ -829,7 +829,9 @@ def main():
         else:
             slot = "20h"
 
-    produce_and_publish_slot(slot, prepare_only=args.prepare_only)
+    ok = produce_and_publish_slot(slot, prepare_only=args.prepare_only)
+    if not ok:
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
