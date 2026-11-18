@@ -1749,57 +1749,68 @@ def _get_ordered_queue(state: dict) -> list:
 
 
 def prepare_project_assets_and_render(target_project: dict, state: dict):
-    """Garante roteiro, 100% das mídias (com fallback procedural anti-404), TTS e renderização 16:9 + 9:16."""
+    """Garante roteiro, 100% das mídias cinematográficas (IA + Vídeos MP4 NASA + Wikimedia + fallback), TTS e renderização 16:9 + 9:16."""
     from media.fallback_visuals import is_valid_image, generate_cosmic_artwork
+    from media.cinematic_media import acquire_scene_media, generate_ai_image, build_cinematic_prompt, _fetch_strict_nasa_image
 
     project_id = target_project["id"]
     project_dir = os.path.join(PROJECTS_BASE, project_id)
     assets_dir = os.path.join(project_dir, "assets")
     os.makedirs(assets_dir, exist_ok=True)
 
-    # 1. Salva script.json
     script_path = os.path.join(project_dir, "script.json")
-    script_data = {k: v for k, v in target_project.items() if k != "image_queries"}
+    script_data = json.loads(json.dumps({k: v for k, v in target_project.items() if k != "image_queries"}, ensure_ascii=False))
+
+    # 1. Direção de Fotografia Dinâmica por Cena (Vídeos MP4 reais + Imagens IA narrativas + Wikimedia)
+    used_urls = set(state.get("used_image_urls", []))
+    queries = dict(target_project.get("image_queries", {}))
+    scenes = script_data.get("scenes", [])
+    log(f"🎬 Direção Cinematográfica: obtendo mídias dinâmicas para '{project_id}' ({len(scenes)} cenas + thumbnail)...")
+
+    for idx, sc in enumerate(scenes):
+        bg = sc.get("backgroundImage", "")
+        fname = os.path.basename(bg) if (bg and not bg.startswith("http")) else f"scene_{idx + 1}.jpg"
+        q = queries.get(fname) or sc.get("visual_theme") or sc.get("headline") or target_project.get("title", "science")
+        kind, rel_path, source_label = acquire_scene_media(
+            scene=sc,
+            scene_idx=idx,
+            project_id=project_id,
+            project_title=target_project.get("title", ""),
+            assets_dir=assets_dir,
+            used_urls=used_urls,
+            query_override=q,
+            is_vertical=False,
+            allow_video=True,
+        )
+        if kind == "video":
+            sc["backgroundVideo"] = rel_path
+            sc.pop("backgroundImage", None)
+        else:
+            sc["backgroundImage"] = rel_path
+            sc.pop("backgroundVideo", None)
+        log(f"   - Cena {idx + 1}/{len(scenes)} [{source_label}]: {os.path.basename(rel_path)}")
+
+    # Thumbnail 16:9 exclusiva via IA cinematográfica + overlay do canal
+    thumb_dest = os.path.join(project_dir, "thumbnail.jpg")
+    if not is_valid_image(thumb_dest):
+        thumb_q = queries.get("thumbnail.jpg") or target_project.get("title", "cosmos science")
+        thumb_scene = {"headline": target_project.get("title", ""), "visual_theme": thumb_q, "type": "hook"}
+        thumb_prompt = build_cinematic_prompt(thumb_scene, target_project.get("title", ""), scene_idx=0, is_vertical=False)
+        thumb_seed = abs(hash(f"{project_id}_thumb")) % 10_000_000
+        ok_thumb = generate_ai_image(thumb_prompt, thumb_dest, width=1920, height=1080, seed=thumb_seed)
+        if not ok_thumb:
+            ok_thumb = _fetch_strict_nasa_image(thumb_q, thumb_dest, used_urls, width=1920, height=1080)
+        if not ok_thumb:
+            generate_cosmic_artwork(thumb_dest, seed_key=f"{project_id}_thumbnail_{thumb_q}")
+        render_thumbnail_overlay(thumb_dest, target_project)
+        log("   - Thumbnail 16:9 cinematográfica gerada e estilizada.")
+
+    # 2. Salva script.json atualizado com os caminhos reais de vídeo/imagem de cada cena
     with open(script_path, "w", encoding="utf-8") as f:
         json.dump(script_data, f, indent=2, ensure_ascii=False)
     log(f"📄 Roteiro estruturado salvo em: {script_path}")
 
-    # 2. Download e enquadramento de imagens da NASA com fallback procedural garantido
-    used_urls = set(state.get("used_image_urls", []))
-    queries = dict(target_project.get("image_queries", {}))
-    # Garante que toda cena referenciada no roteiro tenha entrada em queries
-    for idx, sc in enumerate(target_project.get("scenes", [])):
-        bg = sc.get("backgroundImage", "")
-        if bg and not bg.startswith("http"):
-            fname = os.path.basename(bg)
-            queries.setdefault(fname, sc.get("visual_theme", "deep space cosmos nasa"))
-    queries.setdefault("thumbnail.jpg", "deep space glowing nebula cosmos nasa")
-
-    log(f"🔭 Validando/obtendo {len(queries)} mídias visuais para '{project_id}'...")
-    for filename, query in queries.items():
-        out_dest = os.path.join(project_dir, filename) if filename.startswith("thumbnail") else os.path.join(assets_dir, filename)
-        if not is_valid_image(out_dest):
-            downloaded = False
-            log(f"   - Baixando {filename} (query: {query})...")
-            url = get_nasa_image_url(query, used_urls)
-            if url:
-                try:
-                    download_and_crop(url, out_dest)
-                    downloaded = is_valid_image(out_dest)
-                except Exception as dl_err:
-                    log(f"     ⚠️ Erro no download ({dl_err}). Acionando gerador visual procedural...")
-            if not downloaded:
-                generate_cosmic_artwork(out_dest, seed_key=f"{project_id}_{filename}_{query}")
-                log(f"     🎨 Arte espacial procedural 1080p gerada como fallback seguro: {filename}")
-            if filename.startswith("thumbnail"):
-                render_thumbnail_overlay(out_dest, target_project)
-                log(f"     🎨 Título estilizado aplicado na thumbnail: {filename}")
-            else:
-                log(f"     ✅ Mídia validada com sucesso: {filename}")
-        else:
-            log(f"   - Mídia íntegra já existente: {filename}")
-
-    state["used_image_urls"] = list(used_urls)[-400:]
+    state["used_image_urls"] = list(used_urls)[-600:]
     save_state(state)
 
     # 3. Geração de Voz Neural com Edge-TTS (verifica também audio_shorts.mp3)
@@ -1945,6 +1956,21 @@ def run_daily_production(prepare_only: bool = False):
                 log(f"✅ Episódio de amanhã ({next_pending[0]['id']}) já pronto para upload imediato às 09:00!")
             except Exception as pe:
                 log(f"⚠️ Aviso no buffer antecipado de amanhã (não afeta hoje): {pe}")
+
+        # Limpeza automática de projetos concluídos antigos (>2 dias) para preservar espaço em disco
+        try:
+            import shutil
+            cutoff = time.time() - (2 * 86400)
+            completed_set = set(state.get("completed_projects", []))
+            for entry in os.listdir(PROJECTS_BASE):
+                ep_path = os.path.join(PROJECTS_BASE, entry)
+                if not os.path.isdir(ep_path) or entry == project_id:
+                    continue
+                if entry in completed_set and os.path.getmtime(ep_path) < cutoff:
+                    shutil.rmtree(ep_path, ignore_errors=True)
+                    log(f"🧹 Limpeza automática: projeto concluído antigo removido ({entry}).")
+        except Exception as ce:
+            log(f"⚠️ Aviso na limpeza automática: {ce}")
     else:
         save_state(state)
         failed = [k for k, v in platform_results.items() if not v]

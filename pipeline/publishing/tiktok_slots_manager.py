@@ -666,7 +666,13 @@ def produce_and_publish_slot(slot_name: str, prepare_only: bool = False):
 
     static_candidates = TIKTOK_EXCLUSIVE_SLOTS.get(slot_name, [])
     sys.path.append(os.path.join(PROJECT_DIR, "pipeline"))
-    from trend_replenisher import load_generated_tiktok_queue, replenish_tiktok_slots_queue
+    from trend_replenisher import (
+        load_generated_tiktok_queue,
+        load_generated_queue,
+        replenish_tiktok_slots_queue,
+        get_global_used_slugs,
+        extract_canonical_slug,
+    )
 
     tt_queue = load_generated_tiktok_queue()
     candidates = list(static_candidates) + list(tt_queue.get(slot_name, []))
@@ -675,29 +681,37 @@ def produce_and_publish_slot(slot_name: str, prepare_only: bool = False):
         return False
 
     published_set = set(state.get("published_topics", []))
+    # Bloqueia qualquer tema já publicado no 09h/16h/20h ou já reservado na fila 09h
+    global_blocked = get_global_used_slugs(include_queues=False)
+    for q_item in load_generated_queue():
+        s = q_item.get("slug") or extract_canonical_slug(q_item.get("id", ""))
+        if s:
+            global_blocked.add(s)
 
-    # Escolhe o primeiro tema ainda não publicado
+    # Escolhe o primeiro tema realmente inédito em todo o ecossistema
     target = None
     for cand in candidates:
         cand_id = cand["id"]
-        if cand_id not in published_set:
+        cand_slug = extract_canonical_slug(cand_id)
+        if cand_id not in published_set and cand_slug not in global_blocked:
             target = cand
             break
 
     if not target:
-        # Lista do slot esgotou: lê tendências ao vivo e reabastece 7 dias antes de recorrer à rotação
-        print(f"[TIKTOK SLOTS] 📡 Lista do slot {slot_name} concluída! Lendo tendências para preencher mais 7 dias...", flush=True)
-        tt_queue = replenish_tiktok_slots_queue(published_set, TIKTOK_EXCLUSIVE_SLOTS, days=7)
+        # Lista do slot esgotou ou continha apenas temas já usados no 09h: reabastece 7 dias sem colisões
+        print(f"[TIKTOK SLOTS] 📡 Reabastecendo slot {slot_name} com tendências 100% inéditas (sem conflito com 09h/20h)...", flush=True)
+        tt_queue = replenish_tiktok_slots_queue(published_set, TIKTOK_EXCLUSIVE_SLOTS, days=7, rebuild_clean=True)
         candidates = list(static_candidates) + list(tt_queue.get(slot_name, []))
         for cand in candidates:
-            if cand["id"] not in published_set:
+            cand_id = cand["id"]
+            cand_slug = extract_canonical_slug(cand_id)
+            if cand_id not in published_set and cand_slug not in global_blocked:
                 target = cand
                 break
 
     if not target:
-        # Fallback de rotação apenas se nenhum novo pôde ser gerado
-        target = candidates[0]
-        state["published_topics"] = []
+        print(f"[TIKTOK SLOTS] ❌ Não foi possível obter um tema inédito para o slot {slot_name} hoje.", flush=True)
+        return False
 
     proj_id = f"tiktok-{slot_name}-{datetime.now().strftime('%Y%m%d')}"
     proj_dir = os.path.join(PROJECT_DIR, "projects", proj_id)
@@ -706,38 +720,20 @@ def produce_and_publish_slot(slot_name: str, prepare_only: bool = False):
 
     print(f"[TIKTOK SLOTS] 🎬 Produzindo Mini-Documentário TikTok: {target['title']}", flush=True)
 
-    # 1. Obter 6 imagens de alta resolução da NASA para os 6 capítulos progressivos (com fallback procedural anti-404)
-    sys.path.append(os.path.join(PROJECT_DIR, "pipeline"))
-    from daily_autopilot import get_nasa_image_url, download_and_crop
-    from media.fallback_visuals import is_valid_image, generate_cosmic_artwork
+    # 1. Direção de Fotografia Dinâmica 9:16: Vídeos MP4 NASA + Imagens IA narrativas + Wikimedia + fallback procedural
+    from media.cinematic_media import acquire_scene_media
 
     chapters = target.get("chapters", [])
     used_urls = set()
-    pan_directions = ["zoom-in", "pan-right", "hyper-zoom", "zoom-out", "pan-left", "dramatic-pulse"]
+    pan_directions = ["hyper-zoom", "pan-right", "tilt-down", "zoom-out", "pan-left", "dramatic-pulse"]
     scenes = []
 
     for idx, ch in enumerate(chapters):
         q = ch.get("image_query", "deep space galaxies hubble")
-        img_name = f"scene_{idx + 1}.jpg"
-        img_dest = os.path.join(assets_dir, img_name)
-        if not is_valid_image(img_dest):
-            downloaded = False
-            img_url = get_nasa_image_url(q, used_urls)
-            if img_url:
-                try:
-                    download_and_crop(img_url, img_dest)
-                    downloaded = is_valid_image(img_dest)
-                except Exception as dl_err:
-                    print(f"[TIKTOK SLOTS] ⚠️ Erro ao baixar {img_name}: {dl_err}", flush=True)
-            if not downloaded:
-                generate_cosmic_artwork(img_dest, seed_key=f"{proj_id}_{img_name}_{q}")
-                print(f"[TIKTOK SLOTS] 🎨 Arte cósmica procedural gerada como fallback: {img_name}", flush=True)
-            else:
-                print(f"[TIKTOK SLOTS] 🔭 Imagem {img_name} obtida para capítulo {idx + 1}: {q}", flush=True)
-
-        scenes.append({
+        scene_type = "hook" if idx == 0 else ("climax" if idx == len(chapters) - 2 else ("cta" if idx == len(chapters) - 1 else "investigation"))
+        scene_obj = {
             "id": f"scene_{idx + 1}",
-            "type": "hook" if idx == 0 else ("climax" if idx == len(chapters) - 2 else ("cta" if idx == len(chapters) - 1 else "investigation")),
+            "type": scene_type,
             "visual_theme": q,
             "headline": ch.get("headline", target["headline"]),
             "stats": ch.get("stats"),
@@ -747,9 +743,25 @@ def produce_and_publish_slot(slot_name: str, prepare_only: bool = False):
                 "EINSTEIN", "HAWKING", "WEBB", "HUBBLE", "LUZ", "BURACO", "NEGRO",
                 "TRILHÕES", "BILHÕES", "TEMPO", "GRAVIDADE", "PARADOXO"
             ],
-            "backgroundImage": f"assets/{proj_id}/{img_name}",
-            "panDirection": pan_directions[idx % len(pan_directions)]
-        })
+            "panDirection": pan_directions[idx % len(pan_directions)],
+        }
+        kind, rel_path, source_label = acquire_scene_media(
+            scene=scene_obj,
+            scene_idx=idx,
+            project_id=proj_id,
+            project_title=target["title"],
+            assets_dir=assets_dir,
+            used_urls=used_urls,
+            query_override=q,
+            is_vertical=True,
+            allow_video=True,
+        )
+        if kind == "video":
+            scene_obj["backgroundVideo"] = rel_path
+        else:
+            scene_obj["backgroundImage"] = rel_path
+        print(f"[TIKTOK SLOTS] 🎬 Capítulo {idx + 1}/{len(chapters)} [{source_label}]: {os.path.basename(rel_path)}", flush=True)
+        scenes.append(scene_obj)
 
     # 2. Gerar script.json adaptado para Remotion Shorts de longa duração (1m45s - 2m05s)
     script_data = {

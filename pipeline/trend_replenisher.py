@@ -792,13 +792,13 @@ def _synthesize_fallback_from_trend(trend: dict, num: int) -> dict:
         "cta_question": "E você, o que acha que essa descoberta significa para os próximos anos da ciência e da exploração espacial?",
         "shorts_narration": shorts_narration,
         "queries": [
-            f"{query_terms} nasa",
-            "james webb space telescope nebula cosmos",
-            "hubble deep field galaxies stars",
-            "spacecraft mission control engineering nasa",
-            "solar system planet space observatory",
-            "quantum physics particle research laboratory",
-            "milky way galaxy night sky stars"
+            f"{query_terms} dramatic scientific discovery",
+            f"{query_terms} laboratory observatory telemetry",
+            f"{query_terms} physical mechanism visualization",
+            f"{query_terms} advanced engineering instrument",
+            f"{query_terms} theoretical model spacetime",
+            f"{query_terms} future mission breakthrough",
+            f"{query_terms} cosmic horizon perspective"
         ],
         "acts": acts,
     }
@@ -820,10 +820,60 @@ def save_generated_queue(queue: list):
         json.dump(queue, f, indent=2, ensure_ascii=False)
 
 
+def extract_canonical_slug(identifier: str) -> str:
+    """Normaliza qualquer ID de projeto/slot (09h, 16h, 20h) para seu slug temático canônico."""
+    if not identifier:
+        return ""
+    s = str(identifier).strip().lower()
+    s = re.sub(r"^tiktok-trend-(?:16h|20h)-", "", s)
+    s = re.sub(r"^tiktok-\d+-", "", s)
+    s = re.sub(r"^video-\d+-", "", s)
+    return s
+
+
+def get_global_used_slugs(include_queues: bool = True) -> set:
+    """
+    Inventário Editorial Global: reúne todos os slugs já publicados ou reservados
+    entre Autopilot 09h (YouTube/Shorts/Reels/TikTok) e Slots TikTok 16h/20h
+    para impedir qualquer duplicidade de tema entre horários ou dias.
+    """
+    used = set()
+    state_paths = [
+        os.path.join(PIPELINE_DIR, "autopilot_state.json"),
+        os.path.join(PIPELINE_DIR, "publishing", "tiktok_slots_state.json"),
+    ]
+    for sp in state_paths:
+        if os.path.exists(sp):
+            try:
+                with open(sp, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                for item in data.get("completed_projects", []) + data.get("published_topics", []):
+                    slug = extract_canonical_slug(item)
+                    if slug:
+                        used.add(slug)
+            except Exception:
+                pass
+
+    if include_queues:
+        for q_item in load_generated_queue():
+            slug = q_item.get("slug") or extract_canonical_slug(q_item.get("id", ""))
+            if slug:
+                used.add(slug)
+        tt_q = load_generated_tiktok_queue()
+        for slot_name in ("16h", "20h"):
+            for item in tt_q.get(slot_name, []):
+                slug = extract_canonical_slug(item.get("id", ""))
+                if slug:
+                    used.add(slug)
+
+    return used
+
+
 def replenish_weekly_queue(completed_ids: set, existing_catalogue_ids: set, days: int = 7) -> list:
     """
     Lê as tendências ao vivo e preenche uma nova fila de `days` dias (padrão 7 dias)
-    para o Autopilot 09h (YouTube 16:9 + YouTube Shorts + Instagram Reels + TikTok).
+    para o Autopilot 09h (YouTube 16:9 + YouTube Shorts + Instagram Reels + TikTok),
+    respeitando o inventário editorial global para não colidir com os slots 16h/20h.
     """
     print(f"[TRENDS] 📡 Lista de publicação vazia! Lendo tendências reais para preencher os próximos {days} dias...", flush=True)
     trends = fetch_live_trends()
@@ -834,14 +884,11 @@ def replenish_weekly_queue(completed_ids: set, existing_catalogue_ids: set, days
     if len(pending_existing) >= days:
         return queue
 
-    used_slugs = set()
+    used_slugs = get_global_used_slugs(include_queues=True)
     for pid in set(completed_ids) | set(existing_catalogue_ids) | {q.get("id", "") for q in queue}:
-        m = re.match(r"^video-\d+-(.+)$", pid)
-        if m:
-            used_slugs.add(m.group(1))
-    for q in queue:
-        if q.get("slug"):
-            used_slugs.add(q["slug"])
+        slug = extract_canonical_slug(pid)
+        if slug:
+            used_slugs.add(slug)
 
     scored_pool = []
     for bp in DEEP_TREND_BANK:
@@ -926,45 +973,98 @@ def load_generated_tiktok_queue() -> dict:
     return {"16h": [], "20h": []}
 
 
-def replenish_tiktok_slots_queue(published_topic_ids: set, existing_static_slots: dict, days: int = 7) -> dict:
-    """Reabastece 7 dias (14 episódios: 7x 16h + 7x 20h) de mini-documentários exclusivos do TikTok baseados em tendências."""
-    print(f"[TRENDS TIKTOK] 📡 Reabastecendo slots do TikTok com tendências para {days} dias...", flush=True)
+def replenish_tiktok_slots_queue(
+    published_topic_ids: set,
+    existing_static_slots: dict,
+    days: int = 7,
+    rebuild_clean: bool = False,
+) -> dict:
+    """
+    Reabastece 7 dias (14 episódios inéditos: 7x 16h + 7x 20h) de mini-documentários
+    exclusivos do TikTok baseados em tendências, com deduplicação editorial global:
+    nenhum slug já usado ou agendado para 09h, 16h ou 20h pode se repetir.
+    """
+    print(f"[TRENDS TIKTOK] 📡 Reabastecendo slots do TikTok com tendências inéditas para {days} dias...", flush=True)
     trends = fetch_live_trends()
-    tt_queue = load_generated_tiktok_queue()
+    tt_queue = {"16h": [], "20h": []} if rebuild_clean else load_generated_tiktok_queue()
 
-    used_slugs = set()
-    for tid in set(published_topic_ids):
-        used_slugs.add(tid)
+    # Slugs já publicados no 09h ou TikTok + slugs reservados na fila 09h
+    blocked_slugs = get_global_used_slugs(include_queues=False)
+    for q_item in load_generated_queue():
+        s = q_item.get("slug") or extract_canonical_slug(q_item.get("id", ""))
+        if s:
+            blocked_slugs.add(s)
+    for pid in published_topic_ids:
+        s = extract_canonical_slug(pid)
+        if s:
+            blocked_slugs.add(s)
+
+    # Limpa itens já enfileirados que colidam com 09h, já publicados ou duplicados entre 16h/20h
+    seen_in_tt_queues = set()
+    cleaned_queue = {"16h": [], "20h": []}
     for slot_name in ("16h", "20h"):
         for item in tt_queue.get(slot_name, []):
-            used_slugs.add(item.get("id", ""))
+            item_id = item.get("id", "")
+            slug = extract_canonical_slug(item_id)
+            if not slug or slug in blocked_slugs or slug in seen_in_tt_queues or item_id in published_topic_ids:
+                continue
+            seen_in_tt_queues.add(slug)
+            cleaned_queue[slot_name].append(item)
+    tt_queue = cleaned_queue
 
-    # Usa um offset alto de número para não colidir com IDs da fila 09h
-    candidate_num = 500
+    used_slugs = set(blocked_slugs) | set(seen_in_tt_queues)
+
+    # Prepara pool curado restante + tendências RSS ao vivo inéditas
     scored = []
     for bp in DEEP_TREND_BANK:
+        if bp["slug"] in used_slugs:
+            continue
         score, matched_trend = _score_blueprint_against_trends(bp, trends)
         scored.append((score, bp, matched_trend))
     scored.sort(key=lambda x: x[0], reverse=True)
 
-    idx_cursor = 0
-    for slot_name in ("16h", "20h"):
-        pending_slot = [c for c in existing_static_slots.get(slot_name, []) + tt_queue.get(slot_name, []) if c["id"] not in published_topic_ids]
-        needed = max(0, days - len(pending_slot))
-        while needed > 0 and idx_cursor < len(scored):
-            _, bp, matched = scored[idx_cursor]
-            idx_cursor += 1
-            ep = _assemble_episode(bp, candidate_num, matched_trend=matched)
-            candidate_num += 1
-            tt_item = _episode_to_tiktok_slot_item(ep, slot_name)
-            if tt_item["id"] not in used_slugs:
+    sci_trends = [t for t in trends if t.get("source") != "Google Trends BR"] + list(trends)
+    candidate_num = 500
+    scored_cursor = 0
+    trend_cursor = 0
+
+    # Alterna preenchimento entre 16h e 20h para equilibrar temas estratégicos distintos
+    for _round in range(days):
+        for slot_name in ("16h", "20h"):
+            pending_slot = [
+                c for c in existing_static_slots.get(slot_name, []) + tt_queue.get(slot_name, [])
+                if c["id"] not in published_topic_ids and extract_canonical_slug(c["id"]) not in blocked_slugs
+            ]
+            if len(pending_slot) >= days:
+                continue
+
+            chosen_ep = None
+            while scored_cursor < len(scored):
+                _, bp, matched = scored[scored_cursor]
+                scored_cursor += 1
+                if bp["slug"] not in used_slugs:
+                    chosen_ep = _assemble_episode(bp, candidate_num, matched_trend=matched)
+                    candidate_num += 1
+                    break
+
+            while chosen_ep is None and trend_cursor < len(sci_trends):
+                tr = sci_trends[trend_cursor]
+                trend_cursor += 1
+                ep = _synthesize_fallback_from_trend(tr, candidate_num)
+                candidate_num += 1
+                if ep["slug"] not in used_slugs:
+                    chosen_ep = ep
+                    break
+
+            if chosen_ep is not None:
+                used_slugs.add(chosen_ep["slug"])
+                tt_item = _episode_to_tiktok_slot_item(chosen_ep, slot_name)
                 tt_queue.setdefault(slot_name, []).append(tt_item)
-                used_slugs.add(tt_item["id"])
-                needed -= 1
 
     with open(GENERATED_TIKTOK_QUEUE_FILE, "w", encoding="utf-8") as f:
         json.dump(tt_queue, f, indent=2, ensure_ascii=False)
 
+    print(f"[TRENDS TIKTOK] ✅ Fila TikTok estratégica atualizada: 16h={len(tt_queue['16h'])}, 20h={len(tt_queue['20h'])} (0 conflitos).", flush=True)
     return tt_queue
 
 

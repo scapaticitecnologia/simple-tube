@@ -125,7 +125,10 @@ export const ShortsVideo: React.FC<MainVideoProps> = ({
               imageSrc={currentDisplayScene.backgroundImage}
               videoSrc={currentDisplayScene.backgroundVideo}
               panDirection={
-                activeSceneIndex % 2 === 0 ? 'zoom-in' : 'pan-right'
+                currentDisplayScene.panDirection ||
+                (['hyper-zoom', 'pan-right', 'tilt-down', 'zoom-out', 'pan-left', 'dramatic-pulse'][
+                  activeSceneIndex % 6
+                ] as any)
               }
               isClimax={currentDisplayScene.type === 'climax'}
             />
