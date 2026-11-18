@@ -1,0 +1,185 @@
+{
+  "id": "video-030-quantum-computing-reality",
+  "slug": "quantum-computing-reality",
+  "title": "Computação Quântica: Como Um Qubit Calcula na Fronteira da Realidade",
+  "topic": "Computação Quântica, Qubits, Superposição, Correção de Erros e Criptografia",
+  "channel": "Scapatici Tecnologia",
+  "target_duration_seconds": 320,
+  "fps": 30,
+  "vinheta_duration_frames": 90,
+  "bg_music_volume": 0.12,
+  "trend_context": {
+    "source": "Curadoria Científica Scapatici",
+    "title": "Computação Quântica: Como Um Qubit Calcula na Fronteira da Realidade"
+  },
+  "thumbnail_text": {
+    "line1": "PODER QUÂNTICO",
+    "line2": "INIMAGINÁVEL!",
+    "subtitle": "COMO FUNCIONA UM QUBIT DE VERDADE | SCAPATICI TECNOLOGIA"
+  },
+  "seo": {
+    "title_options": [
+      "Computação Quântica: Como Um Qubit Calcula na Fronteira da Realidade",
+      "Por Que Um Chip Quântico Quebra Criptografias Que Levariam Trilhões de Anos?",
+      "Superposição e Entrelaçamento: A Física Por Trás dos Computadores Quânticos"
+    ],
+    "description": "Entenda como processadores resfriados perto do zero absoluto usam superposição e interferência quântica para resolver problemas fora do alcance dos supercomputadores.\n\nNeste episódio do canal Scapatici Tecnologia, mergulhamos com rigor científico e dados reais dos observatórios espaciais neste enigma do cosmos.\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para novos documentários todos os dias!\n\n#scapaticitecnologia #computacaoquantica #qubit #fisicaquantica #tecnologia #multiverso #ciencia",
+    "tags": [
+      "scapatici tecnologia",
+      "computacao quantica",
+      "qubit",
+      "fisica quantica",
+      "tecnologia",
+      "multiverso",
+      "ciencia"
+    ]
+  },
+  "shorts_narration": "Os processadores clássicos que movem o mundo moderno transformaram a civilização, mas possuem uma limitação fundamental diante de sistemas moleculares e combinações astronômicas. Para simular perfeitamente uma única molécula complexa de catalisador, um supercomputador clássico precisaria de mais memória do que existe matéria na Terra — e é aí que entra a computação quântica. Cada transistor de silício funciona como um interruptor: ligado ou desligado, um ou zero. Um qubit, feito de loops supercondutores ou íons presos por lasers, comporta-se como uma onda quântica capaz de carregar uma amplitude de probabilidade para zero e um simultaneamente, permitindo que o espaço de cálculo cresça exponencialmente a cada novo qubit adicionado. Muita gente pensa que o computador quântico testa todas as respostas em paralelo e lê todas juntas. Na prática, se você medir direto, obtém apenas um único resultado aleatório! A genialidade dos algoritmos quânticos como os de Peter Shor e Lov Grover está em programar as fases dessas ondas de probabilidade para que as soluções erradas se destruam por interferência destrutiva, deixando apenas a resposta certa brilhar na medição final. O maior inimigo de um processador quântico é a decoerência: qualquer vibração mecânica, campo magnético ou fóton de calor vindo do ambiente funciona como uma observação não desejada que destrói a superposição em microssegundos. Por isso, os chips supercondutores ficam na base de refrigeradores de diluição dourados a quinze milikelvin — mais frio do que a radiação residual do espaço interestelar. Por décadas, críticos afirmavam que quanto mais qubits você colocasse em um chip, mais erros acumulariam até tornar a máquina inútil. Recentemente, físicos cruzaram o chamado limiar de correção de erros quânticos: combinando dezenas de qubits físicos imperfeitos em um único qubit lógico, o aumento da grade finalmente passou a reduzir exponencialmente a taxa de erro em vez de ampliá-la. A investigação completa com todos os detalhes e implicações cósmicas está no vídeo principal do YouTube: acesse o link fixado nos comentários e na descrição, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+  "scenes": [
+    {
+      "id": "scene_1_hook",
+      "type": "hook",
+      "visual_theme": "quantum-computing-reality_hook",
+      "headline": "5 MINUTOS CONTRA A ETERNIDADE",
+      "narration": "Os processadores clássicos que movem o mundo moderno transformaram a civilização, mas possuem uma limitação fundamental diante de sistemas moleculares e combinações astronômicas. Para simular perfeitamente uma única molécula complexa de catalisador, um supercomputador clássico precisaria de mais memória do que existe matéria na Terra — e é aí que entra a computação quântica.",
+      "highlight_words": [
+        "COMPUTAÇÃO QUÂNTICA",
+        "QUBIT",
+        "SEPTILHÕES DE ANOS"
+      ],
+      "stats": {
+        "label": "Diferença de Escala",
+        "value": "5 Min vs 10²⁵ Anos"
+      },
+      "backgroundImage": "assets/video-030-quantum-computing-reality/scene_1.jpg",
+      "panDirection": "zoom-in"
+    },
+    {
+      "id": "scene_2_superposition",
+      "type": "investigation",
+      "visual_theme": "quantum-computing-reality_superposition",
+      "headline": "BIT CLÁSSICO VERSUS QUBIT",
+      "narration": "Cada transistor de silício funciona como um interruptor: ligado ou desligado, um ou zero. Um qubit, feito de loops supercondutores ou íons presos por lasers, comporta-se como uma onda quântica capaz de carregar uma amplitude de probabilidade para zero e um simultaneamente, permitindo que o espaço de cálculo cresça exponencialmente a cada novo qubit adicionado.",
+      "highlight_words": [
+        "SUPERPOSIÇÃO",
+        "ZERO E UM",
+        "ONDA"
+      ],
+      "stats": {
+        "label": "Estado Quântico",
+        "value": "Esfera de Bloch (Superposição)"
+      },
+      "backgroundImage": "assets/video-030-quantum-computing-reality/scene_2.jpg",
+      "panDirection": "pan-right"
+    },
+    {
+      "id": "scene_3_interference",
+      "type": "revelation",
+      "visual_theme": "quantum-computing-reality_interference",
+      "headline": "O SEGREDO DA INTERFERÊNCIA QUÂNTICA",
+      "narration": "Muita gente pensa que o computador quântico testa todas as respostas em paralelo e lê todas juntas. Na prática, se você medir direto, obtém apenas um único resultado aleatório! A genialidade dos algoritmos quânticos como os de Peter Shor e Lov Grover está em programar as fases dessas ondas de probabilidade para que as soluções erradas se destruam por interferência destrutiva, deixando apenas a resposta certa brilhar na medição final.",
+      "highlight_words": [
+        "INTERFERÊNCIA",
+        "ALGORITMO",
+        "CONCELAMENTO"
+      ],
+      "stats": {
+        "label": "Mecanismo Real",
+        "value": "Amplificação de Ondas"
+      },
+      "backgroundImage": "assets/video-030-quantum-computing-reality/scene_3.jpg",
+      "panDirection": "pan-left"
+    },
+    {
+      "id": "scene_4_cold",
+      "type": "investigation",
+      "visual_theme": "quantum-computing-reality_cold",
+      "headline": "MAIS FRIO QUE O ESPAÇO PROFUNDO",
+      "narration": "O maior inimigo de um processador quântico é a decoerência: qualquer vibração mecânica, campo magnético ou fóton de calor vindo do ambiente funciona como uma observação não desejada que destrói a superposição em microssegundos. Por isso, os chips supercondutores ficam na base de refrigeradores de diluição dourados a quinze milikelvin — mais frio do que a radiação residual do espaço interestelar.",
+      "highlight_words": [
+        "15 MILIKELVIN",
+        "DECOERÊNCIA",
+        "ZERO ABSOLUTO"
+      ],
+      "stats": {
+        "label": "Temperatura do Chip",
+        "value": "-273,13 °C (15 mK)"
+      },
+      "backgroundImage": "assets/video-030-quantum-computing-reality/scene_4.jpg",
+      "panDirection": "hyper-zoom"
+    },
+    {
+      "id": "scene_5_correction",
+      "type": "investigation",
+      "visual_theme": "quantum-computing-reality_correction",
+      "headline": "A REVOLUÇÃO DA CORREÇÃO DE ERROS",
+      "narration": "Por décadas, críticos afirmavam que quanto mais qubits você colocasse em um chip, mais erros acumulariam até tornar a máquina inútil. Recentemente, físicos cruzaram o chamado limiar de correção de erros quânticos: combinando dezenas de qubits físicos imperfeitos em um único qubit lógico, o aumento da grade finalmente passou a reduzir exponencialmente a taxa de erro em vez de ampliá-la.",
+      "highlight_words": [
+        "CORREÇÃO DE ERROS",
+        "CÓDIGO DE SUPERFÍCIE",
+        "LIMIAR"
+      ],
+      "stats": {
+        "label": "Avanço Crítico",
+        "value": "Erro Cai ao Crescer"
+      },
+      "backgroundImage": "assets/video-030-quantum-computing-reality/scene_5.jpg",
+      "panDirection": "dramatic-pulse"
+    },
+    {
+      "id": "scene_6_impact",
+      "type": "climax",
+      "visual_theme": "quantum-computing-reality_impact",
+      "headline": "CRIPTOGRAFIA E MEDICINA TRANSFORMADAS",
+      "narration": "Quando computadores quânticos tolerantes a falhas atingirem milhares de qubits lógicos, o impacto será duplo. De um lado, o Algoritmo de Shor poderá fatorar números gigantescos em horas, obrigando bancos e governos a migrar para criptografia pós-quântica. De outro, poderemos projetar fertilizantes ecológicos, baterias revolucionárias, supercondutores e novos fármacos com precisão atômica absoluta.",
+      "highlight_words": [
+        "ALGORITMO DE SHOR",
+        "BATERIAS",
+        "MEDICINA"
+      ],
+      "stats": {
+        "label": "Área de Impacto",
+        "value": "Materiais e Criptografia"
+      },
+      "backgroundImage": "assets/video-030-quantum-computing-reality/scene_6.jpg",
+      "panDirection": "floating-drift"
+    },
+    {
+      "id": "scene_7_multiverse",
+      "type": "investigation",
+      "visual_theme": "quantum-computing-reality_multiverse",
+      "headline": "CALCULANDO EM PARALELO COM A NATUREZA",
+      "narration": "Como disse o físico Richard Feynman, a natureza não é clássica; se você quer simular o universo em seu nível fundamental, é melhor construir um computador que fale a língua quântica nativa da realidade.",
+      "highlight_words": [
+        "DAVID DEUTSCH",
+        "NATUREZA QUÂNTICA",
+        "FRONTEIRA"
+      ],
+      "stats": {
+        "label": "Visão Física",
+        "value": "Simular a Própria Realidade"
+      },
+      "backgroundImage": "assets/video-030-quantum-computing-reality/scene_7.jpg",
+      "panDirection": "tilt-down"
+    },
+    {
+      "id": "scene_8_scapatici_cta",
+      "type": "cta",
+      "visual_theme": "scapatici_space_observatory_community",
+      "headline": "A ERA PÓS-CLÁSSICA COMEÇOU",
+      "narration": "E você, acha que os computadores quânticos vão desvendar a cura de doenças e novos materiais antes do que imaginamos? Deixe a sua teoria aqui nos comentários, compartilhe este vídeo com quem é fascinado pelos mistérios do universo, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia, e até o próximo vídeo!",
+      "highlight_words": [
+        "SCAPATICI TECNOLOGIA",
+        "DEIXE SEU COMENTÁRIO",
+        "INSCREVA-SE",
+        "PRÓXIMO VÍDEO"
+      ],
+      "stats": {
+        "label": "Comunidade Oficial",
+        "value": "Scapatici Tecnologia"
+      },
+      "backgroundImage": "assets/video-030-quantum-computing-reality/scene_8.jpg",
+      "panDirection": "zoom-out"
+    }
+  ]
+}
