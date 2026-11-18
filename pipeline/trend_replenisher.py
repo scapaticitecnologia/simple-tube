@@ -135,11 +135,7 @@ def _assemble_episode(blueprint: dict, num: int, matched_trend: dict | None = No
         pan = pan_cycle[idx % len(pan_cycle)]
         stype = act.get("type", "hook" if idx == 0 else ("climax" if idx == 5 else "investigation"))
         narration = act["narration"]
-        if idx == 0 and matched_trend:
-            narration = (
-                f"Novas notícias científicas e observações espaciais voltaram a colocar este tema no centro das atenções em todo o mundo. "
-                + narration
-            )
+        # Sem abertura genérica repetida: cada episódio começa direto pelo seu gancho exclusivo
         scenes.append(
             _build_scene(
                 f"scene_{idx + 1}_{act['key']}",
@@ -820,6 +816,37 @@ def save_generated_queue(queue: list):
         json.dump(queue, f, indent=2, ensure_ascii=False)
 
 
+_EN_STOPWORDS = {
+    "the", "and", "of", "to", "in", "is", "for", "on", "with", "that", "this", "from", "by",
+    "an", "are", "was", "at", "today", "archive", "index", "search", "calendar", "submissions",
+    "picture", "day", "discover", "each", "about", "discuss", "education",
+}
+_BANNED_MARKERS = ("APOD", "http", "www.", "RSS", "Astronomy Picture of the Day", "A Ciência Por Trás da Descoberta",
+                   "O NOVO ALERTA NAS TENDÊNCIAS", "Novas notícias científicas")
+
+
+def is_professional_ptbr_content(item: dict) -> tuple:
+    """
+    Portão de qualidade editorial: rejeita roteiros com inglês excessivo, lixo de HTML/RSS,
+    títulos genéricos ou narração curta demais. Retorna (aprovado: bool, motivo: str).
+    """
+    title = str(item.get("title", ""))
+    narration = str(item.get("narration") or item.get("shorts_narration") or "")
+    blob = f"{title} {item.get('description', '')} {narration}"
+    for marker in _BANNED_MARKERS:
+        if marker.lower() in blob.lower():
+            return False, f"marcador proibido: {marker}"
+    words = re.findall(r"[A-Za-zÀ-ÿ']+", narration.lower())
+    if len(words) < 180:
+        return False, f"narração curta demais ({len(words)} palavras)"
+    en_hits = sum(1 for w in words if w in _EN_STOPWORDS)
+    if en_hits / max(len(words), 1) > 0.02:
+        return False, f"excesso de inglês na narração ({en_hits} termos)"
+    if len(item.get("chapters", [])) and len(item["chapters"]) < 6:
+        return False, "menos de 6 capítulos visuais"
+    return True, "ok"
+
+
 def extract_canonical_slug(identifier: str) -> str:
     """Normaliza qualquer ID de projeto/slot (09h, 16h, 20h) para seu slug temático canônico."""
     if not identifier:
@@ -911,18 +938,10 @@ def replenish_weekly_queue(completed_ids: set, existing_catalogue_ids: set, days
         used_slugs.add(bp["slug"])
         next_num += 1
 
-    # Fallback: se até o DEEP_TREND_BANK estiver completo no futuro, sintetiza direto das tendências RSS inéditas
+    # SEM fallback de RSS cru: só entram roteiros curados e profissionais em português.
+    # Se o banco curado esgotar, o health check alerta para reposição editorial.
     if len(added) < needed:
-        sci_trends = [t for t in trends if t["source"] != "Google Trends BR"] + trends
-        for tr in sci_trends:
-            if len(added) >= needed:
-                break
-            ep = _synthesize_fallback_from_trend(tr, next_num)
-            if ep["slug"] not in used_slugs:
-                queue.append(ep)
-                added.append(ep)
-                used_slugs.add(ep["slug"])
-                next_num += 1
+        print(f"[TRENDS] ⚠️ Banco curado insuficiente: faltam {needed - len(added)} episódio(s) 09h. Reposição editorial necessária.", flush=True)
 
     save_generated_queue(queue)
     print(f"[TRENDS] 📅 Nova grade semanal gerada com {len(added)} episódios novos em: {GENERATED_QUEUE_FILE}", flush=True)
@@ -1047,14 +1066,7 @@ def replenish_tiktok_slots_queue(
                     candidate_num += 1
                     break
 
-            while chosen_ep is None and trend_cursor < len(sci_trends):
-                tr = sci_trends[trend_cursor]
-                trend_cursor += 1
-                ep = _synthesize_fallback_from_trend(tr, candidate_num)
-                candidate_num += 1
-                if ep["slug"] not in used_slugs:
-                    chosen_ep = ep
-                    break
+            # Sem fallback de RSS cru: apenas roteiros curados e profissionais entram na grade
 
             if chosen_ep is not None:
                 used_slugs.add(chosen_ep["slug"])

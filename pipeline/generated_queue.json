@@ -1391,5 +1391,595 @@
       "scene_8.jpg": "deep space starry universe pillars of creation webb",
       "thumbnail.jpg": "interstellar asteroid elongated space stars nasa"
     }
+  },
+  {
+    "id": "video-029-dark-energy-desi-collapse",
+    "slug": "dark-energy-desi-collapse",
+    "title": "A Energia Escura Está Mudando? A Descoberta Que Altera o Fim do Universo",
+    "topic": "Energia Escura Dinâmica, Projeto DESI, Constante Cosmológica e o Destino Final do Cosmos",
+    "channel": "Scapatici Tecnologia",
+    "target_duration_seconds": 320,
+    "fps": 30,
+    "vinheta_duration_frames": 90,
+    "bg_music_volume": 0.12,
+    "trend_context": {
+      "source": "Curadoria Científica Scapatici",
+      "title": "A Energia Escura Está Mudando? A Descoberta Que Altera o Fim do Universo"
+    },
+    "thumbnail_text": {
+      "line1": "A ENERGIA ESCURA",
+      "line2": "ESTÁ MUDANDO?",
+      "subtitle": "O DESTINO DO UNIVERSO PODE SER OUTRO | SCAPATICI TECNOLOGIA"
+    },
+    "seo": {
+      "title_options": [
+        "A Energia Escura Está Mudando? A Descoberta Que Altera o Fim do Universo",
+        "O Maior Mapa 3D do Cosmos Revelou Uma Rachadura na Energia Escura?",
+        "Big Freeze ou Big Crunch? O Novo Mistério da Energia Escura pelo Projeto DESI"
+      ],
+      "description": "O maior mapa tridimensional de galáxias já feito pelo instrumento DESI trouxe pistas intrigantes de que a Energia Escura pode não ser uma constante imóvel de Einstein.\n\nNeste episódio do canal Scapatici Tecnologia, mergulhamos com rigor científico e dados reais dos observatórios espaciais neste enigma do cosmos.\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para novos documentários todos os dias!\n\n#scapaticitecnologia #energiaescura #desi #cosmologia #einstein #fimdouniverso #astrofisica #ciencia",
+      "tags": [
+        "scapatici tecnologia",
+        "energia escura",
+        "desi",
+        "cosmologia",
+        "einstein",
+        "fim do universo",
+        "astrofisica",
+        "ciencia"
+      ]
+    },
+    "shorts_narration": "Quando você olha para todas as estrelas, planetas, buracos negros e nuvens de gás no universo, tudo isso soma menos de cinco por cento da realidade. Sessenta e oito por cento de todo o orçamento energético do cosmos pertencem à Energia Escura: uma força invisível que acelera a expansão do espaço-tempo como se o vácuo empurrasse as galáxias para fora. Desde mil novecentos e noventa e oito, o modelo cosmológico padrão trata a Energia Escura como uma constante imutável do próprio espaço vazio: a letra grega Lambda nas equações de Albert Einstein. Segundo essa regra, cada metro cúbico de espaço novo que nasce carrega exatamente a mesma densidade de energia repulsiva por toda a eternidade. Instalado no Arizona, o instrumento espectroscópico DESI utiliza cinco mil fibras ópticas robóticas que apontam simultaneamente para milhares de galáxias em cada exposição. Ao medir as marcas fósseis de ondas acústicas do universo primordial, os cientistas reconstruíram onze bilhões de anos de história da expansão cósmica com precisão sem precedentes. Ao cruzar os dados do DESI com explosões de supernovas e o brilho residual do Big Bang, surgiu um sinal inesperado: a expansão parece não se comportar exatamente como uma constante perfeita! Os indícios apontam que a Energia Escura pode ter sido mais forte há bilhões de anos e estar evoluindo como um campo quântico dinâmico chamado Quintessência. Se uma constante fixa leva inevitavelmente ao Grande Congelamento — um universo frio, vazio e morto — uma Energia Escura variável abre cenários vertiginosos. Caso ela cresça, pode rasgar átomos no Big Rip; mas se ela continuar enfraquecendo como sugerem algumas interpretações, a expansão poderá frear, reverter e culminar em um colapso gravitacional catastrófico chamado Big Crunch. A investigação completa com todos os detalhes e implicações cósmicas está no vídeo principal do YouTube: acesse o link fixado nos comentários e na descrição, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+    "scenes": [
+      {
+        "id": "scene_1_hook",
+        "type": "hook",
+        "visual_theme": "dark-energy-desi-collapse_hook",
+        "headline": "68% DO UNIVERSO EM SUSPEITA",
+        "narration": "Quando você olha para todas as estrelas, planetas, buracos negros e nuvens de gás no universo, tudo isso soma menos de cinco por cento da realidade. Sessenta e oito por cento de todo o orçamento energético do cosmos pertencem à Energia Escura: uma força invisível que acelera a expansão do espaço-tempo como se o vácuo empurrasse as galáxias para fora.",
+        "highlight_words": [
+          "ENERGIA ESCURA",
+          "DESI",
+          "68% DO COSMOS"
+        ],
+        "stats": {
+          "label": "Composição Cósmica",
+          "value": "68% Energia Escura"
+        },
+        "backgroundImage": "assets/video-029-dark-energy-desi-collapse/scene_1.jpg",
+        "panDirection": "zoom-in"
+      },
+      {
+        "id": "scene_2_lambda",
+        "type": "investigation",
+        "visual_theme": "dark-energy-desi-collapse_lambda",
+        "headline": "O DOGMA DA CONSTANTE COSMOLÓGICA",
+        "narration": "Desde mil novecentos e noventa e oito, o modelo cosmológico padrão trata a Energia Escura como uma constante imutável do próprio espaço vazio: a letra grega Lambda nas equações de Albert Einstein. Segundo essa regra, cada metro cúbico de espaço novo que nasce carrega exatamente a mesma densidade de energia repulsiva por toda a eternidade.",
+        "highlight_words": [
+          "CONSTANTE COSMOLÓGICA",
+          "MODELO LAMBDA",
+          "EINSTEIN"
+        ],
+        "stats": {
+          "label": "Equação Padrão",
+          "value": "Lambda = Constante Fixa"
+        },
+        "backgroundImage": "assets/video-029-dark-energy-desi-collapse/scene_2.jpg",
+        "panDirection": "pan-right"
+      },
+      {
+        "id": "scene_3_desi",
+        "type": "revelation",
+        "visual_theme": "dark-energy-desi-collapse_desi",
+        "headline": "O MAIOR MAPA 3D JÁ CONSTRUÍDO",
+        "narration": "Instalado no Arizona, o instrumento espectroscópico DESI utiliza cinco mil fibras ópticas robóticas que apontam simultaneamente para milhares de galáxias em cada exposição. Ao medir as marcas fósseis de ondas acústicas do universo primordial, os cientistas reconstruíram onze bilhões de anos de história da expansão cósmica com precisão sem precedentes.",
+        "highlight_words": [
+          "PROJETO DESI",
+          "5 MIL OLHOS ROBÓTICOS",
+          "11 BILHÕES DE ANOS"
+        ],
+        "stats": {
+          "label": "Galáxias Mapeadas",
+          "value": "+15 Milhões de Objetos"
+        },
+        "backgroundImage": "assets/video-029-dark-energy-desi-collapse/scene_3.jpg",
+        "panDirection": "pan-left"
+      },
+      {
+        "id": "scene_4_evolution",
+        "type": "investigation",
+        "visual_theme": "dark-energy-desi-collapse_evolution",
+        "headline": "A ENERGIA ESCURA PODE ESTAR ENFRAQUECENDO",
+        "narration": "Ao cruzar os dados do DESI com explosões de supernovas e o brilho residual do Big Bang, surgiu um sinal inesperado: a expansão parece não se comportar exatamente como uma constante perfeita! Os indícios apontam que a Energia Escura pode ter sido mais forte há bilhões de anos e estar evoluindo como um campo quântico dinâmico chamado Quintessência.",
+        "highlight_words": [
+          "QUINTESSÊNCIA",
+          "ENERGIA DINÂMICA",
+          "DESVIO DO MODELO"
+        ],
+        "stats": {
+          "label": "Sinal Estatístico",
+          "value": "2,5 a 3,9 Sigma"
+        },
+        "backgroundImage": "assets/video-029-dark-energy-desi-collapse/scene_4.jpg",
+        "panDirection": "hyper-zoom"
+      },
+      {
+        "id": "scene_5_fate",
+        "type": "climax",
+        "visual_theme": "dark-energy-desi-collapse_fate",
+        "headline": "BIG FREEZE, BIG RIP OU BIG CRUNCH?",
+        "narration": "Se uma constante fixa leva inevitavelmente ao Grande Congelamento — um universo frio, vazio e morto — uma Energia Escura variável abre cenários vertiginosos. Caso ela cresça, pode rasgar átomos no Big Rip; mas se ela continuar enfraquecendo como sugerem algumas interpretações, a expansão poderá frear, reverter e culminar em um colapso gravitacional catastrófico chamado Big Crunch.",
+        "highlight_words": [
+          "BIG CRUNCH",
+          "BIG FREEZE",
+          "DESTINO FINAL"
+        ],
+        "stats": {
+          "label": "Cenários Cósmicos",
+          "value": "3 Destinos Possíveis"
+        },
+        "backgroundImage": "assets/video-029-dark-energy-desi-collapse/scene_5.jpg",
+        "panDirection": "dramatic-pulse"
+      },
+      {
+        "id": "scene_6_euclid",
+        "type": "investigation",
+        "visual_theme": "dark-energy-desi-collapse_euclid",
+        "headline": "A CAÇA DEFINITIVA COM EUCLID E ROMAN",
+        "narration": "Na física, três sigma ainda é uma pista forte, não uma sentença final de cinco sigma. Por isso, o telescópio espacial europeu Euclid e o futuro observatório Nancy Grace Roman da NASA estão mapeando bilhões de galáxias distorcidas por lentes gravitacionais para confirmar de vez se Einstein acertou na constante ou se descobrimos uma nova física além do Modelo Padrão.",
+        "highlight_words": [
+          "TELESCÓPIO EUCLID",
+          "NANCY GRACE ROMAN",
+          "PROVA"
+        ],
+        "stats": {
+          "label": "Missões Dedicadas",
+          "value": "Euclid + Roman + DESI"
+        },
+        "backgroundImage": "assets/video-029-dark-energy-desi-collapse/scene_6.jpg",
+        "panDirection": "floating-drift"
+      },
+      {
+        "id": "scene_7_vacuum",
+        "type": "investigation",
+        "visual_theme": "dark-energy-desi-collapse_vacuum",
+        "headline": "O PIOR ERRO TEÓRICO DA HISTÓRIA",
+        "narration": "Descobrir que a Energia Escura muda ao longo do tempo também pode resolver a maior vergonha da física teórica: quando a mecânica quântica calcula a energia do vácuo, o resultado é cento e vinte ordens de grandeza maior do que o valor observado no cosmos. Uma energia dinâmica explicaria por que ela foi diluída para um nível tão pequeno que permitiu que estrelas e vidas existissem.",
+        "highlight_words": [
+          "PROBLEMA DO VÁCUO",
+          "120 ORDENS",
+          "FÍSICA QUÂNTICA"
+        ],
+        "stats": {
+          "label": "Discrepância",
+          "value": "10¹²⁰ Vezes Maior"
+        },
+        "backgroundImage": "assets/video-029-dark-energy-desi-collapse/scene_7.jpg",
+        "panDirection": "tilt-down"
+      },
+      {
+        "id": "scene_8_scapatici_cta",
+        "type": "cta",
+        "visual_theme": "scapatici_space_observatory_community",
+        "headline": "UM NOVO DESTINO PARA O COSMOS?",
+        "narration": "E você, o que acha da possibilidade de a Energia Escura estar enfraquecendo e mudar o futuro do universo? Deixe a sua teoria aqui nos comentários, compartilhe este vídeo com quem é fascinado pelos mistérios do universo, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia, e até o próximo vídeo!",
+        "highlight_words": [
+          "SCAPATICI TECNOLOGIA",
+          "DEIXE SEU COMENTÁRIO",
+          "INSCREVA-SE",
+          "PRÓXIMO VÍDEO"
+        ],
+        "stats": {
+          "label": "Comunidade Oficial",
+          "value": "Scapatici Tecnologia"
+        },
+        "backgroundImage": "assets/video-029-dark-energy-desi-collapse/scene_8.jpg",
+        "panDirection": "zoom-out"
+      }
+    ],
+    "image_queries": {
+      "scene_1.jpg": "dark energy galaxies cosmic web 3d map nasa",
+      "scene_2.jpg": "kitt peak observatory telescope night sky stars",
+      "scene_3.jpg": "expanding universe timeline big bang nasa",
+      "scene_4.jpg": "hubble deep field distant galaxies clusters",
+      "scene_5.jpg": "galaxy cluster gravitational arcs hubble nasa",
+      "scene_6.jpg": "euclid space telescope dark universe esa nasa",
+      "scene_7.jpg": "milky way deep space cosmology stars",
+      "scene_8.jpg": "deep space starry universe pillars of creation webb",
+      "thumbnail.jpg": "cosmic web galaxies map dark energy large scale structure nasa"
+    }
+  },
+  {
+    "id": "video-030-quantum-computing-reality",
+    "slug": "quantum-computing-reality",
+    "title": "Computação Quântica: Como Um Qubit Calcula na Fronteira da Realidade",
+    "topic": "Computação Quântica, Qubits, Superposição, Correção de Erros e Criptografia",
+    "channel": "Scapatici Tecnologia",
+    "target_duration_seconds": 320,
+    "fps": 30,
+    "vinheta_duration_frames": 90,
+    "bg_music_volume": 0.12,
+    "trend_context": {
+      "source": "Curadoria Científica Scapatici",
+      "title": "Computação Quântica: Como Um Qubit Calcula na Fronteira da Realidade"
+    },
+    "thumbnail_text": {
+      "line1": "PODER QUÂNTICO",
+      "line2": "INIMAGINÁVEL!",
+      "subtitle": "COMO FUNCIONA UM QUBIT DE VERDADE | SCAPATICI TECNOLOGIA"
+    },
+    "seo": {
+      "title_options": [
+        "Computação Quântica: Como Um Qubit Calcula na Fronteira da Realidade",
+        "Por Que Um Chip Quântico Quebra Criptografias Que Levariam Trilhões de Anos?",
+        "Superposição e Entrelaçamento: A Física Por Trás dos Computadores Quânticos"
+      ],
+      "description": "Entenda como processadores resfriados perto do zero absoluto usam superposição e interferência quântica para resolver problemas fora do alcance dos supercomputadores.\n\nNeste episódio do canal Scapatici Tecnologia, mergulhamos com rigor científico e dados reais dos observatórios espaciais neste enigma do cosmos.\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para novos documentários todos os dias!\n\n#scapaticitecnologia #computacaoquantica #qubit #fisicaquantica #tecnologia #multiverso #ciencia",
+      "tags": [
+        "scapatici tecnologia",
+        "computacao quantica",
+        "qubit",
+        "fisica quantica",
+        "tecnologia",
+        "multiverso",
+        "ciencia"
+      ]
+    },
+    "shorts_narration": "Os processadores clássicos que movem o mundo moderno transformaram a civilização, mas possuem uma limitação fundamental diante de sistemas moleculares e combinações astronômicas. Para simular perfeitamente uma única molécula complexa de catalisador, um supercomputador clássico precisaria de mais memória do que existe matéria na Terra — e é aí que entra a computação quântica. Cada transistor de silício funciona como um interruptor: ligado ou desligado, um ou zero. Um qubit, feito de loops supercondutores ou íons presos por lasers, comporta-se como uma onda quântica capaz de carregar uma amplitude de probabilidade para zero e um simultaneamente, permitindo que o espaço de cálculo cresça exponencialmente a cada novo qubit adicionado. Muita gente pensa que o computador quântico testa todas as respostas em paralelo e lê todas juntas. Na prática, se você medir direto, obtém apenas um único resultado aleatório! A genialidade dos algoritmos quânticos como os de Peter Shor e Lov Grover está em programar as fases dessas ondas de probabilidade para que as soluções erradas se destruam por interferência destrutiva, deixando apenas a resposta certa brilhar na medição final. O maior inimigo de um processador quântico é a decoerência: qualquer vibração mecânica, campo magnético ou fóton de calor vindo do ambiente funciona como uma observação não desejada que destrói a superposição em microssegundos. Por isso, os chips supercondutores ficam na base de refrigeradores de diluição dourados a quinze milikelvin — mais frio do que a radiação residual do espaço interestelar. Por décadas, críticos afirmavam que quanto mais qubits você colocasse em um chip, mais erros acumulariam até tornar a máquina inútil. Recentemente, físicos cruzaram o chamado limiar de correção de erros quânticos: combinando dezenas de qubits físicos imperfeitos em um único qubit lógico, o aumento da grade finalmente passou a reduzir exponencialmente a taxa de erro em vez de ampliá-la. A investigação completa com todos os detalhes e implicações cósmicas está no vídeo principal do YouTube: acesse o link fixado nos comentários e na descrição, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+    "scenes": [
+      {
+        "id": "scene_1_hook",
+        "type": "hook",
+        "visual_theme": "quantum-computing-reality_hook",
+        "headline": "5 MINUTOS CONTRA A ETERNIDADE",
+        "narration": "Os processadores clássicos que movem o mundo moderno transformaram a civilização, mas possuem uma limitação fundamental diante de sistemas moleculares e combinações astronômicas. Para simular perfeitamente uma única molécula complexa de catalisador, um supercomputador clássico precisaria de mais memória do que existe matéria na Terra — e é aí que entra a computação quântica.",
+        "highlight_words": [
+          "COMPUTAÇÃO QUÂNTICA",
+          "QUBIT",
+          "SEPTILHÕES DE ANOS"
+        ],
+        "stats": {
+          "label": "Diferença de Escala",
+          "value": "5 Min vs 10²⁵ Anos"
+        },
+        "backgroundImage": "assets/video-030-quantum-computing-reality/scene_1.jpg",
+        "panDirection": "zoom-in"
+      },
+      {
+        "id": "scene_2_superposition",
+        "type": "investigation",
+        "visual_theme": "quantum-computing-reality_superposition",
+        "headline": "BIT CLÁSSICO VERSUS QUBIT",
+        "narration": "Cada transistor de silício funciona como um interruptor: ligado ou desligado, um ou zero. Um qubit, feito de loops supercondutores ou íons presos por lasers, comporta-se como uma onda quântica capaz de carregar uma amplitude de probabilidade para zero e um simultaneamente, permitindo que o espaço de cálculo cresça exponencialmente a cada novo qubit adicionado.",
+        "highlight_words": [
+          "SUPERPOSIÇÃO",
+          "ZERO E UM",
+          "ONDA"
+        ],
+        "stats": {
+          "label": "Estado Quântico",
+          "value": "Esfera de Bloch (Superposição)"
+        },
+        "backgroundImage": "assets/video-030-quantum-computing-reality/scene_2.jpg",
+        "panDirection": "pan-right"
+      },
+      {
+        "id": "scene_3_interference",
+        "type": "revelation",
+        "visual_theme": "quantum-computing-reality_interference",
+        "headline": "O SEGREDO DA INTERFERÊNCIA QUÂNTICA",
+        "narration": "Muita gente pensa que o computador quântico testa todas as respostas em paralelo e lê todas juntas. Na prática, se você medir direto, obtém apenas um único resultado aleatório! A genialidade dos algoritmos quânticos como os de Peter Shor e Lov Grover está em programar as fases dessas ondas de probabilidade para que as soluções erradas se destruam por interferência destrutiva, deixando apenas a resposta certa brilhar na medição final.",
+        "highlight_words": [
+          "INTERFERÊNCIA",
+          "ALGORITMO",
+          "CONCELAMENTO"
+        ],
+        "stats": {
+          "label": "Mecanismo Real",
+          "value": "Amplificação de Ondas"
+        },
+        "backgroundImage": "assets/video-030-quantum-computing-reality/scene_3.jpg",
+        "panDirection": "pan-left"
+      },
+      {
+        "id": "scene_4_cold",
+        "type": "investigation",
+        "visual_theme": "quantum-computing-reality_cold",
+        "headline": "MAIS FRIO QUE O ESPAÇO PROFUNDO",
+        "narration": "O maior inimigo de um processador quântico é a decoerência: qualquer vibração mecânica, campo magnético ou fóton de calor vindo do ambiente funciona como uma observação não desejada que destrói a superposição em microssegundos. Por isso, os chips supercondutores ficam na base de refrigeradores de diluição dourados a quinze milikelvin — mais frio do que a radiação residual do espaço interestelar.",
+        "highlight_words": [
+          "15 MILIKELVIN",
+          "DECOERÊNCIA",
+          "ZERO ABSOLUTO"
+        ],
+        "stats": {
+          "label": "Temperatura do Chip",
+          "value": "-273,13 °C (15 mK)"
+        },
+        "backgroundImage": "assets/video-030-quantum-computing-reality/scene_4.jpg",
+        "panDirection": "hyper-zoom"
+      },
+      {
+        "id": "scene_5_correction",
+        "type": "investigation",
+        "visual_theme": "quantum-computing-reality_correction",
+        "headline": "A REVOLUÇÃO DA CORREÇÃO DE ERROS",
+        "narration": "Por décadas, críticos afirmavam que quanto mais qubits você colocasse em um chip, mais erros acumulariam até tornar a máquina inútil. Recentemente, físicos cruzaram o chamado limiar de correção de erros quânticos: combinando dezenas de qubits físicos imperfeitos em um único qubit lógico, o aumento da grade finalmente passou a reduzir exponencialmente a taxa de erro em vez de ampliá-la.",
+        "highlight_words": [
+          "CORREÇÃO DE ERROS",
+          "CÓDIGO DE SUPERFÍCIE",
+          "LIMIAR"
+        ],
+        "stats": {
+          "label": "Avanço Crítico",
+          "value": "Erro Cai ao Crescer"
+        },
+        "backgroundImage": "assets/video-030-quantum-computing-reality/scene_5.jpg",
+        "panDirection": "dramatic-pulse"
+      },
+      {
+        "id": "scene_6_impact",
+        "type": "climax",
+        "visual_theme": "quantum-computing-reality_impact",
+        "headline": "CRIPTOGRAFIA E MEDICINA TRANSFORMADAS",
+        "narration": "Quando computadores quânticos tolerantes a falhas atingirem milhares de qubits lógicos, o impacto será duplo. De um lado, o Algoritmo de Shor poderá fatorar números gigantescos em horas, obrigando bancos e governos a migrar para criptografia pós-quântica. De outro, poderemos projetar fertilizantes ecológicos, baterias revolucionárias, supercondutores e novos fármacos com precisão atômica absoluta.",
+        "highlight_words": [
+          "ALGORITMO DE SHOR",
+          "BATERIAS",
+          "MEDICINA"
+        ],
+        "stats": {
+          "label": "Área de Impacto",
+          "value": "Materiais e Criptografia"
+        },
+        "backgroundImage": "assets/video-030-quantum-computing-reality/scene_6.jpg",
+        "panDirection": "floating-drift"
+      },
+      {
+        "id": "scene_7_multiverse",
+        "type": "investigation",
+        "visual_theme": "quantum-computing-reality_multiverse",
+        "headline": "CALCULANDO EM PARALELO COM A NATUREZA",
+        "narration": "Como disse o físico Richard Feynman, a natureza não é clássica; se você quer simular o universo em seu nível fundamental, é melhor construir um computador que fale a língua quântica nativa da realidade.",
+        "highlight_words": [
+          "DAVID DEUTSCH",
+          "NATUREZA QUÂNTICA",
+          "FRONTEIRA"
+        ],
+        "stats": {
+          "label": "Visão Física",
+          "value": "Simular a Própria Realidade"
+        },
+        "backgroundImage": "assets/video-030-quantum-computing-reality/scene_7.jpg",
+        "panDirection": "tilt-down"
+      },
+      {
+        "id": "scene_8_scapatici_cta",
+        "type": "cta",
+        "visual_theme": "scapatici_space_observatory_community",
+        "headline": "A ERA PÓS-CLÁSSICA COMEÇOU",
+        "narration": "E você, acha que os computadores quânticos vão desvendar a cura de doenças e novos materiais antes do que imaginamos? Deixe a sua teoria aqui nos comentários, compartilhe este vídeo com quem é fascinado pelos mistérios do universo, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia, e até o próximo vídeo!",
+        "highlight_words": [
+          "SCAPATICI TECNOLOGIA",
+          "DEIXE SEU COMENTÁRIO",
+          "INSCREVA-SE",
+          "PRÓXIMO VÍDEO"
+        ],
+        "stats": {
+          "label": "Comunidade Oficial",
+          "value": "Scapatici Tecnologia"
+        },
+        "backgroundImage": "assets/video-030-quantum-computing-reality/scene_8.jpg",
+        "panDirection": "zoom-out"
+      }
+    ],
+    "image_queries": {
+      "scene_1.jpg": "quantum computer laboratory superconducting processor nasa",
+      "scene_2.jpg": "cryogenic refrigerator physics experiment laboratory",
+      "scene_3.jpg": "quantum entanglement laser optics laboratory",
+      "scene_4.jpg": "supercomputer data center cluster technology",
+      "scene_5.jpg": "atomic lattice crystal quantum physics microscope",
+      "scene_6.jpg": "protein folding molecular chemistry simulation",
+      "scene_7.jpg": "deep space cosmic computing stars nebula",
+      "scene_8.jpg": "deep space starry universe pillars of creation webb",
+      "thumbnail.jpg": "quantum computer dilution refrigerator gold chandelier technology"
+    }
+  },
+  {
+    "id": "video-031-alcubierre-warp-drive-physics",
+    "slug": "alcubierre-warp-drive-physics",
+    "title": "Motor de Dobra de Alcubierre: Como Distorcer o Espaço Sem Quebrar Einstein?",
+    "topic": "Métrica de Alcubierre, Motor de Dobra Espacial, Energia Negativa e Viagem Interestelar",
+    "channel": "Scapatici Tecnologia",
+    "target_duration_seconds": 320,
+    "fps": 30,
+    "vinheta_duration_frames": 90,
+    "bg_music_volume": 0.12,
+    "trend_context": {
+      "source": "Curadoria Científica Scapatici",
+      "title": "Motor de Dobra de Alcubierre: Como Distorcer o Espaço Sem Quebrar Einstein?"
+    },
+    "thumbnail_text": {
+      "line1": "DOBRAR O",
+      "line2": "ESPAÇO-TEMPO!",
+      "subtitle": "A BRECHA REAL NAS EQUAÇÕES DE EINSTEIN | SCAPATICI TECNOLOGIA"
+    },
+    "seo": {
+      "title_options": [
+        "Motor de Dobra de Alcubierre: Como Distorcer o Espaço Sem Quebrar Einstein?",
+        "É Possível Viajar Mais Rápido Que a Luz Sem Desrespeitar a Relatividade?",
+        "A Física Real do Motor de Dobra Espacial e o Problema da Energia Negativa"
+      ],
+      "description": "Em 1994, o físico Miguel Alcubierre encontrou uma brecha matemática exata nas equações de Einstein que permite atravessar anos-luz comprimindo o espaço à frente.\n\nNeste episódio do canal Scapatici Tecnologia, mergulhamos com rigor científico e dados reais dos observatórios espaciais neste enigma do cosmos.\n\n🔔 Inscreva-se no canal Scapatici Tecnologia para novos documentários todos os dias!\n\n#scapaticitecnologia #motordedobra #alcubierre #einstein #relatividade #viagemespacial #fisica #ciencia",
+      "tags": [
+        "scapatici tecnologia",
+        "motor de dobra",
+        "alcubierre",
+        "einstein",
+        "relatividade",
+        "viagem espacial",
+        "fisica",
+        "ciencia"
+      ]
+    },
+    "shorts_narration": "Mesmo a nossa estrela vizinha mais próxima, Próxima Centauri, fica a mais de quarenta trilhões de quilômetros. Com os melhores foguetes químicos atuais, uma viagem até lá consumiria mais de setenta mil anos. A barreira da velocidade da luz parece transformar a galáxia inteira em um oceano impossível de cruzar dentro de uma vida humana. A Relatividade Especial proíbe qualquer objeto de acelerar acima da velocidade da luz em relação ao espaço local ao seu redor. Contudo, a Relatividade Geral mostra que o próprio espaço é dinâmico: galáxias muito distantes se afastam de nós mais rápido do que a luz hoje mesmo porque o tecido entre nós e elas está crescendo. Foi dessa propriedade que nasceu o conceito de dobra espacial. Em mil novecentos e noventa e quatro, Miguel Alcubierre publicou uma solução matemática legítima para as equações de Einstein: uma bolha plana de espaço-tempo rodeada por uma casca energética que comprime a distância à frente e a dilata atrás. Dentro do centro calmo dessa bolha, uma espaçonave jamais ultrapassa localmente o limite da luz, escapando até dos efeitos do paradoxo dos gêmeos. Onde está o grande problema? Para manter uma bolha superluminal estável na equação original, seria preciso preencher as paredes da nave com enormes quantidades de densidade de energia negativa — algo que na natureza observamos apenas em escalas microscópicas através do Efeito Casimir no vácuo quântico, trilhões de ordens abaixo do necessário para mover uma única molécula. Nos últimos anos, grupos de físicos teóricos publicaram novas métricas geométricas demonstrando que bolhas de dobra operando abaixo da velocidade da luz não violam as condições de energia positiva conhecidas! Embora ainda exijam quantidades astronômicas de massa comprimida em camadas finíssimas, essas equações tiraram o tópico do campo puramente impossível. A investigação completa com todos os detalhes e implicações cósmicas está no vídeo principal do YouTube: acesse o link fixado nos comentários e na descrição, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+    "scenes": [
+      {
+        "id": "scene_1_hook",
+        "type": "hook",
+        "visual_theme": "alcubierre-warp-drive-physics_hook",
+        "headline": "A PRISÃO DOS 4 ANOS-LUZ",
+        "narration": "Mesmo a nossa estrela vizinha mais próxima, Próxima Centauri, fica a mais de quarenta trilhões de quilômetros. Com os melhores foguetes químicos atuais, uma viagem até lá consumiria mais de setenta mil anos. A barreira da velocidade da luz parece transformar a galáxia inteira em um oceano impossível de cruzar dentro de uma vida humana.",
+        "highlight_words": [
+          "ALFA CENTAURI",
+          "40 MIL ANOS",
+          "BARREIRA CÓSMICA"
+        ],
+        "stats": {
+          "label": "Estrela Mais Próxima",
+          "value": "4,24 Anos-Luz (40 Trilhões km)"
+        },
+        "backgroundImage": "assets/video-031-alcubierre-warp-drive-physics/scene_1.jpg",
+        "panDirection": "zoom-in"
+      },
+      {
+        "id": "scene_2_loophole",
+        "type": "investigation",
+        "visual_theme": "alcubierre-warp-drive-physics_loophole",
+        "headline": "O TRUQUE DA ESTEIRA ROLANTE CÓSMICA",
+        "narration": "A Relatividade Especial proíbe qualquer objeto de acelerar acima da velocidade da luz em relação ao espaço local ao seu redor. Contudo, a Relatividade Geral mostra que o próprio espaço é dinâmico: galáxias muito distantes se afastam de nós mais rápido do que a luz hoje mesmo porque o tecido entre nós e elas está crescendo. Foi dessa propriedade que nasceu o conceito de dobra espacial.",
+        "highlight_words": [
+          "ESPAÇO EXPANDINDO",
+          "BIG BANG",
+          "RELATIVIDADE"
+        ],
+        "stats": {
+          "label": "Regra de Einstein",
+          "value": "O Espaço Pode Expandir > C"
+        },
+        "backgroundImage": "assets/video-031-alcubierre-warp-drive-physics/scene_2.jpg",
+        "panDirection": "pan-right"
+      },
+      {
+        "id": "scene_3_alcubierre",
+        "type": "revelation",
+        "visual_theme": "alcubierre-warp-drive-physics_alcubierre",
+        "headline": "A EQUAÇÃO REAL DE MIGUEL ALCUBIERRE",
+        "narration": "Em mil novecentos e noventa e quatro, Miguel Alcubierre publicou uma solução matemática legítima para as equações de Einstein: uma bolha plana de espaço-tempo rodeada por uma casca energética que comprime a distância à frente e a dilata atrás. Dentro do centro calmo dessa bolha, uma espaçonave jamais ultrapassa localmente o limite da luz, escapando até dos efeitos do paradoxo dos gêmeos.",
+        "highlight_words": [
+          "MIGUEL ALCUBIERRE",
+          "BOLHA DE DOBRA",
+          "1994"
+        ],
+        "stats": {
+          "label": "Efeito Interno",
+          "value": "Gravidade Zero na Cabine"
+        },
+        "backgroundImage": "assets/video-031-alcubierre-warp-drive-physics/scene_3.jpg",
+        "panDirection": "pan-left"
+      },
+      {
+        "id": "scene_4_exotic",
+        "type": "investigation",
+        "visual_theme": "alcubierre-warp-drive-physics_exotic",
+        "headline": "O MURO DA ENERGIA NEGATIVA",
+        "narration": "Onde está o grande problema? Para manter uma bolha superluminal estável na equação original, seria preciso preencher as paredes da nave com enormes quantidades de densidade de energia negativa — algo que na natureza observamos apenas em escalas microscópicas através do Efeito Casimir no vácuo quântico, trilhões de ordens abaixo do necessário para mover uma única molécula.",
+        "highlight_words": [
+          "MATÉRIA EXÓTICA",
+          "EFEITO CASIMIR",
+          "MASSA NEGATIVA"
+        ],
+        "stats": {
+          "label": "Custo Original",
+          "value": "Maior Que Toda a Via Láctea"
+        },
+        "backgroundImage": "assets/video-031-alcubierre-warp-drive-physics/scene_4.jpg",
+        "panDirection": "hyper-zoom"
+      },
+      {
+        "id": "scene_5_new_models",
+        "type": "investigation",
+        "visual_theme": "alcubierre-warp-drive-physics_new_models",
+        "headline": "REFORMULANDO AS SOLUÇÕES SUBLUMINAIS",
+        "narration": "Nos últimos anos, grupos de físicos teóricos publicaram novas métricas geométricas demonstrando que bolhas de dobra operando abaixo da velocidade da luz não violam as condições de energia positiva conhecidas! Embora ainda exijam quantidades astronômicas de massa comprimida em camadas finíssimas, essas equações tiraram o tópico do campo puramente impossível.",
+        "highlight_words": [
+          "LENTZ / BOBRICK",
+          "SEM ENERGIA NEGATIVA",
+          "SUBLUMINAL"
+        ],
+        "stats": {
+          "label": "Avanço Teórico",
+          "value": "Bolhas de Energia Positiva"
+        },
+        "backgroundImage": "assets/video-031-alcubierre-warp-drive-physics/scene_5.jpg",
+        "panDirection": "dramatic-pulse"
+      },
+      {
+        "id": "scene_6_hazards",
+        "type": "climax",
+        "visual_theme": "alcubierre-warp-drive-physics_hazards",
+        "headline": "O PERIGO DE CHEGAR AO DESTINO",
+        "narration": "Mesmo que um dia dominemos a energia para criar uma bolha superluminal, cálculos adicionais revelam dois riscos extremos: um horizonte interno aqueceria a cabine pela própria Radiação de Hawking, e todas as partículas espaciais varridas pela borda dianteira acumulariam energia infinita, sendo disparadas como um canhão mortal de raios gama no instante em que a nave freasse no destino.",
+        "highlight_words": [
+          "RADIAÇÃO DE HAWKING",
+          "PARTÍCULAS PRESAS",
+          "EXPLOSÃO NA PARADA"
+        ],
+        "stats": {
+          "label": "Risco Quântico",
+          "value": "Feixe Letal ao Frear"
+        },
+        "backgroundImage": "assets/video-031-alcubierre-warp-drive-physics/scene_6.jpg",
+        "panDirection": "floating-drift"
+      },
+      {
+        "id": "scene_7_value",
+        "type": "investigation",
+        "visual_theme": "alcubierre-warp-drive-physics_value",
+        "headline": "POR QUE ESTUDAR EQUAÇÕES TÃO EXTREMAS?",
+        "narration": "Estudar métricas extremas como a de Alcubierre serve como laboratório mental indispensável para testar onde a Relatividade Geral de Einstein se choca com a mecânica quântica — guiando os físicos até a tão sonhada Teoria de Tudo.",
+        "highlight_words": [
+          "GRAVIDADE QUÂNTICA",
+          "FRONTEIRAS DA FÍSICA",
+          "FUTURO"
+        ],
+        "stats": {
+          "label": "Benefício Real",
+          "value": "Testar Limites da Gravidade"
+        },
+        "backgroundImage": "assets/video-031-alcubierre-warp-drive-physics/scene_7.jpg",
+        "panDirection": "tilt-down"
+      },
+      {
+        "id": "scene_8_scapatici_cta",
+        "type": "cta",
+        "visual_theme": "scapatici_space_observatory_community",
+        "headline": "UM ATALHO ENTRE AS ESTRELAS?",
+        "narration": "E você, acredita que uma física quântica ainda mais profunda permitirá um dia comprimir o espaço entre estrelas? Deixe a sua teoria aqui nos comentários, compartilhe este vídeo com quem é fascinado pelos mistérios do universo, inscreva-se no canal Scapatici Tecnologia para desvendar as maiores fronteiras da ciência e da tecnologia, e até o próximo vídeo!",
+        "highlight_words": [
+          "SCAPATICI TECNOLOGIA",
+          "DEIXE SEU COMENTÁRIO",
+          "INSCREVA-SE",
+          "PRÓXIMO VÍDEO"
+        ],
+        "stats": {
+          "label": "Comunidade Oficial",
+          "value": "Scapatici Tecnologia"
+        },
+        "backgroundImage": "assets/video-031-alcubierre-warp-drive-physics/scene_8.jpg",
+        "panDirection": "zoom-out"
+      }
+    ],
+    "image_queries": {
+      "scene_1.jpg": "interstellar spacecraft futuristic concept stars",
+      "scene_2.jpg": "gravitational wave spacetime grid simulation",
+      "scene_3.jpg": "quantum vacuum casimir effect physics experiment",
+      "scene_4.jpg": "alpha centauri star system space telescopes",
+      "scene_5.jpg": "einstein general relativity curved spacetime cosmos",
+      "scene_6.jpg": "relativistic jet high energy space beam",
+      "scene_7.jpg": "deep space nebula stars exploration",
+      "scene_8.jpg": "deep space starry universe pillars of creation webb",
+      "thumbnail.jpg": "spacecraft warp space time grid relativity stars"
+    }
   }
 ]

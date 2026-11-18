@@ -6,9 +6,11 @@ fotografia científica do Wikimedia Commons e fallback procedural anti-404.
 
 import io
 import os
+import re
 import json
 import time
 import hashlib
+import urllib.error
 import urllib.parse
 import urllib.request
 from PIL import Image
@@ -16,6 +18,9 @@ from PIL import Image
 from media.fallback_visuals import is_valid_image, generate_cosmic_artwork
 
 USER_AGENT = "SimpleTube-CinematicEngine/2.0 (https://github.com/scapaticitecnologia/simple-tube)"
+AI_MIN_INTERVAL_SEC = 16.0
+_AI_DISABLED = False
+_AI_LAST_CALL = 0.0
 
 
 def is_valid_video(path: str, min_bytes: int = 100_000) -> bool:
@@ -67,17 +72,23 @@ def generate_ai_image(
     height: int = 1080,
     seed: int = 42,
 ) -> bool:
-    """Gera imagem cinematográfica inédita via Pollinations.ai (sem necessidade de API key)."""
+    """Gera imagem cinematográfica inédita via Pollinations.ai (respeitando limite anônimo e com disjuntor)."""
+    global _AI_DISABLED, _AI_LAST_CALL
+    if _AI_DISABLED:
+        return False
     encoded = urllib.parse.quote(prompt, safe="")
-    # Usa dimensões múltiplas de 16 otimizadas para geração rápida e nítida
     gen_w = 1088 if width < height else 1280
     gen_h = 1920 if width < height else 720
-    url = f"https://image.pollinations.ai/prompt/{encoded}?width={gen_w}&height={gen_h}&seed={seed}&nologo=true&enhance=true"
+    url = f"https://image.pollinations.ai/prompt/{encoded}?width={gen_w}&height={gen_h}&seed={seed}&nologo=true"
 
     for attempt in range(1, 3):
+        wait = AI_MIN_INTERVAL_SEC - (time.time() - _AI_LAST_CALL)
+        if wait > 0:
+            time.sleep(wait)
         try:
+            _AI_LAST_CALL = time.time()
             req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-            with urllib.request.urlopen(req, timeout=45) as resp:
+            with urllib.request.urlopen(req, timeout=60) as resp:
                 raw = resp.read()
             img = Image.open(io.BytesIO(raw)).convert("RGB")
             img = img.resize((width, height), Image.Resampling.LANCZOS)
@@ -85,12 +96,45 @@ def generate_ai_image(
             img.save(out_path, format="JPEG", quality=94)
             if is_valid_image(out_path):
                 return True
+        except urllib.error.HTTPError as http_err:
+            if http_err.code in (401, 402, 403):
+                _AI_DISABLED = True
+                print(f"[MEDIA IA] ⛔ Gerador IA recusou ({http_err.code}). Desativado nesta execução; usando acervo real.", flush=True)
+                return False
+            print(f"[MEDIA IA] ⚠️ Tentativa {attempt} falhou ({http_err.code}).", flush=True)
         except Exception as exc:
-            if attempt == 1:
-                time.sleep(2)
-            else:
-                print(f"[MEDIA IA] ⚠️ Falha Pollinations ({exc})", flush=True)
+            print(f"[MEDIA IA] ⚠️ Tentativa {attempt} falhou ({exc}).", flush=True)
     return False
+
+
+_STOP_QUERY_WORDS = {"nasa", "webb", "hubble", "8k", "4k", "with", "the", "and", "of", "in", "on", "from",
+                     "artist", "concept", "image", "close", "up", "full", "high", "resolution", "visualization"}
+
+
+def _query_keywords(query: str) -> list:
+    return [w for w in re.findall(r"[a-z0-9]+", query.lower()) if len(w) > 2 and w not in _STOP_QUERY_WORDS]
+
+
+def _relevance(query: str, text: str) -> int:
+    text_l = (text or "").lower()
+    return sum(1 for k in _query_keywords(query) if k in text_l)
+
+
+def _sub_queries(query: str) -> list:
+    kws = _query_keywords(query)
+    subs = [query]
+    if len(kws) >= 4:
+        subs.append(" ".join(kws[:4]))
+    if len(kws) >= 3:
+        subs.append(" ".join(kws[:3]))
+    if len(kws) >= 2:
+        subs.append(" ".join(kws[:2]))
+    seen, out = set(), []
+    for s in subs:
+        if s not in seen:
+            seen.add(s)
+            out.append(s)
+    return out
 
 
 def fetch_nasa_video_clip(
@@ -99,11 +143,8 @@ def fetch_nasa_video_clip(
     used_urls: set,
     max_mb: float = 24.0,
 ) -> bool:
-    """Busca e baixa um clipe MP4 real da NASA pertinente ao tema da cena."""
-    clean_words = [w for w in query.split() if w.lower() not in ("nasa", "webb", "hubble", "8k", "4k")]
-    attempts = [query]
-    if len(clean_words) >= 2:
-        attempts.append(" ".join(clean_words[:3]))
+    """Busca e baixa um clipe MP4 real da NASA, exigindo relevância temática comprovada no título/descrição."""
+    attempts = _sub_queries(query)[:3]
 
     for q in attempts:
         search_url = f"https://images-api.nasa.gov/search?q={urllib.parse.quote(q)}&media_type=video"
@@ -115,6 +156,11 @@ def fetch_nasa_video_clip(
             for item in items[:12]:
                 href = item.get("href")
                 if not href:
+                    continue
+                meta = (item.get("data") or [{}])[0]
+                meta_text = f"{meta.get('title', '')} {' '.join(meta.get('keywords', []) or [])}"
+                # Evita entrevistas, coletivas e vídeos sem relação direta com a cena
+                if _relevance(query, meta_text) < 2 or re.search(r"interview|briefing|conference|talk|podcast|webinar|q&a", meta_text, re.I):
                     continue
                 try:
                     m_req = urllib.request.Request(href, headers={"User-Agent": USER_AGENT})
@@ -167,13 +213,20 @@ def fetch_wikimedia_image(
     width: int = 1920,
     height: int = 1080,
 ) -> bool:
-    """Busca fotografia científica/tecnológica real em alta resolução no Wikimedia Commons."""
+    """Busca fotografia científica/tecnológica real em alta resolução no Wikimedia Commons (com relevância)."""
+    for q in _sub_queries(query)[1:] or [query]:
+        if _fetch_wikimedia_single(q, query, out_path, used_urls, width, height):
+            return True
+    return False
+
+
+def _fetch_wikimedia_single(q: str, full_query: str, out_path: str, used_urls: set, width: int, height: int) -> bool:
     params = urllib.parse.urlencode({
         "action": "query",
         "generator": "search",
-        "gsrsearch": query,
+        "gsrsearch": q,
         "gsrnamespace": 6,
-        "gsrlimit": 6,
+        "gsrlimit": 8,
         "prop": "imageinfo",
         "iiprop": "url|mime|size",
         "format": "json",
@@ -185,6 +238,8 @@ def fetch_wikimedia_image(
             data = json.loads(resp.read().decode("utf-8"))
         pages = list((data.get("query") or {}).get("pages", {}).values())
         for page in pages:
+            if _relevance(full_query, page.get("title", "")) < 1:
+                continue
             info = (page.get("imageinfo") or [{}])[0]
             img_url = info.get("url")
             mime = info.get("mime", "")
@@ -235,12 +290,13 @@ def acquire_scene_media(
     allow_video: bool = True,
 ) -> tuple:
     """
-    Obtém mídia cinematográfica dinâmica para uma cena:
-    1) Vídeo MP4 real da NASA em cenas-chave de movimento/clímax (quando `allow_video=True`)
-    2) Arte cinematográfica inédita gerada por IA (Pollinations Flux) fiel à narrativa
-    3) Fotografia real do Wikimedia Commons (ótimo para física/tecnologia/laboratórios)
-    4) NASA Image API estritamente relacionada ao tema
+    Obtém mídia cinematográfica para uma cena, sempre ligada ao tema da narrativa:
+    1) Vídeo MP4 real da NASA com relevância comprovada (cenas-chave)
+    2) Arte cinematográfica gerada por IA fiel à cena (quando o gerador estiver disponível)
+    3) NASA Image API com relevância temática (sub-consultas progressivas)
+    4) Fotografia real do Wikimedia Commons
     5) Arte cósmica procedural 1080p como fallback final
+    Fotos reais são mantidas em 16:9 e exibidas pelo Ambient Canvas no 9:16 (sem cortes agressivos).
     Retorna: (kind: 'video'|'image', relative_asset_path: str, source_label: str)
     """
     img_name = f"scene_{scene_idx + 1}.jpg"
@@ -248,40 +304,31 @@ def acquire_scene_media(
     img_dest = os.path.join(assets_dir, img_name)
     vid_dest = os.path.join(assets_dir, vid_name)
 
-    target_w, target_h = (1080, 1920) if is_vertical else (1920, 1080)
+    ai_w, ai_h = (1080, 1920) if is_vertical else (1920, 1080)
     query = (query_override or scene.get("visual_theme") or scene.get("headline") or project_title).strip()
     seed_int = int(hashlib.sha256(f"{project_id}_{scene_idx}_{query}".encode("utf-8")).hexdigest()[:8], 16)
 
-    # Se já existir vídeo ou imagem válida, reutiliza
     if allow_video and is_valid_video(vid_dest):
         return ("video", f"assets/{project_id}/{vid_name}", "cache-video")
-    if is_valid_image(img_dest) and not (allow_video and scene_idx in (0, 2, 4)):
+    if is_valid_image(img_dest):
         return ("image", f"assets/{project_id}/{img_name}", "cache-image")
 
-    # 1. Cenas estratégicas de movimento/clímax tentam vídeo MP4 real da NASA primeiro
     wants_video = allow_video and (scene_idx in (0, 2, 4) or scene.get("type") == "climax")
     if wants_video and fetch_nasa_video_clip(query, vid_dest, used_urls):
         return ("video", f"assets/{project_id}/{vid_name}", "nasa-mp4")
 
-    # 2. Geração dinâmica por IA alinhada ao roteiro exato da cena
-    if not is_valid_image(img_dest):
-        ai_prompt = build_cinematic_prompt(scene, project_title, scene_idx=scene_idx, is_vertical=is_vertical)
-        if generate_ai_image(ai_prompt, img_dest, width=target_w, height=target_h, seed=seed_int):
-            return ("image", f"assets/{project_id}/{img_name}", "ai-pollinations")
+    ai_prompt = build_cinematic_prompt(scene, project_title, scene_idx=scene_idx, is_vertical=is_vertical)
+    if generate_ai_image(ai_prompt, img_dest, width=ai_w, height=ai_h, seed=seed_int):
+        return ("image", f"assets/{project_id}/{img_name}", "ai-pollinations")
 
-        # 3. Wikimedia Commons (fotos reais de laboratórios, telescópios, física, tecnologia)
-        if fetch_wikimedia_image(query, img_dest, used_urls, width=target_w, height=target_h):
-            return ("image", f"assets/{project_id}/{img_name}", "wikimedia")
+    if _fetch_strict_nasa_image(query, img_dest, used_urls, width=1920, height=1080):
+        return ("image", f"assets/{project_id}/{img_name}", "nasa-image")
 
-        # 4. NASA Image API estritamente para a query (sem fallback cego para nebulosas genéricas)
-        if _fetch_strict_nasa_image(query, img_dest, used_urls, width=target_w, height=target_h):
-            return ("image", f"assets/{project_id}/{img_name}", "nasa-image")
+    if fetch_wikimedia_image(query, img_dest, used_urls, width=1920, height=1080):
+        return ("image", f"assets/{project_id}/{img_name}", "wikimedia")
 
-        # 5. Fallback procedural garantido
-        generate_cosmic_artwork(img_dest, seed_key=f"{project_id}_{img_name}_{query}")
-        return ("image", f"assets/{project_id}/{img_name}", "procedural-fallback")
-
-    return ("image", f"assets/{project_id}/{img_name}", "cache-image")
+    generate_cosmic_artwork(img_dest, seed_key=f"{project_id}_{img_name}_{query}")
+    return ("image", f"assets/{project_id}/{img_name}", "procedural-fallback")
 
 
 def _fetch_strict_nasa_image(
@@ -291,35 +338,42 @@ def _fetch_strict_nasa_image(
     width: int = 1920,
     height: int = 1080,
 ) -> bool:
-    """Busca imagem NASA apenas para a query temática real, sem recorrer a nebulosas repetidas."""
-    url = f"https://images-api.nasa.gov/search?q={urllib.parse.quote(query)}&media_type=image"
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-        for item in data.get("collection", {}).get("items", [])[:15]:
-            href = item.get("href")
-            if not href:
-                continue
-            try:
-                m_req = urllib.request.Request(href, headers={"User-Agent": USER_AGENT})
-                with urllib.request.urlopen(m_req, timeout=12) as m_resp:
-                    assets = json.loads(m_resp.read().decode("utf-8"))
-                candidates = [a for a in assets if isinstance(a, str) and a.lower().endswith(".jpg")]
-                chosen = next((c for pref in ("~large.jpg", "~orig.jpg", "~medium.jpg") for c in candidates if pref in c and c not in used_urls), None)
-                if not chosen:
+    """Busca imagem NASA relevante ao tema (sub-consultas progressivas), sem recorrer a nebulosas genéricas."""
+    for q in _sub_queries(query):
+        url = f"https://images-api.nasa.gov/search?q={urllib.parse.quote(q)}&media_type=image"
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            for item in data.get("collection", {}).get("items", [])[:15]:
+                href = item.get("href")
+                if not href:
                     continue
-                dl_req = urllib.request.Request(chosen, headers={"User-Agent": USER_AGENT})
-                with urllib.request.urlopen(dl_req, timeout=25) as r:
-                    img = Image.open(io.BytesIO(r.read())).convert("RGB")
-                img = _center_crop_resize(img, width, height)
-                os.makedirs(os.path.dirname(os.path.abspath(out_path)), exist_ok=True)
-                img.save(out_path, format="JPEG", quality=94)
-                if is_valid_image(out_path):
-                    used_urls.add(chosen)
-                    return True
-            except Exception:
-                continue
-    except Exception:
-        pass
+                meta = (item.get("data") or [{}])[0]
+                meta_text = f"{meta.get('title', '')} {meta.get('description', '')[:400]} {' '.join(meta.get('keywords', []) or [])}"
+                if _relevance(query, meta_text) < 2:
+                    continue
+                try:
+                    m_req = urllib.request.Request(href, headers={"User-Agent": USER_AGENT})
+                    with urllib.request.urlopen(m_req, timeout=12) as m_resp:
+                        assets = json.loads(m_resp.read().decode("utf-8"))
+                    candidates = [a for a in assets if isinstance(a, str) and a.lower().endswith(".jpg")]
+                    chosen = next((c for pref in ("~large.jpg", "~orig.jpg", "~medium.jpg") for c in candidates if pref in c and c not in used_urls), None)
+                    if not chosen:
+                        continue
+                    dl_req = urllib.request.Request(chosen, headers={"User-Agent": USER_AGENT})
+                    with urllib.request.urlopen(dl_req, timeout=25) as r:
+                        img = Image.open(io.BytesIO(r.read())).convert("RGB")
+                    if img.size[0] < 900:
+                        continue
+                    img = _center_crop_resize(img, width, height)
+                    os.makedirs(os.path.dirname(os.path.abspath(out_path)), exist_ok=True)
+                    img.save(out_path, format="JPEG", quality=94)
+                    if is_valid_image(out_path):
+                        used_urls.add(chosen)
+                        return True
+                except Exception:
+                    continue
+        except Exception:
+            continue
     return False

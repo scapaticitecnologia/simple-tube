@@ -672,7 +672,19 @@ def produce_and_publish_slot(slot_name: str, prepare_only: bool = False):
         replenish_tiktok_slots_queue,
         get_global_used_slugs,
         extract_canonical_slug,
+        is_professional_ptbr_content,
     )
+
+    # Grade curada profissional (prioridade máxima após a grade estática original)
+    curated_file = os.path.join(PROJECT_DIR, "pipeline", "curated_tiktok_topics.json")
+    curated_candidates = []
+    if os.path.exists(curated_file):
+        try:
+            with open(curated_file, "r", encoding="utf-8") as cf:
+                curated_candidates = json.load(cf).get(slot_name, [])
+        except Exception as ce:
+            print(f"[TIKTOK SLOTS] ⚠️ Falha ao ler grade curada: {ce}", flush=True)
+    static_candidates = list(static_candidates) + list(curated_candidates)
 
     tt_queue = load_generated_tiktok_queue()
     candidates = list(static_candidates) + list(tt_queue.get(slot_name, []))
@@ -688,14 +700,19 @@ def produce_and_publish_slot(slot_name: str, prepare_only: bool = False):
         if s:
             global_blocked.add(s)
 
-    # Escolhe o primeiro tema realmente inédito em todo o ecossistema
+    # Escolhe o primeiro tema realmente inédito em todo o ecossistema e aprovado no portão de qualidade
     target = None
     for cand in candidates:
         cand_id = cand["id"]
         cand_slug = extract_canonical_slug(cand_id)
-        if cand_id not in published_set and cand_slug not in global_blocked:
-            target = cand
-            break
+        if cand_id in published_set or cand_slug in global_blocked:
+            continue
+        approved, reason = is_professional_ptbr_content(cand)
+        if not approved:
+            print(f"[TIKTOK SLOTS] 🚫 Tema reprovado no controle de qualidade ({cand_id}): {reason}", flush=True)
+            continue
+        target = cand
+        break
 
     if not target:
         # Lista do slot esgotou ou continha apenas temas já usados no 09h: reabastece 7 dias sem colisões
@@ -705,7 +722,7 @@ def produce_and_publish_slot(slot_name: str, prepare_only: bool = False):
         for cand in candidates:
             cand_id = cand["id"]
             cand_slug = extract_canonical_slug(cand_id)
-            if cand_id not in published_set and cand_slug not in global_blocked:
+            if cand_id not in published_set and cand_slug not in global_blocked and is_professional_ptbr_content(cand)[0]:
                 target = cand
                 break
 

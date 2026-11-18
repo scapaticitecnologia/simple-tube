@@ -1,0 +1,230 @@
+{
+  "16h": [
+    {
+      "id": "tiktok-013-betelgeuse-supernova",
+      "title": "Betelgeuse vai explodir? O dia em que veremos uma estrela brilhar de dia",
+      "headline": "A SUPERGIGANTE PRESTES A MORRER",
+      "description": "A supergigante vermelha de Órion está nos estágios finais da vida. Entenda o que acontece quando ela virar supernova e por que a Terra está segura.",
+      "narration": "Imagine olhar para o céu e ver uma estrela brilhando quase tanto quanto a Lua cheia, visível até mesmo durante o dia. Esse cenário não é ficção: ele vai acontecer quando Betelgeuse explodir. Betelgeuse é o ombro avermelhado da constelação de Órion, uma supergigante tão colossal que, se estivesse no lugar do Sol, sua superfície ultrapassaria a órbita de Marte. Ela já queimou quase todo o hidrogênio do seu núcleo e agora sobrevive fundindo elementos cada vez mais pesados, como hélio, carbono e oxigênio, em camadas que lembram uma cebola cósmica. Quando o núcleo se transformar em ferro, a fusão deixará de liberar energia. Em uma fração de segundo, o núcleo desaba sobre si mesmo, e a estrela explode como supernova. Entre o fim de dois mil e dezenove e o início de dois mil e vinte, Betelgeuse escureceu de forma inédita, perdendo quase dois terços do seu brilho. O mundo inteiro se perguntou se a explosão estava próxima. Os telescópios revelaram que a estrela havia expelido uma enorme nuvem de poeira, que bloqueou parte da sua luz. A boa notícia é que estamos seguros: Betelgeuse está a mais de quinhentos anos-luz, distante demais para causar qualquer dano à Terra. A má notícia, para os curiosos, é que a explosão pode acontecer amanhã ou daqui a cem mil anos. Quando acontecer, partículas chamadas neutrinos chegarão antes da luz, e os detectores subterrâneos darão o primeiro alerta da humanidade. Siga o perfil, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+      "tags": ["scapaticitecnologia", "betelgeuse", "supernova", "astronomia", "orion", "estrelas", "ciencia", "universo"],
+      "chapters": [
+        {"headline": "1. A ESTRELA QUE BRILHARÁ DE DIA", "stats": {"label": "BRILHO NA EXPLOSÃO", "value": "COMPARÁVEL À LUA CHEIA"}, "image_query": "red supergiant star betelgeuse glowing in orion constellation night sky"},
+        {"headline": "2. UM GIGANTE MAIOR QUE A ÓRBITA DE MARTE", "stats": {"label": "DIÂMETRO ESTIMADO", "value": "~760 VEZES O SOL"}, "image_query": "giant red star size comparison with our sun and solar system orbits"},
+        {"headline": "3. A CEBOLA CÓSMICA DE ELEMENTOS", "stats": {"label": "ÚLTIMA ETAPA DE FUSÃO", "value": "NÚCLEO DE FERRO"}, "image_query": "cutaway of massive star interior layers fusion shells glowing core"},
+        {"headline": "4. O GRANDE ESCURECIMENTO", "stats": {"label": "PERDA DE BRILHO (2019-2020)", "value": "~2/3 DA LUZ"}, "image_query": "red supergiant star partially obscured by dark dust cloud ejection"},
+        {"headline": "5. O COLAPSO EM FRAÇÃO DE SEGUNDO", "stats": {"label": "DISTÂNCIA DA TERRA", "value": "+500 ANOS-LUZ"}, "image_query": "supernova explosion massive star shockwave bright blast in space"},
+        {"headline": "6. O ALERTA DOS NEUTRINOS", "stats": {"label": "PRIMEIRO AVISO", "value": "HORAS ANTES DA LUZ"}, "image_query": "underground neutrino detector tank with thousands of golden sensors"}
+      ]
+    },
+    {
+      "id": "tiktok-014-tardigrades-space",
+      "title": "O animal que sobreviveu ao vácuo do espaço: conheça o tardígrado",
+      "headline": "O SER VIVO MAIS RESISTENTE DA TERRA",
+      "description": "Com menos de um milímetro, o urso-d'água resistiu ao vácuo e à radiação espacial. A biologia por trás da criptobiose e o que ela ensina para missões a Marte.",
+      "narration": "Existe um animal com menos de um milímetro que já sobreviveu exposto ao vácuo do espaço. Ele se chama tardígrado, também conhecido como urso-d'água, e vive em musgos, no fundo dos oceanos e até no gelo da Antártida. Em dois mil e sete, uma missão europeia levou tardígrados desidratados para a órbita da Terra e os deixou expostos ao vácuo e à radiação cósmica por dez dias. Ao voltarem, muitos foram reidratados e continuaram vivos, alguns até se reproduzindo normalmente. O segredo está em um estado chamado criptobiose. Quando o ambiente fica hostil, o tardígrado expulsa quase toda a água do corpo, recolhe as patas e se transforma em uma pequena cápsula seca. Seu metabolismo cai para menos de um centésimo de um por cento do normal. Nesse estado, ele aguenta temperaturas próximas do zero absoluto, calor acima de cem graus Celsius por curtos períodos e pressões seis vezes maiores que as do ponto mais profundo do oceano. Pesquisadores japoneses descobriram ainda uma proteína exclusiva desses animais, que envolve o DNA como um escudo e reduz os danos causados pela radiação. Quando essa proteína foi inserida em células humanas em laboratório, elas passaram a resistir melhor aos raios X. Isso abre caminho para proteger astronautas em viagens longas até Marte. Em dois mil e dezenove, uma sonda israelense caiu na Lua carregando tardígrados desidratados. Até hoje, ninguém sabe se eles continuam lá, adormecidos, esperando por uma gota de água. Siga o perfil, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+      "tags": ["scapaticitecnologia", "tardigrado", "biologia", "astrobiologia", "espaco", "ciencia", "curiosidades", "vida"],
+      "chapters": [
+        {"headline": "1. O MICRO-ANIMAL INDESTRUTÍVEL", "stats": {"label": "TAMANHO MÉDIO", "value": "0,5 MILÍMETRO"}, "image_query": "tardigrade water bear microscopic animal scanning electron microscope close up"},
+        {"headline": "2. DEZ DIAS NO VÁCUO DO ESPAÇO", "stats": {"label": "EXPOSIÇÃO EM ÓRBITA", "value": "10 DIAS (2007)"}, "image_query": "small capsule satellite orbiting earth in space sunlight"},
+        {"headline": "3. A CRIPTOBIOSE", "stats": {"label": "METABOLISMO", "value": "< 0,01% DO NORMAL"}, "image_query": "dehydrated tardigrade curled into dry capsule microscope image"},
+        {"headline": "4. LIMITES EXTREMOS", "stats": {"label": "PRESSÃO SUPORTADA", "value": "6x A FOSSA DAS MARIANAS"}, "image_query": "frozen antarctic ice and moss microscopic life extreme environment"},
+        {"headline": "5. O ESCUDO DO DNA", "stats": {"label": "PROTEÇÃO", "value": "MENOS DANOS POR RAIOS X"}, "image_query": "glowing dna double helix protected by shield laboratory visualization"},
+        {"headline": "6. TARDÍGRADOS NA LUA", "stats": {"label": "QUEDA DA SONDA", "value": "ABRIL DE 2019"}, "image_query": "lunar surface crater with crashed small spacecraft earth in sky"}
+      ]
+    },
+    {
+      "id": "tiktok-015-antimatter-mystery",
+      "title": "Por que o universo existe? O mistério da antimatéria desaparecida",
+      "headline": "O ERRO QUE CRIOU TUDO",
+      "description": "O Big Bang deveria ter criado matéria e antimatéria em partes iguais, e tudo teria se aniquilado. Por que sobrou algo? A física do maior mistério da existência.",
+      "narration": "De acordo com as leis da física, você não deveria existir. Nem você, nem a Terra, nem as estrelas. No instante do Big Bang, a energia deveria ter criado matéria e antimatéria em quantidades exatamente iguais. A antimatéria é como um gêmeo espelhado da matéria: o elétron, por exemplo, tem o pósitron, com a mesma massa e a carga elétrica oposta. E quando matéria e antimatéria se encontram, elas se aniquilam por completo, transformando-se em um clarão de energia pura. Se as quantidades fossem perfeitamente iguais, todo o universo teria se apagado em luz logo no início. Mas algo aconteceu. Para cada bilhão de pares de partículas aniquiladas, sobrou uma única partícula de matéria. Tudo o que vemos hoje, todas as galáxias, planetas e seres vivos, é feito desse minúsculo excedente. Os físicos chamam essa diferença de quebra de simetria entre matéria e antimatéria. No Grande Colisor de Hádrons, na Suíça, experimentos já mediram pequenas diferenças no comportamento de partículas e antipartículas, mas elas são fracas demais para explicar tudo. Enquanto isso, no laboratório europeu CERN, cientistas conseguem aprisionar átomos de anti-hidrogênio em armadilhas magnéticas. Em dois mil e vinte e três, eles comprovaram que a antimatéria cai para baixo, assim como a matéria comum, descartando a ideia de uma antigravidade. A antimatéria também é a substância mais cara da Terra: produzir um único grama custaria trilhões de dólares. Descobrir por que a matéria venceu essa batalha é responder à pergunta mais antiga de todas: por que existe algo, em vez de nada? Siga o perfil, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+      "tags": ["scapaticitecnologia", "antimateria", "bigbang", "fisica", "cern", "particulas", "ciencia", "universo"],
+      "chapters": [
+        {"headline": "1. VOCÊ NÃO DEVERIA EXISTIR", "stats": {"label": "PROPORÇÃO PREVISTA", "value": "50% MATÉRIA / 50% ANTIMATÉRIA"}, "image_query": "big bang primordial explosion of energy and particles cosmic origin"},
+        {"headline": "2. O GÊMEO ESPELHADO", "stats": {"label": "PAR DO ELÉTRON", "value": "PÓSITRON (CARGA +)"}, "image_query": "two mirrored glowing particles matter and antimatter symmetry visualization"},
+        {"headline": "3. A ANIQUILAÇÃO TOTAL", "stats": {"label": "RESULTADO DO ENCONTRO", "value": "100% ENERGIA"}, "image_query": "particle annihilation bright flash of gamma rays collision"},
+        {"headline": "4. O EXCEDENTE QUE NOS CRIOU", "stats": {"label": "SOBREVIVENTES", "value": "1 EM 1 BILHÃO"}, "image_query": "galaxies forming in the early universe cosmic web of matter"},
+        {"headline": "5. ANTIMATÉRIA APRISIONADA", "stats": {"label": "TESTE DE QUEDA (2023)", "value": "ELA CAI PARA BAIXO"}, "image_query": "cern antimatter trap laboratory magnetic cylinder blue lights"},
+        {"headline": "6. POR QUE EXISTE ALGO?", "stats": {"label": "CUSTO DE 1 GRAMA", "value": "TRILHÕES DE DÓLARES"}, "image_query": "large hadron collider tunnel superconducting magnets perspective"}
+      ]
+    },
+    {
+      "id": "tiktok-016-neutrinos-ghost",
+      "title": "Partículas fantasmas: trilhões de neutrinos atravessam seu corpo agora",
+      "headline": "AS PARTÍCULAS QUE ATRAVESSAM TUDO",
+      "description": "Neutrinos atravessam a Terra inteira sem tocar em nada. Como os cientistas conseguem detectá-los e por que eles renderam um Prêmio Nobel.",
+      "narration": "Neste exato segundo, cerca de cem trilhões de partículas estão atravessando o seu corpo, e você não sente absolutamente nada. Elas se chamam neutrinos e são conhecidas como partículas fantasmas. A maior parte vem do núcleo do Sol, onde a fusão do hidrogênio em hélio libera essas partículas quase sem massa e sem carga elétrica. Como elas quase não interagem com a matéria, atravessam o planeta inteiro como se ele fosse transparente. À noite, os neutrinos solares continuam chegando até você, depois de cruzar a Terra pelo outro lado. Para ter boas chances de deter um único neutrino, seria preciso uma parede de chumbo com um ano-luz de espessura. Por isso, os cientistas constroem detectores gigantescos. No Japão, o Super-Kamiokande é um tanque subterrâneo com cinquenta mil toneladas de água ultrapura, cercado por mais de onze mil sensores de luz. Na Antártida, um observatório usa um quilômetro cúbico de gelo como detector. Quando, raramente, um neutrino colide com um átomo, ele produz um minúsculo clarão azulado que denuncia sua passagem. Em mil novecentos e noventa e oito, os físicos descobriram que os neutrinos mudam de identidade enquanto viajam, alternando entre três tipos diferentes. Essa descoberta provou que eles têm massa e rendeu o Prêmio Nobel de Física de dois mil e quinze. E em mil novecentos e oitenta e sete, detectores registraram uma rajada de neutrinos horas antes de a luz de uma supernova chegar à Terra. Eles são mensageiros que escapam de onde a própria luz fica presa. Siga o perfil, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+      "tags": ["scapaticitecnologia", "neutrinos", "fisica", "particulas", "nobel", "sol", "ciencia", "curiosidades"],
+      "chapters": [
+        {"headline": "1. CEM TRILHÕES POR SEGUNDO", "stats": {"label": "PASSANDO POR VOCÊ", "value": "~100 TRILHÕES/S"}, "image_query": "invisible ghost particles streaming through human silhouette light rays"},
+        {"headline": "2. NASCIDOS NO NÚCLEO DO SOL", "stats": {"label": "ORIGEM PRINCIPAL", "value": "FUSÃO SOLAR"}, "image_query": "sun core nuclear fusion glowing plasma interior visualization"},
+        {"headline": "3. A TERRA É TRANSPARENTE", "stats": {"label": "BLINDAGEM NECESSÁRIA", "value": "1 ANO-LUZ DE CHUMBO"}, "image_query": "planet earth from space with rays passing straight through it"},
+        {"headline": "4. O TANQUE GIGANTE DO JAPÃO", "stats": {"label": "ÁGUA ULTRAPURA", "value": "50.000 TONELADAS"}, "image_query": "super kamiokande detector interior golden photomultiplier tubes"},
+        {"headline": "5. O CLARÃO AZUL", "stats": {"label": "NOBEL DE FÍSICA", "value": "2015"}, "image_query": "cherenkov radiation blue glow in water detector"},
+        {"headline": "6. MENSAGEIROS DAS SUPERNOVAS", "stats": {"label": "ALERTA DE 1987", "value": "HORAS ANTES DA LUZ"}, "image_query": "supernova 1987a remnant ring hubble image"}
+      ]
+    },
+    {
+      "id": "tiktok-017-venus-hell",
+      "title": "Vênus: como o planeta gêmeo da Terra virou um inferno",
+      "headline": "O GÊMEO MALIGNO DA TERRA",
+      "description": "Mais de 460 °C, chuva de ácido e pressão esmagadora. Como um planeta tão parecido com o nosso se transformou no lugar mais hostil do Sistema Solar.",
+      "narration": "Vênus tem quase o mesmo tamanho da Terra, uma massa parecida e já foi chamado de planeta gêmeo. Mas pousar lá seria a pior viagem da sua vida. A temperatura na superfície passa de quatrocentos e sessenta graus Celsius, quente o suficiente para derreter chumbo. Vênus é mais quente que Mercúrio, mesmo estando quase duas vezes mais longe do Sol. A culpa é de uma atmosfera composta por noventa e seis por cento de gás carbônico, tão densa que a pressão na superfície equivale a estar a novecentos metros de profundidade no oceano. Esse cobertor de gás prende o calor do Sol em um efeito estufa descontrolado, sem nenhuma chance de escapar. Acima disso, nuvens espessas de ácido sulfúrico cobrem o planeta inteiro e refletem a luz solar, fazendo de Vênus o ponto mais brilhante do céu noturno depois da Lua. As sondas soviéticas Venera foram as únicas a pousar e enviar imagens da superfície. A mais resistente funcionou por pouco mais de duas horas antes de ser esmagada e cozida. Vênus também gira ao contrário da maioria dos planetas, e tão devagar que um dia lá dura mais do que um ano inteiro. Muitos cientistas acreditam que Vênus pode ter tido oceanos de água há bilhões de anos, antes que o aumento gradual do brilho do Sol desencadeasse um efeito estufa sem volta. Novas missões da NASA e da Agência Espacial Europeia vão voltar a Vênus na próxima década para descobrir como um mundo parecido com o nosso se tornou o planeta mais hostil do Sistema Solar. Siga o perfil, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+      "tags": ["scapaticitecnologia", "venus", "planetas", "efeitoestufa", "sistemasolar", "astronomia", "ciencia", "nasa"],
+      "chapters": [
+        {"headline": "1. O PLANETA GÊMEO", "stats": {"label": "TAMANHO", "value": "95% DA TERRA"}, "image_query": "planet venus thick yellow clouds full disk from space"},
+        {"headline": "2. QUENTE O BASTANTE PARA DERRETER CHUMBO", "stats": {"label": "TEMPERATURA", "value": "+460 °C"}, "image_query": "venus volcanic surface glowing lava hellish orange landscape"},
+        {"headline": "3. O EFEITO ESTUFA DESCONTROLADO", "stats": {"label": "PRESSÃO NO SOLO", "value": "~92x A DA TERRA"}, "image_query": "dense toxic carbon dioxide atmosphere trapping heat planet visualization"},
+        {"headline": "4. NUVENS DE ÁCIDO SULFÚRICO", "stats": {"label": "COBERTURA", "value": "100% DO PLANETA"}, "image_query": "swirling sulfuric acid clouds venus ultraviolet image"},
+        {"headline": "5. AS SONDAS ESMAGADAS", "stats": {"label": "RECORDE DE SOBREVIVÊNCIA", "value": "~2 HORAS"}, "image_query": "soviet venera lander probe on rocky venus surface"},
+        {"headline": "6. OS OCEANOS PERDIDOS", "stats": {"label": "DIA VENUSIANO", "value": "243 DIAS TERRESTRES"}, "image_query": "ancient venus with oceans and clouds artist concept"}
+      ]
+    },
+    {
+      "id": "tiktok-018-mars-lost-water",
+      "title": "Marte já teve rios e oceanos. Para onde foi toda essa água?",
+      "headline": "O PLANETA QUE PERDEU SEUS OCEANOS",
+      "description": "Há 4 bilhões de anos, Marte tinha rios e lagos. A perda do campo magnético e o vento solar transformaram o planeta em um deserto congelado.",
+      "narration": "Há cerca de quatro bilhões de anos, Marte tinha rios, lagos e talvez até um oceano cobrindo boa parte do hemisfério norte. Hoje, é um deserto congelado, com temperatura média de sessenta graus negativos. O que aconteceu? As pistas estão espalhadas pela superfície. Os jipes-robôs da NASA encontraram pedras arredondadas pela correnteza, sedimentos em camadas e minerais que só se formam na presença de água. A cratera Jezero, explorada pelo Perseverance, é o leito de um antigo lago, com um delta de rio ainda preservado. O grande vilão dessa história foi o próprio interior do planeta. Marte é bem menor que a Terra e esfriou mais rápido. Quando seu núcleo de ferro deixou de se movimentar, o planeta perdeu o campo magnético que funcionava como um escudo protetor. Sem essa proteção, o vento solar, um fluxo constante de partículas carregadas vindas do Sol, começou a arrancar a atmosfera marciana, molécula por molécula. Uma sonda da NASA que orbita Marte desde dois mil e catorze mediu esse processo acontecendo ao vivo, especialmente durante tempestades solares. Com uma atmosfera cada vez mais fina, a pressão caiu tanto que a água líquida não conseguia mais permanecer na superfície: ela evaporava ou congelava. Parte dessa água escapou para o espaço, mas outra parte ainda está lá, presa nas calotas polares e escondida no subsolo. Dados sísmicos recentes sugerem que pode haver grandes reservatórios de água líquida a vários quilômetros de profundidade. E onde existe água, a busca por sinais de vida antiga continua. Siga o perfil, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+      "tags": ["scapaticitecnologia", "marte", "agua", "perseverance", "nasa", "planetas", "astronomia", "ciencia"],
+      "chapters": [
+        {"headline": "1. O MARTE AZUL", "stats": {"label": "HÁ 4 BILHÕES DE ANOS", "value": "RIOS E OCEANOS"}, "image_query": "ancient mars with blue ocean and rivers artist concept"},
+        {"headline": "2. AS PROVAS NA SUPERFÍCIE", "stats": {"label": "TEMPERATURA MÉDIA HOJE", "value": "-60 °C"}, "image_query": "mars rover on red rocky terrain with sedimentary layers"},
+        {"headline": "3. O DELTA DA CRATERA JEZERO", "stats": {"label": "EXPLORADA POR", "value": "PERSEVERANCE (2021)"}, "image_query": "jezero crater ancient river delta mars orbital image"},
+        {"headline": "4. O ESCUDO QUE DESLIGOU", "stats": {"label": "CAMPO MAGNÉTICO", "value": "PERDIDO HÁ BILHÕES DE ANOS"}, "image_query": "solar wind stripping atmosphere from mars magnetic field visualization"},
+        {"headline": "5. A ATMOSFERA ARRANCADA", "stats": {"label": "PRESSÃO ATUAL", "value": "~0,6% DA TERRA"}, "image_query": "mars thin atmosphere limb from orbit sunrise"},
+        {"headline": "6. A ÁGUA ESCONDIDA", "stats": {"label": "ONDE ESTÁ", "value": "POLOS E SUBSOLO"}, "image_query": "mars polar ice cap from orbit white swirls"}
+      ]
+    },
+    {
+      "id": "tiktok-019-sun-red-giant",
+      "title": "O fim do Sol: o que vai acontecer com a Terra quando ele virar gigante vermelha",
+      "headline": "O DIA EM QUE O SOL VAI CRESCER",
+      "description": "O Sol está na metade da vida. Antes de virar gigante vermelha, ele já terá evaporado os oceanos. A linha do tempo completa do destino da Terra.",
+      "narration": "O Sol não vai durar para sempre. Ele tem cerca de quatro vírgula seis bilhões de anos e está mais ou menos na metade da sua vida. Mas o problema para a Terra vai começar muito antes do seu fim. A cada bilhão de anos, o Sol fica cerca de dez por cento mais brilhante. Daqui a aproximadamente um bilhão de anos, esse aumento será suficiente para evaporar os oceanos e transformar a Terra em um deserto escaldante, muito antes de qualquer transformação dramática. Daqui a cerca de cinco bilhões de anos, o hidrogênio do núcleo solar vai se esgotar. O núcleo vai se contrair e esquentar, enquanto as camadas externas se expandem de forma gigantesca. O Sol vai se transformar em uma gigante vermelha, centenas de vezes maior do que é hoje. Mercúrio e Vênus serão engolidos. O destino da Terra ainda é debatido: nessa fase, o Sol perderá muita massa, o que enfraquece sua gravidade e afasta as órbitas dos planetas. Mesmo assim, muitos modelos indicam que a Terra também acabará puxada para dentro da atmosfera solar. Enquanto isso, as luas geladas de Júpiter e Saturno poderão ganhar uma temporada de calor, com água líquida na superfície. No fim, o Sol vai expelir suas camadas externas, formando uma nebulosa planetária colorida, como as que o telescópio James Webb fotografa hoje. No centro, restará uma anã branca: um núcleo do tamanho da Terra, com cerca de metade da massa do Sol, esfriando lentamente por trilhões de anos. Siga o perfil, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+      "tags": ["scapaticitecnologia", "sol", "gigantevermelha", "fimdaterra", "astronomia", "estrelas", "ciencia", "universo"],
+      "chapters": [
+        {"headline": "1. A METADE DA VIDA DO SOL", "stats": {"label": "IDADE ATUAL", "value": "4,6 BILHÕES DE ANOS"}, "image_query": "the sun full disk solar flares sdo close up"},
+        {"headline": "2. OS OCEANOS VÃO FERVER", "stats": {"label": "EM ~1 BILHÃO DE ANOS", "value": "+10% DE BRILHO"}, "image_query": "scorched dry earth with evaporated oceans under blazing sun"},
+        {"headline": "3. O NASCIMENTO DA GIGANTE VERMELHA", "stats": {"label": "EM ~5 BILHÕES DE ANOS", "value": "CENTENAS DE VEZES MAIOR"}, "image_query": "red giant sun expanding over inner planets horizon"},
+        {"headline": "4. MERCÚRIO E VÊNUS ENGOLIDOS", "stats": {"label": "DESTINO DA TERRA", "value": "PROVAVELMENTE ENGOLIDA"}, "image_query": "planet being swallowed by giant red star surface"},
+        {"headline": "5. A NEBULOSA PLANETÁRIA", "stats": {"label": "CAMADAS EXPELIDAS", "value": "NUVEM COLORIDA"}, "image_query": "planetary nebula ring nebula james webb colorful shells"},
+        {"headline": "6. A ANÃ BRANCA ETERNA", "stats": {"label": "TAMANHO FINAL", "value": "IGUAL À TERRA"}, "image_query": "white dwarf star small bright core in center of nebula"}
+      ]
+    }
+  ],
+  "20h": [
+    {
+      "id": "tiktok-020-moon-drifting-away",
+      "title": "A Lua está fugindo da Terra: 3,8 centímetros por ano",
+      "headline": "A LUA ESTÁ SE AFASTANDO",
+      "description": "Espelhos deixados pela Apollo 11 provam que a Lua se afasta todos os anos. Como as marés freiam a Terra e por que os eclipses totais vão acabar.",
+      "narration": "Todos os anos, a Lua se afasta cerca de três vírgula oito centímetros da Terra, mais ou menos a velocidade com que suas unhas crescem. Sabemos disso com precisão graças aos astronautas da missão Apollo onze. Em mil novecentos e sessenta e nove, eles deixaram espelhos especiais na superfície lunar. Desde então, observatórios disparam lasers contra esses espelhos e medem quanto tempo a luz leva para ir e voltar. A explicação está nas marés. A gravidade da Lua puxa os oceanos da Terra, criando duas protuberâncias de água. Como a Terra gira mais rápido do que a Lua completa sua órbita, essas protuberâncias ficam um pouco à frente da Lua e a puxam para adiante, dando a ela energia extra. O resultado: a Lua sobe para uma órbita cada vez mais alta, enquanto a rotação da Terra vai freando. Há cerca de seiscentos e vinte milhões de anos, um dia na Terra durava aproximadamente vinte e duas horas. E logo após sua formação, a Lua estava muito mais próxima e parecia gigantesca no céu. A teoria mais aceita sobre sua origem diz que ela nasceu de uma colisão entre a Terra jovem e um planeta do tamanho de Marte, chamado Theia, há cerca de quatro vírgula cinco bilhões de anos. No futuro distante, a Lua estará longe demais para cobrir totalmente o Sol, e os eclipses solares totais deixarão de existir. Aproveite: estamos vivendo justamente na época em que eles ainda são perfeitos. Siga o perfil, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+      "tags": ["scapaticitecnologia", "lua", "apollo11", "mares", "eclipse", "astronomia", "ciencia", "curiosidades"],
+      "chapters": [
+        {"headline": "1. A LUA ESTÁ FUGINDO", "stats": {"label": "AFASTAMENTO ANUAL", "value": "3,8 CM POR ANO"}, "image_query": "full moon rising over earth horizon dramatic"},
+        {"headline": "2. OS ESPELHOS DA APOLLO 11", "stats": {"label": "INSTALADOS EM", "value": "JULHO DE 1969"}, "image_query": "laser beam fired from observatory toward the moon at night"},
+        {"headline": "3. O CABO DE GUERRA DAS MARÉS", "stats": {"label": "EFEITO NA TERRA", "value": "ROTAÇÃO MAIS LENTA"}, "image_query": "ocean tides pulled by moon gravity earth visualization"},
+        {"headline": "4. QUANDO O DIA TINHA 22 HORAS", "stats": {"label": "HÁ 620 MILHÕES DE ANOS", "value": "~22 HORAS POR DIA"}, "image_query": "ancient earth with huge moon close in the sky primordial landscape"},
+        {"headline": "5. O IMPACTO DE THEIA", "stats": {"label": "ORIGEM DA LUA", "value": "~4,5 BILHÕES DE ANOS"}, "image_query": "giant impact planet theia colliding with early earth"},
+        {"headline": "6. O FIM DOS ECLIPSES TOTAIS", "stats": {"label": "ECLIPSES PERFEITOS", "value": "UMA JANELA TEMPORÁRIA"}, "image_query": "total solar eclipse corona diamond ring"}
+      ]
+    },
+    {
+      "id": "tiktok-021-titan-methane-lakes",
+      "title": "Titã: a lua onde chove metano e existem mares de gás natural",
+      "headline": "O MUNDO DOS MARES DE METANO",
+      "description": "Titã tem chuva, rios e mares, mas nada disso é água. A lua de Saturno que pode ser um retrato congelado da Terra primitiva.",
+      "narration": "Existe um lugar no Sistema Solar, além da Terra, onde chove, rios correm e lagos se acumulam na superfície. Mas nada disso é água. Estamos falando de Titã, a maior lua de Saturno. Titã é maior que o planeta Mercúrio e é a única lua conhecida com uma atmosfera densa. Lá, a pressão no solo é cerca de cinquenta por cento maior que na Terra, e o ar é composto principalmente de nitrogênio, assim como o nosso. Mas a temperatura gira em torno de cento e oitenta graus negativos. Nesse frio extremo, o metano e o etano, que aqui na Terra são gases, se tornam líquidos. Eles formam nuvens, caem como chuva, escavam vales e preenchem mares inteiros. O maior deles é maior que o Mar Cáspio. Em dois mil e cinco, a sonda europeia Huygens, levada pela missão Cassini, pousou em Titã. Foi o pouso mais distante já realizado pela humanidade. As imagens mostraram pedras arredondadas de gelo, como seixos em um leito de rio seco. Com uma atmosfera tão espessa e gravidade tão baixa, um ser humano poderia literalmente voar em Titã batendo asas presas aos braços. É exatamente essa combinação que a NASA vai aproveitar: um drone de oito hélices, movido a energia nuclear, deve chegar a Titã na próxima década para voar entre dunas e crateras procurando a química que antecedeu a vida. Titã pode ser um retrato congelado de como a Terra era antes do surgimento dos primeiros seres vivos. Siga o perfil, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+      "tags": ["scapaticitecnologia", "tita", "saturno", "luas", "nasa", "astrobiologia", "astronomia", "ciencia"],
+      "chapters": [
+        {"headline": "1. UMA LUA COM CHUVA E RIOS", "stats": {"label": "MAIOR LUA DE SATURNO", "value": "MAIOR QUE MERCÚRIO"}, "image_query": "titan moon hazy orange atmosphere in front of saturn"},
+        {"headline": "2. A ATMOSFERA DE NITROGÊNIO", "stats": {"label": "PRESSÃO NO SOLO", "value": "1,5x A DA TERRA"}, "image_query": "thick orange haze atmosphere of titan from cassini"},
+        {"headline": "3. MARES DE METANO LÍQUIDO", "stats": {"label": "TEMPERATURA", "value": "~ -180 °C"}, "image_query": "methane lakes and seas on titan surface radar image"},
+        {"headline": "4. O POUSO MAIS DISTANTE DA HISTÓRIA", "stats": {"label": "POUSO DA HUYGENS", "value": "JANEIRO DE 2005"}, "image_query": "huygens probe descending through titan clouds parachute"},
+        {"headline": "5. VOAR COM ASAS NOS BRAÇOS", "stats": {"label": "GRAVIDADE", "value": "14% DA TERRA"}, "image_query": "orange dunes and icy pebbles landscape titan surface"},
+        {"headline": "6. O DRONE NUCLEAR DA NASA", "stats": {"label": "OITO HÉLICES", "value": "CHEGADA NOS ANOS 2030"}, "image_query": "rotorcraft drone flying over titan dunes artist concept"}
+      ]
+    },
+    {
+      "id": "tiktok-022-ultra-high-energy-particle",
+      "title": "A partícula que chegou à Terra com a energia de uma bola de tênis",
+      "headline": "O PROJÉTIL CÓSMICO IMPOSSÍVEL",
+      "description": "Em 1991, uma única partícula subatômica atingiu a atmosfera com energia 40 milhões de vezes maior que a do maior acelerador do mundo. De onde ela veio?",
+      "narration": "Em outubro de mil novecentos e noventa e um, um detector no deserto de Utah, nos Estados Unidos, registrou algo que parecia impossível. Uma única partícula subatômica, menor que um átomo, atingiu a atmosfera com a energia de uma bola de tênis lançada em alta velocidade. Os cientistas ficaram tão chocados que ela ganhou um apelido de espanto, e até hoje é lembrada como a partícula meu Deus. Sua energia foi cerca de quarenta milhões de vezes maior do que a das colisões no Grande Colisor de Hádrons, o acelerador mais poderoso já construído. Partículas assim fazem parte dos raios cósmicos: núcleos atômicos que viajam pelo espaço quase na velocidade da luz. Quando atingem a atmosfera, colidem com moléculas de ar e geram uma chuva de bilhões de partículas secundárias que se espalham por quilômetros. O mistério é a origem. Para acelerar algo a esse ponto, é preciso um ambiente extremo, como os jatos de buracos negros supermassivos, explosões de raios gama ou estrelas de nêutrons com campos magnéticos colossais. E há outro problema: partículas com tanta energia perdem força ao atravessar a radiação que preenche o universo, o que significa que elas precisam vir de relativamente perto. Em dois mil e vinte e um, outro detector no mesmo deserto captou uma partícula quase tão energética, batizada com o nome da deusa japonesa do Sol, Amaterasu. Ao rastrear sua direção, os cientistas encontraram apenas uma região quase vazia do espaço, sem nenhuma fonte óbvia. Algo lá fora está acelerando matéria de uma forma que a física ainda não consegue explicar. Siga o perfil, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+      "tags": ["scapaticitecnologia", "raioscosmicos", "fisica", "particulas", "misterio", "universo", "ciencia", "astronomia"],
+      "chapters": [
+        {"headline": "1. O DISPARO DE 1991", "stats": {"label": "LOCAL DA DETECÇÃO", "value": "DESERTO DE UTAH (EUA)"}, "image_query": "desert observatory at night under starry sky cosmic ray detector"},
+        {"headline": "2. A ENERGIA DE UMA BOLA DE TÊNIS", "stats": {"label": "COMPARADA AO LHC", "value": "40 MILHÕES DE VEZES"}, "image_query": "single glowing particle streaking through space at light speed"},
+        {"headline": "3. A CHUVA DE PARTÍCULAS", "stats": {"label": "PARTÍCULAS SECUNDÁRIAS", "value": "BILHÕES"}, "image_query": "cosmic ray air shower cascade hitting earth atmosphere visualization"},
+        {"headline": "4. OS ACELERADORES CÓSMICOS", "stats": {"label": "SUSPEITOS", "value": "JATOS DE BURACOS NEGROS"}, "image_query": "supermassive black hole relativistic jet active galaxy"},
+        {"headline": "5. A PARTÍCULA AMATERASU", "stats": {"label": "DETECTADA EM", "value": "MAIO DE 2021"}, "image_query": "array of ground detectors spread across desert landscape"},
+        {"headline": "6. VINDA DO VAZIO", "stats": {"label": "FONTE IDENTIFICADA", "value": "NENHUMA"}, "image_query": "vast empty dark region of space with few distant galaxies"}
+      ]
+    },
+    {
+      "id": "tiktok-023-crab-nebula-1054",
+      "title": "A estrela que explodiu em 1054 e ficou visível em plena luz do dia",
+      "headline": "A ESTRELA CONVIDADA DE 1054",
+      "description": "Astrônomos chineses registraram uma estrela visível de dia por 23 dias. Hoje vemos a Nebulosa do Caranguejo e o pulsar que gira 30 vezes por segundo.",
+      "narration": "No dia quatro de julho do ano mil e cinquenta e quatro, astrônomos chineses registraram uma estrela convidada que surgiu de repente na constelação de Touro. Ela brilhava tanto que ficou visível em plena luz do dia por vinte e três dias, e à noite por quase dois anos. Eles não sabiam, mas estavam testemunhando a morte de uma estrela gigante a cerca de seis mil e quinhentos anos-luz de distância. Ou seja, a explosão real tinha acontecido milhares de anos antes, e sua luz estava chegando apenas naquele momento. Hoje, quando apontamos telescópios para aquele ponto do céu, encontramos a Nebulosa do Caranguejo: uma nuvem de gás e filamentos coloridos com cerca de onze anos-luz de diâmetro, ainda se expandindo a mais de mil quilômetros por segundo. No coração dela, existe algo ainda mais impressionante: um pulsar. É o núcleo esmagado da estrela original, uma estrela de nêutrons com cerca de vinte quilômetros de diâmetro que gira trinta vezes por segundo. A cada volta, ela dispara feixes de radiação como um farol cósmico, varrendo a Terra com a precisão de um relógio. Esse pulsar é tão poderoso que alimenta o brilho de toda a nebulosa com a sua energia de rotação. A Nebulosa do Caranguejo é um dos objetos mais estudados da astronomia, observada em ondas de rádio, luz visível, raios X e raios gama. Ela é a prova viva de que as estrelas morrem, mas deixam sementes: os elementos espalhados por explosões assim formam novos planetas e, eventualmente, seres como nós. Siga o perfil, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+      "tags": ["scapaticitecnologia", "nebulosadocaranguejo", "supernova", "pulsar", "historia", "astronomia", "ciencia", "universo"],
+      "chapters": [
+        {"headline": "1. A ESTRELA CONVIDADA", "stats": {"label": "REGISTRO CHINÊS", "value": "4 DE JULHO DE 1054"}, "image_query": "ancient chinese astronomers observing bright new star in the sky"},
+        {"headline": "2. VISÍVEL EM PLENA LUZ DO DIA", "stats": {"label": "DURAÇÃO DIURNA", "value": "23 DIAS"}, "image_query": "bright star visible in daytime blue sky beside the sun"},
+        {"headline": "3. LUZ QUE VIAJOU MILÊNIOS", "stats": {"label": "DISTÂNCIA", "value": "~6.500 ANOS-LUZ"}, "image_query": "supernova explosion light expanding through space"},
+        {"headline": "4. A NEBULOSA DO CARANGUEJO", "stats": {"label": "EXPANSÃO", "value": "+1.000 KM/S"}, "image_query": "crab nebula hubble webb colorful filaments"},
+        {"headline": "5. O PULSAR NO CORAÇÃO", "stats": {"label": "ROTAÇÃO", "value": "30 VOLTAS POR SEGUNDO"}, "image_query": "crab pulsar chandra x-ray rings and jets"},
+        {"headline": "6. AS SEMENTES DA VIDA", "stats": {"label": "LEGADO", "value": "NOVOS PLANETAS"}, "image_query": "stellar nursery cloud forming new stars and planets"}
+      ]
+    },
+    {
+      "id": "tiktok-024-jupiter-guardian",
+      "title": "Júpiter: o gigante que pode ter protegido a vida na Terra",
+      "headline": "O GUARDIÃO DO SISTEMA SOLAR",
+      "description": "Mais de 1.300 Terras caberiam dentro dele. Como a gravidade de Júpiter desvia cometas e moldou a formação dos planetas rochosos.",
+      "narration": "Júpiter é tão grande que caberiam mais de mil e trezentas Terras dentro dele. Mas o que poucos sabem é que esse gigante pode ter tido um papel decisivo na nossa existência. Júpiter tem duas vezes e meia a massa de todos os outros planetas do Sistema Solar somados. Sua gravidade é tão poderosa que funciona como um aspirador cósmico, capturando ou desviando cometas e asteroides que poderiam atingir os planetas internos. Em julho de mil novecentos e noventa e quatro, o mundo assistiu, pela primeira vez, a uma colisão entre corpos do Sistema Solar: um cometa se partiu em mais de vinte fragmentos e mergulhou na atmosfera de Júpiter. Algumas das cicatrizes deixadas eram maiores do que a própria Terra. Mas a história é mais complexa. Alguns modelos sugerem que, no início do Sistema Solar, Júpiter migrou em direção ao Sol e depois recuou, empurrando material rochoso e definindo o tamanho de planetas como Marte e a Terra. Ou seja, Júpiter pode ter sido ao mesmo tempo protetor e arquiteto. Sua atmosfera abriga a Grande Mancha Vermelha, uma tempestade maior que a Terra, observada há pelo menos cento e cinquenta anos. Curiosamente, ela está encolhendo, e os cientistas ainda tentam entender por quê. Júpiter também tem o campo magnético mais forte entre os planetas, criando auroras permanentes em seus polos. E a sonda Juno, em órbita desde dois mil e dezesseis, revelou que o núcleo do planeta é difuso, como se tivesse sido misturado por uma colisão gigantesca em um passado distante. Siga o perfil, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+      "tags": ["scapaticitecnologia", "jupiter", "planetas", "sistemasolar", "juno", "nasa", "astronomia", "ciencia"],
+      "chapters": [
+        {"headline": "1. MIL E TREZENTAS TERRAS", "stats": {"label": "VOLUME", "value": "+1.300 TERRAS"}, "image_query": "jupiter full disk great red spot juno high resolution"},
+        {"headline": "2. O ASPIRADOR CÓSMICO", "stats": {"label": "MASSA", "value": "2,5x TODOS OS PLANETAS"}, "image_query": "comet trajectory deflected by giant planet gravity visualization"},
+        {"headline": "3. O IMPACTO DE 1994", "stats": {"label": "FRAGMENTOS DO COMETA", "value": "+20 PEDAÇOS"}, "image_query": "comet fragments impact scars on jupiter atmosphere 1994"},
+        {"headline": "4. PROTETOR E ARQUITETO", "stats": {"label": "MIGRAÇÃO PRIMORDIAL", "value": "MOLDOU MARTE E TERRA"}, "image_query": "early solar system protoplanetary disk giant planet migration"},
+        {"headline": "5. A GRANDE MANCHA VERMELHA", "stats": {"label": "OBSERVADA HÁ", "value": "+150 ANOS"}, "image_query": "jupiter great red spot storm close up swirling clouds"},
+        {"headline": "6. AS AURORAS E O NÚCLEO DIFUSO", "stats": {"label": "SONDA JUNO", "value": "EM ÓRBITA DESDE 2016"}, "image_query": "jupiter polar aurora ultraviolet glowing ring"}
+      ]
+    },
+    {
+      "id": "tiktok-025-diamond-rain-neptune",
+      "title": "Em Urano e Netuno pode estar chovendo diamantes agora",
+      "headline": "A CHUVA DE DIAMANTES",
+      "description": "Pressão extrema e metano podem formar diamantes que afundam como granizo nos gigantes de gelo. Experimentos com lasers recriaram o fenômeno em laboratório.",
+      "narration": "Nos planetas mais distantes do Sistema Solar, pode estar chovendo diamantes neste exato momento. Urano e Netuno são chamados de gigantes de gelo. Por baixo das nuvens azuladas, eles escondem um oceano denso e quente de água, amônia e metano, comprimido por pressões milhões de vezes maiores que a da atmosfera terrestre. O metano é formado por carbono e hidrogênio. A milhares de quilômetros de profundidade, a pressão e o calor são tão intensos que essas moléculas se quebram. O hidrogênio é liberado, e os átomos de carbono se unem em cristais compactos: diamantes. Por serem mais pesados que o material ao redor, esses diamantes afundam lentamente em direção ao núcleo, como um granizo cósmico. Por décadas, isso foi apenas uma hipótese. Até que, em dois mil e dezessete, cientistas nos Estados Unidos dispararam lasers de altíssima potência contra plásticos feitos de carbono e hidrogênio, recriando por frações de segundo as condições do interior desses planetas. O resultado: minúsculos diamantes se formaram diante dos instrumentos. Experimentos posteriores, com plásticos contendo oxigênio, mostraram que essa chuva pode ser ainda mais comum do que se imaginava. Alguns pesquisadores sugerem que, nas regiões mais profundas, possam existir até oceanos de carbono líquido, com blocos de diamante flutuando. Esse processo também pode ajudar a explicar por que Netuno emite mais calor do que recebe do Sol: a queda dos diamantes libera energia gravitacional. Urano e Netuno foram visitados uma única vez, pela sonda Voyager dois, nos anos oitenta. Siga o perfil, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+      "tags": ["scapaticitecnologia", "netuno", "urano", "diamantes", "planetas", "sistemasolar", "ciencia", "curiosidades"],
+      "chapters": [
+        {"headline": "1. CHOVENDO DIAMANTES", "stats": {"label": "ONDE", "value": "URANO E NETUNO"}, "image_query": "neptune deep blue planet voyager 2 full disk"},
+        {"headline": "2. OS GIGANTES DE GELO", "stats": {"label": "PRESSÃO INTERNA", "value": "MILHÕES DE ATMOSFERAS"}, "image_query": "cutaway interior of ice giant planet layers ocean core"},
+        {"headline": "3. O METANO SE PARTE", "stats": {"label": "INGREDIENTE", "value": "CARBONO + HIDROGÊNIO"}, "image_query": "carbon atoms crystallizing into diamond lattice under pressure"},
+        {"headline": "4. GRANIZO DE DIAMANTE", "stats": {"label": "DESTINO", "value": "AFUNDAM ATÉ O NÚCLEO"}, "image_query": "diamonds falling like hail through dark blue planetary atmosphere"},
+        {"headline": "5. RECRIADO COM LASERS", "stats": {"label": "PRIMEIRA PROVA", "value": "2017"}, "image_query": "high power laser laboratory experiment bright beam target chamber"},
+        {"headline": "6. O CALOR EXTRA DE NETUNO", "stats": {"label": "ÚNICA VISITA", "value": "VOYAGER 2 (ANOS 80)"}, "image_query": "uranus pale cyan planet with faint rings"}
+      ]
+    },
+    {
+      "id": "tiktok-026-apophis-2029",
+      "title": "Apophis: o asteroide que vai passar mais perto que satélites em 2029",
+      "headline": "A SEXTA-FEIRA 13 DE 2029",
+      "description": "Em 13 de abril de 2029, um asteroide de 340 metros passará a 32 mil km da Terra, visível a olho nu. Do alarme de 2004 à missão que vai acompanhá-lo.",
+      "narration": "No dia treze de abril de dois mil e vinte e nove, uma sexta-feira treze, um asteroide do tamanho de três campos de futebol vai passar tão perto da Terra que poderá ser visto a olho nu. Ele se chama Apófis, nome do deus egípcio do caos. Com cerca de trezentos e quarenta metros de diâmetro, ele vai passar a apenas trinta e dois mil quilômetros da superfície, mais perto do que os satélites que transmitem sinais de televisão. Quando foi descoberto, em dois mil e quatro, Apófis causou alarme mundial. Os primeiros cálculos indicavam uma chance de quase três por cento de colisão em dois mil e vinte e nove, a maior já registrada para um asteroide desse porte. Se atingisse a Terra, liberaria energia suficiente para devastar uma região inteira. Felizmente, observações com radar ao longo dos anos refinaram sua órbita, e em dois mil e vinte e um a NASA descartou qualquer risco de impacto por pelo menos cem anos. Mas a passagem de dois mil e vinte e nove será um laboratório natural extraordinário. A gravidade da Terra vai alterar a rotação do asteroide e pode até provocar tremores e deslizamentos em sua superfície. A mesma sonda que trouxe amostras do asteroide Bennu foi redirecionada para acompanhar Apófis logo após o encontro. A Agência Espacial Europeia também planeja uma missão para escoltá-lo durante a aproximação. Pela primeira vez, a humanidade vai observar de perto um asteroide sendo moldado pela gravidade do nosso planeta. Marque na agenda: essa será uma das noites mais incríveis da década. Siga o perfil, inscreva-se no canal Scapatici Tecnologia e até o próximo vídeo!",
+      "tags": ["scapaticitecnologia", "apophis", "asteroide", "nasa", "defesaplanetaria", "astronomia", "ciencia", "espaco"],
+      "chapters": [
+        {"headline": "1. A SEXTA-FEIRA 13 DE 2029", "stats": {"label": "DATA DA PASSAGEM", "value": "13 DE ABRIL DE 2029"}, "image_query": "large rocky asteroid approaching earth in space"},
+        {"headline": "2. MAIS PERTO QUE OS SATÉLITES", "stats": {"label": "DISTÂNCIA MÍNIMA", "value": "~32.000 KM"}, "image_query": "asteroid passing between earth and geostationary satellites orbit"},
+        {"headline": "3. O ALARME DE 2004", "stats": {"label": "RISCO INICIAL", "value": "~2,7% DE IMPACTO"}, "image_query": "planetary defense control room screens tracking asteroid"},
+        {"headline": "4. RISCO DESCARTADO", "stats": {"label": "CONFIRMAÇÃO DA NASA", "value": "2021 (+100 ANOS SEGUROS)"}, "image_query": "large radar dish antenna observatory at night"},
+        {"headline": "5. MOLDADO PELA GRAVIDADE DA TERRA", "stats": {"label": "TAMANHO", "value": "~340 METROS"}, "image_query": "close up of rocky asteroid surface boulders and dust"},
+        {"headline": "6. A SONDA QUE VAI ACOMPANHÁ-LO", "stats": {"label": "VISÍVEL A OLHO NU", "value": "SIM"}, "image_query": "spacecraft approaching asteroid with sun behind"}
+      ]
+    }
+  ]
+}

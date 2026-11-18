@@ -13,7 +13,20 @@
     "2026-11-10_16h",
     "2026-11-10_20h",
     "2026-11-11_16h",
-    "2026-11-11_20h"
+    "2026-11-11_20h",
+    "2026-11-12_16h",
+    "2026-11-12_20h",
+    "2026-11-13_16h",
+    "2026-11-13_20h",
+    "2026-11-14_16h",
+    "2026-11-14_20h",
+    "2026-11-15_16h",
+    "2026-11-15_20h",
+    "2026-11-16_16h",
+    "2026-11-16_20h",
+    "2026-11-17_16h",
+    "2026-11-17_20h",
+    "2026-11-18_16h"
   ],
   "published_topics": [
     "tiktok-001-olbers-paradox",
@@ -29,6 +42,20 @@
     "tiktok-010-kardashev-scale-civilizations",
     "tiktok-012-spaghettification-black-hole",
     "tiktok-trend-16h-gravitational-waves-exoplanets",
-    "tiktok-trend-20h-dark-energy-desi-collapse"
+    "tiktok-trend-20h-dark-energy-desi-collapse",
+    "tiktok-trend-16h-bennu-asteroids-origin-life",
+    "tiktok-trend-20h-quantum-computing-reality",
+    "tiktok-trend-16h-quasar-pair-cosmic-dawn",
+    "tiktok-trend-20h-alcubierre-warp-drive-physics",
+    "tiktok-trend-16h-voyager-interstellar-edge",
+    "tiktok-trend-20h-quasar-pair-cosmic-dawn",
+    "tiktok-trend-16h-europa-enceladus-alien-oceans",
+    "tiktok-trend-20h-gravitational-waves-exoplanets",
+    "tiktok-trend-16h-carrington-solar-superstorm",
+    "tiktok-trend-20h-europa-enceladus-alien-oceans",
+    "tiktok-trend-16h-oumuamua-interstellar-visitors",
+    "tiktok-trend-20h-carrington-solar-superstorm",
+    "tiktok-trend-16h-apod-2026-november-18-an-m-class",
+    "tiktok-013-betelgeuse-supernova"
   ]
 }
